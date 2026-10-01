@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Parsik",
+    "description": "Desktop GUI Manager for installing, checking, and updating Persian game patches and fonts.",
+    "category": "Desktop App / Installer",
+    "author": "@DanialPahlavan",
+    "status": "In Development",
+    "url": "https://github.com/ParsiSaz/Parsik"
+  },
+  {
+    "name": "farsiSaz",
+    "description": "Core reverse-engineering engine for font injection, codepage remapping, and RTL text shaping.",
+    "category": "Engine / Framework",
+    "author": "@DanialPahlavan",
+    "status": "In Development",
+    "url": "https://github.com/ParsiSaz/farsiSaz"
+  },
+  {
+    "name": "PersianTranslation_of_Apps_Games",
+    "description": "Master terminology repository, PO catalogs, and phrase dictionaries for Persian localization.",
+    "category": "Translation Database",
+    "author": "@DanialPahlavan",
+    "status": "Active",
+    "url": "https://github.com/ParsiSaz/PersianTranslation_of_Apps_Games"
+  },
+  {
+    "name": "Kenshi Persian Patch",
+    "description": "Official Steam Workshop compatible Persian localization mod for Kenshi.",
+    "category": "Game Mod",
+    "author": "@DanialPahlavan & ParsiSaz",
+    "status": "Stable",
+    "url": "https://github.com/ParsiSaz/Kenshi-farsi"
+  },
+  {
+    "name": "Project Zomboid Persian Mod",
+    "description": "Complete survival interface, radio broadcast scripts, and Persian font atlas.",
+    "category": "Game Mod",
+    "author": "@DanialPahlavan & ParsiSaz",
+    "status": "Active",
+    "url": "https://github.com/ParsiSaz/Project-Zomboid-Game--Persian"
+  },
+  {
+    "name": "Darkest Dungeon II Persian",
+    "description": "Persian font bitmap patcher and translated string tables for DD2.",
+    "category": "Game Mod",
+    "author": "@DanialPahlavan & ParsiSaz",
+    "status": "Stable",
+    "url": "https://github.com/ParsiSaz/DarkestDungeon-2---Persian"
+  }
+]

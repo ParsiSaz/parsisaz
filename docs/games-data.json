@@ -1,0 +1,189 @@
+[
+  {
+    "id": "kenshi",
+    "title": "Kenshi",
+    "year": 2018,
+    "category": "Indie / RPG",
+    "status": "Stable",
+    "patchUrl": "https://github.com/ParsiSaz/Kenshi-farsi",
+    "website": "https://github.com/ParsiSaz/Kenshi-farsi",
+    "details": "Steam Workshop Persian localization patch with custom PO tables.",
+    "isAAA": false
+  },
+  {
+    "id": "project-zomboid",
+    "title": "Project Zomboid",
+    "year": 2021,
+    "category": "Survival / RPG",
+    "status": "Active",
+    "patchUrl": "https://github.com/ParsiSaz/Project-Zomboid-Game--Persian",
+    "website": "https://github.com/ParsiSaz/Project-Zomboid-Game--Persian",
+    "details": "Full UI, radio, broadcast, and custom Persian font atlas injection.",
+    "isAAA": false
+  },
+  {
+    "id": "darkest-dungeon-2",
+    "title": "Darkest Dungeon II",
+    "year": 2023,
+    "category": "Roguelike / Strategy",
+    "status": "Stable",
+    "patchUrl": "https://github.com/ParsiSaz/DarkestDungeon-2---Persian",
+    "website": "https://github.com/ParsiSaz/DarkestDungeon-2---Persian",
+    "details": "Custom Persian glyph shaping & comprehensive game string tables.",
+    "isAAA": false
+  },
+  {
+    "id": "software-inc",
+    "title": "Software Inc.",
+    "year": 2020,
+    "category": "Simulation",
+    "status": "Stable",
+    "patchUrl": "https://github.com/ParsiSaz/Software-Inc-Game---Persian",
+    "website": "https://github.com/ParsiSaz/Software-Inc-Game---Persian",
+    "details": "Management catalog translation CSV/XML format.",
+    "isAAA": false
+  },
+  {
+    "id": "oxygen-not-included",
+    "title": "Oxygen Not Included",
+    "year": 2019,
+    "category": "Simulation / Colony",
+    "status": "Active",
+    "patchUrl": "https://github.com/ParsiSaz/Oxygen-not-included-Persian",
+    "website": "https://github.com/ParsiSaz/Oxygen-not-included-Persian",
+    "details": "Klei PO translation tables and custom typography integration.",
+    "isAAA": false
+  },
+  {
+    "id": "stronghold-warlords",
+    "title": "Stronghold: Warlords",
+    "year": 2021,
+    "category": "RTS",
+    "status": "Stable",
+    "patchUrl": "https://github.com/ParsiSaz/Stronghold-Warlords---Persian",
+    "website": "https://github.com/ParsiSaz/Stronghold-Warlords---Persian",
+    "details": "Full campaign dialogue and UI localization mod.",
+    "isAAA": false
+  },
+  {
+    "id": "dont-starve-together",
+    "title": "Don't Starve Together",
+    "year": 2016,
+    "category": "Survival / Co-op",
+    "status": "Active",
+    "patchUrl": "https://github.com/ParsiSaz/Dont-Strave-together-Persian",
+    "website": "https://github.com/ParsiSaz/Dont-Strave-together-Persian",
+    "details": "Custom Persian fonts and interactive item encyclopedia translation.",
+    "isAAA": false
+  },
+  {
+    "id": "stronghold-crusader-1",
+    "title": "Stronghold Crusader",
+    "year": 2002,
+    "category": "Classic RTS",
+    "status": "Archived",
+    "patchUrl": "https://github.com/ParsiSaz/stronghold-crusader1-mods",
+    "website": "https://github.com/ParsiSaz/stronghold-crusader1-mods",
+    "details": "Historic Persian community voiceover mods & UI patches.",
+    "isAAA": false
+  },
+  {
+    "id": "civ-6",
+    "title": "Sid Meier's Civilization VI",
+    "year": 2016,
+    "category": "AAA / 4X Strategy",
+    "status": "In Progress",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://github.com/ParsiSaz",
+    "details": "Persian civilization leader pack and UI localization patch.",
+    "isAAA": true
+  },
+  {
+    "id": "witcher-3",
+    "title": "The Witcher 3: Wild Hunt (Complete)",
+    "year": 2022,
+    "category": "AAA / RPG",
+    "status": "Community Catalog",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://www.cdprojektred.com",
+    "details": "Persian subtitle adaptation & dialogue lexicon documentation.",
+    "isAAA": true
+  },
+  {
+    "id": "rdr2",
+    "title": "Red Dead Redemption 2",
+    "year": 2020,
+    "category": "AAA / Open World",
+    "status": "Community Catalog",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://www.rockstargames.com/reddeadredemption2",
+    "details": "Persian subtitles & terminology glossaries.",
+    "isAAA": true
+  },
+  {
+    "id": "cyberpunk-2077",
+    "title": "Cyberpunk 2077: Phantom Liberty",
+    "year": 2023,
+    "category": "AAA / RPG",
+    "status": "Community Catalog",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://www.cyberpunk.net",
+    "details": "Terminology lexicon & cyber-glossary in Persian.",
+    "isAAA": true
+  },
+  {
+    "id": "gta-v",
+    "title": "Grand Theft Auto V",
+    "year": 2015,
+    "category": "AAA / Action",
+    "status": "Community Catalog",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://www.rockstargames.com/gta-v",
+    "details": "Persian subtitles, vehicle descriptions & dialogue translation index.",
+    "isAAA": true
+  },
+  {
+    "id": "elder-scrolls-skyrim",
+    "title": "The Elder Scrolls V: Skyrim Special Edition",
+    "year": 2021,
+    "category": "AAA / RPG",
+    "status": "Community Catalog",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://elderscrolls.bethesda.net",
+    "details": "Persian books, lore, and subtitle translation project catalog.",
+    "isAAA": true
+  },
+  {
+    "id": "god-of-war",
+    "title": "God of War (PC)",
+    "year": 2022,
+    "category": "AAA / Action-Adventure",
+    "status": "Community Catalog",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://www.playstation.com/games/god-of-war/",
+    "details": "Persian subtitles and Norse mythology glossary adaptation.",
+    "isAAA": true
+  },
+  {
+    "id": "gta-vi",
+    "title": "Grand Theft Auto VI",
+    "year": 2026,
+    "category": "AAA / Action Open-World",
+    "status": "Planned 2026",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://www.rockstargames.com",
+    "details": "Anticipated 2026 AAA release: planned Persian terminology & localization hub.",
+    "isAAA": true
+  },
+  {
+    "id": "elder-scrolls-vi",
+    "title": "The Elder Scrolls VI",
+    "year": 2026,
+    "category": "AAA / RPG",
+    "status": "Planned 2026",
+    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
+    "website": "https://bethesda.net",
+    "details": "Future 2026+ Persian localization tracking project.",
+    "isAAA": true
+  }
+]

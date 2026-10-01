@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParsiSaz | Persian Game & App Localization Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(17, 24, 39, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --accent: #00f2fe;
+      --accent-grad: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --badge-green: #10b981;
+      --badge-blue: #3b82f6;
+      --badge-purple: #8b5cf6;
+      --badge-amber: #f59e0b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      line-height: 1.6;
+      background-image: radial-gradient(circle at 50% 0%, rgba(0, 242, 254, 0.08) 0%, transparent 60%);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem 1.5rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+    .hero-banner {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 1px solid var(--card-border);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      background: var(--accent-grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 760px;
+      margin: 0 auto 1.5rem auto;
+    }
+
+    .meta-badges {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .badge:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .badge-accent {
+      background: rgba(0, 242, 254, 0.1);
+      border-color: rgba(0, 242, 254, 0.3);
+      color: var(--accent);
+    }
+
+    /* Controls & Filters */
+    .controls {
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .search-input {
+      flex: 1;
+      min-width: 260px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--card-border);
+      color: #fff;
+      padding: 0.75rem 1.2rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+
+    .filter-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tab-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+    }
+
+    .tab-btn.active {
+      background: var(--accent-grad);
+      color: #000;
+      font-weight: 700;
+      border-color: transparent;
+    }
+
+    /* Stats bar */
+    .stats-summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      padding: 0 0.5rem;
+    }
+
+    /* Table styling */
+    .table-responsive {
+      overflow-x: auto;
+      border-radius: 16px;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+      margin-bottom: 3.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 1rem 1.25rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    td {
+      padding: 1.1rem 1.25rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      font-size: 0.95rem;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .game-name {
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .pill {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+
+    .pill-aaa {
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .pill-indie {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .status-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+    }
+
+    .status-stable {
+      background: rgba(16, 185, 129, 0.15);
+      color: #10b981;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .status-active {
+      background: rgba(59, 130, 246, 0.15);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+
+    .status-planned {
+      background: rgba(245, 158, 11, 0.15);
+      color: #f59e0b;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .status-archive {
+      background: rgba(156, 163, 175, 0.15);
+      color: #9ca3af;
+      border: 1px solid rgba(156, 163, 175, 0.3);
+    }
+
+    .action-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(0, 242, 254, 0.1);
+      border: 1px solid rgba(0, 242, 254, 0.3);
+      color: var(--accent);
+      padding: 0.4rem 0.8rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .action-btn:hover {
+      background: var(--accent);
+      color: #000;
+    }
+
+    /* Section for Apps */
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .app-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      backdrop-filter: blur(12px);
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .app-card:hover {
+      border-color: rgba(0, 242, 254, 0.4);
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .app-header {
+      margin-bottom: 1rem;
+    }
+
+    .app-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.35rem;
+    }
+
+    .app-cat {
+      font-size: 0.75rem;
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .app-desc {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.25rem;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--card-border);
+      padding-top: 2rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="./assets/banner.jpg" alt="Ferdowsi at Terminal - ParsiSaz" class="hero-banner">
+      <h1>ParsiSaz Game & App Portal</h1>
+      <p class="tagline">Explore Persian localization projects, AAA game translation catalogs (2026 & historic), custom font toolchains, and community modding repositories.</p>
+      
+      <div class="meta-badges">
+        <a href="https://github.com/ParsiSaz" class="badge badge-accent">🏛️ GitHub Organization</a>
+        <a href="https://github.com/DanialPahlavan" class="badge">👤 Founder: @DanialPahlavan</a>
+        <a href="https://github.com/ParsiSaz/parsisaz" class="badge">📂 Repository Source</a>
+        <a href="https://github.com/ParsiSaz/.github/blob/main/profile/README_FA.md" class="badge">🇮🇷 راهنمای فارسی</a>
+      </div>
+    </header>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="search-row">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search game title, category, year, or keywords...">
+      </div>
+      <div class="filter-tabs" id="filterTabs">
+        <button class="tab-btn active" data-filter="all">All Games</button>
+        <button class="tab-btn" data-filter="aaa">⭐ AAA Games</button>
+        <button class="tab-btn" data-filter="2026">🚀 2026 Releases</button>
+        <button class="tab-btn" data-filter="recent">✨ 2020 - 2025</button>
+        <button class="tab-btn" data-filter="classic">📜 Classic Games</button>
+      </div>
+      <div class="stats-summary">
+        <span id="gameCount">Showing all entries</span>
+        <span>Zero Binary Modding Policy Enforced</span>
+      </div>
+    </div>
+
+    <!-- Games Table -->
+    <div class="table-responsive">
+      <table>
+        <thead>
+          <tr>
+            <th>Game Title</th>
+            <th>Year</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Patch & Description</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody id="gamesTableBody">
+          <!-- Dynamically populated -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Famous Tools & GitHub Projects Section -->
+    <h2 class="section-title">⚙️ Famous Tools & Organization Projects</h2>
+    <div class="grid-cards" id="appsGrid">
+      <!-- Dynamically populated -->
+    </div>
+
+    <footer>
+      <p>© 2026 ParsiSaz Initiative. Preserving and modernizing the Persian language in modern computing & gaming.</p>
+      <p style="margin-top: 0.5rem;">Directed by <a href="https://github.com/DanialPahlavan">Danial Pahlavan</a>. All game trademarks belong to their respective publishers.</p>
+    </footer>
+  </div>
+
+  <script>
+    let gamesData = [];
+    let appsData = [];
+
+    async function loadData() {
+      try {
+        const [gamesRes, appsRes] = await Promise.all([
+          fetch('./games-data.json'),
+          fetch('./apps-data.json')
+        ]);
+        gamesData = await gamesRes.json();
+        appsData = await appsRes.json();
+        renderGames(gamesData);
+        renderApps(appsData);
+      } catch (err) {
+        console.error('Failed to load portal data:', err);
+      }
+    }
+
+    function getStatusClass(status) {
+      const s = status.toLowerCase();
+      if (s.includes('stable')) return 'status-stable';
+      if (s.includes('active') || s.includes('progress')) return 'status-active';
+      if (s.includes('planned')) return 'status-planned';
+      return 'status-archive';
+    }
+
+    function renderGames(items) {
+      const tbody = document.getElementById('gamesTableBody');
+      const countEl = document.getElementById('gameCount');
+      countEl.innerText = `Showing ${items.length} titles`;
+
+      if (items.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 2.5rem;">No games match your search criteria.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = items.map(g => `
+        <tr>
+          <td>
+            <div class="game-name">
+              ${g.title}
+              ${g.isAAA ? '<span class="pill pill-aaa">AAA</span>' : '<span class="pill pill-indie">Indie/Mod</span>'}
+            </div>
+          </td>
+          <td><strong style="color: var(--text);">${g.year}</strong></td>
+          <td style="color: var(--text-muted);">${g.category}</td>
+          <td><span class="status-badge ${getStatusClass(g.status)}">${g.status}</span></td>
+          <td style="color: #cbd5e1; font-size: 0.9rem;">${g.details}</td>
+          <td>
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <a href="${g.patchUrl}" target="_blank" class="action-btn">
+                <span>📦</span> ${g.patchUrl.includes('github') ? 'GitHub' : 'Patch'}
+              </a>
+              ${g.website ? `<a href="${g.website}" target="_blank" class="badge">🌐 Web</a>` : ''}
+            </div>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function renderApps(items) {
+      const grid = document.getElementById('appsGrid');
+      grid.innerHTML = items.map(app => `
+        <div class="app-card">
+          <div>
+            <div class="app-header">
+              <span class="app-cat">${app.category}</span>
+              <h3 class="app-title">${app.name}</h3>
+              <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem;">Author: ${app.author}</span>
+            </div>
+            <p class="app-desc">${app.description}</p>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+            <span class="status-badge status-stable">${app.status}</span>
+            <a href="${app.url}" target="_blank" class="action-btn">View on GitHub →</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Filter and search
+    let currentFilter = 'all';
+
+    function applyFilterAndSearch() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      let filtered = gamesData.filter(g => {
+        // filter tab
+        let matchFilter = true;
+        if (currentFilter === 'aaa') matchFilter = g.isAAA;
+        else if (currentFilter === '2026') matchFilter = g.year >= 2026;
+        else if (currentFilter === 'recent') matchFilter = g.year >= 2020 && g.year <= 2025;
+        else if (currentFilter === 'classic') matchFilter = g.year < 2020;
+
+        // search query
+        let matchQuery = true;
+        if (q) {
+          const str = `${g.title} ${g.category} ${g.year} ${g.details} ${g.status}`.toLowerCase();
+          matchQuery = str.includes(q);
+        }
+
+        return matchFilter && matchQuery;
+      });
+
+      renderGames(filtered);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', applyFilterAndSearch);
+
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        currentFilter = e.target.dataset.filter;
+        applyFilterAndSearch();
+      });
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
