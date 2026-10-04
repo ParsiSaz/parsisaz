@@ -5,6 +5,18 @@ Format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), fol
 
 ---
 
+## [v1.3.0] - 2026-10-04
+
+### Added
+- **Official & External Catalog Expansion (`docs/games-data.json`)**:
+  - Added official community repository for **RimWorld** (`https://github.com/Ludeon/RimWorld-Farsi`).
+  - Integrated titles from **Poormaz Subtitles** (Control Resonant, 007 First Light, Silent Hill Townfall, Star Wars Outlaws, Avatar Frontiers of Pandora, Ghost Recon Wildlands, Resonance A Plague Tale, End of Abyss) with direct download links.
+- **Distribution Type Classification Column (`docs/index.html`)**:
+  - Added distinct distribution badges: `🌿 Official`, `🔓 OpenSource`, `🛠️ Community Mod`, `🎁 Free Download`, and `💳 External Paid`.
+  - Added dedicated filter tabs for quick switching between official, open-source, community mods, and free subtitle packages.
+
+---
+
 ## [v1.2.0] - 2026-10-04
 
 ### Added

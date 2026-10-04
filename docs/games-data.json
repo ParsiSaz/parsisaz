@@ -1,5 +1,27 @@
 [
   {
+    "id": "rimworld",
+    "title": "RimWorld",
+    "year": 2018,
+    "category": "Sci-Fi Colony Sim",
+    "status": "Stable",
+    "patchUrl": "https://github.com/Ludeon/RimWorld-Farsi",
+    "website": "https://rimworldgame.com",
+    "details": "Official community Persian translation repository hosted directly by Ludeon Studios.",
+    "isAAA": false,
+    "distributionType": "official",
+    "engine": "Unity (Custom Ludeon XML System)",
+    "challenges": [
+      "Complex XML definition strings for procedural storytellers and mental breaks.",
+      "RTL character shaping handled via custom translation package tags."
+    ],
+    "limitations": [
+      "Some third-party Steam workshop mods may not include Persian translations."
+    ],
+    "installPath": "<RimWorld_Dir>/Mods/Core/Languages/Persian/",
+    "installGuide": "1. Download from GitHub or subscribe via Steam Workshop.\n2. Activate Persian in Options > Language."
+  },
+  {
     "id": "kenshi",
     "title": "Kenshi",
     "year": 2018,
@@ -20,7 +42,8 @@
       "Requires selecting 'fa_IR' explicitly in the game options menu after manual file placement."
     ],
     "installPath": "<game_directory>/locale/fa_IR/",
-    "installGuide": "1. Download fa_IR.zip from GitHub Releases.\n2. Extract it into <Kenshi_Folder>/locale/fa_IR/.\n3. Open Kenshi launcher, navigate to Settings > Language, and choose fa_IR."
+    "installGuide": "1. Download fa_IR.zip from GitHub Releases.\n2. Extract it into <Kenshi_Folder>/locale/fa_IR/.\n3. Open Kenshi launcher, navigate to Settings > Language, and choose fa_IR.",
+    "distributionType": "mod"
   },
   {
     "id": "project-zomboid",
@@ -43,7 +66,8 @@
       "Font scaling at 4K resolution can require adjusting the game's font size slider."
     ],
     "installPath": "<game_directory>/media/lua/shared/Translate/FA/",
-    "installGuide": "1. Clone or download the repository.\n2. Copy the contents into <ProjectZomboid>/media/lua/shared/Translate/FA/.\n3. Launch Project Zomboid and select Farsi/Persian in the Display/Language settings."
+    "installGuide": "1. Clone or download the repository.\n2. Copy the contents into <ProjectZomboid>/media/lua/shared/Translate/FA/.\n3. Launch Project Zomboid and select Farsi/Persian in the Display/Language settings.",
+    "distributionType": "mod"
   },
   {
     "id": "darkest-dungeon-2",
@@ -66,7 +90,8 @@
       "Voiceover narrator remains in English; only on-screen text, lore, items, and UI are translated."
     ],
     "installPath": "<game_directory>/Darkest Dungeon II_Data/StreamingAssets/Localization/",
-    "installGuide": "1. Download the latest release from the ParsiSaz repository.\n2. Run the provided patcher or copy the localized string files to the StreamingAssets/Localization directory.\n3. Verify game file integrity if you ever wish to revert."
+    "installGuide": "1. Download the latest release from the ParsiSaz repository.\n2. Run the provided patcher or copy the localized string files to the StreamingAssets/Localization directory.\n3. Verify game file integrity if you ever wish to revert.",
+    "distributionType": "mod"
   },
   {
     "id": "software-inc",
@@ -88,7 +113,8 @@
       "Compatible with Alpha and Beta branches."
     ],
     "installPath": "<game_directory>/Translations/Persian/",
-    "installGuide": "1. Extract Persian folder into <Software_Inc_Folder>/Translations/.\n2. In Options > Localization, select 'Persian' from the dropdown list."
+    "installGuide": "1. Extract Persian folder into <Software_Inc_Folder>/Translations/.\n2. In Options > Localization, select 'Persian' from the dropdown list.",
+    "distributionType": "mod"
   },
   {
     "id": "oxygen-not-included",
@@ -111,7 +137,8 @@
       "DLC-specific strings (Spaced Out) are progressively being updated."
     ],
     "installPath": "%userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian\\",
-    "installGuide": "1. Download the repo ZIP from GitHub.\n2. Extract into %userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian.\n3. Start the game, open 'Mods' from the main menu, and enable 'OxygenNotIncluded_Persian'."
+    "installGuide": "1. Download the repo ZIP from GitHub.\n2. Extract into %userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian.\n3. Start the game, open 'Mods' from the main menu, and enable 'OxygenNotIncluded_Persian'.",
+    "distributionType": "mod"
   },
   {
     "id": "stronghold-warlords",
@@ -133,7 +160,8 @@
       "Historical unit voiceovers remain in original localized audio."
     ],
     "installPath": "<game_directory>/assets/strings/",
-    "installGuide": "1. Extract the patch into the Stronghold Warlords assets directory.\n2. Launch game and verify Persian subtitles in the audio options."
+    "installGuide": "1. Extract the patch into the Stronghold Warlords assets directory.\n2. Launch game and verify Persian subtitles in the audio options.",
+    "distributionType": "mod"
   },
   {
     "id": "dont-starve-together",
@@ -155,7 +183,8 @@
       "Skin items and seasonal festival events may retain original names."
     ],
     "installPath": "<game_directory>/mods/dont_starve_together_persian/",
-    "installGuide": "1. Place mod folder into <game_directory>/mods/.\n2. Activate the mod in the 'Mods' menu before hosting or joining a server."
+    "installGuide": "1. Place mod folder into <game_directory>/mods/.\n2. Activate the mod in the 'Mods' menu before hosting or joining a server.",
+    "distributionType": "mod"
   },
   {
     "id": "stronghold-crusader-1",
@@ -177,7 +206,8 @@
       "Preserved primarily for historical and nostalgia preservation."
     ],
     "installPath": "<game_directory>/fx/ & <game_directory>/crusader.exe",
-    "installGuide": "1. Backup your original crusader directory.\n2. Copy the graphics and audio mods over the existing installation."
+    "installGuide": "1. Backup your original crusader directory.\n2. Copy the graphics and audio mods over the existing installation.",
+    "distributionType": "mod"
   },
   {
     "id": "civ-6",
@@ -199,7 +229,8 @@
       "Compatible with Gathering Storm expansion."
     ],
     "installPath": "<Documents>/My Games/Sid Meier's Civilization VI/Mods/ParsiSaz_Civ6/",
-    "installGuide": "1. Extract to Civilization VI Mods directory.\n2. Enable in Additional Content > Mods menu."
+    "installGuide": "1. Extract to Civilization VI Mods directory.\n2. Enable in Additional Content > Mods menu.",
+    "distributionType": "opensource"
   },
   {
     "id": "witcher-3",
@@ -221,7 +252,8 @@
       "Next-Gen update requires updated string indexes."
     ],
     "installPath": "<game_directory>/mods/modPersianLanguage/",
-    "installGuide": "Refer to ParsiSaz Documentation portal for setup and glossary resources."
+    "installGuide": "Refer to ParsiSaz Documentation portal for setup and glossary resources.",
+    "distributionType": "opensource"
   },
   {
     "id": "rdr2",
@@ -243,7 +275,8 @@
       "Requires Scripthook / LML (Lenny's Mod Loader)."
     ],
     "installPath": "<game_directory>/lml/replace/",
-    "installGuide": "Follow instructions provided in the ParsiSaz community documentation."
+    "installGuide": "Follow instructions provided in the ParsiSaz community documentation.",
+    "distributionType": "opensource"
   },
   {
     "id": "cyberpunk-2077",
@@ -265,7 +298,8 @@
       "Updated for Cyberpunk 2.0+ and Phantom Liberty."
     ],
     "installPath": "<game_directory>/archive/pc/mod/",
-    "installGuide": "Consult the ParsiSaz web documentation for terminology dictionaries and patch status."
+    "installGuide": "Consult the ParsiSaz web documentation for terminology dictionaries and patch status.",
+    "distributionType": "opensource"
   },
   {
     "id": "gta-v",
@@ -287,7 +321,8 @@
       "Updates require updating the OpenIV 'mods' folder."
     ],
     "installPath": "<game_directory>/mods/update/update.rpf",
-    "installGuide": "Follow the OpenIV guide documented on the ParsiSaz portal."
+    "installGuide": "Follow the OpenIV guide documented on the ParsiSaz portal.",
+    "distributionType": "opensource"
   },
   {
     "id": "elder-scrolls-skyrim",
@@ -309,7 +344,8 @@
       "Requires SkyUI compatible font definitions."
     ],
     "installPath": "<game_directory>/Data/Interface/",
-    "installGuide": "Install via Mod Organizer 2 or place in Data/Interface/."
+    "installGuide": "Install via Mod Organizer 2 or place in Data/Interface/.",
+    "distributionType": "opensource"
   },
   {
     "id": "god-of-war",
@@ -331,7 +367,8 @@
       "Subtitle background opacity recommended to ensure readability."
     ],
     "installPath": "<game_directory>/exec/",
-    "installGuide": "See ParsiSaz documentation for installation guides and font files."
+    "installGuide": "See ParsiSaz documentation for installation guides and font files.",
+    "distributionType": "opensource"
   },
   {
     "id": "gta-vi",
@@ -353,7 +390,8 @@
       "Pre-release terminology tracking only."
     ],
     "installPath": "TBA upon release",
-    "installGuide": "Documentation and terminology registry will be updated upon official PC launch."
+    "installGuide": "Documentation and terminology registry will be updated upon official PC launch.",
+    "distributionType": "opensource"
   },
   {
     "id": "elder-scrolls-vi",
@@ -375,6 +413,182 @@
       "Specifications will be formalized once Bethesda releases toolsets."
     ],
     "installPath": "TBA upon release",
-    "installGuide": "Community tracking and glossary planning available on the portal."
+    "installGuide": "Community tracking and glossary planning available on the portal.",
+    "distributionType": "opensource"
+  },
+  {
+    "id": "control-resonant",
+    "title": "Control: Resonant",
+    "year": 2024,
+    "category": "AAA / Action Supernatural",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/control-resonant-persian-subtitles/",
+    "website": "https://poormaz.com",
+    "details": "Persian subtitles and complete UI localization for Control Resonant.",
+    "isAAA": true,
+    "distributionType": "external free download",
+    "engine": "Northlight Engine",
+    "challenges": [
+      "Proprietary Northlight packfile encryption",
+      "Custom subtitles layout styling"
+    ],
+    "limitations": [
+      "PC release patch only"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Download installer from Poormaz and follow setup wizard."
+  },
+  {
+    "id": "007-first-light",
+    "title": "007: First Light",
+    "year": 2025,
+    "category": "AAA / Stealth Action",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/007-first-light-persian-subtitles/",
+    "website": "https://poormaz.com",
+    "details": "Persian subtitles and translation patch for PC & PS5.",
+    "isAAA": true,
+    "distributionType": "external free download",
+    "engine": "Glacier Engine",
+    "challenges": [
+      "Dynamic espionage subtitles timing",
+      "Console package adaptation"
+    ],
+    "limitations": [
+      "PS5 requires jailbroken firmware"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Refer to Poormaz installation guide."
+  },
+  {
+    "id": "silent-hill-townfall",
+    "title": "Silent Hill: Townfall",
+    "year": 2025,
+    "category": "AAA / Psychological Horror",
+    "status": "Planned / Active",
+    "patchUrl": "https://poormaz.com/silent-hill-townfall-persian-subtitles/",
+    "website": "https://poormaz.com",
+    "details": "Free Persian subtitle package for Silent Hill Townfall.",
+    "isAAA": true,
+    "distributionType": "external free download",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "UE5 audio-subtitle synchronization",
+      "Horror lore translation"
+    ],
+    "limitations": [
+      "Available for PC platform"
+    ],
+    "installPath": "<Game_Directory>/Paks/~mods/",
+    "installGuide": "Place .pak file in ~mods directory."
+  },
+  {
+    "id": "star-wars-outlaws",
+    "title": "Star Wars Outlaws",
+    "year": 2024,
+    "category": "AAA / Sci-Fi Open-World",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/star-wars-outlaws-persian-subtitle/",
+    "website": "https://poormaz.com",
+    "details": "Persian subtitle translation for full open-world scoundrel campaign.",
+    "isAAA": true,
+    "distributionType": "external free download",
+    "engine": "Snowdrop Engine",
+    "challenges": [
+      "Massive alien dialect terminology",
+      "Encrypted SDF font archives"
+    ],
+    "limitations": [
+      "Single-player offline story mode recommended"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Extract and run the setup patcher from Poormaz."
+  },
+  {
+    "id": "avatar-frontiers-of-pandora",
+    "title": "Avatar: Frontiers of Pandora",
+    "year": 2023,
+    "category": "AAA / Action Adventure",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/avatar-frontiers-of-pandora-persian-subtitles/",
+    "website": "https://poormaz.com",
+    "details": "Complete Persian subtitles for Pandora storyline, Na vi lore, and world codex.",
+    "isAAA": true,
+    "distributionType": "external free download",
+    "engine": "Snowdrop Engine",
+    "challenges": [
+      "Complex flora and fauna nomenclature",
+      "High-res font replacement"
+    ],
+    "limitations": [
+      "Requires matching game build version"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Follow installer instructions provided by Poormaz."
+  },
+  {
+    "id": "ghost-recon-wildlands",
+    "title": "Tom Clancy Ghost Recon Wildlands",
+    "year": 2017,
+    "category": "AAA / Tactical Shooter",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/ghost-recon-wildlands-persian-subtitles/",
+    "website": "https://poormaz.com",
+    "details": "Full Persian menus, mission briefings, subtitles, and all DLC packages.",
+    "isAAA": true,
+    "distributionType": "external free download",
+    "engine": "AnvilNext 2.0",
+    "challenges": [
+      "Military radio callouts and tactical jargon",
+      "Encrypted forge archives"
+    ],
+    "limitations": [
+      "Single-player and offline co-op"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Run Poormaz installer into Ghost Recon Wildlands root folder."
+  },
+  {
+    "id": "resonance-plague-tale",
+    "title": "Resonance: A Plague Tale Legacy",
+    "year": 2024,
+    "category": "AAA / Narrative Adventure",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/resonance-a-plague-tale-legacy-persian-subtitles/",
+    "website": "https://poormaz.com",
+    "details": "Free Persian subtitle package with emotional narrative adaptation.",
+    "isAAA": true,
+    "distributionType": "external free download",
+    "engine": "Asobo Custom Engine",
+    "challenges": [
+      "Historic 14th-century French medieval prose adaptation",
+      "Bespoke subtitle timing"
+    ],
+    "limitations": [
+      "PC release"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Copy patch files into game folder."
+  },
+  {
+    "id": "end-of-abyss",
+    "title": "End of Abyss",
+    "year": 2024,
+    "category": "Indie / Horror",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/end-of-abyss-subtitles/",
+    "website": "https://poormaz.com",
+    "details": "Persian subtitles and translation mod for End of Abyss.",
+    "isAAA": false,
+    "distributionType": "external free download",
+    "engine": "Unity",
+    "challenges": [
+      "Unity TextMeshPro font injection"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Extract into game root folder."
   }
 ]

@@ -290,6 +290,49 @@
       border: 1px solid rgba(107, 114, 128, 0.3);
     }
 
+    /* Distribution Type Badges */
+    .type-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.22rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+
+    .type-official {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+    }
+
+    .type-opensource {
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
+
+    .type-mod {
+      background: rgba(168, 85, 247, 0.15);
+      color: #c084fc;
+      border: 1px solid rgba(168, 85, 247, 0.35);
+    }
+
+    .type-free {
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.35);
+    }
+
+    .type-paid {
+      background: rgba(239, 68, 68, 0.15);
+      color: #f87171;
+      border: 1px solid rgba(239, 68, 68, 0.35);
+    }
+
     .action-btn {
       display: inline-flex;
       align-items: center;
@@ -538,6 +581,10 @@
       </div>
       <div class="filter-tabs" id="filterTabs">
         <button class="tab-btn active" data-filter="all">All Games</button>
+        <button class="tab-btn" data-filter="official">🌿 Official</button>
+        <button class="tab-btn" data-filter="opensource">🔓 Open-Source</button>
+        <button class="tab-btn" data-filter="mod">🛠️ Community Mod</button>
+        <button class="tab-btn" data-filter="external-free">🎁 Free Subtitles (Poormaz)</button>
         <button class="tab-btn" data-filter="aaa">⭐ AAA Games</button>
         <button class="tab-btn" data-filter="2026">🚀 2026 Releases</button>
         <button class="tab-btn" data-filter="recent">✨ 2020 - 2025</button>
@@ -556,6 +603,7 @@
           <tr>
             <th>Game Title</th>
             <th>Year</th>
+            <th>Type</th>
             <th>Engine / Category</th>
             <th>Status</th>
             <th>Patch & Description</th>
@@ -649,13 +697,28 @@
       return 'status-archive';
     }
 
+    function getTypeBadge(type) {
+      const t = (type || 'mod').toLowerCase();
+      if (t.includes('official')) {
+        return '<span class="type-badge type-official">🌿 Official</span>';
+      } else if (t.includes('opensource') || t.includes('open-source')) {
+        return '<span class="type-badge type-opensource">🔓 OpenSource</span>';
+      } else if (t.includes('mod')) {
+        return '<span class="type-badge type-mod">🛠️ Mod</span>';
+      } else if (t.includes('paid')) {
+        return '<span class="type-badge type-paid">💳 External Paid</span>';
+      } else {
+        return '<span class="type-badge type-free">🎁 Free Download</span>';
+      }
+    }
+
     function renderGames(items) {
       const tbody = document.getElementById('gamesTableBody');
       const countEl = document.getElementById('gameCount');
       countEl.innerText = `Showing ${items.length} titles`;
 
       if (items.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 2.5rem;">No games match your search criteria.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 2.5rem;">No games match your search criteria.</td></tr>`;
         return;
       }
 
@@ -668,6 +731,7 @@
             </div>
           </td>
           <td><strong style="color: var(--text);">${g.year}</strong></td>
+          <td>${getTypeBadge(g.distributionType)}</td>
           <td>
             <div style="font-size: 0.9rem; color: #fff;">${g.engine ? g.engine.split('(')[0] : 'Custom'}</div>
             <div style="font-size: 0.8rem; color: var(--text-muted);">${g.category}</div>
@@ -679,8 +743,8 @@
               <button class="action-btn btn-detail" onclick="openDetailModal('${g.id}')">
                 ⚙️ Challenges
               </button>
-              <a href="${g.patchUrl}" target="_blank" class="action-btn" title="View Source">
-                📦 Source
+              <a href="${g.patchUrl}" target="_blank" class="action-btn" title="View Source / Download">
+                ${g.distributionType && g.distributionType.includes('external') ? '⬇️ Download' : '📦 Source'}
               </a>
             </div>
           </td>
@@ -718,6 +782,7 @@
 
       const badges = document.getElementById('modalBadges');
       badges.innerHTML = `
+        ${getTypeBadge(g.distributionType)}
         <span class="status-badge ${getStatusClass(g.status)}">${g.status}</span>
         <span class="badge">${g.year}</span>
         <span class="badge">${g.category}</span>
@@ -750,8 +815,9 @@
 
       // Links
       const links = document.getElementById('modalLinks');
+      const actionText = g.distributionType && g.distributionType.includes('external') ? 'Download from Poormaz ⬇️' : 'Open Repository →';
       links.innerHTML = `
-        <a href="${g.patchUrl}" target="_blank" class="action-btn" style="background: var(--accent); color: #000; font-weight: 700;">Open Repository →</a>
+        <a href="${g.patchUrl}" target="_blank" class="action-btn" style="background: var(--accent); color: #000; font-weight: 700;">${actionText}</a>
         ${g.website ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
       `;
 
@@ -775,7 +841,13 @@
       const q = document.getElementById('searchInput').value.toLowerCase().trim();
       let filtered = gamesData.filter(g => {
         let matchFilter = true;
-        if (currentFilter === 'aaa') matchFilter = g.isAAA;
+        const distType = (g.distributionType || '').toLowerCase();
+        
+        if (currentFilter === 'official') matchFilter = distType.includes('official');
+        else if (currentFilter === 'opensource') matchFilter = distType.includes('opensource') || distType.includes('open-source');
+        else if (currentFilter === 'mod') matchFilter = distType.includes('mod');
+        else if (currentFilter === 'external-free') matchFilter = distType.includes('external free');
+        else if (currentFilter === 'aaa') matchFilter = g.isAAA;
         else if (currentFilter === '2026') matchFilter = g.year >= 2026;
         else if (currentFilter === 'recent') matchFilter = g.year >= 2020 && g.year <= 2025;
         else if (currentFilter === 'classic') matchFilter = g.year < 2020;
@@ -784,7 +856,7 @@
         if (q) {
           const cStr = (g.challenges || []).join(' ');
           const lStr = (g.limitations || []).join(' ');
-          const fullText = `${g.title} ${g.category} ${g.year} ${g.engine || ''} ${g.details} ${g.status} ${cStr} ${lStr}`.toLowerCase();
+          const fullText = `${g.title} ${g.category} ${g.year} ${g.engine || ''} ${g.distributionType || ''} ${g.details} ${g.status} ${cStr} ${lStr}`.toLowerCase();
           matchQuery = fullText.includes(q);
         }
 
