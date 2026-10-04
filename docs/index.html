@@ -145,6 +145,51 @@
       border-color: var(--accent);
     }
 
+    /* Main View Switcher (Games vs Apps) */
+    .view-switcher {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 0.75rem;
+    }
+
+    .view-btn {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 0.75rem 1.6rem;
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      transition: all 0.25s ease;
+    }
+
+    .view-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    .view-btn.active {
+      background: var(--accent-grad);
+      color: #000;
+      border-color: transparent;
+      box-shadow: 0 4px 20px rgba(0, 242, 254, 0.35);
+    }
+
+    .view-btn .counter-badge {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 0.15rem 0.55rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 800;
+    }
+
     .filter-tabs {
       display: flex;
       flex-wrap: wrap;
@@ -574,12 +619,23 @@
       </div>
     </header>
 
+    <!-- Main View Switcher (Games vs Apps) -->
+    <div class="view-switcher">
+      <button class="view-btn active" id="viewGamesBtn" onclick="switchView('games')">
+        🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">34</span>
+      </button>
+      <button class="view-btn" id="viewAppsBtn" onclick="switchView('apps')">
+        📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">17</span>
+      </button>
+    </div>
+
     <!-- Controls -->
     <div class="controls">
       <div class="search-row">
         <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search game title, engine, category, challenges, or year...">
       </div>
-      <div class="filter-tabs" id="filterTabs">
+      <!-- Game Filter Tabs -->
+      <div class="filter-tabs" id="gameFilterTabs">
         <button class="tab-btn active" data-filter="all">All Games</button>
         <button class="tab-btn" data-filter="official">🌿 Official</button>
         <button class="tab-btn" data-filter="opensource">🔓 Open-Source</button>
@@ -590,34 +646,67 @@
         <button class="tab-btn" data-filter="recent">✨ 2020 - 2025</button>
         <button class="tab-btn" data-filter="classic">📜 Classic Games</button>
       </div>
+      <!-- App Filter Tabs -->
+      <div class="filter-tabs" id="appFilterTabs" style="display: none;">
+        <button class="tab-btn active" data-appfilter="all">All Apps</button>
+        <button class="tab-btn" data-appfilter="opensource">🔓 Open Source</button>
+        <button class="tab-btn" data-appfilter="media">🎬 Media & Video</button>
+        <button class="tab-btn" data-appfilter="productivity">💼 Productivity & Dev</button>
+        <button class="tab-btn" data-appfilter="system">⚙️ System & Utilities</button>
+        <button class="tab-btn" data-appfilter="parsisaz">🏛️ ParsiSaz Ecosystem</button>
+      </div>
       <div class="stats-summary">
-        <span id="gameCount">Showing all entries</span>
-        <span>Click <strong>"⚙️ Details & Challenges"</strong> on any game to view engine hurdles & install guides</span>
+        <span id="itemCount">Showing all entries</span>
+        <span id="contextTip">Click <strong>"⚙️ Details & Challenges"</strong> on any game to view engine hurdles & install guides</span>
       </div>
     </div>
 
-    <!-- Games Table -->
-    <div class="table-responsive">
-      <table>
-        <thead>
-          <tr>
-            <th>Game Title</th>
-            <th>Year</th>
-            <th>Type</th>
-            <th>Engine / Category</th>
-            <th>Status</th>
-            <th>Patch & Description</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody id="gamesTableBody">
-          <!-- Dynamically populated -->
-        </tbody>
-      </table>
+    <!-- Games View (Table) -->
+    <div id="gamesViewContainer">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Game Title</th>
+              <th>Year</th>
+              <th>Type</th>
+              <th>Engine / Category</th>
+              <th>Status</th>
+              <th>Patch & Description</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="gamesTableBody">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <!-- Famous Tools & GitHub Projects Section -->
-    <h2 class="section-title">⚙️ Core Toolchains & Organization Projects</h2>
+    <!-- Apps View (Dedicated Table & Catalog) -->
+    <div id="appsViewContainer" style="display: none;">
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Application Name</th>
+              <th>Category</th>
+              <th>Type</th>
+              <th>i18n Format</th>
+              <th>Status</th>
+              <th>Localization Overview</th>
+              <th>Repository & Source</th>
+            </tr>
+          </thead>
+          <tbody id="appsTableBody">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Famous Tools & GitHub Projects Section Grid (Summary Showcase) -->
+    <h2 class="section-title" id="featuredSectionTitle">⚙️ Featured ParsiSaz & Open Source Tools</h2>
     <div class="grid-cards" id="appsGrid">
       <!-- Dynamically populated -->
     </div>
@@ -673,6 +762,9 @@
   <script>
     let gamesData = [];
     let appsData = [];
+    let currentView = 'games'; // 'games' or 'apps'
+    let currentGameFilter = 'all';
+    let currentAppFilter = 'all';
 
     async function loadData() {
       try {
@@ -682,15 +774,55 @@
         ]);
         gamesData = await gamesRes.json();
         appsData = await appsRes.json();
-        renderGames(gamesData);
-        renderApps(appsData);
+
+        // Update badge counts
+        const gamesBadge = document.getElementById('gamesBadgeCount');
+        const appsBadge = document.getElementById('appsBadgeCount');
+        if (gamesBadge) gamesBadge.innerText = gamesData.length;
+        if (appsBadge) appsBadge.innerText = appsData.length;
+
+        applyFilterAndSearch();
+        renderFeaturedAppsGrid(appsData.slice(0, 6)); // Showcase 6 top tools in cards
       } catch (err) {
         console.error('Failed to load portal data:', err);
       }
     }
 
+    function switchView(view) {
+      currentView = view;
+      const gamesBtn = document.getElementById('viewGamesBtn');
+      const appsBtn = document.getElementById('viewAppsBtn');
+      const gamesViewContainer = document.getElementById('gamesViewContainer');
+      const appsViewContainer = document.getElementById('appsViewContainer');
+      const gameFilterTabs = document.getElementById('gameFilterTabs');
+      const appFilterTabs = document.getElementById('appFilterTabs');
+      const searchInput = document.getElementById('searchInput');
+      const contextTip = document.getElementById('contextTip');
+
+      if (view === 'games') {
+        gamesBtn.classList.add('active');
+        appsBtn.classList.remove('active');
+        gamesViewContainer.style.display = 'block';
+        appsViewContainer.style.display = 'none';
+        gameFilterTabs.style.display = 'flex';
+        appFilterTabs.style.display = 'none';
+        searchInput.placeholder = '🔍 Search game title, engine, category, challenges, or year...';
+        contextTip.innerHTML = 'Click <strong>"⚙️ Challenges"</strong> on any game to view engine hurdles & install guides';
+      } else {
+        appsBtn.classList.add('active');
+        gamesBtn.classList.remove('active');
+        gamesViewContainer.style.display = 'none';
+        appsViewContainer.style.display = 'block';
+        gameFilterTabs.style.display = 'none';
+        appFilterTabs.style.display = 'flex';
+        searchInput.placeholder = '🔍 Search application name, category, translation format, or description...';
+        contextTip.innerHTML = 'Explore open-source apps with Persian UI translation repositories & Crowdin/Transifex sources';
+      }
+      applyFilterAndSearch();
+    }
+
     function getStatusClass(status) {
-      const s = status.toLowerCase();
+      const s = (status || '').toLowerCase();
       if (s.includes('stable')) return 'status-stable';
       if (s.includes('active') || s.includes('progress')) return 'status-active';
       if (s.includes('planned')) return 'status-planned';
@@ -714,7 +846,7 @@
 
     function renderGames(items) {
       const tbody = document.getElementById('gamesTableBody');
-      const countEl = document.getElementById('gameCount');
+      const countEl = document.getElementById('itemCount');
       countEl.innerText = `Showing ${items.length} titles`;
 
       if (items.length === 0) {
@@ -752,21 +884,61 @@
       `).join('');
     }
 
-    function renderApps(items) {
+    function renderAppsTable(items) {
+      const tbody = document.getElementById('appsTableBody');
+      const countEl = document.getElementById('itemCount');
+      countEl.innerText = `Showing ${items.length} applications`;
+
+      if (items.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 2.5rem;">No applications match your search criteria.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = items.map(app => `
+        <tr>
+          <td>
+            <div style="font-weight: 700; color: #fff; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              <span>${app.title || app.name}</span>
+            </div>
+            ${app.website ? `<div style="font-size: 0.78rem;"><a href="${app.website}" target="_blank" style="color: var(--accent); text-decoration: none;">Visit Website ↗</a></div>` : ''}
+          </td>
+          <td>
+            <div style="font-weight: 600; color: #e2e8f0; font-size: 0.88rem;">${app.category}</div>
+          </td>
+          <td>${getTypeBadge(app.distributionType || 'opensource')}</td>
+          <td>
+            <span style="font-family: monospace; font-size: 0.8rem; background: rgba(0, 242, 254, 0.08); color: #38bdf8; padding: 0.25rem 0.6rem; border-radius: 6px; border: 1px solid rgba(0, 242, 254, 0.2);">
+              ${app.i18nFormat || 'Custom / PO'}
+            </span>
+          </td>
+          <td><span class="status-badge ${getStatusClass(app.status)}">${app.status}</span></td>
+          <td style="color: #cbd5e1; font-size: 0.9rem; max-width: 320px;">${app.details || app.description}</td>
+          <td>
+            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+              <a href="${app.repoUrl || app.url}" target="_blank" class="action-btn" style="background: var(--accent); color: #000; font-weight: 700;">
+                📂 GitHub Source ↗
+              </a>
+            </div>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function renderFeaturedAppsGrid(items) {
       const grid = document.getElementById('appsGrid');
       grid.innerHTML = items.map(app => `
         <div class="app-card">
           <div>
             <div class="app-header">
               <span class="app-cat">${app.category}</span>
-              <h3 class="app-title">${app.name}</h3>
-              <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem; margin-bottom: 0.5rem;">Author: ${app.author}</span>
+              <h3 class="app-title">${app.title || app.name}</h3>
+              <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem; margin-bottom: 0.5rem;">Format: ${app.i18nFormat || 'PO / Custom'}</span>
             </div>
-            <p class="app-desc">${app.description}</p>
+            <p class="app-desc">${app.details || app.description}</p>
           </div>
           <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
-            <span class="status-badge status-stable">${app.status}</span>
-            <a href="${app.url}" target="_blank" class="action-btn">View on GitHub →</a>
+            <span class="status-badge ${getStatusClass(app.status)}">${app.status}</span>
+            <a href="${app.repoUrl || app.url}" target="_blank" class="action-btn">View on GitHub →</a>
           </div>
         </div>
       `).join('');
@@ -835,44 +1007,80 @@
     }
 
     // Filter and search
-    let currentFilter = 'all';
-
     function applyFilterAndSearch() {
       const q = document.getElementById('searchInput').value.toLowerCase().trim();
-      let filtered = gamesData.filter(g => {
-        let matchFilter = true;
-        const distType = (g.distributionType || '').toLowerCase();
-        
-        if (currentFilter === 'official') matchFilter = distType.includes('official');
-        else if (currentFilter === 'opensource') matchFilter = distType.includes('opensource') || distType.includes('open-source');
-        else if (currentFilter === 'mod') matchFilter = distType.includes('mod');
-        else if (currentFilter === 'external-free') matchFilter = distType.includes('external free');
-        else if (currentFilter === 'aaa') matchFilter = g.isAAA;
-        else if (currentFilter === '2026') matchFilter = g.year >= 2026;
-        else if (currentFilter === 'recent') matchFilter = g.year >= 2020 && g.year <= 2025;
-        else if (currentFilter === 'classic') matchFilter = g.year < 2020;
 
-        let matchQuery = true;
-        if (q) {
-          const cStr = (g.challenges || []).join(' ');
-          const lStr = (g.limitations || []).join(' ');
-          const fullText = `${g.title} ${g.category} ${g.year} ${g.engine || ''} ${g.distributionType || ''} ${g.details} ${g.status} ${cStr} ${lStr}`.toLowerCase();
-          matchQuery = fullText.includes(q);
-        }
+      if (currentView === 'games') {
+        let filtered = gamesData.filter(g => {
+          let matchFilter = true;
+          const distType = (g.distributionType || '').toLowerCase();
+          
+          if (currentGameFilter === 'official') matchFilter = distType.includes('official');
+          else if (currentGameFilter === 'opensource') matchFilter = distType.includes('opensource') || distType.includes('open-source');
+          else if (currentGameFilter === 'mod') matchFilter = distType.includes('mod');
+          else if (currentGameFilter === 'external-free') matchFilter = distType.includes('external free');
+          else if (currentGameFilter === 'aaa') matchFilter = g.isAAA;
+          else if (currentGameFilter === '2026') matchFilter = g.year >= 2026;
+          else if (currentGameFilter === 'recent') matchFilter = g.year >= 2020 && g.year <= 2025;
+          else if (currentGameFilter === 'classic') matchFilter = g.year < 2020;
 
-        return matchFilter && matchQuery;
-      });
+          let matchQuery = true;
+          if (q) {
+            const cStr = (g.challenges || []).join(' ');
+            const lStr = (g.limitations || []).join(' ');
+            const fullText = `${g.title} ${g.category} ${g.year} ${g.engine || ''} ${g.distributionType || ''} ${g.details} ${g.status} ${cStr} ${lStr}`.toLowerCase();
+            matchQuery = fullText.includes(q);
+          }
 
-      renderGames(filtered);
+          return matchFilter && matchQuery;
+        });
+
+        renderGames(filtered);
+      } else {
+        // Applications View
+        let filteredApps = appsData.filter(app => {
+          let matchFilter = true;
+          const cat = (app.category || '').toLowerCase();
+          const distType = (app.distributionType || '').toLowerCase();
+          const title = (app.title || app.name || '').toLowerCase();
+
+          if (currentAppFilter === 'opensource') matchFilter = distType.includes('opensource') || distType.includes('open-source');
+          else if (currentAppFilter === 'media') matchFilter = cat.includes('media') || cat.includes('video') || cat.includes('audio') || cat.includes('broadcasting') || cat.includes('graphics') || cat.includes('playback');
+          else if (currentAppFilter === 'productivity') matchFilter = cat.includes('dev') || cat.includes('editor') || cat.includes('code') || cat.includes('graphics') || cat.includes('animation') || cat.includes('office');
+          else if (currentAppFilter === 'system') matchFilter = cat.includes('system') || cat.includes('utility') || cat.includes('network') || cat.includes('compression') || cat.includes('security');
+          else if (currentAppFilter === 'parsisaz') matchFilter = title.includes('parsi') || title.includes('farsi');
+
+          let matchQuery = true;
+          if (q) {
+            const fullText = `${app.title || app.name || ''} ${app.category} ${app.i18nFormat || ''} ${app.details || app.description || ''} ${app.status}`.toLowerCase();
+            matchQuery = fullText.includes(q);
+          }
+
+          return matchFilter && matchQuery;
+        });
+
+        renderAppsTable(filteredApps);
+      }
     }
 
     document.getElementById('searchInput').addEventListener('input', applyFilterAndSearch);
 
-    document.querySelectorAll('.tab-btn').forEach(btn => {
+    // Game Filter Click Listeners
+    document.querySelectorAll('#gameFilterTabs .tab-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('#gameFilterTabs .tab-btn').forEach(b => b.classList.remove('active'));
         e.target.classList.add('active');
-        currentFilter = e.target.dataset.filter;
+        currentGameFilter = e.target.dataset.filter;
+        applyFilterAndSearch();
+      });
+    });
+
+    // App Filter Click Listeners
+    document.querySelectorAll('#appFilterTabs .tab-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        document.querySelectorAll('#appFilterTabs .tab-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        currentAppFilter = e.target.dataset.appfilter;
         applyFilterAndSearch();
       });
     });

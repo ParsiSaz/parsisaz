@@ -5,6 +5,27 @@ Format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), fol
 
 ---
 
+## [v1.5.0] - 2026-10-04
+
+### Added
+- **Dedicated Applications Catalog & View Switcher (`docs/index.html`)**:
+  - Implemented top-level primary view toggle between **Games Catalog (34 titles)** and **Applications Catalog (17 apps)**.
+  - Built a separate, full-featured applications table with custom columns:
+    - Application Name & Official Website link
+    - Category (Messaging, Media, 3D, Productivity, System)
+    - Distribution Type badge (`🔓 OpenSource`)
+    - Localization format (e.g. Gettext PO, INI, Crowdin, Transifex, XML, JSON)
+    - Lifecycle Status badge (`Stable`)
+    - Localization Overview & community scope
+    - Direct GitHub Repository source links
+  - Added dedicated quick-filter tabs for Applications:
+    - `🔓 Open Source`, `🎬 Media & Video`, `💼 Productivity & Dev`, `⚙️ System & Utilities`, and `🏛️ ParsiSaz Ecosystem`.
+  - Added dynamic counter badges to view switchers (`🎮 34` vs `📱 17`).
+- **Curated Applications Catalog (`docs/apps-data.json`)**:
+  - Standardized entries for 17 major software applications with Persian translations on GitHub.
+
+---
+
 ## [v1.4.0] - 2026-10-04
 
 ### Added
