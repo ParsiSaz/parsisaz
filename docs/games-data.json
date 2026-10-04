@@ -590,5 +590,180 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Extract into game root folder."
+  },
+  {
+    "id": "endless-sky-farsi",
+    "title": "Endless Sky (Farsi)",
+    "year": 2023,
+    "category": "Space Exploration / RPG",
+    "status": "Stable",
+    "patchUrl": "https://github.com/endless-sky/endless-sky",
+    "website": "https://endless-sky.github.io/",
+    "details": "Open-source 2D space exploration game with community Persian translation support.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Custom C++ / OpenGL",
+    "challenges": [
+      "RTL layout in custom UI widgets",
+      "Rendering Persian characters with SDL_ttf"
+    ],
+    "limitations": [
+      "Community translation in development"
+    ],
+    "installPath": "<EndlessSky>/data/i18n/fa/",
+    "installGuide": "Select Persian in Preferences > Language."
+  },
+  {
+    "id": "cataclysm-dda-persian",
+    "title": "Cataclysm: Dark Days Ahead (CDDA)",
+    "year": 2024,
+    "category": "Roguelike / Survival",
+    "status": "Active",
+    "patchUrl": "https://github.com/CleverRaven/Cataclysm-DDA",
+    "website": "https://cataclysmdda.org/",
+    "details": "Post-apocalyptic roguelike with active Persian translation via Transifex and GitHub PO files.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Custom C++ / Curses / SDL",
+    "challenges": [
+      "Terminal/curses character cell widths for complex Persian ligatures",
+      "Gettext PO integration"
+    ],
+    "limitations": [
+      "Terminal rendering requires UTF-8 BiDi supporting emulator"
+    ],
+    "installPath": "<CDDA_Dir>/lang/mo/fa/",
+    "installGuide": "Select Persian in Settings > Language."
+  },
+  {
+    "id": "minetest-persian",
+    "title": "Luanti / Minetest",
+    "year": 2024,
+    "category": "Voxel / Sandbox",
+    "status": "Stable",
+    "patchUrl": "https://github.com/minetest/minetest",
+    "website": "https://www.luanti.org/",
+    "details": "Open source infinite world voxel game engine with Persian locale strings in GitHub.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Irrlicht / C++",
+    "challenges": [
+      "Freetype font rendering for Persian",
+      "RTL chat window reversing"
+    ],
+    "limitations": [
+      "Some third-party mods retain English strings"
+    ],
+    "installPath": "<Minetest_Dir>/locale/fa/",
+    "installGuide": "Choose Persian in Settings > Language."
+  },
+  {
+    "id": "veloren-persian",
+    "title": "Veloren",
+    "year": 2024,
+    "category": "Multiplayer Voxel RPG",
+    "status": "Active",
+    "patchUrl": "https://gitlab.com/veloren/veloren",
+    "website": "https://veloren.net/",
+    "details": "Open-world, open-source voxel RPG written in Rust with Persian string tables on Git.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Rust (Custom Engine)",
+    "challenges": [
+      "Rust i18n localization crate integration",
+      "Glyph rasterization with cosmic-text"
+    ],
+    "limitations": [
+      "Continuous alpha development"
+    ],
+    "installPath": "<Veloren_Dir>/assets/voxygen/i18n/fa_IR/",
+    "installGuide": "Select Persian in Audio & Language options."
+  },
+  {
+    "id": "wesnoth-persian",
+    "title": "The Battle for Wesnoth",
+    "year": 2023,
+    "category": "Turn-Based Strategy",
+    "status": "Stable",
+    "patchUrl": "https://github.com/wesnoth/wesnoth",
+    "website": "https://www.wesnoth.org/",
+    "details": "Turn-based tactical strategy game with community Persian PO translation on GitHub.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "C++ / SDL2 / Pango",
+    "challenges": [
+      "Pango BiDi text formatting",
+      "Fantasy medieval lore glossary"
+    ],
+    "limitations": [
+      "Some user-made add-on campaigns are untranslated"
+    ],
+    "installPath": "<Wesnoth_Dir>/translations/fa_IR/",
+    "installGuide": "Select Persian in Preferences > Language."
+  },
+  {
+    "id": "0ad-persian",
+    "title": "0 A.D. Empires Ascendant",
+    "year": 2024,
+    "category": "Historical RTS",
+    "status": "Active",
+    "patchUrl": "https://github.com/0ad/0ad",
+    "website": "https://play0ad.com/",
+    "details": "Historical RTS featuring the Achaemenid Persian Empire with Persian UI translations on GitHub.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Pyrogenesis C++ / SpiderMonkey",
+    "challenges": [
+      "Complex historical military titles and ancient Persian transliteration",
+      "GUI font caching"
+    ],
+    "limitations": [
+      "Requires enabling custom font in GUI options"
+    ],
+    "installPath": "<0ad_Dir>/binaries/data/mods/public/",
+    "installGuide": "Select Persian in Settings > Language."
+  },
+  {
+    "id": "openttd-persian",
+    "title": "OpenTTD",
+    "year": 2024,
+    "category": "Transport Simulation",
+    "status": "Stable",
+    "patchUrl": "https://github.com/OpenTTD/OpenTTD",
+    "website": "https://www.openttd.org/",
+    "details": "Open-source transport simulation game with Persian language files maintained on GitHub.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Custom C++",
+    "challenges": [
+      "Custom ICU font glyph shaping for Persian digits",
+      "Dynamic currency formatting"
+    ],
+    "limitations": [
+      "Must choose a TrueType font in Game Options to avoid question marks"
+    ],
+    "installPath": "<OpenTTD_Dir>/lang/persian.lng",
+    "installGuide": "Select Persian in Game Options > Game Language."
+  },
+  {
+    "id": "supertuxkart-persian",
+    "title": "SuperTuxKart",
+    "year": 2024,
+    "category": "3D Arcade Racing",
+    "status": "Stable",
+    "patchUrl": "https://github.com/supertuxkart/stk-code",
+    "website": "https://supertuxkart.net/",
+    "details": "3D arcade kart racer with complete Persian PO translation file on GitHub.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Antarctica (C++ / OpenGL)",
+    "challenges": [
+      "Fast HUD countdown timers and race position formatting"
+    ],
+    "limitations": [
+      "Custom fonts required for optimal readability"
+    ],
+    "installPath": "<STK_Dir>/data/po/fa.po",
+    "installGuide": "Select Persian in Options > Language."
   }
 ]

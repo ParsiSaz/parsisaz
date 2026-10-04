@@ -46,5 +46,69 @@
     "author": "@DanialPahlavan & ParsiSaz",
     "status": "Stable",
     "url": "https://github.com/ParsiSaz/DarkestDungeon-2---Persian"
+  },
+  {
+    "name": "Telegram Desktop",
+    "description": "Official desktop messaging app with extensive crowdsourced Persian localization on GitHub.",
+    "category": "Messaging & Social",
+    "author": "Telegram / Community",
+    "status": "Stable",
+    "url": "https://github.com/telegramdesktop/tdesktop"
+  },
+  {
+    "name": "OBS Studio",
+    "description": "Free and open source software for video recording and live streaming with full Persian UI.",
+    "category": "Broadcasting & Streaming",
+    "author": "OBS Project",
+    "status": "Stable",
+    "url": "https://github.com/obsproject/obs-studio"
+  },
+  {
+    "name": "VLC Media Player",
+    "description": "Universal multimedia player with comprehensive Persian translation catalog.",
+    "category": "Media Player",
+    "author": "VideoLAN",
+    "status": "Stable",
+    "url": "https://github.com/videolan/vlc"
+  },
+  {
+    "name": "Kodi",
+    "description": "Award-winning open source media center with Persian skin and font translation add-ons.",
+    "category": "Home Theater & Media",
+    "author": "Team Kodi",
+    "status": "Stable",
+    "url": "https://github.com/xbmc/xbmc"
+  },
+  {
+    "name": "Blender",
+    "description": "3D creation suite supporting Persian user interface and 3D viewport text rendering.",
+    "category": "3D Design & VFX",
+    "author": "Blender Foundation",
+    "status": "Stable",
+    "url": "https://github.com/blender/blender"
+  },
+  {
+    "name": "Godot Engine",
+    "description": "Multi-platform 2D and 3D game engine with built-in HarfBuzz BiDi support and Persian UI.",
+    "category": "Game Engine",
+    "author": "Godot Engine Contributors",
+    "status": "Active",
+    "url": "https://github.com/godotengine/godot"
+  },
+  {
+    "name": "ParsiSaz Tools",
+    "description": "Shared BiDi text reshaper, bracket inverters, and gaming typography standards.",
+    "category": "Localization Toolkit",
+    "author": "@DanialPahlavan & ParsiSaz",
+    "status": "Active",
+    "url": "https://github.com/ParsiSaz/parsisaz-tools"
+  },
+  {
+    "name": "ParsiSaz Game Template",
+    "description": "The official golden blueprint repository for new game translation projects conforming to L10N-STD-2026.",
+    "category": "Starter Kit / Template",
+    "author": "@DanialPahlavan & ParsiSaz",
+    "status": "Active",
+    "url": "https://github.com/ParsiSaz/parsisaz-game-template"
   }
 ]

@@ -5,6 +5,31 @@ Format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), fol
 
 ---
 
+## [v1.4.0] - 2026-10-04
+
+### Added
+- **GitHub Open-Source Game Translation Projects (`docs/games-data.json`)**:
+  - Added open-source games with active Persian translations hosted on GitHub:
+    - **Endless Sky**: Space exploration RPG (`endless-sky/endless-sky`).
+    - **Cataclysm: Dark Days Ahead (CDDA)**: Post-apocalyptic survival (`CleverRaven/Cataclysm-DDA`).
+    - **Luanti / Minetest**: Infinite voxel sandbox (`minetest/minetest`).
+    - **Veloren**: Open-world voxel RPG written in Rust (`veloren/veloren`).
+    - **The Battle for Wesnoth**: Tactical turn-based strategy (`wesnoth/wesnoth`).
+    - **0 A.D. Empires Ascendant**: Ancient history RTS featuring Achaemenid Persia (`0ad/0ad`).
+    - **OpenTTD**: Transport management simulator (`OpenTTD/OpenTTD`).
+    - **SuperTuxKart**: 3D kart racing (`supertuxkart/stk-code`).
+- **Open-Source Applications & Ecosystem Tools (`docs/apps-data.json`)**:
+  - Expanded tools index with major open-source applications supporting Persian translation:
+    - **Godot Engine**: Game engine with built-in BiDi/HarfBuzz (`godotengine/godot`).
+    - **Blender**: 3D modeling suite (`blender/blender`).
+    - **OBS Studio**: Streaming & video recording (`obsproject/obs-studio`).
+    - **Telegram Desktop**: Client localization (`telegramdesktop/tdesktop`).
+    - **VLC Media Player**: Media framework (`videolan/vlc`).
+    - **Kodi**: Media center (`xbmc/xbmc`).
+    - **ParsiSaz Tools & Game Template**: Dedicated ParsiSaz starter kit and typography utilities.
+
+---
+
 ## [v1.3.0] - 2026-10-04
 
 ### Added
