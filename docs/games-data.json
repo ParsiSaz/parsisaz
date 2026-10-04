@@ -8,7 +8,19 @@
     "patchUrl": "https://github.com/ParsiSaz/Kenshi-farsi",
     "website": "https://github.com/ParsiSaz/Kenshi-farsi",
     "details": "Steam Workshop Persian localization patch with custom PO tables.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "OGRE (Object-Oriented Graphics Rendering Engine)",
+    "challenges": [
+      "Engine lacks native Right-to-Left (RTL) text shaping, rendering words in reverse character order.",
+      "No support for Persian/Arabic connected cursive glyphs by default.",
+      "Missing Persian glyphs in the bundled font atlas (requires injecting custom TTF and Unicode ranges)."
+    ],
+    "limitations": [
+      "Game UI text wrapping sometimes miscalculates line breaks on non-Latin scripts.",
+      "Requires selecting 'fa_IR' explicitly in the game options menu after manual file placement."
+    ],
+    "installPath": "<game_directory>/locale/fa_IR/",
+    "installGuide": "1. Download fa_IR.zip from GitHub Releases.\n2. Extract it into <Kenshi_Folder>/locale/fa_IR/.\n3. Open Kenshi launcher, navigate to Settings > Language, and choose fa_IR."
   },
   {
     "id": "project-zomboid",
@@ -19,7 +31,19 @@
     "patchUrl": "https://github.com/ParsiSaz/Project-Zomboid-Game--Persian",
     "website": "https://github.com/ParsiSaz/Project-Zomboid-Game--Persian",
     "details": "Full UI, radio, broadcast, and custom Persian font atlas injection.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "Java / LWJGL",
+    "challenges": [
+      "Dynamic in-game radio broadcasts and TV subtitles require reverse-engineered timing strings.",
+      "Bitmap font atlas regeneration needed to support Persian characters with zero-width non-joiners (ZWNJ).",
+      "Item descriptions in Lua tables require UTF-8 without BOM encoding to prevent engine crashes."
+    ],
+    "limitations": [
+      "Certain modded items from third-party Steam Workshop mods may fall back to default English.",
+      "Font scaling at 4K resolution can require adjusting the game's font size slider."
+    ],
+    "installPath": "<game_directory>/media/lua/shared/Translate/FA/",
+    "installGuide": "1. Clone or download the repository.\n2. Copy the contents into <ProjectZomboid>/media/lua/shared/Translate/FA/.\n3. Launch Project Zomboid and select Farsi/Persian in the Display/Language settings."
   },
   {
     "id": "darkest-dungeon-2",
@@ -30,7 +54,19 @@
     "patchUrl": "https://github.com/ParsiSaz/DarkestDungeon-2---Persian",
     "website": "https://github.com/ParsiSaz/DarkestDungeon-2---Persian",
     "details": "Custom Persian glyph shaping & comprehensive game string tables.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "Unity (Custom Localization Subsystem)",
+    "challenges": [
+      "Darkest Dungeon 2 packs localization data into compiled asset bundles requiring binary string replacement.",
+      "Custom font assets require TextMeshPro SDF (Signed Distance Field) Persian glyph mapping.",
+      "Poedit POT file extraction requires custom parser to preserve narrative token variables."
+    ],
+    "limitations": [
+      "Game updates via Steam or Epic Games may overwrite modified string assets, requiring patch re-application.",
+      "Voiceover narrator remains in English; only on-screen text, lore, items, and UI are translated."
+    ],
+    "installPath": "<game_directory>/Darkest Dungeon II_Data/StreamingAssets/Localization/",
+    "installGuide": "1. Download the latest release from the ParsiSaz repository.\n2. Run the provided patcher or copy the localized string files to the StreamingAssets/Localization directory.\n3. Verify game file integrity if you ever wish to revert."
   },
   {
     "id": "software-inc",
@@ -41,7 +77,18 @@
     "patchUrl": "https://github.com/ParsiSaz/Software-Inc-Game---Persian",
     "website": "https://github.com/ParsiSaz/Software-Inc-Game---Persian",
     "details": "Management catalog translation CSV/XML format.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "Unity",
+    "challenges": [
+      "Over 10,000 corporate, financial, and tech business terms requiring consistent Persian translations.",
+      "Dynamic procedural company and software names generated in English grammar syntax."
+    ],
+    "limitations": [
+      "Some dynamically combined procedural strings may display English word order.",
+      "Compatible with Alpha and Beta branches."
+    ],
+    "installPath": "<game_directory>/Translations/Persian/",
+    "installGuide": "1. Extract Persian folder into <Software_Inc_Folder>/Translations/.\n2. In Options > Localization, select 'Persian' from the dropdown list."
   },
   {
     "id": "oxygen-not-included",
@@ -52,7 +99,19 @@
     "patchUrl": "https://github.com/ParsiSaz/Oxygen-not-included-Persian",
     "website": "https://github.com/ParsiSaz/Oxygen-not-included-Persian",
     "details": "Klei PO translation tables and custom typography integration.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "Unity (Klei Engine Modding System)",
+    "challenges": [
+      "Klei PO parser requires strict header formatting and specific UTF-8 character sets.",
+      "Complex technical chemical elements, gases, and thermodynamic vocabulary require precise translation.",
+      "Font replacement needed for colony resource tags and floating UI tooltips."
+    ],
+    "limitations": [
+      "Must be enabled manually in the in-game 'Mods' menu before taking effect.",
+      "DLC-specific strings (Spaced Out) are progressively being updated."
+    ],
+    "installPath": "%userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian\\",
+    "installGuide": "1. Download the repo ZIP from GitHub.\n2. Extract into %userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian.\n3. Start the game, open 'Mods' from the main menu, and enable 'OxygenNotIncluded_Persian'."
   },
   {
     "id": "stronghold-warlords",
@@ -63,7 +122,18 @@
     "patchUrl": "https://github.com/ParsiSaz/Stronghold-Warlords---Persian",
     "website": "https://github.com/ParsiSaz/Stronghold-Warlords---Persian",
     "details": "Full campaign dialogue and UI localization mod.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "Firefly Studios Engine",
+    "challenges": [
+      "Proprietary text asset encryption across campaign missions.",
+      "Font texture sheets require manual character placement for Persian letters."
+    ],
+    "limitations": [
+      "Campaign briefing subtitles must be enabled in audio settings.",
+      "Historical unit voiceovers remain in original localized audio."
+    ],
+    "installPath": "<game_directory>/assets/strings/",
+    "installGuide": "1. Extract the patch into the Stronghold Warlords assets directory.\n2. Launch game and verify Persian subtitles in the audio options."
   },
   {
     "id": "dont-starve-together",
@@ -74,7 +144,18 @@
     "patchUrl": "https://github.com/ParsiSaz/Dont-Strave-together-Persian",
     "website": "https://github.com/ParsiSaz/Dont-Strave-together-Persian",
     "details": "Custom Persian fonts and interactive item encyclopedia translation.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "Klei Custom Lua / C++ Engine",
+    "challenges": [
+      "Custom font rendering engine requires separate font textures for Persian character sets.",
+      "Client and Server mod synchronization required during multiplayer sessions."
+    ],
+    "limitations": [
+      "Both host and connecting players should enable the language mod for full synchronization.",
+      "Skin items and seasonal festival events may retain original names."
+    ],
+    "installPath": "<game_directory>/mods/dont_starve_together_persian/",
+    "installGuide": "1. Place mod folder into <game_directory>/mods/.\n2. Activate the mod in the 'Mods' menu before hosting or joining a server."
   },
   {
     "id": "stronghold-crusader-1",
@@ -85,7 +166,18 @@
     "patchUrl": "https://github.com/ParsiSaz/stronghold-crusader1-mods",
     "website": "https://github.com/ParsiSaz/stronghold-crusader1-mods",
     "details": "Historic Persian community voiceover mods & UI patches.",
-    "isAAA": false
+    "isAAA": false,
+    "engine": "Legacy 2D Isometric C++ Engine",
+    "challenges": [
+      "DirectX 7/8 legacy rendering with ANSI codepage limits (Windows-1256).",
+      "Audio format requires exact 22050Hz 16-bit Mono PCM WAV files for soldier voices."
+    ],
+    "limitations": [
+      "Designed for legacy releases and Stronghold Crusader HD v1.41.",
+      "Preserved primarily for historical and nostalgia preservation."
+    ],
+    "installPath": "<game_directory>/fx/ & <game_directory>/crusader.exe",
+    "installGuide": "1. Backup your original crusader directory.\n2. Copy the graphics and audio mods over the existing installation."
   },
   {
     "id": "civ-6",
@@ -96,7 +188,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://github.com/ParsiSaz",
     "details": "Persian civilization leader pack and UI localization patch.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "Firaxis LORE Engine",
+    "challenges": [
+      "Civilopedia contains extensive historical texts requiring scholarly Persian prose.",
+      "Custom XML & SQL database modifications for civilization trait localization."
+    ],
+    "limitations": [
+      "In active development by community contributors.",
+      "Compatible with Gathering Storm expansion."
+    ],
+    "installPath": "<Documents>/My Games/Sid Meier's Civilization VI/Mods/ParsiSaz_Civ6/",
+    "installGuide": "1. Extract to Civilization VI Mods directory.\n2. Enable in Additional Content > Mods menu."
   },
   {
     "id": "witcher-3",
@@ -107,7 +210,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://www.cdprojektred.com",
     "details": "Persian subtitle adaptation & dialogue lexicon documentation.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "REDengine 3 / 4",
+    "challenges": [
+      "Proprietary w3strings encrypted bundle format.",
+      "Massive dialogue tree (over 450,000 words) requiring consistent folklore terminology."
+    ],
+    "limitations": [
+      "Requires w3strings encoder/decoder tools.",
+      "Next-Gen update requires updated string indexes."
+    ],
+    "installPath": "<game_directory>/mods/modPersianLanguage/",
+    "installGuide": "Refer to ParsiSaz Documentation portal for setup and glossary resources."
   },
   {
     "id": "rdr2",
@@ -118,7 +232,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://www.rockstargames.com/reddeadredemption2",
     "details": "Persian subtitles & terminology glossaries.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "RAGE (Rockstar Advanced Game Engine)",
+    "challenges": [
+      "Strict DRM and RAGE package encryption (RPF archives).",
+      "Custom TrueType font replacement in scaleform GFx UI."
+    ],
+    "limitations": [
+      "Cannot be used in Red Dead Online (single-player offline story mode only to prevent bans).",
+      "Requires Scripthook / LML (Lenny's Mod Loader)."
+    ],
+    "installPath": "<game_directory>/lml/replace/",
+    "installGuide": "Follow instructions provided in the ParsiSaz community documentation."
   },
   {
     "id": "cyberpunk-2077",
@@ -129,7 +254,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://www.cyberpunk.net",
     "details": "Terminology lexicon & cyber-glossary in Persian.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "REDengine 4",
+    "challenges": [
+      "Futuristic cyberpunk slang (Braindance, Netrunner, Chrome) requiring modern Persian coining.",
+      "ArchiveXL and REDmod font atlas integration."
+    ],
+    "limitations": [
+      "REDmod must be installed and enabled.",
+      "Updated for Cyberpunk 2.0+ and Phantom Liberty."
+    ],
+    "installPath": "<game_directory>/archive/pc/mod/",
+    "installGuide": "Consult the ParsiSaz web documentation for terminology dictionaries and patch status."
   },
   {
     "id": "gta-v",
@@ -140,7 +276,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://www.rockstargames.com/gta-v",
     "details": "Persian subtitles, vehicle descriptions & dialogue translation index.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "RAGE",
+    "challenges": [
+      "OpenIV RPF archive editing and ASI loader dependencies.",
+      "Subtitles scaleform rendering requires custom Arabic/Persian glyph ligatures."
+    ],
+    "limitations": [
+      "Single-player only. Modded files are blocked by Rockstar in GTA Online.",
+      "Updates require updating the OpenIV 'mods' folder."
+    ],
+    "installPath": "<game_directory>/mods/update/update.rpf",
+    "installGuide": "Follow the OpenIV guide documented on the ParsiSaz portal."
   },
   {
     "id": "elder-scrolls-skyrim",
@@ -151,7 +298,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://elderscrolls.bethesda.net",
     "details": "Persian books, lore, and subtitle translation project catalog.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "Creation Engine",
+    "challenges": [
+      "SWF font config files (fontconfig.txt) require custom Flash SWF font replacement.",
+      "Translating hundreds of in-game books and ancient Tamriel lore."
+    ],
+    "limitations": [
+      "Mod Organizer 2 or Vortex recommended.",
+      "Requires SkyUI compatible font definitions."
+    ],
+    "installPath": "<game_directory>/Data/Interface/",
+    "installGuide": "Install via Mod Organizer 2 or place in Data/Interface/."
   },
   {
     "id": "god-of-war",
@@ -162,7 +320,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://www.playstation.com/games/god-of-war/",
     "details": "Persian subtitles and Norse mythology glossary adaptation.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "Santa Monica Proprietary PC Engine",
+    "challenges": [
+      "Encrypted text archives and strict font texture packing.",
+      "Adapting Old Norse mythological names accurately into Persian phonetics."
+    ],
+    "limitations": [
+      "PC version only.",
+      "Subtitle background opacity recommended to ensure readability."
+    ],
+    "installPath": "<game_directory>/exec/",
+    "installGuide": "See ParsiSaz documentation for installation guides and font files."
   },
   {
     "id": "gta-vi",
@@ -173,7 +342,18 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://www.rockstargames.com",
     "details": "Anticipated 2026 AAA release: planned Persian terminology & localization hub.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "Next-Gen RAGE 9",
+    "challenges": [
+      "Next-generation engine architecture and security expected upon PC launch.",
+      "Massive anticipated script size."
+    ],
+    "limitations": [
+      "Pending official PC release date.",
+      "Pre-release terminology tracking only."
+    ],
+    "installPath": "TBA upon release",
+    "installGuide": "Documentation and terminology registry will be updated upon official PC launch."
   },
   {
     "id": "elder-scrolls-vi",
@@ -184,6 +364,17 @@
     "patchUrl": "https://github.com/ParsiSaz/parsisaz",
     "website": "https://bethesda.net",
     "details": "Future 2026+ Persian localization tracking project.",
-    "isAAA": true
+    "isAAA": true,
+    "engine": "Creation Engine 2",
+    "challenges": [
+      "Deep lore, procedural dialogue, and next-generation UI pipelines.",
+      "RTL font rendering adaptation."
+    ],
+    "limitations": [
+      "In pre-production tracking phase.",
+      "Specifications will be formalized once Bethesda releases toolsets."
+    ],
+    "installPath": "TBA upon release",
+    "installGuide": "Community tracking and glossary planning available on the portal."
   }
 ]

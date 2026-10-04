@@ -1,69 +1,58 @@
 <div align="center">
 
 # 🏛️ ParsiSaz | Game & Tool Portal
-### *Persian Game Localizations, AAA Translations, and Tooling Directory*
-
-[![GitHub Pages](https://img.shields.io/badge/Live_Portal-GitHub_Pages-00f2fe?style=for-the-badge&logo=github)](https://parsisaz.github.io/parsisaz/)
-[![Organization](https://img.shields.io/badge/Organization-ParsiSaz-emerald?style=for-the-badge)](https://github.com/ParsiSaz)
-[![Maintainer](https://img.shields.io/badge/Founder_&_Lead-Danial_Pahlavan_(@DanialPahlavan)-blue?style=for-the-badge&logo=github)](https://github.com/DanialPahlavan)
+### *Persian Game Localizations, Reverse-Engineering Documentation, and Modding Ecosystem*
 
 <br/>
 
-<img src="./docs/assets/banner.jpg" alt="Ferdowsi at Terminal - ParsiSaz" width="850" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+[![Open Documentation Portal](https://img.shields.io/badge/🌐_Explore_Interactive_Documentation_Portal-parsisaz.github.io%2Fparsisaz-00f2fe?style=for-the-badge&logo=googlechrome)](https://parsisaz.github.io/parsisaz/)
+[![Organization](https://img.shields.io/badge/Organization-ParsiSaz-emerald?style=for-the-badge&logo=github)](https://github.com/ParsiSaz)
+[![Maintainer](https://img.shields.io/badge/Founder_&_Lead-Danial_Pahlavan-blue?style=for-the-badge&logo=github)](https://github.com/DanialPahlavan)
+
+<br/>
+
+<a href="https://parsisaz.github.io/parsisaz/">
+  <img src="./docs/assets/banner.jpg" alt="ParsiSaz Documentation Portal" width="850" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.25);" />
+</a>
+
+<br/><br/>
+
+### 👉 **[Click Here to Open the Live Documentation & Game Catalog](https://parsisaz.github.io/parsisaz/)** 👈
+*Search all games, inspect reverse-engineering challenges (RTL shaping, font injection), view copyable install paths, and discover modding tools.*
 
 </div>
 
 ---
 
-## 🌟 Overview
+## 🌟 What is ParsiSaz?
 
-This repository hosts the official interactive web catalog and documentation portal for **[ParsiSaz](https://github.com/ParsiSaz)**. 
+**[ParsiSaz](https://github.com/ParsiSaz)** is an open engineering initiative dedicated to reviving, preserving, and standardizing the Persian language in modern gaming, reverse-engineering non-Unicode game engines, and building native translation toolchains.
 
-The live GitHub Page serves as an interactive portal where users can:
-- 🎮 Browse Persian game localizations across **AAA titles (2026 releases & historical classics)** and indie gems.
-- 🔍 Filter games dynamically by year (`2026 Releases`, `2020-2025`, `Classics`), AAA status, and category.
-- 📦 Access direct links to game patch repositories, Steam Workshop mods, and project websites.
-- 🛠️ Discover famous ParsiSaz GitHub applications and toolchains like `Parsik` and `farsiSaz`.
+To keep documentation dynamic and easy to search, all detailed guides, known engine limitations, installation paths, and release tracking have been moved into our interactive web portal:
+
+👉 **[https://parsisaz.github.io/parsisaz/](https://parsisaz.github.io/parsisaz/)**
 
 ---
 
-## 🌐 Live Portal
+## 🚀 Key Portal Features
 
-- **Official Web Address**: **[https://parsisaz.github.io/parsisaz/](https://parsisaz.github.io/parsisaz/)**
-- **Source Directory**: All website assets and database tables reside inside the [`docs/`](./docs) folder.
-
----
-
-## 🎮 AAA & Featured Game Catalog Sample
-
-| Title | Year | Category | Status | Translation / Project Link |
-| :--- | :---: | :---: | :---: | :--- |
-| **Grand Theft Auto VI** | 2026 | AAA / Action | Planned 2026 | [ParsiSaz Hub](https://github.com/ParsiSaz) |
-| **The Elder Scrolls VI** | 2026+ | AAA / RPG | Planned 2026 | [ParsiSaz Hub](https://github.com/ParsiSaz) |
-| **Sid Meier's Civilization VI** | 2016 | AAA / Strategy | In Progress | [ParsiSaz Modding Hub](https://github.com/ParsiSaz) |
-| **Cyberpunk 2077: Phantom Liberty** | 2023 | AAA / RPG | Community Catalog | [ParsiSaz Glossary](https://github.com/ParsiSaz) |
-| **The Witcher 3: Wild Hunt** | 2022 | AAA / RPG | Community Catalog | [ParsiSaz Hub](https://github.com/ParsiSaz) |
-| **Kenshi** | 2018 | RPG / Sandbox | Stable | [`ParsiSaz/Kenshi-farsi`](https://github.com/ParsiSaz/Kenshi-farsi) |
-| **Project Zomboid** | 2021 | Survival / RPG | Active | [`ParsiSaz/Project-Zomboid-Game--Persian`](https://github.com/ParsiSaz/Project-Zomboid-Game--Persian) |
-| **Darkest Dungeon II** | 2023 | Roguelike | Stable | [`ParsiSaz/DarkestDungeon-2---Persian`](https://github.com/ParsiSaz/DarkestDungeon-2---Persian) |
-| **Software Inc.** | 2020 | Simulation | Stable | [`ParsiSaz/Software-Inc-Game---Persian`](https://github.com/ParsiSaz/Software-Inc-Game---Persian) |
-| **Oxygen Not Included** | 2019 | Colony Sim | Active | [`ParsiSaz/Oxygen-not-included-Persian`](https://github.com/ParsiSaz/Oxygen-not-included-Persian) |
-| **Stronghold: Warlords** | 2021 | RTS | Stable | [`ParsiSaz/Stronghold-Warlords---Persian`](https://github.com/ParsiSaz/Stronghold-Warlords---Persian) |
-| **Don't Starve Together** | 2016 | Survival | Active | [`ParsiSaz/Dont-Strave-together-Persian`](https://github.com/ParsiSaz/Dont-Strave-together-Persian) |
+- 🔍 **Interactive Game Search & Filters**: Filter across AAA titles (Civilization VI, The Witcher 3, Cyberpunk, 2026 releases) and community indie translations.
+- ⚠️ **Engine Challenges & RTL Hurdles**: Detailed breakdown of obstacles per title (such as reversed letter orders, missing font atlases, and disconnected cursive scripts).
+- 📁 **Instant Copyable Paths**: Direct file paths and step-by-step installation instructions for every supported game.
+- ⚙️ **Tool Ecosystem Directory**: Documentation for internal and open tools including `Parsik` (GUI mod manager) and `farsiSaz` (RTL font patcher).
 
 ---
 
-## 🛠️ ParsiSaz Tooling Ecosystem
+## 🛠️ Contributing Data or Translations
 
-- **`Parsik`**: Cross-platform desktop GUI manager to download, verify, and auto-install Persian game patches and fonts.
-- **`farsiSaz`**: Core reverse-engineering framework, script parser, and font atlas generator.
-- **`PersianTranslation_of_Apps_Games`**: Central repository for localization strings, PO files, and terminology glossaries.
+All portal data is driven by structured, open JSON files:
+1. [`docs/games-data.json`](./docs/games-data.json) - Game entries, technical challenges, engine limitations, and install guides.
+2. [`docs/apps-data.json`](./docs/apps-data.json) - Toolchain entries and desktop apps.
+
+To suggest a new game, report an engine limitation, or update translation progress, submit a Pull Request or open an issue on [ParsiSaz Hub](https://github.com/ParsiSaz).
 
 ---
 
-## 📜 How to Add or Update Games
-All game and tool data is clean JSON located in:
-1. [`docs/games-data.json`](./docs/games-data.json) - For game entries, release years, AAA tags, and translation links.
-2. [`docs/apps-data.json`](./docs/apps-data.json) - For GitHub tools and desktop apps.
-
-Submit a Pull Request with the updated entry. All PRs are reviewed and approved by [@DanialPahlavan](https://github.com/DanialPahlavan).
+<div align="center">
+  <sub>Founded & Maintained by <a href="https://github.com/DanialPahlavan">Danial Pahlavan</a>. All game trademarks belong to their respective publishers.</sub>
+</div>
