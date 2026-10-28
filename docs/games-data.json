@@ -3870,6 +3870,37 @@
     ]
   },
   {
+    "id": "far-cry-new-dawn",
+    "title": "Far Cry: New Dawn",
+    "year": 2019,
+    "category": "Post-Apocalyptic FPS / Open-World Action",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-new-dawn/",
+    "website": "https://www.ubisoft.com/game/far-cry/new-dawn",
+    "details": "Comprehensive Persian subtitles for Hope County's vibrant post-collapse battle against Mickey and Lou's Highwaymen.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Ubisoft Dunia Engine 2",
+    "challenges": [
+      "Dunia Engine .dat/.fat archive modification.",
+      "Radio station chatter, scavenge expedition logs, and weapon upgrade lore translation."
+    ],
+    "limitations": [
+      "PC Ubisoft Connect and Steam versions."
+    ],
+    "installPath": "<FarCryNewDawn_Dir>/data_final/pc/",
+    "installGuide": "1. Replace data files in data_final/pc with modded patch.\n2. Enable subtitles in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-new-dawn/"
+      }
+    ]
+  },
+  {
     "id": "heavy-rain",
     "title": "Heavy Rain",
     "year": 2019,
@@ -4368,6 +4399,37 @@
     ]
   },
   {
+    "id": "batman-the-enemy-within",
+    "title": "Batman: The Enemy Within",
+    "year": 2017,
+    "category": "Episodic Graphic Adventure / Superhero Noir",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/batman-the-enemy-within/",
+    "website": "https://www.telltale.com",
+    "details": "Complete Persian subtitles for Batman's undercover infiltration of the Pact and complex relationship with 'John Doe' / Joker.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Telltale Tool",
+    "challenges": [
+      "Telltale Tool archive modding.",
+      "Branching psychological relationship statuses translated into Persian."
+    ],
+    "limitations": [
+      "Complete Season 2 (Episodes 1-5)."
+    ],
+    "installPath": "<BatmanEnemyWithin_Dir>/Archives/",
+    "installGuide": "1. Copy patch files into Archives folder.\n2. Turn on subtitles in Options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/batman-the-enemy-within/"
+      }
+    ]
+  },
+  {
     "id": "hellblade-senuas-sacrifice",
     "title": "Hellblade: Senua's Sacrifice",
     "year": 2017,
@@ -4565,6 +4627,37 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/ghost-recon-wildlands-persian-subtitles/"
+      }
+    ]
+  },
+  {
+    "id": "batman-the-telltale-series",
+    "title": "Batman: The Telltale Series",
+    "year": 2016,
+    "category": "Episodic Graphic Adventure / Superhero Noir",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/batman-the-telltale-series/",
+    "website": "https://www.telltale.com",
+    "details": "Full Persian subtitles for Bruce Wayne's personal and political dilemmas contending with the Children of Arkham.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Telltale Tool",
+    "challenges": [
+      "Telltale Tool ttarch2 encryption handling.",
+      "Dual-persona dialogue choices (Bruce Wayne vs. Batman) translation."
+    ],
+    "limitations": [
+      "Complete Season (Episodes 1-5)."
+    ],
+    "installPath": "<BatmanTelltale_Dir>/Archives/",
+    "installGuide": "1. Extract patch into game Archives directory.\n2. Enable subtitles in Audio/Text settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/batman-the-telltale-series/"
       }
     ]
   },
@@ -5082,6 +5175,37 @@
     ]
   },
   {
+    "id": "watch-dogs",
+    "title": "Watch Dogs",
+    "year": 2014,
+    "category": "Cyberpunk Open-World / Hacker Action",
+    "status": "Complete",
+    "patchUrl": "https://persianlingo.ir/product/watch-dogs-persian-sub/",
+    "website": "https://www.ubisoft.com/game/watch-dogs",
+    "details": "Complete Persian subtitles for Aiden Pearce's ctOS hacking surveillance and vigilante revenge across Chicago.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Ubisoft Disrupt Engine",
+    "challenges": [
+      "Disrupt engine .dat/.fat localization archive extraction.",
+      "Mobile phone ctOS Profiler data, text messages, and audio logs translation."
+    ],
+    "limitations": [
+      "Compatible with PC Complete Edition."
+    ],
+    "installPath": "<WatchDogs_Dir>/data_win64/",
+    "installGuide": "1. Run PersianLingo installer or copy localized fat/dat files into data_win64.\n2. Turn on subtitles in Audio/Language menu.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/watch-dogs-persian-sub/"
+      }
+    ]
+  },
+  {
     "id": "assassins-creed-iv-black-flag",
     "title": "Assassin's Creed IV: Black Flag",
     "year": 2013,
@@ -5140,6 +5264,37 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/bioshock-infinite/"
+      }
+    ]
+  },
+  {
+    "id": "the-wolf-among-us",
+    "title": "The Wolf Among Us",
+    "year": 2013,
+    "category": "Neo-Noir Graphic Adventure / Fable Mystery",
+    "status": "Complete",
+    "patchUrl": "https://elaymedia.ir/Game/Details/105/",
+    "website": "https://www.telltale.com/the-wolf-among-us/",
+    "details": "Complete Persian subtitles for Bigby Wolf's gritty Fabletown murder mystery investigation across all 5 episodes.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Telltale Tool",
+    "challenges": [
+      "Telltale Tool ttarch archive unpacking.",
+      "Hard-boiled detective dialogue and fairy-tale lore adaptation into Persian."
+    ],
+    "limitations": [
+      "Complete Season 1 (Episodes 1-5)."
+    ],
+    "installPath": "<WolfAmongUs_Dir>/Pack/",
+    "installGuide": "1. Copy mod ttarch files into game Pack directory.\n2. Enable subtitles in Options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (ElayMedia)",
+        "url": "https://elaymedia.ir/Game/Details/105/"
       }
     ]
   },
@@ -5211,6 +5366,68 @@
     ]
   },
   {
+    "id": "max-payne-3",
+    "title": "Max Payne 3",
+    "year": 2012,
+    "category": "Neo-Noir Third-Person Shooter / Bullet Time Action",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/max-payne-3/",
+    "website": "https://www.rockstargames.com/maxpayne3",
+    "details": "Full Persian subtitles for Max Payne's gritty bodyguard assignment across São Paulo's favelas and night clubs.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Rockstar Advanced Game Engine (RAGE)",
+    "challenges": [
+      "Rockstar RAGE .rpf archive unpacking and Portuguese/English slang adaptation.",
+      "Cinematic kinetic subtitle typography rendering."
+    ],
+    "limitations": [
+      "PC Steam & Rockstar Games Launcher editions."
+    ],
+    "installPath": "<MaxPayne3_Dir>/",
+    "installGuide": "1. Extract patch into game root directory.\n2. Enable subtitles in Options > Display.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/max-payne-3/"
+      }
+    ]
+  },
+  {
+    "id": "resident-evil-6",
+    "title": "Resident Evil 6",
+    "year": 2012,
+    "category": "Action Survival Horror / Cinematic Campaign",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-6/",
+    "website": "https://www.residentevil.com",
+    "details": "Full Persian subtitle translation covering all 4 interlocking campaigns (Leon, Chris, Jake, and Ada Wong) against the C-Virus.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Capcom MT Framework 2.0",
+    "challenges": [
+      "MT Framework 2.0 msg and arc archive rebuilding.",
+      "Massive volume of cinematic dialogues and quick-time action cues."
+    ],
+    "limitations": [
+      "PC Steam Complete Edition."
+    ],
+    "installPath": "<RE6_Dir>/nativePC/",
+    "installGuide": "1. Extract patch into nativePC directory.\n2. Enable subtitles in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-6/"
+      }
+    ]
+  },
+  {
     "id": "assassins-creed-revelations",
     "title": "Assassin's Creed: Revelations",
     "year": 2011,
@@ -5238,6 +5455,37 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (PersianLingo)",
         "url": "https://persianlingo.ir/product/assassins-creed-revelations-persian-sub/"
+      }
+    ]
+  },
+  {
+    "id": "batman-arkham-city",
+    "title": "Batman: Arkham City",
+    "year": 2011,
+    "category": "Action-Adventure / Superhero Open-World",
+    "status": "Complete",
+    "patchUrl": "https://elaymedia.ir/Game/Details/213/",
+    "website": "https://www.warnerbros.com/games-and-apps/batman-arkham-city",
+    "details": "Comprehensive Persian subtitles for Bruce Wayne's survival inside the sprawling Arkham City super-prison against the Joker and Hugo Strange.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Modified Unreal Engine 3",
+    "challenges": [
+      "Rocksteady UPK package extraction.",
+      "Translating hundreds of Riddler audio tapes, environmental riddles, and criminal chatter."
+    ],
+    "limitations": [
+      "PC GOTY Edition."
+    ],
+    "installPath": "<ArkhamCity_Dir>/BmGame/CookedPC/",
+    "installGuide": "1. Install via ElayMedia downloader.\n2. Turn on subtitles in Audio menu.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (ElayMedia)",
+        "url": "https://elaymedia.ir/Game/Details/213/"
       }
     ]
   },
@@ -5304,6 +5552,37 @@
     ]
   },
   {
+    "id": "batman-arkham-asylum",
+    "title": "Batman: Arkham Asylum",
+    "year": 2009,
+    "category": "Action-Adventure / Superhero Metroidvania",
+    "status": "Complete",
+    "patchUrl": "https://elaymedia.ir/Game/Details/212/",
+    "website": "https://www.warnerbros.com/games-and-apps/batman-arkham-asylum",
+    "details": "Full Persian subtitles for Batman's intense lockdown on Arkham Island contending with Joker's Titan formula takeover.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Modified Unreal Engine 3",
+    "challenges": [
+      "Rocksteady UPK packaging and font atlas generation.",
+      "Arkham patient psychiatric interview tapes translation."
+    ],
+    "limitations": [
+      "PC GOTY Edition."
+    ],
+    "installPath": "<ArkhamAsylum_Dir>/BmGame/CookedPC/",
+    "installGuide": "1. Install patch via ElayMedia installer.\n2. Activate subtitles in Options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (ElayMedia)",
+        "url": "https://elaymedia.ir/Game/Details/212/"
+      }
+    ]
+  },
+  {
     "id": "plants-vs-zombies",
     "title": "Plants vs. Zombies",
     "year": 2009,
@@ -5331,6 +5610,37 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (FanSub)",
         "url": "https://fansub.ir/product/plants-vs-zombies-persian-sub/"
+      }
+    ]
+  },
+  {
+    "id": "resident-evil-5",
+    "title": "Resident Evil 5",
+    "year": 2009,
+    "category": "Co-op Action Survival Horror",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-5/",
+    "website": "https://www.residentevil.com",
+    "details": "Complete Persian subtitles for Chris Redfield and Sheva Alomar's mission in Kijuju to stop Albert Wesker's Uroboros virus.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Capcom MT Framework",
+    "challenges": [
+      "MT Framework .arc container extraction and Persian font texture injection.",
+      "Split-screen and co-op subtitle synchronization."
+    ],
+    "limitations": [
+      "PC Steam Gold Edition."
+    ],
+    "installPath": "<RE5_Dir>/nativePC/",
+    "installGuide": "1. Copy patch files into nativePC directory.\n2. Turn on subtitles in Options > Audio.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-5/"
       }
     ]
   },
@@ -5497,6 +5807,647 @@
         "type": "source",
         "label": "📦 Source",
         "url": "https://github.com/ParsiSaz/stronghold-crusader1-mods"
+      }
+    ]
+  },
+  {
+    "id": "gta-the-trilogy",
+    "title": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+    "year": 2021,
+    "category": "Open World Action-Adventure",
+    "status": "Available",
+    "patchUrl": "https://gamesub.net/product/%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d8%b3%d8%a7%d8%b2-gta-the-trilogy/",
+    "website": "https://www.rockstargames.com/GTATrilogy",
+    "details": "Remastered collection of genre-defining classics GTA III, Vice City, and San Andreas. Features Persian audio dubbing and full subtitle package on GameSub.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 .pak archive localization and audio asset replacement",
+      "Font styling across 3 distinct classic HUD styles"
+    ],
+    "limitations": [
+      "Requires matching game update version."
+    ],
+    "installPath": "<GTA_Trilogy_Folder>/Gameface/Content/Paks/~mods/",
+    "installGuide": "Copy the patch .pak files into the ~mods folder and select Persian audio/subtitles in settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Persian Dub & Sub (GameSub)",
+        "url": "https://gamesub.net/product/%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d8%b3%d8%a7%d8%b2-gta-the-trilogy/"
+      }
+    ]
+  },
+  {
+    "id": "stalker-2-heart-of-chornobyl",
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "year": 2024,
+    "category": "Survival Horror First-Person Shooter RPG",
+    "status": "Available",
+    "patchUrl": "https://farsisaz.com/product/stalker-2-heart-of-chornobyl/",
+    "website": "https://www.stalker2.com",
+    "details": "Next-gen post-apocalyptic journey into the Chornobyl Exclusion Zone. Full Persian translation including PDA diary entries, stalker dialogue, anomaly reports, and equipment descriptions.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 IoStore zen package localization",
+      "Dynamic PDA interface typography and inventory text formatting",
+      "Environmental signs and audio callout subtitle mapping"
+    ],
+    "limitations": [
+      "Requires matching update branch."
+    ],
+    "installPath": "<Stalker2_Folder>/Stalker2/Content/Paks/~mods/",
+    "installGuide": "Extract patch archives into the ~mods folder and enable Persian subtitles in audio settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Complete Translation (FarsiSaz)",
+        "url": "https://farsisaz.com/product/stalker-2-heart-of-chornobyl/"
+      },
+      {
+        "type": "paid",
+        "label": "🛒 Alternative Localization (GameSub)",
+        "url": "https://gamesub.net/product/stalker-2-heart-of-chornobyl/"
+      }
+    ]
+  },
+  {
+    "id": "until-dawn-remake",
+    "title": "Until Dawn Remake",
+    "year": 2024,
+    "category": "Interactive Drama Survival Horror",
+    "status": "Available",
+    "patchUrl": "https://farsisaz.com/product/until-dawn/",
+    "website": "https://www.playstation.com/games/until-dawn/",
+    "details": "Rebuilt from the ground up in Unreal Engine 5 on PC. Features eight friends trapped on Blackwood Mountain with butterfly effect decision tracking localized in Persian.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Butterfly-effect branching narrative logic and quick-time prompt sync",
+      "High-resolution cinematic subtitle font rendering in UE5"
+    ],
+    "limitations": [
+      "Requires licensed installer key from FarsiSaz."
+    ],
+    "installPath": "<UntilDawn_Folder>/Bates/Content/Paks/~mods/",
+    "installGuide": "Run installer and select game directory. Ensure subtitles are switched on in audio settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Full Remake Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/until-dawn/"
+      }
+    ]
+  },
+  {
+    "id": "spec-ops-the-line",
+    "title": "Spec Ops: The Line",
+    "year": 2012,
+    "category": "Third-Person Psychological Shooter",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-spec-ops-the-line/",
+    "website": "https://store.2k.com",
+    "details": "Acclaimed military psychological thriller exploring the devastation of Dubai. Complete Persian translation capturing complex character emotional shifts, military terminology, and moral choice prompts.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 3",
+    "challenges": [
+      "Unreal Engine 3 UPK package text substitution and checksum verification",
+      "BiDi Arabic/Persian shaping in Scaleform GFx flash UI"
+    ],
+    "limitations": [
+      "None. Compatible with standard PC digital and physical editions."
+    ],
+    "installPath": "<SpecOps_Folder>/SRGame/CookedPC/",
+    "installGuide": "Copy localized UPK files to CookedPC folder and enable subtitles in game settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-spec-ops-the-line/"
+      },
+      {
+        "type": "paid",
+        "label": "🛒 FanSub Launcher Edition (FanSub)",
+        "url": "https://fansub.ir/product/spec-ops-the-line/"
+      }
+    ]
+  },
+  {
+    "id": "hearts-of-iron-iv",
+    "title": "Hearts of Iron IV",
+    "year": 2016,
+    "category": "Grand Strategy Historical Warfare",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-hearts-of-iron-iv/",
+    "website": "https://www.paradoxinteractive.com/games/hearts-of-iron-iv",
+    "details": "Deep WWII grand strategy simulator by Paradox Development Studio. Full Persian localization by Paradox Persian team covering national focuses, events, diplomacy, decisions, and military trees.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Clausewitz Engine",
+    "challenges": [
+      "Clausewitz engine bitmap font replacement for Persian characters",
+      "Complex nested event variables and dynamic country name interpolation"
+    ],
+    "limitations": [
+      "Enable via Paradox Launcher Playsets before starting the game."
+    ],
+    "installPath": "Documents/Paradox Interactive/Hearts of Iron IV/mod/",
+    "installGuide": "Copy mod folder and descriptor to user Documents mod path, then enable Paradox Persian in the launcher playset.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Mod Package (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-hearts-of-iron-iv/"
+      }
+    ]
+  },
+  {
+    "id": "amnesia-the-bunker",
+    "title": "Amnesia: The Bunker",
+    "year": 2023,
+    "category": "First-Person Survival Horror",
+    "status": "Available",
+    "patchUrl": "https://elaymedia.ir/Game/Details/41454/",
+    "website": "https://frictionalgames.com/games/amnesia-the-bunker/",
+    "details": "First-person survival horror set in a desolate WWI French bunker with an adaptive monster stalking the player. Complete Persian translation on ElayMedia covering diary entries, maps, and radio logs.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "HPL Engine 3.5",
+    "challenges": [
+      "HPL engine XML text encoding and custom TTF font generation",
+      "Handwritten note textures and WWI document aesthetic preservation"
+    ],
+    "limitations": [
+      "Installation requires ElayMedia Downloader client."
+    ],
+    "installPath": "<Amnesia_Folder>/config/lang_main/",
+    "installGuide": "Deploy translation files through the ElayMedia client and verify subtitles in gameplay options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Full Persian Subtitle (ElayMedia)",
+        "url": "https://elaymedia.ir/Game/Details/41454/"
+      }
+    ]
+  },
+  {
+    "id": "outlast",
+    "title": "Outlast",
+    "year": 2013,
+    "category": "Survival Horror First-Person",
+    "status": "Available",
+    "patchUrl": "https://elaymedia.ir/Game/Details/92029/",
+    "website": "https://redbarrelsgames.com/games/outlast/",
+    "details": "Critically acclaimed asylum survival horror following journalist Miles Upshur. Complete Persian subtitle and notes translation on ElayMedia covering the base game and Whistleblower DLC.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 3.5",
+    "challenges": [
+      "Unreal Engine 3 localization table modifications",
+      "Camcorder battery and night-vision battery HUD text integration"
+    ],
+    "limitations": [
+      "Requires ElayMedia installer."
+    ],
+    "installPath": "<Outlast_Folder>/OLGame/CookedPCConsole/",
+    "installGuide": "Run installer to patch game files and activate subtitles in options menu.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Persian Subtitle + Whistleblower (ElayMedia)",
+        "url": "https://elaymedia.ir/Game/Details/92029/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-syndicate",
+    "title": "Assassin's Creed Syndicate",
+    "year": 2015,
+    "category": "Historical Action-Adventure Open World",
+    "status": "Available",
+    "patchUrl": "https://farsisaz.com/product/assassins-creed-syndicate/",
+    "website": "https://www.ubisoft.com/game/assassins-creed/syndicate",
+    "details": "Jacob and Evie Frye fight to liberate Victorian London during the Industrial Revolution. Full Persian translation by FarsiSaz covering all sequences, side investigations, and Jack the Ripper DLC.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "AnvilNext 2.0",
+    "challenges": [
+      "Ubisoft Anvil forge archive unpacking and subtitle track alignment",
+      "Victorian slang and historical glossary localization in Persian"
+    ],
+    "limitations": [
+      "Compatible with final updated PC editions."
+    ],
+    "installPath": "<ACS_Folder>/Localization/",
+    "installGuide": "Run FarsiSaz automated setup to configure font assets and enable subtitles in game.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Complete Translation (FarsiSaz)",
+        "url": "https://farsisaz.com/product/assassins-creed-syndicate/"
+      }
+    ]
+  },
+  {
+    "id": "the-stanley-parable-ultra-deluxe",
+    "title": "The Stanley Parable: Ultra Deluxe",
+    "year": 2022,
+    "category": "Narrative Exploration Meta-Comedy",
+    "status": "Available",
+    "patchUrl": "https://gameten.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-the-stanley-parable-ultra-deluxe/",
+    "website": "https://stanleyparable.com",
+    "details": "Expanded reimagining of the iconic meta-narrative comedy with completely new branches, content, and endings. Localized into Persian by Blue Dragon & ParsiNegar teams on GameTen.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity asset bundle text injection and narrator timing precision",
+      "Philosophical humor and wordplay localization into Persian"
+    ],
+    "limitations": [
+      "None. Works on modern PC versions."
+    ],
+    "installPath": "<StanleyParable_Folder>/TheStanleyParable_Data/",
+    "installGuide": "Copy translation assets into the game data directory and enable subtitles in audio settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameTen)",
+        "url": "https://gameten.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-the-stanley-parable-ultra-deluxe/"
+      }
+    ]
+  },
+  {
+    "id": "deadpool",
+    "title": "Deadpool",
+    "year": 2013,
+    "category": "Third-Person Hack-and-Slash Action Comedy",
+    "status": "Available",
+    "patchUrl": "https://persianlingo.ir/product/deadpool/",
+    "website": "https://store.steampowered.com/app/224060/Deadpool/",
+    "details": "Marvel's fourth-wall-breaking antihero in a comedy hack-and-slash adventure. Full Persian subtitle patch on PersianLingo delivering accurate comic humor and energetic dialogue.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 3",
+    "challenges": [
+      "Unreal Engine 3 localization package editing",
+      "Rapid pop-culture comedy reference localization with Persian equivalents"
+    ],
+    "limitations": [
+      "Requires activation key from PersianLingo."
+    ],
+    "installPath": "<Deadpool_Folder>/DPGame/CookedPC/",
+    "installGuide": "Run installer, select game installation path, and toggle subtitles ON.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Full Persian Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/deadpool/"
+      }
+    ]
+  },
+  {
+    "id": "hades-2",
+    "title": "Hades II",
+    "year": 2024,
+    "category": "Rogue-like Action Dungeon Crawler",
+    "status": "In Progress",
+    "patchUrl": "https://fansub.ir/product/hades-2/",
+    "website": "https://www.supergiantgames.com/games/hades-ii/",
+    "details": "Supergiant Games' mythological rogue-like sequel following Melinoë, Princess of the Underworld. Persian subtitle project managed via FanSub launcher.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Supergiant Custom C++ Engine",
+    "challenges": [
+      "Custom font glyph mapping for ancient Greek styled Persian typography",
+      "Dynamic boon dialogue conditional branching strings"
+    ],
+    "limitations": [
+      "Active development alongside Early Access updates."
+    ],
+    "installPath": "<HadesII_Folder>/Content/Game/Text/",
+    "installGuide": "Install via FanSub launcher for automatic version matching.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 FanSub Project (FanSub)",
+        "url": "https://fansub.ir/product/hades-2/"
+      }
+    ]
+  },
+  {
+    "id": "cronos-the-new-dawn",
+    "title": "Cronos: The New Dawn",
+    "year": 2025,
+    "category": "Third-Person Survival Horror Sci-Fi",
+    "status": "In Progress",
+    "patchUrl": "https://fansub.ir/product/cronos-the-new-dawn/",
+    "website": "https://cronosnewdawn.com",
+    "details": "Bloober Team's anticipated survival horror blending brutalist 1980s Poland with retro-futuristic time travel. Dedicated pre-launch Persian localization tracking on FanSub.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 text extraction and atmospheric font styling",
+      "Complex time-rift lore terminology translation"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<Cronos_Folder>/Cronos/Content/Paks/~mods/",
+    "installGuide": "Follow FanSub launcher instructions upon official release.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Pre-Release Project (FanSub)",
+        "url": "https://fansub.ir/product/cronos-the-new-dawn/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-shadows",
+    "title": "Assassin's Creed Shadows",
+    "year": 2025,
+    "category": "Historical Action-Adventure Open World",
+    "status": "In Progress",
+    "patchUrl": "https://farsisaz.com/product/assassins-creed-shadows/",
+    "website": "https://www.ubisoft.com/game/assassins-creed/shadows",
+    "details": "Feudal Japan epic tracking the intertwined stories of shinobi Naoe and samurai Yasuke. Persian localization in active development on FarsiSaz.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Ubisoft Anvil Pipeline",
+    "challenges": [
+      "Sengoku period Japanese cultural concepts and kanji-style Persian calligraphy",
+      "Dual protagonist dialogue branching and historical chronicle codex"
+    ],
+    "limitations": [
+      "Pre-order / in-progress localization."
+    ],
+    "installPath": "<ACShadows_Folder>/Localization/",
+    "installGuide": "Deploy through FarsiSaz client upon release.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Active Project (FarsiSaz)",
+        "url": "https://farsisaz.com/product/assassins-creed-shadows/"
+      }
+    ]
+  },
+  {
+    "id": "doom-the-dark-ages",
+    "title": "DOOM: The Dark Ages",
+    "year": 2025,
+    "category": "Dark Fantasy First-Person Shooter",
+    "status": "Planned",
+    "patchUrl": "#",
+    "website": "https://bethesda.net/game/doom-the-dark-ages",
+    "details": "Prequel origin story of the Doom Slayer featuring dark fantasy medieval war against Hell. Persian community localization planned.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "id Tech 8",
+    "challenges": [
+      "id Tech 8 asset extraction and codex UI rendering",
+      "Heavy metal dark fantasy typography design"
+    ],
+    "limitations": [
+      "Pending release."
+    ],
+    "installPath": "<DOOM_Folder>/base/",
+    "installGuide": "Patch will be available post-launch.",
+    "isPaid": false,
+    "progress": 0,
+    "links": [
+      {
+        "type": "soon",
+        "label": "⏳ Soon",
+        "url": "#",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "id": "ghost-of-yotei",
+    "title": "Ghost of Yōtei",
+    "year": 2025,
+    "category": "Feudal Japan Open World Action-Adventure",
+    "status": "Planned",
+    "patchUrl": "#",
+    "website": "https://www.playstation.com/games/ghost-of-yotei/",
+    "details": "Sucker Punch's epic successor set around Mount Yōtei in 1603 Japan following Atsu. Persian community localization planned upon PC release.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Sucker Punch Proprietary Engine",
+    "challenges": [
+      "Kurosawa-cinema style subtitle styling and Japanese haiku translation in Persian verse",
+      "Compass-less wind navigation and HUD string alignment"
+    ],
+    "limitations": [
+      "Pending PC release."
+    ],
+    "installPath": "<GhostOfYotei_Folder>/Localization/",
+    "installGuide": "Patch release planned following PC debut.",
+    "isPaid": false,
+    "progress": 0,
+    "links": [
+      {
+        "type": "soon",
+        "label": "⏳ Soon",
+        "url": "#",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "id": "monster-hunter-wilds",
+    "title": "Monster Hunter Wilds",
+    "year": 2025,
+    "category": "Action RPG Cooperative Monster Hunting",
+    "status": "Planned",
+    "patchUrl": "#",
+    "website": "https://www.monsterhunter.com/wilds/",
+    "details": "Capcom's next-generation hunting action in dynamic living ecosystems. Persian community translation planned.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "RE Engine",
+    "challenges": [
+      "RE Engine .msg text file parsing and BiDi formatting",
+      "Expansive monster taxonomy, weapon skills, and crafting glossary"
+    ],
+    "limitations": [
+      "Pending PC launch."
+    ],
+    "installPath": "<MHWilds_Folder>/reframework/autorun/",
+    "installGuide": "Patch planned via REFramework mod loader upon release.",
+    "isPaid": false,
+    "progress": 0,
+    "links": [
+      {
+        "type": "soon",
+        "label": "⏳ Soon",
+        "url": "#",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "id": "borderlands-4",
+    "title": "Borderlands 4",
+    "year": 2025,
+    "category": "Looter Shooter Action RPG Comedy",
+    "status": "Planned",
+    "patchUrl": "#",
+    "website": "https://borderlands.2k.com/borderlands-4/",
+    "details": "Gearbox's explosive next chapter in the looter-shooter franchise set on a mysterious new planet. Persian community translation planned.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 procedurally generated weapon names and comedic slang localization",
+      "Comic-book cell-shaded UI typography with custom Persian glyphs"
+    ],
+    "limitations": [
+      "Pending release."
+    ],
+    "installPath": "<Borderlands4_Folder>/OakGame/Content/Paks/~mods/",
+    "installGuide": "Patch release planned post-launch.",
+    "isPaid": false,
+    "progress": 0,
+    "links": [
+      {
+        "type": "soon",
+        "label": "⏳ Soon",
+        "url": "#",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "id": "the-witcher-remake",
+    "title": "The Witcher Remake",
+    "year": 2026,
+    "category": "Dark Fantasy Open World Action RPG",
+    "status": "Planned",
+    "patchUrl": "#",
+    "website": "https://www.cdprojektred.com",
+    "details": "Ground-up Unreal Engine 5 remake of the original 2007 classic starring Geralt of Rivia by Fool's Theory and CD Projekt Red. Persian localization planned.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 dialogue tree localization and Slavic myth lore consistency with Witcher 3 Persian glossaries",
+      "Alchemy formula and bestiary codex layout formatting"
+    ],
+    "limitations": [
+      "Pending release."
+    ],
+    "installPath": "<WitcherRemake_Folder>/Content/Localization/fa/",
+    "installGuide": "Community patch planned upon release.",
+    "isPaid": false,
+    "progress": 0,
+    "links": [
+      {
+        "type": "soon",
+        "label": "⏳ Soon",
+        "url": "#",
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "id": "the-evil-within",
+    "title": "The Evil Within",
+    "year": 2014,
+    "category": "Third-Person Survival Horror",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-the-evil-within/",
+    "website": "https://bethesda.net/game/the-evil-within",
+    "details": "Shinji Mikami's visceral survival horror journey following Detective Sebastian Castellanos into a distorted nightmare realm. Complete Persian subtitle translation covering all chapters, documents, and story DLCs.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "id Tech 5 (Tango Custom)",
+    "challenges": [
+      "id Tech 5 virtual texturing and binary string container extraction",
+      "Psychological horror diary entries and audio tape transcript localization"
+    ],
+    "limitations": [
+      "Ensure subtitles are toggled on in audio/display settings."
+    ],
+    "installPath": "<TheEvilWithin_Folder>/base/",
+    "installGuide": "Copy the patched localization files into the base game directory and enable subtitles in options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-the-evil-within/"
+      },
+      {
+        "type": "paid",
+        "label": "🛒 GameSub Edition (GameSub)",
+        "url": "https://gamesub.net/product/the-evil-within/"
+      }
+    ]
+  },
+  {
+    "id": "the-evil-within-2",
+    "title": "The Evil Within 2",
+    "year": 2017,
+    "category": "Third-Person Survival Horror Psychological",
+    "status": "Available",
+    "patchUrl": "https://gamesub.net/product/the-evil-within-2/",
+    "website": "https://bethesda.net/game/the-evil-within-2",
+    "details": "Sebastian Castellanos descends back into STEM to rescue his daughter Lily in the collapsing town of Union. Features full Persian subtitles across all open-ended exploration zones, communicator echoes, and cutscenes on GameSub.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "STEM Engine (Custom id Tech)",
+    "challenges": [
+      "STEM engine customized archive unpacking and font kerning injection",
+      "Radio communicator audio transcript synchronization with on-screen text"
+    ],
+    "limitations": [
+      "Requires matching PC patch version."
+    ],
+    "installPath": "<TheEvilWithin2_Folder>/base/",
+    "installGuide": "Install via GameSub patch installer and activate subtitles in options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "🛒 Full Persian Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/the-evil-within-2/"
       }
     ]
   }

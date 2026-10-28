@@ -144,6 +144,18 @@
     "details": "Multi-platform client-side encryption for cloud storages with comprehensive Persian UI localization."
   },
   {
+    "id": "cryptpad",
+    "name": "CryptPad",
+    "title": "CryptPad Encrypted Collaboration Suite",
+    "category": "Office & Productivity Suite",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/cryptpad/cryptpad",
+    "website": "https://cryptpad.org/",
+    "details": "Zero-knowledge collaborative privacy office suite with official Persian community localization on Crowdin.",
+    "i18nFormat": "Crowdin / JSON"
+  },
+  {
     "id": "czkawka",
     "name": "Czkawka",
     "title": "Czkawka Duplicate File Finder",
@@ -204,6 +216,18 @@
     "i18nFormat": "Crowdin / Flutter i18n"
   },
   {
+    "id": "f-droid",
+    "name": "F-Droid",
+    "title": "F-Droid Open Source App Repository",
+    "category": "System & Disk Utilities",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://gitlab.com/fdroid/fdroidclient",
+    "website": "https://f-droid.org/",
+    "details": "Installable catalogue of FOSS (Free and Open Source Software) applications with complete Persian translation.",
+    "i18nFormat": "Weblate / Android XML strings"
+  },
+  {
     "id": "farsisaz-framework",
     "title": "farsiSaz Framework",
     "category": "ParsiSaz Reverse Engineering",
@@ -252,6 +276,18 @@
     "i18nFormat": "Flutter ARB / JSON"
   },
   {
+    "id": "fossify-gallery",
+    "name": "Fossify Gallery",
+    "title": "Fossify Offline Photo & Video Gallery",
+    "category": "Image Editing & Design",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/FossifyOrg/Gallery",
+    "website": "https://github.com/FossifyOrg/Gallery/releases",
+    "details": "Privacy-friendly, customizable offline photo and video gallery with full Persian translation.",
+    "i18nFormat": "Crowdin / Android XML strings"
+  },
+  {
     "name": "FreeCAD",
     "title": "FreeCAD 3D Modeler",
     "category": "3D CAD & Engineering",
@@ -286,6 +322,18 @@
     "details": "Open-source raster graphics editor with Persian translation via GNOME Damned Lies.",
     "i18nFormat": "Gettext PO",
     "name": "GIMP (GNU Image Manipulation)"
+  },
+  {
+    "id": "gitea",
+    "name": "Gitea",
+    "title": "Gitea Git with a Cup of Tea",
+    "category": "Developer Tools",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/go-gitea/gitea",
+    "website": "https://about.gitea.com/",
+    "details": "Painless self-hosted Git service written in Go with full Persian community translation.",
+    "i18nFormat": "Crowdin / INI locale files"
   },
   {
     "id": "godot-engine",
@@ -394,6 +442,18 @@
     "repoUrl": "https://invent.kde.org/utilities/kate",
     "website": "https://kate-editor.org/",
     "details": "Feature-rich multi-document text and code editor from KDE with full BiDi Persian interface and right-to-left syntax highlighting."
+  },
+  {
+    "id": "kdenlive",
+    "name": "Kdenlive",
+    "title": "Kdenlive Non-Linear Video Editor",
+    "category": "Video Editing & Post-Production",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://invent.kde.org/multimedia/kdenlive",
+    "website": "https://kdenlive.org/primary/",
+    "details": "Free and open-source non-linear video editor powered by MLT and KDE with complete Persian gettext translation.",
+    "i18nFormat": "KDE Localization / GNU gettext (.po)"
   },
   {
     "id": "keepass",
@@ -574,6 +634,18 @@
     "repoUrl": "https://github.com/MatsuriDayo/nekoray",
     "website": "https://github.com/MatsuriDayo/nekoray",
     "details": "Qt-based cross-platform GUI proxy client for Windows and Linux supporting sing-box and Xray cores with community Persian localization."
+  },
+  {
+    "id": "newpipe",
+    "name": "NewPipe",
+    "title": "NewPipe Lightweight Media Frontend",
+    "category": "Multimedia & Playback",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/TeamNewPipe/NewPipe",
+    "website": "https://newpipe.net/",
+    "details": "Lightweight open-source streaming frontend with comprehensive Persian language support.",
+    "i18nFormat": "Weblate / Android XML strings"
   },
   {
     "name": "Nextcloud Desktop",
@@ -924,6 +996,18 @@
     "name": "VLC Media Player"
   },
   {
+    "id": "vorta",
+    "name": "Vorta for BorgBackup",
+    "title": "Vorta BorgBackup Desktop GUI",
+    "category": "System & Disk Utilities",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/borgbase/vorta",
+    "website": "https://vorta.borgbase.com/",
+    "details": "Open-source desktop backup client for BorgBackup with official Persian translation.",
+    "i18nFormat": "Weblate / Qt Linguist (.ts)"
+  },
+  {
     "id": "vscodium",
     "name": "VSCodium",
     "title": "VSCodium Telemetry-Free Code Editor",
@@ -982,5 +1066,137 @@
     "website": "https://www.zotero.org/",
     "details": "Free, open-source tool to help you collect, organize, annotate, cite, and share research with Persian localization.",
     "i18nFormat": "Transifex / Mozilla DTD & Properties"
+  },
+  {
+    "id": "v2raya",
+    "name": "v2rayA",
+    "title": "v2rayA Web GUI Client",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/v2rayA/v2rayA",
+    "website": "https://v2raya.org/",
+    "details": "Linux web GUI client supporting Xray core and V2Ray core with transparent proxy and native Persian translation in gui/src/locales/fa-ir.js.",
+    "i18nFormat": "Vue I18n JS"
+  },
+  {
+    "id": "adguard-home",
+    "name": "AdGuard Home",
+    "title": "AdGuard Home Network DNS Blocker",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/AdguardTeam/AdGuardHome",
+    "website": "https://adguard.com/adguard-home.html",
+    "details": "Network-wide software for blocking ads, tracking, and telemetry across all devices. Features full Persian dashboard localization in client/src/__locales/fa.json.",
+    "i18nFormat": "JSON Key-Value"
+  },
+  {
+    "id": "sagernet",
+    "name": "SagerNet",
+    "title": "SagerNet Universal Proxy Toolchain",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/SagerNet/SagerNet",
+    "website": "https://sagernet.org/",
+    "details": "Universal proxy toolchain for Android based on V2Ray, Shadowsocks, and WireGuard. Fully localized in Persian with Android XML strings.",
+    "i18nFormat": "Android XML strings"
+  },
+  {
+    "id": "oblivion-desktop",
+    "name": "Oblivion Desktop",
+    "title": "Oblivion Desktop Anti-Censorship Client",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/bepass-org/oblivion-desktop",
+    "website": "https://github.com/bepass-org/oblivion-desktop/releases",
+    "details": "Unofficial Cloudflare WARP client for Windows, macOS, and Linux built to bypass internet censorship with native Persian UI and RTL support.",
+    "i18nFormat": "JSON / Vue I18n"
+  },
+  {
+    "id": "invizible-pro",
+    "name": "InviZible Pro",
+    "title": "InviZible Pro Privacy & Security Suite",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/Gedsh/InviZible",
+    "website": "https://invizible.net/",
+    "details": "Comprehensive Android privacy tool uniting DNSCrypt, Tor, and Purple I2P. Fully localized in Persian via Weblate community translations.",
+    "i18nFormat": "Android XML strings"
+  },
+  {
+    "id": "openvpn-gui",
+    "name": "OpenVPN GUI",
+    "title": "OpenVPN GUI for Windows",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/OpenVPN/openvpn-gui",
+    "website": "https://openvpn.net/community-downloads/",
+    "details": "Official Windows GUI for OpenVPN with native Persian dialog localization and bidirectional layout support via openvpn-gui-res-fa.rc.",
+    "i18nFormat": "Windows RC Resource"
+  },
+  {
+    "id": "freetube",
+    "name": "FreeTube",
+    "title": "FreeTube Private YouTube Desktop Player",
+    "category": "Multimedia & Playback",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/FreeTubeApp/FreeTube",
+    "website": "https://freetubeapp.io/",
+    "details": "Open-source privacy-focused desktop player for YouTube without tracking or ads. Features complete Persian language translation and RTL layout on Weblate.",
+    "i18nFormat": "Weblate JSON"
+  },
+  {
+    "id": "geany",
+    "name": "Geany",
+    "title": "Geany Fast & Lightweight IDE",
+    "category": "Text & Code Editors",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/geany/geany",
+    "website": "https://www.geany.org/",
+    "details": "Lightweight GTK text editor and integrated development environment with comprehensive Persian translation maintained in po/fa.po.",
+    "i18nFormat": "GNU gettext PO"
+  },
+  {
+    "id": "jitsi-meet",
+    "name": "Jitsi Meet",
+    "title": "Jitsi Meet Video Conferencing Platform",
+    "category": "Communication & Messaging",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/jitsi/jitsi-meet",
+    "website": "https://jitsi.org/",
+    "details": "Secure, fully encrypted 100% open-source video conferencing solution. Fully translated into Persian in lang/main-fa.json.",
+    "i18nFormat": "i18next JSON"
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost",
+    "title": "Mattermost Secure Team Collaboration Platform",
+    "category": "Communication & Messaging",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/mattermost/mattermost",
+    "website": "https://mattermost.com/",
+    "details": "Open-source secure collaboration platform for technical and operational teams. Localized in Persian with RTL support maintained on Weblate.",
+    "i18nFormat": "Weblate JSON"
+  },
+  {
+    "id": "kde-connect",
+    "name": "KDE Connect",
+    "title": "KDE Connect Device Integration & Sync",
+    "category": "System & Disk Utilities",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://invent.kde.org/network/kdeconnect-kde",
+    "website": "https://kdeconnect.kde.org/",
+    "details": "Seamless wireless device communication between desktop and phone (clipboard sync, notifications, file transfers) with Persian translation in KDE i18n.",
+    "i18nFormat": "GNU gettext PO"
   }
 ]
