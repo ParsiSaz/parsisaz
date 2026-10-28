@@ -274,6 +274,37 @@
       border-bottom: 1px solid var(--card-border);
     }
 
+    .sortable-th {
+      cursor: pointer;
+      user-select: none;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+
+    .sortable-th:hover {
+      background: rgba(0, 242, 254, 0.08);
+      color: var(--accent);
+    }
+
+    .sort-icon {
+      display: inline-block;
+      font-size: 0.72rem;
+      margin-left: 0.35rem;
+      color: var(--text-muted);
+      vertical-align: middle;
+      opacity: 0.6;
+    }
+
+    .sortable-th.active-sort {
+      color: #fff;
+    }
+
+    .sortable-th.active-sort .sort-icon {
+      color: var(--accent);
+      opacity: 1;
+      font-weight: 800;
+    }
+
     td {
       padding: 1.1rem 1.25rem;
       border-bottom: 1px solid rgba(255, 255, 255, 0.04);
@@ -865,13 +896,13 @@
         <table>
           <thead>
             <tr>
-              <th>Game Title</th>
-              <th>Year</th>
-              <th>Type</th>
-              <th>Engine / Category</th>
-              <th>Status / Progress</th>
-              <th>Patch & Description</th>
-              <th>Actions / Downloads</th>
+              <th onclick="toggleSort('title')" class="sortable-th" id="th-title">Game Title <span class="sort-icon">↕</span></th>
+              <th onclick="toggleSort('year')" class="sortable-th active-sort" id="th-year">Year <span class="sort-icon">▼</span></th>
+              <th onclick="toggleSort('type')" class="sortable-th" id="th-type">Type <span class="sort-icon">↕</span></th>
+              <th onclick="toggleSort('engine')" class="sortable-th" id="th-engine">Engine / Category <span class="sort-icon">↕</span></th>
+              <th onclick="toggleSort('progress')" class="sortable-th" id="th-progress">Status / Progress <span class="sort-icon">↕</span></th>
+              <th onclick="toggleSort('details')" class="sortable-th" id="th-details">Patch & Description <span class="sort-icon">↕</span></th>
+              <th onclick="toggleSort('links')" class="sortable-th" id="th-links">Actions / Downloads <span class="sort-icon">↕</span></th>
             </tr>
           </thead>
           <tbody id="gamesTableBody">
@@ -972,6 +1003,38 @@
     let currentAppFilter = 'all';
     let currentYearFilter = 'all';
 
+    // Sorting state (default: year descending)
+    let sortColumn = 'year';
+    let sortDirection = 'desc';
+
+    function toggleSort(col) {
+      if (sortColumn === col) {
+        sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+      } else {
+        sortColumn = col;
+        sortDirection = (col === 'year' || col === 'progress') ? 'desc' : 'asc';
+      }
+      updateSortHeaderIcons();
+      gamesPage = 1;
+      applyFilterAndSearch();
+    }
+
+    function updateSortHeaderIcons() {
+      const cols = ['title', 'year', 'type', 'engine', 'progress', 'details', 'links'];
+      cols.forEach(col => {
+        const th = document.getElementById(`th-${col}`);
+        if (!th) return;
+        const icon = th.querySelector('.sort-icon');
+        if (col === sortColumn) {
+          th.classList.add('active-sort');
+          if (icon) icon.innerText = sortDirection === 'asc' ? '▲' : '▼';
+        } else {
+          th.classList.remove('active-sort');
+          if (icon) icon.innerText = '↕';
+        }
+      });
+    }
+
     // Pagination state
     let gamesPage = 1;
     let appsPage = 1;
@@ -1069,6 +1132,7 @@
         if (gamesBadge) gamesBadge.innerText = gamesData.length;
         if (appsBadge) appsBadge.innerText = appsData.length;
 
+        updateSortHeaderIcons();
         applyFilterAndSearch();
       } catch (err) {
         console.error('Failed to load portal data:', err);
@@ -1453,8 +1517,44 @@
           return matchFilter && matchYear && matchQuery;
         });
 
-        // Automatically sort every display in descending order by year (newest first)
-        filtered.sort((a, b) => (b.year || 0) - (a.year || 0));
+        // Sort items according to active sortColumn and sortDirection
+        filtered.sort((a, b) => {
+          let res = 0;
+          if (sortColumn === 'year') {
+            res = (a.year || 0) - (b.year || 0);
+          } else if (sortColumn === 'title') {
+            res = (a.title || '').localeCompare(b.title || '');
+          } else if (sortColumn === 'type') {
+            res = (a.distributionType || '').localeCompare(b.distributionType || '');
+          } else if (sortColumn === 'engine') {
+            const ea = `${a.engine || ''} ${a.category || ''}`;
+            const eb = `${b.engine || ''} ${b.category || ''}`;
+            res = ea.localeCompare(eb);
+          } else if (sortColumn === 'progress') {
+            const pa = (a.progress !== undefined && a.progress !== null) ? a.progress : 100;
+            const pb = (b.progress !== undefined && b.progress !== null) ? b.progress : 100;
+            res = pa - pb;
+            if (res === 0) res = (a.status || '').localeCompare(b.status || '');
+          } else if (sortColumn === 'details') {
+            res = (a.details || '').localeCompare(b.details || '');
+          } else if (sortColumn === 'links') {
+            const la = (a.links && a.links.length > 0) ? a.links.map(l => l.label).join(' ') : (a.patchUrl || '');
+            const lb = (b.links && b.links.length > 0) ? b.links.map(l => l.label).join(' ') : (b.patchUrl || '');
+            res = la.localeCompare(lb);
+          }
+
+          if (sortDirection === 'desc') res = -res;
+
+          // Deterministic tie-breakers
+          if (res === 0 && sortColumn !== 'year') {
+            res = (b.year || 0) - (a.year || 0);
+          }
+          if (res === 0 && sortColumn !== 'title') {
+            res = (a.title || '').localeCompare(b.title || '');
+          }
+
+          return res;
+        });
 
         renderGames(filtered);
       } else {
