@@ -442,5 +442,65 @@
     "repoUrl": "https://github.com/ventoy/Ventoy",
     "website": "https://www.ventoy.net/",
     "details": "Open-source tool to create bootable USB drives with multi-ISO boot menus and Persian language interface."
+  },
+  {
+    "id": "openwrt-passwall2",
+    "name": "PassWall2",
+    "title": "OpenWrt PassWall2 (luci-app-passwall2)",
+    "category": "Network",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Gettext PO / LuCI",
+    "repoUrl": "https://github.com/Openwrt-Passwall/openwrt-passwall2",
+    "website": "https://github.com/Openwrt-Passwall/openwrt-passwall2",
+    "details": "Feature-rich LuCI web proxy application for OpenWrt routers providing advanced rule routing, gateway management, and access control with comprehensive Persian (po/fa) localization."
+  },
+  {
+    "id": "openwrt-luci",
+    "name": "OpenWrt LuCI",
+    "title": "OpenWrt LuCI Web Interface",
+    "category": "Network",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Gettext PO",
+    "repoUrl": "https://github.com/openwrt/luci",
+    "website": "https://openwrt.org/",
+    "details": "The official standard web administration interface for OpenWrt routers, providing extensive Persian language packs (luci-i18n-base-fa)."
+  },
+  {
+    "id": "hiddify-app",
+    "name": "Hiddify",
+    "title": "Hiddify Multi-Platform Proxy Client",
+    "category": "Network",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Flutter ARB / Weblate",
+    "repoUrl": "https://github.com/hiddify/hiddify-app",
+    "website": "https://hiddify.com/",
+    "details": "Multi-platform auto-proxy routing client supporting Sing-box, Xray, and V2Ray with complete Persian UI translation and full RTL layout."
+  },
+  {
+    "id": "v2rayn",
+    "name": "v2rayN",
+    "title": "v2rayN Windows Client",
+    "category": "Network",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "WPF XAML / JSON",
+    "repoUrl": "https://github.com/2dust/v2rayN",
+    "website": "https://github.com/2dust/v2rayN",
+    "details": "Popular Windows GUI client for V2Ray, Xray, and Trojan network protocols featuring community Persian translation."
+  },
+  {
+    "id": "nekoray",
+    "name": "NekoRay",
+    "title": "NekoRay / NekoBox",
+    "category": "Network",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Qt TS / JSON",
+    "repoUrl": "https://github.com/MatsuriDayo/nekoray",
+    "website": "https://github.com/MatsuriDayo/nekoray",
+    "details": "Qt-based cross-platform GUI proxy client for Windows and Linux supporting sing-box and Xray cores with community Persian localization."
   }
 ]

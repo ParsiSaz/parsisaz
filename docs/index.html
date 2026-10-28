@@ -848,7 +848,7 @@
         🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">73</span>
       </button>
       <button class="view-btn" id="viewAppsBtn" onclick="switchView('apps')">
-        📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">37</span>
+        📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">42</span>
       </button>
     </div>
 
@@ -881,6 +881,7 @@
       <div class="filter-tabs" id="appFilterTabs" style="display: none;">
         <button class="tab-btn active" data-appfilter="all">All Apps</button>
         <button class="tab-btn" data-appfilter="opensource">🔓 Open Source</button>
+        <button class="tab-btn" data-appfilter="network">🌐 Network</button>
         <button class="tab-btn" data-appfilter="media">🎬 Media & Video</button>
         <button class="tab-btn" data-appfilter="productivity">💼 Productivity & Dev</button>
         <button class="tab-btn" data-appfilter="system">⚙️ System & Utilities</button>
@@ -1605,6 +1606,7 @@
           const title = (app.title || app.name || '').toLowerCase();
 
           if (currentAppFilter === 'opensource') matchFilter = distType.includes('opensource') || distType.includes('open-source');
+          else if (currentAppFilter === 'network') matchFilter = cat.includes('network') || cat.includes('proxy') || cat.includes('routing') || cat.includes('gateway') || cat.includes('bittorrent');
           else if (currentAppFilter === 'media') matchFilter = cat.includes('media') || cat.includes('video') || cat.includes('audio') || cat.includes('broadcasting') || cat.includes('graphics') || cat.includes('playback');
           else if (currentAppFilter === 'productivity') matchFilter = cat.includes('dev') || cat.includes('editor') || cat.includes('code') || cat.includes('graphics') || cat.includes('animation') || cat.includes('office');
           else if (currentAppFilter === 'system') matchFilter = cat.includes('system') || cat.includes('utility') || cat.includes('network') || cat.includes('compression') || cat.includes('security');
