@@ -517,6 +517,15 @@
       border-color: #10b981;
     }
 
+    .btn-disabled {
+      opacity: 0.55;
+      cursor: not-allowed !important;
+      pointer-events: none;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px dashed rgba(255, 255, 255, 0.25);
+      color: var(--text-muted);
+    }
+
     /* Progress bar styling */
     .progress-container {
       display: flex;
@@ -836,10 +845,10 @@
     <!-- Main View Switcher (Games vs Apps) -->
     <div class="view-switcher">
       <button class="view-btn active" id="viewGamesBtn" onclick="switchView('games')">
-        🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">59</span>
+        🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">73</span>
       </button>
       <button class="view-btn" id="viewAppsBtn" onclick="switchView('apps')">
-        📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">27</span>
+        📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">37</span>
       </button>
     </div>
 
@@ -1268,6 +1277,9 @@
         if (g.links && Array.isArray(g.links) && g.links.length > 0) {
           actionBtnsHtml += g.links.map(l => {
             const ltype = (l.type || '').toLowerCase();
+            if (ltype === 'soon' || l.disabled) {
+              return `<span class="action-btn btn-disabled" title="Translation not available yet — coming soon">${l.label || '⏳ Soon'}</span>`;
+            }
             let btnClass = 'btn-free';
             if (ltype === 'paid') btnClass = 'btn-paid';
             else if (ltype === 'source') btnClass = 'btn-source';
@@ -1278,7 +1290,9 @@
         } else {
           const dt = (g.distributionType || '').toLowerCase();
           const pUrl = (g.patchUrl || '').toLowerCase();
-          if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
+          if (g.status === 'Planned' || g.progress === 0) {
+            actionBtnsHtml += `<span class="action-btn btn-disabled" title="Translation in preparation — coming soon">⏳ Soon</span>`;
+          } else if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
             actionBtnsHtml += `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-source" title="View Source Repository">📦 Source</a>`;
           } else if (dt.includes('official')) {
             actionBtnsHtml += `<a href="${g.patchUrl || g.website}" target="_blank" class="action-btn btn-official" title="Visit Official Page">🌐 Official Page</a>`;
@@ -1448,11 +1462,14 @@
       // Guide
       document.getElementById('modalGuide').innerText = g.installGuide || 'Refer to repository README for specific instructions.';
 
-      // Links (Support multi-links)
+      // Links (Support multi-links and disabled/coming soon)
       const links = document.getElementById('modalLinks');
       if (g.links && Array.isArray(g.links) && g.links.length > 0) {
         links.innerHTML = g.links.map(l => {
           const ltype = (l.type || '').toLowerCase();
+          if (ltype === 'soon' || l.disabled) {
+            return `<span class="action-btn btn-disabled" style="opacity: 0.6; cursor: not-allowed;">${l.label || '⏳ Translation Coming Soon'}</span>`;
+          }
           let btnStyle = 'background: #10b981; color: #000; font-weight: 700;';
           if (ltype === 'paid') {
             btnStyle = 'background: #ef4444; color: #fff; font-weight: 700;';
@@ -1464,26 +1481,31 @@
           return `<a href="${l.url}" target="_blank" class="action-btn" style="${btnStyle}">${l.label} ↗</a>`;
         }).join('') + (g.website && !g.links.some(l => l.url === g.website) ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : '');
       } else {
-        const dt = (g.distributionType || '').toLowerCase();
-        const pUrl = (g.patchUrl || '').toLowerCase();
-        let actionText = '⬇️ Download (Free)';
-        let btnStyle = 'background: #10b981; color: #000; font-weight: 700;';
+        if (g.status === 'Planned' || g.progress === 0) {
+          links.innerHTML = `<span class="action-btn btn-disabled" style="opacity: 0.6; cursor: not-allowed;">⏳ Translation Coming Soon</span>` +
+            (g.website ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : '');
+        } else {
+          const dt = (g.distributionType || '').toLowerCase();
+          const pUrl = (g.patchUrl || '').toLowerCase();
+          let actionText = '⬇️ Download (Free)';
+          let btnStyle = 'background: #10b981; color: #000; font-weight: 700;';
 
-        if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
-          actionText = '📦 Open Repository →';
-          btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
-        } else if (dt.includes('official')) {
-          actionText = '🌐 Official Page ↗';
-          btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
-        } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
-          actionText = '💳 Download (Paid) ↗';
-          btnStyle = 'background: #ef4444; color: #fff; font-weight: 700;';
+          if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
+            actionText = '📦 Open Repository →';
+            btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
+          } else if (dt.includes('official')) {
+            actionText = '🌐 Official Page ↗';
+            btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
+          } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
+            actionText = '💳 Download (Paid) ↗';
+            btnStyle = 'background: #ef4444; color: #fff; font-weight: 700;';
+          }
+
+          links.innerHTML = `
+            <a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" style="${btnStyle}">${actionText}</a>
+            ${g.website && g.website !== g.patchUrl ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
+          `;
         }
-
-        links.innerHTML = `
-          <a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" style="${btnStyle}">${actionText}</a>
-          ${g.website && g.website !== g.patchUrl ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
-        `;
       }
 
       document.getElementById('detailModal').classList.add('open');
