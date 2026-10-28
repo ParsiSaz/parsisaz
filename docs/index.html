@@ -847,8 +847,9 @@
 
       tbody.innerHTML = items.map((g, idx) => {
         const dt = (g.distributionType || '').toLowerCase();
+        const pUrl = (g.patchUrl || '').toLowerCase();
         let actionBtnHtml = '';
-        if (dt.includes('opensource') || dt.includes('open-source')) {
+        if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
           actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn" title="View Source Repository">📦 Source</a>`;
         } else if (dt.includes('official')) {
           actionBtnHtml = `<a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" title="Visit Official Page">🌐 Official Page</a>`;
@@ -987,8 +988,9 @@
       // Links
       const links = document.getElementById('modalLinks');
       const dt = (g.distributionType || '').toLowerCase();
+      const pUrl = (g.patchUrl || '').toLowerCase();
       let actionText = '⬇️ External Download';
-      if (dt.includes('opensource') || dt.includes('open-source')) {
+      if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
         actionText = '📦 Open Repository →';
       } else if (dt.includes('official')) {
         actionText = '🌐 Official Page ↗';
