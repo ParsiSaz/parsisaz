@@ -154,6 +154,11 @@
         "type": "free",
         "label": "⬇️ Pre-Release Project (Poormaz)",
         "url": "https://poormaz.com/gears-of-war-e-day-persian-subtitles/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39282/gears-of-war-e-day-farsisaz/"
       }
     ]
   },
@@ -250,6 +255,11 @@
         "type": "free",
         "label": "⬇️ Pre-Release Project (Poormaz)",
         "url": "https://poormaz.com/marvels-wolverine-persian-subtitle/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39396/marvels-wolverine-farsisaz-ps5/"
       }
     ]
   },
@@ -290,10 +300,10 @@
     "title": "Pragmata",
     "year": 2026,
     "category": "Sci-Fi / Action-Adventure",
-    "status": "Planned",
-    "patchUrl": "#",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/38297/pragmata-farsisaz/",
     "website": "https://www.capcom-games.com/pragmata/",
-    "details": "Dystopian near-future lunar adventure from Capcom. Persian interface and subtitle injection planned.",
+    "details": "Dystopian near-future lunar adventure from Capcom. Persian localization in active development on GameQ.",
     "isAAA": true,
     "distributionType": "mod",
     "engine": "RE Engine",
@@ -307,13 +317,12 @@
     "installPath": "<Game_Directory>/natives/x64/",
     "installGuide": "1. Mod will use standard Fluffy Mod Manager / loose native files.\n2. Detailed instructions provided upon launch.",
     "isPaid": false,
-    "progress": 0,
+    "progress": 50,
     "links": [
       {
-        "type": "soon",
-        "label": "⏳ Soon",
-        "url": "#",
-        "disabled": true
+        "type": "free",
+        "label": "⬇️ Pre-Release Subtitle (GameQ)",
+        "url": "https://gameq.ir/38297/pragmata-farsisaz/"
       }
     ]
   },
@@ -345,6 +354,11 @@
         "type": "free",
         "label": "⬇️ Pre-Release Project (RozeGame)",
         "url": "https://rozegame.ir/replaced/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38454/replaced-farsisaz/"
       }
     ]
   },
@@ -532,6 +546,11 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/007-first-light-persian-subtitles/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38376/007-first-light-farsisaz/"
       }
     ]
   },
@@ -593,6 +612,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (Poormaz)",
         "url": "https://poormaz.com/crimson-desert-persian-subtitles/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38666/crimson-desert-farsisaz/"
       }
     ]
   },
@@ -624,6 +648,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (Poormaz)",
         "url": "https://poormaz.com/gothic-1-remake-persian-subtitle-farsi-localization/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38654/gothic-1-remake-farsisaz/"
       }
     ]
   },
@@ -655,6 +684,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (Poormaz)",
         "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-hollow-knight-silksong/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/35924/hollow-knight-silksong-farsisaz/"
       }
     ]
   },
@@ -727,6 +761,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/mafia-the-old-country/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38023/mafia-the-old-country-farsisaz/"
       }
     ]
   },
@@ -758,6 +797,11 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/silent-hill-townfall-persian-subtitles/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39129/silent-hill-townfall-farsisaz/"
       }
     ]
   },
@@ -789,6 +833,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (Poormaz)",
         "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%88-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-the-sinking-city-2/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38879/the-sinking-city-2-farsisaz/"
       }
     ]
   },
@@ -985,6 +1034,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle",
         "url": "https://gamesub.net/control/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39159/control-resonant-farsisaz/"
       }
     ]
   },
@@ -1082,6 +1136,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/ghost-of-tsushima-persian-sub/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39596/ghost-of-tsushima-farsisaz/"
       }
     ]
   },
@@ -1220,6 +1279,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (PersianLingo)",
         "url": "https://persianlingo.ir/product/indika-persian-sub/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32616/indika-farsisaz/"
       }
     ]
   },
@@ -1602,6 +1666,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle",
         "url": "https://gamesub.net/silent-hill-2/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/31468/silent-hill-2-remake-farsisaz/"
       }
     ]
   },
@@ -1730,6 +1799,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/the-last-of-us-part-2/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/36962/the-last-of-us-part-2-farsisaz/"
       }
     ]
   },
@@ -1926,6 +2000,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/assassins-creed-mirage/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/31768/assassins-creed-mirage-farsisaz/"
       }
     ]
   },
@@ -2306,6 +2385,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/resident-evil-4-remake/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/24988/resident-evil-4-remake-farsisaz/"
       }
     ]
   },
@@ -2347,6 +2431,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/star-wars-jedi-survivor/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38967/star-wars-jedi-survivor-farsisaz/"
       }
     ]
   },
@@ -2451,6 +2540,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle",
         "url": "https://gamesub.net/the-last-of-us-part-i/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37089/the-last-of-us-part-1-farsisaz/"
       }
     ]
   },
@@ -2631,6 +2725,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle",
         "url": "https://gamesub.net/god-of-war/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/16987/god-of-war-farsisaz/"
       }
     ]
   },
@@ -2796,6 +2895,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/callisto-protocol/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32625/the-callisto-protocol-farsisaz/"
       }
     ]
   },
@@ -3126,6 +3230,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/it-takes-two/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32572/it-takes-two-farsisaz/"
       }
     ]
   },
@@ -3162,6 +3271,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/life-is-strange-true-colors/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/36327/life-is-strange-true-colors-farsisaz/"
       }
     ]
   },
@@ -3271,6 +3385,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/resident-evil-village/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/24520/resident-evil-village-farsisaz/"
       }
     ]
   },
@@ -3519,6 +3638,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/mafia-definitive-edition/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/31613/mafia-definitive-edition-farsisaz/"
       }
     ]
   },
@@ -3659,6 +3783,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/resident-evil-3-remake/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/4423/resident-evil-3-farsisaz/"
       }
     ]
   },
@@ -3830,6 +3959,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (Par30Games)",
         "url": "https://par30games.net/135965/download-control-pc-game/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32329/control-farsisaz/"
       }
     ]
   },
@@ -4074,6 +4208,11 @@
         "type": "paid",
         "label": "💳 Download (Paid)",
         "url": "https://gamesub.net/sekiro-shadows-die-twice/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/1166/sekiro-shadows-die-twice-farsisaz/"
       }
     ]
   },
@@ -4555,6 +4694,11 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-shadow-of-war/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38479/middle-earth-shadow-of-war-farsisaz/"
       }
     ]
   },
@@ -4689,6 +4833,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (GameQ)",
         "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-dark-souls-3/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32696/dark-souls-3-farsisaz/"
       }
     ]
   },
@@ -4783,6 +4932,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (GameQ)",
         "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-inside/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38436/inside-farsisaz/"
       }
     ]
   },
@@ -4908,6 +5062,11 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/bloodborne-persian-subtitle/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39496/bloodborne-farsisaz/"
       }
     ]
   },
@@ -5140,6 +5299,11 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-shadow-of-mordor/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38474/middle-earth-shadow-of-mordor-farsisaz/"
       }
     ]
   },
@@ -5233,6 +5397,11 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/assassins-creed-iv-black-flag-persian-subtitles/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Resynced Patch (GameQ)",
+        "url": "https://gameq.ir/38546/assassins-creed-black-flag-resynced-farsisaz/"
       }
     ]
   },
@@ -5362,6 +5531,11 @@
         "type": "free",
         "label": "⬇️ Free Subtitle (GameQ)",
         "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-3/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32652/download-far-cry-3-farsisaz/"
       }
     ]
   },
@@ -5455,6 +5629,11 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (PersianLingo)",
         "url": "https://persianlingo.ir/product/assassins-creed-revelations-persian-sub/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/31520/assassins-creed-revelations-farsisaz/"
       }
     ]
   },
@@ -5942,6 +6121,11 @@
         "type": "paid",
         "label": "🛒 FanSub Launcher Edition (FanSub)",
         "url": "https://fansub.ir/product/spec-ops-the-line/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38827/spec-ops-the-line-farsisaz/"
       }
     ]
   },
@@ -6221,6 +6405,11 @@
         "type": "paid",
         "label": "🛒 Active Project (FarsiSaz)",
         "url": "https://farsisaz.com/product/assassins-creed-shadows/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38724/assassins-creed-shadows-farsisaz/"
       }
     ]
   },
@@ -6448,6 +6637,1752 @@
         "type": "paid",
         "label": "🛒 Full Persian Subtitle (GameSub)",
         "url": "https://gamesub.net/product/the-evil-within-2/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-rogue",
+    "title": "Assassin's Creed Rogue",
+    "year": 2014,
+    "category": "Historical Action-Adventure Open World",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/32172/assassins-creed-rogue-farsisaz/",
+    "website": "https://www.ubisoft.com/game/assassins-creed/rogue",
+    "details": "Follow Shay Patrick Cormac as an Assassin hunter turning against his former brotherhood in 18th-century North America. Complete Persian translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "AnvilNext",
+    "challenges": [
+      "Ubisoft Anvil forge archive extraction and font glyph insertion",
+      "Naval battle HUD and synchronization string localization"
+    ],
+    "limitations": [
+      "Compatible with standard PC releases."
+    ],
+    "installPath": "<AC_Rogue_Folder>/",
+    "installGuide": "Run the GameQ installer and select game directory. Turn subtitles ON in game options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32172/assassins-creed-rogue-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-brotherhood",
+    "title": "Assassin's Creed: Brotherhood",
+    "year": 2010,
+    "category": "Historical Action-Adventure Open World",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38598/assassins-creed-brotherhood-farsisaz/",
+    "website": "https://www.ubisoft.com/game/assassins-creed/brotherhood",
+    "details": "Ezio Auditore marches into Rome to strike at the Borgia dynasty and reconstruct the Assassin brotherhood. Full Persian subtitle patch on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Anvil Engine",
+    "challenges": [
+      "Classic Anvil subtitle table modifications and Italian term translation",
+      "Right-to-Left font mapping for memory sequence menus"
+    ],
+    "limitations": [
+      "Tested on PC digital editions."
+    ],
+    "installPath": "<AC_Brotherhood_Folder>/",
+    "installGuide": "Extract translation files to game root folder and enable subtitles in display settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38598/assassins-creed-brotherhood-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "la-noire",
+    "title": "L.A. Noire",
+    "year": 2011,
+    "category": "Detective Crime Noir Open World",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/32297/la-noire-farsisaz/",
+    "website": "https://www.rockstargames.com/lanoire",
+    "details": "Investigate high-stakes post-war crime in 1947 Los Angeles as Detective Cole Phelps. Complete Persian translation on GameQ covering case files, interrogation dialogues, and clues.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Custom MotionScan Engine",
+    "challenges": [
+      "Complex interrogation dialogue logic and notebook clue BiDi formatting",
+      "Newspaper text and archival document typography"
+    ],
+    "limitations": [
+      "Compatible with Complete Edition."
+    ],
+    "installPath": "<LANoire_Folder>/final/pc/",
+    "installGuide": "Run installer pointing to the final/pc folder and activate subtitles.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/32297/la-noire-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "remember-me",
+    "title": "Remember Me",
+    "year": 2013,
+    "category": "Cyberpunk Action-Adventure",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/33826/remember-me-farsisaz/",
+    "website": "https://store.steampowered.com/app/228300/Remember_Me/",
+    "details": "Neo-Paris 2084 memory hunter Nilin fights to reclaim her stolen identity and remix memories. Full Persian translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 3",
+    "challenges": [
+      "Unreal Engine 3 memory remix interface text localization",
+      "Combo Lab custom move name formatting"
+    ],
+    "limitations": [
+      "Enable subtitles in audio settings."
+    ],
+    "installPath": "<RememberMe_Folder>/ExampleGame/CookedPC/",
+    "installGuide": "Copy localized package files to CookedPC and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/33826/remember-me-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "crysis-remastered",
+    "title": "Crysis Remastered",
+    "year": 2020,
+    "category": "Sci-Fi First-Person Shooter",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/33853/crysis-remastered-farsisaz/",
+    "website": "https://www.crysis.com",
+    "details": "Classic nanosuit sandbox combat on the Lingshan Islands remastered with modern ray tracing. Persian subtitles and HUD strings on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "CRYENGINE",
+    "challenges": [
+      "CRYENGINE XML string table replacement and flash UI font mapping",
+      "Nanosuit audio callout and tactical HUD string alignment"
+    ],
+    "limitations": [
+      "Compatible with modern PC versions."
+    ],
+    "installPath": "<CrysisRemastered_Folder>/Game/Localized/",
+    "installGuide": "Place the Persian pak file into Localized folder and set language to Persian.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/33853/crysis-remastered-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "crysis-warhead",
+    "title": "Crysis Warhead",
+    "year": 2008,
+    "category": "Sci-Fi First-Person Shooter",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37527/crysis-warhead-farsisaz/",
+    "website": "https://www.crysis.com",
+    "details": "Sergeant Michael 'Psycho' Sykes on a parallel explosive combat mission behind enemy lines. Complete Persian subtitle translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "CryENGINE 2",
+    "challenges": [
+      "CryENGINE 2 localization pak compilation and font atlas injection",
+      "High-speed combat radio dialogue synchronization"
+    ],
+    "limitations": [
+      "Works with standalone Warhead release."
+    ],
+    "installPath": "<CrysisWarhead_Folder>/Game/Localized/",
+    "installGuide": "Copy patch files to Localized directory and enable subtitles in audio menu.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37527/crysis-warhead-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "dont-scream",
+    "title": "DON'T SCREAM",
+    "year": 2023,
+    "category": "Camcorder Bodycam Horror",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/33922/dont-scream-farsisaz/",
+    "website": "https://store.steampowered.com/app/2497900/DONT_SCREAM/",
+    "details": "Short Unreal Engine 5 bodycam horror where walking 18 minutes without screaming is the sole objective. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 VHS-style UI string replacement",
+      "Microphone sensitivity HUD text alignment"
+    ],
+    "limitations": [
+      "Requires microphone setup."
+    ],
+    "installPath": "<DontScream_Folder>/Content/Paks/~mods/",
+    "installGuide": "Extract patch to ~mods folder and start game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/33922/dont-scream-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "karma-the-dark-world",
+    "title": "KARMA: The Dark World",
+    "year": 2024,
+    "category": "First-Person Cinematic Psychological Thriller",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/34230/karma-the-dark-world-farsisaz/",
+    "website": "https://store.steampowered.com/app/1376200/KARMA_The_Dark_World/",
+    "details": "First-person psychological dystopian horror set in 1984 East Germany where the Leviathan Corporation dominates minds. Persian localization on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Surreal mind-dive cinematic subtitle timing in UE5",
+      "Dystopian bureau investigation documents typography"
+    ],
+    "limitations": [
+      "Enable subtitles in options."
+    ],
+    "installPath": "<Karma_Folder>/Karma/Content/Paks/~mods/",
+    "installGuide": "Extract patch into ~mods folder and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/34230/karma-the-dark-world-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "tropico-6",
+    "title": "Tropico 6",
+    "year": 2019,
+    "category": "Construction & Island Management Simulation",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/34385/tropico-6-farsisaz/",
+    "website": "https://kalypsomedia.com/tropico-6",
+    "details": "Rule an archipelago nation across eras as El Presidente. Complete Persian translation on GameQ covering edicts, economic metrics, elections, and speeches.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Massive economic simulation string tables and political speeches",
+      "Complex HUD dashboard and building tooltip formatting"
+    ],
+    "limitations": [
+      "Compatible with recent game updates."
+    ],
+    "installPath": "<Tropico6_Folder>/Tropico6/Content/Paks/~mods/",
+    "installGuide": "Place patch in ~mods folder and select Persian language.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/34385/tropico-6-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "desperados-3",
+    "title": "Desperados III",
+    "year": 2020,
+    "category": "Real-Time Tactics Stealth Western",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/35004/desperados-3-farsisaz/",
+    "website": "https://desperadosgame.com",
+    "details": "Hardcore real-time tactical stealth in the Wild West by Mimimi Games. Complete Persian subtitle translation covering all character abilities, showdowns, and dialogues on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity asset bundle text injection and vision cone tooltip styling",
+      "Showdown mode coordinated planning UI string alignment"
+    ],
+    "limitations": [
+      "Turn subtitles ON in settings."
+    ],
+    "installPath": "<Desperados3_Folder>/Desperados_III_Data/",
+    "installGuide": "Extract translation files to game data directory and activate subtitles.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/35004/desperados-3-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "thymesia",
+    "title": "Thymesia",
+    "year": 2022,
+    "category": "Soulslike Dark Fantasy Action RPG",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/35357/thymesia-farsisaz/",
+    "website": "https://www.team17.com/games/thymesia/",
+    "details": "Punishing dark action RPG set in the fallen kingdom of Hermes following Corvus. Full Persian translation on GameQ for plague weapon descriptions, lore memories, and boss subtitles.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 item glossary and plague weapon tooltip BiDi shaping",
+      "Memory lore fragment typography"
+    ],
+    "limitations": [
+      "Enable subtitles in options."
+    ],
+    "installPath": "<Thymesia_Folder>/Thymesia/Content/Paks/~mods/",
+    "installGuide": "Copy patch files to ~mods and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/35357/thymesia-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "minecraft-dungeons",
+    "title": "Minecraft Dungeons",
+    "year": 2020,
+    "category": "Dungeon Crawler Action Adventure",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/35503/minecraft-dungeons-pc-farsisaz/",
+    "website": "https://www.minecraft.net/en-us/about-dungeons",
+    "details": "All-new action-adventure game inspired by classic dungeon crawlers set in the Minecraft universe. Complete Persian translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 voxel-styled UI font integration for Persian text",
+      "Enchantment descriptions and artifact mechanics localization"
+    ],
+    "limitations": [
+      "Works with PC edition."
+    ],
+    "installPath": "<Dungeons_Folder>/Dungeons/Content/Paks/~mods/",
+    "installGuide": "Copy pak files into ~mods and activate subtitles in options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/35503/minecraft-dungeons-pc-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "out-of-sight",
+    "title": "Out of Sight",
+    "year": 2021,
+    "category": "Hidden Object Cozy Exploration",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/35520/out-of-sight-farsisaz/",
+    "website": "https://store.steampowered.com/app/1523410/Out_of_Sight/",
+    "details": "Charming relaxing hidden-object exploration game following a young girl rediscovering childhood memories. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity UI string table replacement for object search lists",
+      "Whimsical handwritten font localization"
+    ],
+    "limitations": [
+      "None."
+    ],
+    "installPath": "<OutOfSight_Folder>/OutOfSight_Data/",
+    "installGuide": "Extract assets to game data directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/35520/out-of-sight-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "shadow-tactics-blades-of-the-shogun",
+    "title": "Shadow Tactics: Blades of the Shogun",
+    "year": 2016,
+    "category": "Real-Time Stealth Tactics Edo Japan",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/35568/shadow-tactics-blades-of-the-shogun-farsisaz/",
+    "website": "https://store.steampowered.com/app/418240/Shadow_Tactics_Blades_of_the_Shogun/",
+    "details": "Tactical stealth masterpiece set in Japan around the Edo period following 5 specialists. Complete Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity asset bundle subtitle timing and stealth action prompts",
+      "Historical samurai and ninja glossary adaptation in Persian"
+    ],
+    "limitations": [
+      "Turn subtitles ON in settings."
+    ],
+    "installPath": "<ShadowTactics_Folder>/Shadow Tactics_Data/",
+    "installGuide": "Extract patch to game data folder and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/35568/shadow-tactics-blades-of-the-shogun-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "shadow-tactics-aikos-choice",
+    "title": "Shadow Tactics: Aiko's Choice",
+    "year": 2021,
+    "category": "Real-Time Stealth Tactics Standalone",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/35559/shadow-tactics-aikos-choice-farsisaz/",
+    "website": "https://store.steampowered.com/app/1579380/Shadow_Tactics_Aikos_Choice/",
+    "details": "Standalone expansion focusing on kunoichi adept Aiko confronting ghosts from her past. Full Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity localization files editing and dialogue synchronization",
+      "Shadow mode action queue tooltip rendering"
+    ],
+    "limitations": [
+      "Turn subtitles ON in settings."
+    ],
+    "installPath": "<AikosChoice_Folder>/Aikos Choice_Data/",
+    "installGuide": "Place translation assets in game data folder and enable subtitles.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/35559/shadow-tactics-aikos-choice-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "dispatch",
+    "title": "Dispatch",
+    "year": 2024,
+    "category": "Police Dispatch Emergency Simulation",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/36463/dispatch-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "High-pressure emergency police dispatch simulation managing emergency units and incoming crisis calls. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Radio audio transcript and emergency service terminology translation",
+      "Terminal UI layout preservation with Persian text"
+    ],
+    "limitations": [
+      "Compatible with latest build."
+    ],
+    "installPath": "<Dispatch_Folder>/Dispatch_Data/",
+    "installGuide": "Extract patch into the game directory and launch.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/36463/dispatch-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "crash-bandicoot-4-its-about-time",
+    "title": "Crash Bandicoot 4: It's About Time",
+    "year": 2020,
+    "category": "3D Platformer Action",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/36877/crash-bandicoot-4-its-about-time-farsisaz/",
+    "website": "https://www.crashbandicoot.com",
+    "details": "Crash and Coco shatter the spacetime continuum in a vibrant interdimensional adventure. Complete Persian subtitle translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 cartoon comic subtitle typography and font atlas insertion",
+      "Quantum mask dynamic dialogue timing"
+    ],
+    "limitations": [
+      "Enable subtitles in options menu."
+    ],
+    "installPath": "<Crash4_Folder>/Lava/Content/Paks/~mods/",
+    "installGuide": "Copy patch pak to ~mods folder and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/36877/crash-bandicoot-4-its-about-time-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "medieval-dynasty",
+    "title": "Medieval Dynasty",
+    "year": 2021,
+    "category": "Medieval Survival Life Simulator RPG",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/36933/medieval-dynasty-farsisaz/",
+    "website": "https://toplitz-productions.com/medieval-dynasty.html",
+    "details": "Survive, build a dynasty, and master medieval craft from a lone peasant to a village ruler. Full Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Massive crafting recipes, building requirements, and villager quests",
+      "Dynasty lineage and feudal contract text formatting"
+    ],
+    "limitations": [
+      "Turn subtitles ON in settings."
+    ],
+    "installPath": "<MedievalDynasty_Folder>/MedievalDynasty/Content/Paks/~mods/",
+    "installGuide": "Place patch in ~mods folder and select Persian in language settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/36933/medieval-dynasty-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "hi-fi-rush",
+    "title": "Hi-Fi RUSH",
+    "year": 2023,
+    "category": "Rhythm Action Hack-and-Slash",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37212/hi-fi-rush-farsisaz/",
+    "website": "https://bethesda.net/game/hi-fi-rush",
+    "details": "Chai and his ragtag team rebel against a robotic corporation with rhythmic beat combat. Complete Persian translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Rhythmic beat sync for subtitle text and cartoon sound effects",
+      "Comic-strip style dialogue bubble font rendering"
+    ],
+    "limitations": [
+      "Enable subtitles in audio settings."
+    ],
+    "installPath": "<HiFiRush_Folder>/Hibiki/Content/Paks/~mods/",
+    "installGuide": "Copy patch into ~mods folder and turn subtitles on in game settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37212/hi-fi-rush-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "return-of-the-obra-dinn",
+    "title": "Return of the Obra Dinn",
+    "year": 2018,
+    "category": "Deductive Mystery Narrative Adventure",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37301/return-of-the-obra-dinn-farsisaz/",
+    "website": "https://obradinn.com",
+    "details": "Lucas Pope's 1-bit monochrome insurance mystery aboard an abandoned East India Company merchant ship. Complete Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "1-bit monochrome bitmap font creation for Persian glyphs",
+      "Logbook casualty identification and nautical terminology translation"
+    ],
+    "limitations": [
+      "None. Compatible with standard editions."
+    ],
+    "installPath": "<ObraDinn_Folder>/ObraDinn_Data/",
+    "installGuide": "Replace game data files with translation pack and launch.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37301/return-of-the-obra-dinn-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "the-pathless",
+    "title": "The Pathless",
+    "year": 2020,
+    "category": "Mythic Action-Adventure Open World",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37309/the-pathless-farsisaz/",
+    "website": "https://thepathless.com",
+    "details": "Mythic adventure of an archer and an eagle in a vast cursed forest. Complete Persian subtitles for ancient spirit lore on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Poetic spirit whispers and obelisk inscription localization",
+      "Fluid HUD-less navigation string alignment"
+    ],
+    "limitations": [
+      "Turn subtitles ON in settings."
+    ],
+    "installPath": "<ThePathless_Folder>/ThePathless/Content/Paks/~mods/",
+    "installGuide": "Place patch in ~mods folder and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37309/the-pathless-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "drop-duchy",
+    "title": "Drop Duchy",
+    "year": 2024,
+    "category": "Deckbuilding Tile-Placement Strategy",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37318/drop-duchy-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "Block-dropping tile-placement roguelite strategy creating duchies and repelling invasions. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Card rule descriptions and tile adjacency effect text formatting in Persian",
+      "RTL layout preservation on compact cards"
+    ],
+    "limitations": [
+      "None."
+    ],
+    "installPath": "<DropDuchy_Folder>/DropDuchy_Data/",
+    "installGuide": "Extract assets to game data folder and select language.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37318/drop-duchy-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "town-to-city",
+    "title": "Town to City",
+    "year": 2024,
+    "category": "Casual City Builder Strategy",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37327/town-to-city-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "Minimalist medieval city-builder expanding small villages into bustling historical metropolises. Persian localization on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Building upgrade tooltips and town management statistics BiDi formatting",
+      "Clean typography on minimalist UI"
+    ],
+    "limitations": [
+      "None."
+    ],
+    "installPath": "<TownToCity_Folder>/TownToCity_Data/",
+    "installGuide": "Extract translation files to game data folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37327/town-to-city-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "reanimal",
+    "title": "REANIMAL",
+    "year": 2025,
+    "category": "Co-op Dark Survival Horror Adventure",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/37509/reanimal-farsisaz/",
+    "website": "https://reanimalgame.com",
+    "details": "Tarsier Studios' horrific cooperative adventure following a brother and sister navigating hellish island abominations. Persian localization in active tracking on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Dark atmospheric cinematic font styling in Unreal Engine 5",
+      "Co-op puzzle objective prompts and environmental lore alignment"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<REANIMAL_Folder>/Content/Paks/~mods/",
+    "installGuide": "Install via GameQ patch installer upon game release.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/37509/reanimal-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "astroneer",
+    "title": "ASTRONEER",
+    "year": 2019,
+    "category": "Space Sandbox Aerospace Exploration",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37539/astroneer-farsisaz/",
+    "website": "https://astroneer.space",
+    "details": "Explore and reshape distant interplanetary worlds in the 25th century Gold Rush. Full Persian translation on GameQ covering all research modules and planet descriptions.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 diegetic backpack UI and terrain tool popup string mapping",
+      "Chemical compound and interplanetary crafting catalog formatting"
+    ],
+    "limitations": [
+      "Enable subtitles in options."
+    ],
+    "installPath": "<ASTRONEER_Folder>/Astro/Content/Paks/~mods/",
+    "installGuide": "Extract pak files to ~mods directory and launch.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37539/astroneer-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "close-to-the-sun",
+    "title": "Close to the Sun",
+    "year": 2019,
+    "category": "Steampunk First-Person Horror",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37546/close-to-the-sun-farsisaz/",
+    "website": "https://store.steampowered.com/app/968870/Close_to_the_Sun/",
+    "details": "Investigate Nikola Tesla's colossal ocean vessel Helios in an alternate late 19th century gone terrifyingly wrong. Persian subtitles on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Art deco steampunk aesthetic typography in Persian",
+      "Tesla audio logs and quarantine incident files BiDi shaping"
+    ],
+    "limitations": [
+      "Enable subtitles in display settings."
+    ],
+    "installPath": "<CloseToTheSun_Folder>/Helios/Content/Paks/~mods/",
+    "installGuide": "Place patch in ~mods folder and turn subtitles on in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37546/close-to-the-sun-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "high-on-life-2",
+    "title": "High on Life 2",
+    "year": 2025,
+    "category": "Comedic Sci-Fi First-Person Shooter",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/37617/high-on-life-2-farsisaz/",
+    "website": "https://squanchgames.com",
+    "details": "The comedic talking gun alien shooter returns with new planets and satirical sci-fi bounty missions. Pre-release Persian project tracking on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Rapid-fire talking gun Gatlians comedy dialogue timing and slang",
+      "Alien bounty target UI typography"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<HighOnLife2_Folder>/Content/Paks/~mods/",
+    "installGuide": "Patch planned post-release through GameQ.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/37617/high-on-life-2-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "stellar-blade",
+    "title": "Stellar Blade",
+    "year": 2024,
+    "category": "Post-Apocalyptic Sci-Fi Action RPG",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/37668/stellar-blade-farsisaz/",
+    "website": "https://www.playstation.com/games/stellar-blade/",
+    "details": "Eve battles grotesque Naytibas across ruined Earth to reclaim humanity's lost home. Comprehensive Persian subtitle patch on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Sci-Fi combat prompts, drone memory modules, and cyberware UI formatting",
+      "High-resolution typography insertion"
+    ],
+    "limitations": [
+      "Requires jailbroken console or matching PC release."
+    ],
+    "installPath": "<StellarBlade_Folder>/Content/Paks/~mods/",
+    "installGuide": "Apply patch to package directory and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/37668/stellar-blade-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "mixtape",
+    "title": "Mixtape",
+    "year": 2025,
+    "category": "Coming-of-Age Narrative Adventure",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/38249/mixtape-farsisaz/",
+    "website": "https://annapurnainteractive.com/en/games/mixtape",
+    "details": "Beethoven & Dinosaur's nostalgic coming-of-age journey through high school friendships powered by a legendary soundtrack. Pre-release Persian project on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Lyrical narrative timing and youthful dialogue adaptation",
+      "Cassette mixtape stylized UI typography"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<Mixtape_Folder>/Content/Paks/~mods/",
+    "installGuide": "Patch planned upon official release.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38249/mixtape-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "lego-batman-legacy-of-the-dark-knight",
+    "title": "LEGO Batman: Legacy of the Dark Knight",
+    "year": 2025,
+    "category": "Action-Adventure Family Comedy",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/38288/lego-batman-legacy-of-the-dark-knight-farsisaz/",
+    "website": "https://www.lego.com/themes/batman",
+    "details": "Next generation LEGO Gotham adventure tracking iconic eras of Batman from Adam West to modern cinema. Persian community translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "TT Games Custom Engine",
+    "challenges": [
+      "TT Games custom engine archive extraction and comic font insertion",
+      "Family-friendly humor and superhero pun localization"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<LEGOBatman_Folder>/Localization/",
+    "installGuide": "Apply patch post-launch through GameQ installer.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38288/lego-batman-legacy-of-the-dark-knight-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "iblis3-phenomena",
+    "title": "Iblis 3: Phenomena",
+    "year": 2024,
+    "category": "Psychological Horror Indie",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38310/iblis3-phenomena-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "Paranormal psychological horror dealing with demonic entity investigations. Complete Persian localization on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Ritual texts and occult diary translation in Persian",
+      "HUD camera static and paranormal prompt alignment"
+    ],
+    "limitations": [
+      "Enable subtitles in settings."
+    ],
+    "installPath": "<Iblis3_Folder>/Content/Paks/~mods/",
+    "installGuide": "Copy patch files to ~mods directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38310/iblis3-phenomena-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "invincible-vs",
+    "title": "Invincible VS",
+    "year": 2025,
+    "category": "Superhero Fighting Action",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/38394/invincible-vs-farsisaz/",
+    "website": "https://skybound.com/invincible",
+    "details": "Violent competitive fighting game based on Robert Kirkman's Invincible animated series. Pre-release Persian project on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Fighting game move lists and dynamic clash dialogue in Persian",
+      "Comic-accurate typography"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<InvincibleVS_Folder>/Content/Paks/~mods/",
+    "installGuide": "Patch planned post-launch.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38394/invincible-vs-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "green-hell",
+    "title": "Green Hell",
+    "year": 2019,
+    "category": "Amazonian Open World Survival Simulator",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38495/green-hell-farsisaz/",
+    "website": "https://greenhell-game.com",
+    "details": "Psychological survival simulator in the uncharted Amazonian rainforest. Complete Persian translation on GameQ for survival notebook, botanical diagnoses, and crafting guides.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Extensive medical symptoms and tropical botanical encyclopedia formatting",
+      "Smartwatch vitals display typography"
+    ],
+    "limitations": [
+      "Compatible with Story and Survival modes."
+    ],
+    "installPath": "<GreenHell_Folder>/GH_Data/",
+    "installGuide": "Copy translation pack to GH_Data and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38495/green-hell-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "prototype-2",
+    "title": "Prototype 2",
+    "year": 2012,
+    "category": "Open World Superhero Action",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38511/prototype-2-farsisaz/",
+    "website": "https://store.steampowered.com/app/115320/Prototype_2/",
+    "details": "Sergeant James Heller hunts down Alex Mercer across infected New York Zero. Complete Persian subtitle translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Titanium Engine",
+    "challenges": [
+      "Titanium engine proprietary archive decompression and font replacement",
+      "Blacknet terminal missions and audio memory trace localization"
+    ],
+    "limitations": [
+      "Enable subtitles in game audio menu."
+    ],
+    "installPath": "<Prototype2_Folder>/",
+    "installGuide": "Run GameQ patcher and select Prototype 2 directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38511/prototype-2-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "kena-bridge-of-spirits",
+    "title": "Kena: Bridge of Spirits",
+    "year": 2021,
+    "category": "Action-Adventure Magical Fantasy",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38574/kena-bridge-of-spirits-farsisaz/",
+    "website": "https://www.emberlab.com",
+    "details": "Spirit Guide Kena uncovers the past of a forgotten village with her companion Rot spirits. Complete Persian subtitle patch on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Pixar-grade animated cutscene subtitle timing and spirit relic lore",
+      "Rot ability upgrade wheel formatting"
+    ],
+    "limitations": [
+      "Turn subtitles ON in settings."
+    ],
+    "installPath": "<Kena_Folder>/Kena/Content/Paks/~mods/",
+    "installGuide": "Copy pak files into ~mods folder and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38574/kena-bridge-of-spirits-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "infection-free-zone",
+    "title": "Infection Free Zone",
+    "year": 2024,
+    "category": "Post-Apocalyptic City-Builder Strategy",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38615/infection-free-zone-farsisaz/",
+    "website": "https://store.steampowered.com/app/1465460/Infection_Free_Zone/",
+    "details": "Real-world OpenStreetMap city defense against virus-infected swarms. Full Persian localization on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Dynamic map location names and shelter survival resource tables",
+      "RTL alignment on tactical combat status HUDs"
+    ],
+    "limitations": [
+      "Compatible with Early Access updates."
+    ],
+    "installPath": "<IFZ_Folder>/InfectionFreeZone_Data/",
+    "installGuide": "Place translation assets in game data folder and restart.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38615/infection-free-zone-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "atomic-heart",
+    "title": "Atomic Heart",
+    "year": 2023,
+    "category": "Soviet Retrofuturistic First-Person Action RPG",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38642/atomic-heart-farsisaz/",
+    "website": "https://mundfish.com",
+    "details": "Alternate 1955 Soviet utopia where rogue machines turn against their creators at Facility 3826. Complete Persian translation on GameQ for PC & PS5.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 localization tables for glove AI CHAR-les dialogues",
+      "Soviet technological slogans and scientific terminal logs"
+    ],
+    "limitations": [
+      "Turn subtitles ON in display options."
+    ],
+    "installPath": "<AtomicHeart_Folder>/AtomicHeart/Content/Paks/~mods/",
+    "installGuide": "Copy patch files to ~mods directory and activate subtitles in options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch PC (GameQ)",
+        "url": "https://gameq.ir/38642/atomic-heart-farsisaz/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Edition PS5 (GameQ)",
+        "url": "https://gameq.ir/38800/atomic-heart-farsisaz-ps5/"
+      }
+    ]
+  },
+  {
+    "id": "fort-solis",
+    "title": "Fort Solis",
+    "year": 2023,
+    "category": "Mars Sci-Fi Psychological Thriller",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38786/fort-solis-farsisaz/",
+    "website": "https://store.steampowered.com/app/1931730/Fort_Solis/",
+    "details": "Tense cinematic Mars mining base mystery starring Roger Clark and Troy Baker. Complete Persian subtitles on GameQ for PC & PS5.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 cinematic one-shot presentation subtitle alignment",
+      "Martian base terminal logs and video message transcripts"
+    ],
+    "limitations": [
+      "Turn subtitles ON in options."
+    ],
+    "installPath": "<FortSolis_Folder>/FortSolis/Content/Paks/~mods/",
+    "installGuide": "Extract to ~mods directory and activate subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch PC (GameQ)",
+        "url": "https://gameq.ir/38786/fort-solis-farsisaz/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Edition PS5 (GameQ)",
+        "url": "https://gameq.ir/39380/fort-solis-farsisaz-ps5/"
+      }
+    ]
+  },
+  {
+    "id": "mortal-shell-2",
+    "title": "Mortal Shell 2",
+    "year": 2025,
+    "category": "Dark Fantasy Soulslike Action RPG",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/38808/mortal-shell-2-farsisaz/",
+    "website": "https://www.mortalshell.com",
+    "details": "Hardcore soulslike sequel possessing the remnants of defeated warriors in a fractured shattered world. Pre-release Persian project on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Esoteric shell lore and cryptical Tar item descriptions in Persian",
+      "Hardening mechanic combat prompt alignment"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<MortalShell2_Folder>/Content/Paks/~mods/",
+    "installGuide": "Patch planned upon official game release.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/38808/mortal-shell-2-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "final-fantasy-3",
+    "title": "Final Fantasy III (3D Remake)",
+    "year": 2014,
+    "category": "Turn-Based Fantasy JRPG",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38886/final-fantasy-3-farsisaz/",
+    "website": "https://store.steampowered.com/app/239120/Final_Fantasy_III_3D_Remake/",
+    "details": "Classic Crystals of Light JRPG reimagined with full 3D graphics. Complete Persian subtitle and menu translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Custom Matrix Engine",
+    "challenges": [
+      "Japanese JRPG job class system and magic spell name localization",
+      "Custom font texture atlas replacement for Persian dialogue boxes"
+    ],
+    "limitations": [
+      "Works with PC Steam edition."
+    ],
+    "installPath": "<FF3_Folder>/",
+    "installGuide": "Replace game resource archives with Persian patch and launch.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38886/final-fantasy-3-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "chorus-of-carcosa",
+    "title": "Chorus of Carcosa",
+    "year": 2024,
+    "category": "Lovecraftian Cosmic Horror",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/38921/chorus-of-carcosa-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "Cosmic psychological horror inspired by The King in Yellow in an eerie apartment complex. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Poetic madness monologues and forbidden scripture adaptation in Persian",
+      "Insanity sanity-meter HUD string alignment"
+    ],
+    "limitations": [
+      "Enable subtitles in options."
+    ],
+    "installPath": "<ChorusOfCarcosa_Folder>/Content/Paks/~mods/",
+    "installGuide": "Place patch in ~mods folder and turn subtitles on.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/38921/chorus-of-carcosa-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "the-blood-of-dawnwalker",
+    "title": "The Blood of Dawnwalker",
+    "year": 2025,
+    "category": "Gothic Dark Fantasy Action",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/39032/the-blood-of-dawnwalker-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "Dark gothic vampire fantasy following a dhampir warrior hunting ancient covens. Pre-release Persian project on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Vampiric bloodline hierarchy lore and ritual dialogue formatting",
+      "Gothic calligraphy typography"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<Dawnwalker_Folder>/Content/Paks/~mods/",
+    "installGuide": "Patch planned post-launch through GameQ.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39032/the-blood-of-dawnwalker-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "medal-of-honor",
+    "title": "Medal of Honor",
+    "year": 2010,
+    "category": "Military First-Person Shooter",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39041/medal-of-honor-farsisaz/",
+    "website": "https://www.ea.com/games/medal-of-honor",
+    "details": "Tier 1 operators fighting in rugged Afghanistan warfare. Complete Persian translation on GameQ covering campaign operations and tactical briefs.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 3 / Frostbite",
+    "challenges": [
+      "Unreal Engine 3 UPK archive editing and military radio callout timing",
+      "Military radio callsigns and HUD mission objective BiDi rendering"
+    ],
+    "limitations": [
+      "Enable subtitles in display settings."
+    ],
+    "installPath": "<MOH_Folder>/MOHAGame/CookedPC/",
+    "installGuide": "Extract localized files to CookedPC and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39041/medal-of-honor-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "tom-clancys-ghost-recon-wildlands",
+    "title": "Tom Clancy's Ghost Recon Wildlands",
+    "year": 2017,
+    "category": "Tactical Open World Military Shooter",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39061/tom-clancys-ghost-recon-wildlands-farsisaz/",
+    "website": "https://www.ubisoft.com/game/ghost-recon/wildlands",
+    "details": "Elite US special forces team dismantling the Santa Blanca drug cartel across Bolivia. Complete Persian translation on GameQ.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "AnvilNext 2.0",
+    "challenges": [
+      "Ubisoft forge package extraction and tactical intelligence dossier localization",
+      "Radio chatter and cartel boss dossier typography"
+    ],
+    "limitations": [
+      "Tested on PC editions."
+    ],
+    "installPath": "<GRWildlands_Folder>/",
+    "installGuide": "Run GameQ patch installer and enable subtitles in settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39061/tom-clancys-ghost-recon-wildlands-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "poppy-playtime-chapter-4",
+    "title": "Poppy Playtime: Chapter 4",
+    "year": 2025,
+    "category": "Episodic Survival Toy Factory Horror",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/39100/poppy-playtime-chapter-4-farsisaz/",
+    "website": "https://mobentertainment.com",
+    "details": "Venture deeper into the Playtime Co. factory laboratories facing brand-new monstrous experiments. Pre-release Persian project on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "GrabPack mechanics tooltips and VHS cassette tape transcripts in Persian",
+      "Factory announcement loudspeaker subtitle synchronization"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<PoppyPlaytime_Folder>/Playtime/Content/Paks/~mods/",
+    "installGuide": "Patch planned post-launch through GameQ.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39100/poppy-playtime-chapter-4-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "poppy-playtime-chapter-5",
+    "title": "Poppy Playtime: Chapter 5",
+    "year": 2026,
+    "category": "Episodic Survival Toy Factory Horror",
+    "status": "Planned",
+    "patchUrl": "https://gameq.ir/39080/poppy-playtime-chapter-5-farsisaz/",
+    "website": "https://mobentertainment.com",
+    "details": "Climactic finale of the episodic toy manufacturing nightmare uncovering the Prototype's origins. Persian project tracking on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Lore-heavy final chapter documents and dialogue localization",
+      "Atmospheric VHS static font styling"
+    ],
+    "limitations": [
+      "Planned release."
+    ],
+    "installPath": "<PoppyPlaytime_Folder>/Playtime/Content/Paks/~mods/",
+    "installGuide": "Will be provided upon chapter release.",
+    "isPaid": false,
+    "progress": 20,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39080/poppy-playtime-chapter-5-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "dragon-ball-sparking-zero",
+    "title": "Dragon Ball: Sparking! ZERO",
+    "year": 2024,
+    "category": "Anime 3D Arena Fighter",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39110/dragon-ball-sparking-zero-farsisaz/",
+    "website": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-sparking-zero",
+    "details": "Legendary Budokai Tenkaichi franchise revival with over 180 fighters. Complete Persian translation on GameQ for custom battles, what-if episodes, and character dialogue.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 anime typography and Ki blast combat callouts in Persian",
+      "Custom Battle story creator text input compatibility"
+    ],
+    "limitations": [
+      "Turn subtitles ON in battle settings."
+    ],
+    "installPath": "<SparkingZero_Folder>/SparkingZERO/Content/Paks/~mods/",
+    "installGuide": "Copy patch files to ~mods directory and activate subtitles.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39110/dragon-ball-sparking-zero-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "touhou-luna-nights",
+    "title": "Touhou Luna Nights",
+    "year": 2019,
+    "category": "2D Metroidvania Action Platformer",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39146/touhou-luna-nights-farsisaz/",
+    "website": "https://store.steampowered.com/app/851100/Touhou_Luna_Nights/",
+    "details": "Fast-paced 2D action Metroidvania following maid Sakuya Izayoi with time-stopping dagger abilities. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "GameMaker Studio",
+    "challenges": [
+      "GameMaker Studio pixel font atlas modification for Persian alphabet",
+      "Time-stop mechanic UI tooltip formatting"
+    ],
+    "limitations": [
+      "None."
+    ],
+    "installPath": "<Touhou_Folder>/",
+    "installGuide": "Replace game data files with Persian patch assets.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39146/touhou-luna-nights-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "martha-is-dead",
+    "title": "Martha Is Dead",
+    "year": 2022,
+    "category": "WWII Tuscan Dark Psychological Thriller",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39264/martha-is-dead-farsisaz/",
+    "website": "https://wiredproductions.com/games/martha-is-dead/",
+    "details": "Dark first-person psychological mystery set in 1944 rural Tuscany blurring reality and trauma. Complete Persian subtitles and diary translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Puppet theater allegories and Italian folk tale translation in Persian",
+      "Darkroom photography development interface typography"
+    ],
+    "limitations": [
+      "Turn subtitles ON in settings."
+    ],
+    "installPath": "<MarthaIsDead_Folder>/MarthaIsDead/Content/Paks/~mods/",
+    "installGuide": "Copy pak files into ~mods and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39264/martha-is-dead-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "pathogen-x",
+    "title": "PATHOGEN X",
+    "year": 2024,
+    "category": "Retro Survival Horror Shooter",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39308/pathogen-x-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "Retro PS1-inspired survival horror shooter in an underground bio-weapon research facility. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Low-poly retro CRT monitor font styling in Persian",
+      "Keycard door and biohazard decontamination logs"
+    ],
+    "limitations": [
+      "None."
+    ],
+    "installPath": "<PathogenX_Folder>/Content/Paks/~mods/",
+    "installGuide": "Extract to ~mods directory and start game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39308/pathogen-x-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "well-dweller",
+    "title": "Well Dweller",
+    "year": 2024,
+    "category": "Subterranean Horror Adventure",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39439/well-dweller-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "Atmospheric underground survival mystery exploring ancient cavernous wells and lurking horrors. Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Cavern acoustic audio cues and subterranean note logs",
+      "RTL string mapping for lantern battery HUD"
+    ],
+    "limitations": [
+      "Enable subtitles in options."
+    ],
+    "installPath": "<WellDweller_Folder>/WellDweller_Data/",
+    "installGuide": "Extract translation files to game data folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39439/well-dweller-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "clive-barkers-hellraiser-revival",
+    "title": "Clive Barker's Hellraiser Revival",
+    "year": 2025,
+    "category": "Cosmic Body Horror Survival",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/39455/clive-barkers-hellraiser-revival-farsisaz/",
+    "website": "https://store.steampowered.com",
+    "details": "First-person psychological body horror inspired by Clive Barker's iconic Cenobite mythology and the Lament Configuration. Pre-release Persian project on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Cenobite torment philosophy and puzzle box mechanical descriptions in Persian",
+      "Dark atmospheric cinematic font styling"
+    ],
+    "limitations": [
+      "Pre-release tracking."
+    ],
+    "installPath": "<Hellraiser_Folder>/Content/Paks/~mods/",
+    "installGuide": "Patch planned post-launch through GameQ.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameQ)",
+        "url": "https://gameq.ir/39455/clive-barkers-hellraiser-revival-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "god-of-war-3-remastered",
+    "title": "God of War III Remastered",
+    "year": 2015,
+    "category": "Mythological Hack-and-Slash Action",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39478/god-of-war-3-remastered-farsisaz/",
+    "website": "https://www.playstation.com/games/god-of-war-iii-remastered/",
+    "details": "Kratos' bloody climb to Mount Olympus to overthrow Zeus and the Greek pantheon. Complete Persian subtitle translation on GameQ for PS4.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Santa Monica Custom Engine",
+    "challenges": [
+      "PS4 pkg decrypted subtitle font atlas substitution",
+      "Greek god mythological titles and titan dialogue timing"
+    ],
+    "limitations": [
+      "Requires jailbroken PS4 console (CUSA)."
+    ],
+    "installPath": "<PS4_App_Folder>/",
+    "installGuide": "Install the patched mod package via GoldHEN Package Installer.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch PS4 (GameQ)",
+        "url": "https://gameq.ir/39478/god-of-war-3-remastered-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "untitled-goose-game",
+    "title": "Untitled Goose Game",
+    "year": 2019,
+    "category": "Slapstick Stealth Sandbox Puzzle",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39551/untitled-goose-game-farsisaz/",
+    "website": "https://goose.game",
+    "details": "Play as a horrible goose ruining everyone's day in an unsuspecting English village. Complete Persian translation on GameQ for to-do list tasks.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Handwritten cursive to-do list font generation for Persian alphabet",
+      "Slapstick task objective wording"
+    ],
+    "limitations": [
+      "None."
+    ],
+    "installPath": "<UntitledGooseGame_Folder>/Untitled_Data/",
+    "installGuide": "Extract patch files into Untitled_Data directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39551/untitled-goose-game-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "granny",
+    "title": "Granny",
+    "year": 2017,
+    "category": "First-Person Stealth Escape Horror",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/39572/granny-farsisaz/",
+    "website": "https://store.steampowered.com/app/962400/Granny/",
+    "details": "Survive five days and escape a creaking house while avoiding Granny's keen hearing. Persian translation on GameQ for items, keys, and escape manuals.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity UI string replacement for puzzle items, car parts, and escape routes",
+      "Audio subtitle cues for floorboard creaks"
+    ],
+    "limitations": [
+      "None."
+    ],
+    "installPath": "<Granny_Folder>/Granny_Data/",
+    "installGuide": "Extract assets to Granny_Data and launch.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/39572/granny-farsisaz/"
+      }
+    ]
+  },
+  {
+    "id": "sherlock-holmes-the-devils-daughter",
+    "title": "Sherlock Holmes: The Devil's Daughter",
+    "year": 2016,
+    "category": "Detective Mystery Narrative Investigation",
+    "status": "Available",
+    "patchUrl": "https://gameq.ir/713/farsisaz-sherlock-holmes-the-devils-daughter/",
+    "website": "https://store.steampowered.com/app/350640/Sherlock_Holmes_The_Devils_Daughter/",
+    "details": "Sherlock Holmes faces psychological family secrets and sinister occult investigations in Victorian London. Full Persian translation on GameQ.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 3",
+    "challenges": [
+      "Unreal Engine 3 deduction board node linkage and forensic analysis text in Persian",
+      "Victorian moral choices and character profile BiDi shaping"
+    ],
+    "limitations": [
+      "Enable subtitles in game settings."
+    ],
+    "installPath": "<Sherlock_Folder>/SH8Game/CookedPC/",
+    "installGuide": "Run installer pointing to CookedPC and enable subtitles in game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Community Patch (GameQ)",
+        "url": "https://gameq.ir/713/farsisaz-sherlock-holmes-the-devils-daughter/"
       }
     ]
   }
