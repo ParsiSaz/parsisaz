@@ -1578,9 +1578,19 @@
     "progress": 95,
     "links": [
       {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-god-of-war-ragnarok/"
+      },
+      {
         "type": "paid",
-        "label": "💳 Download (Paid)",
-        "url": "https://gamesub.net/god-of-war-ragnarok/"
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/god-of-war-ragnarok/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/god-of-war-ragnarok/"
       }
     ]
   },
@@ -1608,6 +1618,11 @@
     "installGuide": "1. Install Sekiro Mod Engine.\n2. Extract patch files into /mods/ directory.",
     "progress": 100,
     "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-sekiro-shadows-die-twice/"
+      },
       {
         "type": "paid",
         "label": "💳 Download (Paid)",
@@ -1640,9 +1655,14 @@
     "progress": 100,
     "links": [
       {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-detroit-become-human/"
+      },
+      {
         "type": "paid",
-        "label": "💳 Download (Paid)",
-        "url": "https://gamesub.net/detroit-become-human/"
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/detroit-become-human/"
       }
     ]
   },
@@ -2010,8 +2030,8 @@
     "title": "Death Stranding 2: On the Beach",
     "year": 2026,
     "category": "Sci-Fi / Cinematic Adventure",
-    "status": "Planned",
-    "patchUrl": "#",
+    "status": "Planned / Active",
+    "patchUrl": "https://farsisaz.com/product/death-stranding-2-on-the-beach/",
     "website": "https://www.kojimaproductions.jp/en/death-stranding-2",
     "details": "Hideo Kojima's expanded journey powered by the Decima Engine. Text extraction and font atlas injection planned.",
     "isAAA": true,
@@ -2027,13 +2047,12 @@
     "installPath": "<DS2_Folder>/data/locale/persian/",
     "installGuide": "Translation package will be announced once PC files are accessible.",
     "isPaid": false,
-    "progress": 0,
+    "progress": 20,
     "links": [
       {
-        "type": "soon",
-        "label": "⏳ Soon",
-        "url": "#",
-        "disabled": true
+        "type": "paid",
+        "label": "💳 Pre-Release Project (FarsiSaz)",
+        "url": "https://farsisaz.com/product/death-stranding-2-on-the-beach/"
       }
     ]
   },
@@ -3398,6 +3417,370 @@
         "type": "free",
         "label": "⬇️ Pre-Release Project (RozeGame)",
         "url": "https://rozegame.ir/replaced/"
+      }
+    ]
+  },
+  {
+    "id": "horizon-forbidden-west",
+    "title": "Horizon Forbidden West",
+    "year": 2024,
+    "category": "Action RPG / Post-Apocalyptic Open-World",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-horizon-forbidden-west/",
+    "website": "https://www.playstation.com/en-us/games/horizon-forbidden-west/",
+    "details": "Complete Persian subtitles for Aloy expedition into the perilous western frontier, translating machine scan logs, tribal dialogue, and skill trees.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Decima Engine",
+    "challenges": [
+      "Decima engine core archive unpacking and font texture glyph generation",
+      "Complex botanical and tribal nomenclature translation to Persian"
+    ],
+    "limitations": [
+      "PC release on Steam and Epic Games"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Run setup installer and select game directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-horizon-forbidden-west/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/horizon-forbidden-west/"
+      }
+    ]
+  },
+  {
+    "id": "horizon-zero-dawn",
+    "title": "Horizon Zero Dawn Remastered",
+    "year": 2020,
+    "category": "Action RPG / Post-Apocalyptic",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-horizon-zero-dawn/",
+    "website": "https://www.playstation.com/en-us/games/horizon-zero-dawn/",
+    "details": "Persian subtitles for Aloy origins and the mystery of Project Zero Dawn.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Decima Engine",
+    "challenges": [
+      "Decima .bin string extraction and custom RTL font integration"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/Packed_DX12/",
+    "installGuide": "Copy mod bin file into game directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-horizon-zero-dawn/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/horizon-zero-dawn-remastered/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/horizon-zero-dawn/"
+      }
+    ]
+  },
+  {
+    "id": "death-stranding",
+    "title": "Death Stranding: Director's Cut",
+    "year": 2021,
+    "category": "Sci-Fi / Strand Action",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-death-stranding/",
+    "website": "https://www.kojimaproductions.jp/en/death-stranding-pc",
+    "details": "Full Persian subtitles for Sam Porter Bridges expedition to reconnect the United Cities of America, translating codec briefings, emails, and interview logs.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Decima Engine",
+    "challenges": [
+      "Kojima Productions Decima package string replacement",
+      "Extensive lore terminology and scientific jargon translation"
+    ],
+    "limitations": [
+      "Compatible with original and Director Cut releases"
+    ],
+    "installPath": "<Game_Directory>/data/",
+    "installGuide": "Extract and place localized data files into game root.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-death-stranding/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/death-stranding-directors-cut/"
+      }
+    ]
+  },
+  {
+    "id": "gta-iv",
+    "title": "Grand Theft Auto IV: Complete Edition",
+    "year": 2008,
+    "category": "Action / Crime Open-World",
+    "status": "Stable",
+    "patchUrl": "https://farsisaz.com/product/grand-theft-auto-iv/",
+    "website": "https://www.rockstargames.com/games/IV",
+    "details": "Persian subtitles for Niko Bellic immigrant story in Liberty City, covering main story, The Lost and Damned, and The Ballad of Gay Tony.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "RAGE (Rockstar Advanced Game Engine)",
+    "challenges": [
+      "RAGE .gxt2 and .wtd texture archive font replacement",
+      "Custom RTL character reshaper hook for Liberty City dialogue"
+    ],
+    "limitations": [
+      "PC Complete Edition on Steam and Rockstar Launcher"
+    ],
+    "installPath": "<Game_Directory>/GTAIV/",
+    "installGuide": "Run setup installer or drop localized fonts and text files into game directory.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/grand-theft-auto-iv/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Mod (GTAInside)",
+        "url": "https://www.gtainside.com/en/gta4/mods/"
+      }
+    ]
+  },
+  {
+    "id": "resident-evil-village",
+    "title": "Resident Evil Village (RE8)",
+    "year": 2021,
+    "category": "Survival Horror / Gothic Action",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-village/",
+    "website": "https://www.residentevil.com/village/",
+    "details": "Complete Persian subtitles for Ethan Winters search for his daughter in the snowy Romanian castle and village.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "RE Engine",
+    "challenges": [
+      "RE Engine string table decompilation and font glyph generation",
+      "In-game merchant journal and lore notes translation"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/natives/STM/",
+    "installGuide": "Install using Fluffy Mod Manager.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-village/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/resident-evil-village/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/resident-evil-village/"
+      }
+    ]
+  },
+  {
+    "id": "resident-evil-7",
+    "title": "Resident Evil 7: Biohazard",
+    "year": 2017,
+    "category": "Survival Horror / First-Person",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-7/",
+    "website": "https://www.residentevil7.com/",
+    "details": "Persian subtitles for Ethan Winters nightmare at the Baker plantation in Louisiana.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "RE Engine",
+    "challenges": [
+      "RE Engine early build pak text injection",
+      "VHS tape subtitles synchronization"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Deploy patch with Fluffy Mod Manager.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-resident-evil-7/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/resident-evil-7-biohazard/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/resident-evil-7-biohazard/"
+      }
+    ]
+  },
+  {
+    "id": "hades",
+    "title": "Hades",
+    "year": 2020,
+    "category": "Rogue-like / Action RPG",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-hades/",
+    "website": "https://www.supergiantgames.com/games/hades/",
+    "details": "Full Persian subtitles and UI localization for Zagreus escape from the Underworld, translating Olympus boons, codex entries, and extensive dialogues.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Supergiant Custom Engine",
+    "challenges": [
+      "Lua script and Sjson localization dictionary translation",
+      "Custom Persian TTF font integration and RTL text formatting"
+    ],
+    "limitations": [
+      "PC release on Steam and Epic Games"
+    ],
+    "installPath": "<Game_Directory>/Content/Game/Text/",
+    "installGuide": "Place localized text files in Content/Game/Text folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-hades/"
+      }
+    ]
+  },
+  {
+    "id": "far-cry-3",
+    "title": "Far Cry 3",
+    "year": 2012,
+    "category": "Open-World FPS / Action",
+    "status": "Stable",
+    "patchUrl": "https://fansub.ir/product/far-cry-3-persian-subtitle/",
+    "website": "https://www.ubisoft.com/en-us/game/far-cry/far-cry-3",
+    "details": "Complete Persian subtitles for Jason Brody confrontation with Vaas Montenegro on Rook Islands.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Dunia Engine 2",
+    "challenges": [
+      "Dunia .fat/.dat archive string injection",
+      "Custom Persian bitmap font rendering"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/data_win32/",
+    "installGuide": "Install via FanSub Launcher or extract into data_win32.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (FanSub)",
+        "url": "https://fansub.ir/product/far-cry-3-persian-subtitle/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-3/"
+      }
+    ]
+  },
+  {
+    "id": "far-cry-4",
+    "title": "Far Cry 4",
+    "year": 2014,
+    "category": "Open-World FPS / Action",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-4/",
+    "website": "https://www.ubisoft.com/en-us/game/far-cry/far-cry-4",
+    "details": "Persian subtitles for Ajay Ghale rebellion against Pagan Min across the Himalayan region of Kyrat.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Dunia Engine 2",
+    "challenges": [
+      "Dunia fat/dat repackaging",
+      "Himalayan lore and cultural terminology adaptation"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/data_win32/",
+    "installGuide": "Extract and overwrite localized game archives.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-4/"
+      }
+    ]
+  },
+  {
+    "id": "far-cry-6",
+    "title": "Far Cry 6",
+    "year": 2021,
+    "category": "Open-World FPS / Action",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-6/",
+    "website": "https://www.ubisoft.com/en-us/game/far-cry/far-cry-6",
+    "details": "Persian subtitles for Dani Rojas guerrilla revolution against Anton Castillo in the Caribbean paradise of Yara.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Dunia Engine",
+    "challenges": [
+      "Ubisoft Dunia engine string archives decoding",
+      "Spanish-Persian military terminology translation"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/bin/",
+    "installGuide": "Run setup patcher and select installation folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-far-cry-6/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/far-cry-6/"
       }
     ]
   }

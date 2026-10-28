@@ -502,5 +502,101 @@
     "repoUrl": "https://github.com/MatsuriDayo/nekoray",
     "website": "https://github.com/MatsuriDayo/nekoray",
     "details": "Qt-based cross-platform GUI proxy client for Windows and Linux supporting sing-box and Xray cores with community Persian localization."
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "title": "Mozilla Firefox Web Browser",
+    "category": "Privacy & Web Browser",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Pontoon / Fluent",
+    "repoUrl": "https://github.com/mozilla/gecko-dev",
+    "website": "https://www.mozilla.org/firefox/",
+    "details": "Leading open-source privacy web browser featuring comprehensive official Persian translation maintained via Mozilla Pontoon."
+  },
+  {
+    "id": "keepass",
+    "name": "KeePass",
+    "title": "KeePass Password Safe",
+    "category": "Security & Password Management",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "LNGX XML",
+    "repoUrl": "https://sourceforge.net/projects/keepass/",
+    "website": "https://keepass.info/",
+    "details": "Lightweight and robust open-source password manager with official Persian community language pack (.lngx)."
+  },
+  {
+    "id": "bleachbit",
+    "name": "BleachBit",
+    "title": "BleachBit Privacy & System Cleaner",
+    "category": "System & Disk Utilities",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Gettext PO",
+    "repoUrl": "https://github.com/bleachbit/bleachbit",
+    "website": "https://www.bleachbit.org/",
+    "details": "Open-source disk space cleaner, cache manager, and privacy guard with native Persian localization via Launchpad PO."
+  },
+  {
+    "id": "kate-editor",
+    "name": "Kate Editor",
+    "title": "Kate Advanced Text Editor",
+    "category": "Code & Text Editor",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "KDE PO / Gettext",
+    "repoUrl": "https://invent.kde.org/utilities/kate",
+    "website": "https://kate-editor.org/",
+    "details": "Feature-rich multi-document text and code editor from KDE with full BiDi Persian interface and right-to-left syntax highlighting."
+  },
+  {
+    "id": "gparted",
+    "name": "GParted",
+    "title": "GParted Partition Editor",
+    "category": "System & Disk Utilities",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Gettext PO",
+    "repoUrl": "https://gitlab.gnome.org/GNOME/gparted",
+    "website": "https://gparted.org/",
+    "details": "Essential open-source graphical partition editor for managing disk partitions, filesystem resizing, and storage drives with Persian GNOME PO."
+  },
+  {
+    "id": "peazip",
+    "name": "PeaZip",
+    "title": "PeaZip Free Archiver",
+    "category": "File Archiver & Compression",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "TXT / Custom XML",
+    "repoUrl": "https://github.com/peazip/PeaZip",
+    "website": "https://peazip.github.io/",
+    "details": "Open-source file archiver supporting over 200 archive formats with complete native Persian UI translation."
+  },
+  {
+    "id": "vscodium",
+    "name": "VSCodium",
+    "title": "VSCodium Telemetry-Free Code Editor",
+    "category": "Code & Text Editor",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "VS Code Persian Language Pack / JSON",
+    "repoUrl": "https://github.com/VSCodium/vscodium",
+    "website": "https://vscodium.com/",
+    "details": "Community-driven, telemetry-free open-source distribution of Microsoft editor with community Persian language extension support."
+  },
+  {
+    "id": "aegisub",
+    "name": "Aegisub",
+    "title": "Aegisub Advanced Subtitle Editor",
+    "category": "Localization & Translation Tool",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Gettext PO",
+    "repoUrl": "https://github.com/Aegisub/Aegisub",
+    "website": "https://github.com/arch1t3cht/Aegisub",
+    "details": "Indispensable subtitle timing, styling, and typesetting software heavily used by Persian game translators and subbing communities."
   }
 ]
