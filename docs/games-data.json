@@ -296,7 +296,7 @@
     "year": 2016,
     "category": "AAA / 4X Strategy",
     "status": "In Progress",
-    "patchUrl": "https://gamesub.in/sid-meiers-civilization-vi/",
+    "patchUrl": "https://gamesub.net/sid-meiers-civilization-vi/",
     "website": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/",
     "details": "Persian civilization leader pack and UI localization patch.",
     "isAAA": true,
@@ -318,7 +318,7 @@
       {
         "type": "paid",
         "label": "💳 Download (Paid)",
-        "url": "https://gamesub.in/sid-meiers-civilization-vi/"
+        "url": "https://gamesub.net/sid-meiers-civilization-vi/"
       }
     ]
   },
@@ -355,7 +355,12 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/the-witcher-3-wild-hunt/"
+        "url": "https://gamesub.net/the-witcher-3-wild-hunt/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/the-witcher-3-wild-hunt-remastered/"
       }
     ]
   },
@@ -365,7 +370,7 @@
     "year": 2020,
     "category": "AAA / Open World",
     "status": "Community Catalog",
-    "patchUrl": "https://gamesub.in/red-dead-redemption-2/",
+    "patchUrl": "https://gamesub.net/red-dead-redemption-2/",
     "website": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
     "details": "Persian subtitles & terminology glossaries.",
     "isAAA": true,
@@ -392,7 +397,12 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/red-dead-redemption-2/"
+        "url": "https://gamesub.net/red-dead-redemption-2/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/red-dead-redemption-2/"
       }
     ]
   },
@@ -402,7 +412,7 @@
     "year": 2023,
     "category": "AAA / RPG",
     "status": "Community Catalog",
-    "patchUrl": "https://gamesub.in/cyberpunk-2077/",
+    "patchUrl": "https://gamesub.net/cyberpunk-2077/",
     "website": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
     "details": "Terminology lexicon & cyber-glossary in Persian.",
     "isAAA": true,
@@ -429,7 +439,12 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/cyberpunk-2077/"
+        "url": "https://gamesub.net/cyberpunk-2077/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/cyberpunk-2077-phantom-liberty/"
       }
     ]
   },
@@ -439,7 +454,7 @@
     "year": 2015,
     "category": "AAA / Action",
     "status": "Community Catalog",
-    "patchUrl": "https://gamesub.in/grand-theft-auto-v/",
+    "patchUrl": "https://gamesub.net/grand-theft-auto-v/",
     "website": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
     "details": "Persian subtitles, vehicle descriptions & dialogue translation index.",
     "isAAA": true,
@@ -466,7 +481,12 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/grand-theft-auto-v/"
+        "url": "https://gamesub.net/grand-theft-auto-v/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/grand-theft-auto-v-enhanced/"
       }
     ]
   },
@@ -476,7 +496,7 @@
     "year": 2021,
     "category": "AAA / RPG",
     "status": "Community Catalog",
-    "patchUrl": "https://gamesub.in/the-elder-scrolls-v-skyrim/",
+    "patchUrl": "https://gamesub.net/the-elder-scrolls-v-skyrim/",
     "website": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
     "details": "Persian books, lore, and subtitle translation project catalog.",
     "isAAA": true,
@@ -503,7 +523,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/the-elder-scrolls-v-skyrim/"
+        "url": "https://gamesub.net/the-elder-scrolls-v-skyrim/"
       }
     ]
   },
@@ -513,7 +533,7 @@
     "year": 2022,
     "category": "AAA / Action-Adventure",
     "status": "Community Catalog",
-    "patchUrl": "https://gamesub.in/god-of-war/",
+    "patchUrl": "https://gamesub.net/god-of-war/",
     "website": "https://store.steampowered.com/app/1593500/God_of_War/",
     "details": "Persian subtitles and Norse mythology glossary adaptation.",
     "isAAA": true,
@@ -540,7 +560,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/god-of-war/"
+        "url": "https://gamesub.net/god-of-war/"
       }
     ]
   },
@@ -576,7 +596,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/control/"
+        "url": "https://gamesub.net/control/"
       }
     ]
   },
@@ -767,7 +787,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/a-plague-tale-requiem/"
+        "url": "https://gamesub.net/a-plague-tale-requiem/"
       }
     ]
   },
@@ -1235,7 +1255,12 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/resident-evil-4-remake/"
+        "url": "https://gamesub.net/resident-evil-4-remake/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/resident-evil-4-remake/"
       }
     ]
   },
@@ -1431,7 +1456,7 @@
     "year": 2023,
     "category": "Action-Adventure / Post-Apocalyptic",
     "status": "Active",
-    "patchUrl": "https://gamesub.in/the-last-of-us-part-i/",
+    "patchUrl": "https://gamesub.net/the-last-of-us-part-i/",
     "website": "https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/",
     "details": "Comprehensive Persian subtitle localization patch for dialogue, collectibles, and menu interfaces.",
     "isAAA": true,
@@ -1457,7 +1482,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/the-last-of-us-part-i/"
+        "url": "https://gamesub.net/the-last-of-us-part-i/"
       }
     ]
   },
@@ -1467,7 +1492,7 @@
     "year": 2022,
     "category": "Action RPG / Open World",
     "status": "Active",
-    "patchUrl": "https://gamesub.in/elden-ring/",
+    "patchUrl": "https://gamesub.net/elden-ring/",
     "website": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
     "details": "Full Persian subtitle and lore item description patch covering the Lands Between.",
     "isAAA": true,
@@ -1493,7 +1518,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/elden-ring/"
+        "url": "https://gamesub.net/elden-ring/"
       }
     ]
   },
@@ -1503,7 +1528,7 @@
     "year": 2023,
     "category": "Survival Horror / Psychological",
     "status": "Active",
-    "patchUrl": "https://gamesub.in/alan-wake-2/",
+    "patchUrl": "https://gamesub.net/alan-wake-2/",
     "website": "https://www.alanwake.com/",
     "details": "Dual-narrative Persian subtitle localization for Saga Anderson and Alan Wake investigative sequences.",
     "isAAA": true,
@@ -1524,7 +1549,7 @@
       {
         "type": "paid",
         "label": "💳 Download (Paid)",
-        "url": "https://gamesub.in/alan-wake-2/"
+        "url": "https://gamesub.net/alan-wake-2/"
       }
     ]
   },
@@ -1534,7 +1559,7 @@
     "year": 2024,
     "category": "Action-Adventure / Mythological",
     "status": "Active",
-    "patchUrl": "https://gamesub.in/god-of-war-ragnarok/",
+    "patchUrl": "https://gamesub.net/god-of-war-ragnarok/",
     "website": "https://store.steampowered.com/app/2322010/God_of_War_Ragnarok/",
     "details": "Complete Persian subtitle patch translating the Norse saga conclusion across all realms.",
     "isAAA": true,
@@ -1555,7 +1580,7 @@
       {
         "type": "paid",
         "label": "💳 Download (Paid)",
-        "url": "https://gamesub.in/god-of-war-ragnarok/"
+        "url": "https://gamesub.net/god-of-war-ragnarok/"
       }
     ]
   },
@@ -1565,7 +1590,7 @@
     "year": 2019,
     "category": "Action-Adventure / Soulslike",
     "status": "Stable",
-    "patchUrl": "https://gamesub.in/sekiro-shadows-die-twice/",
+    "patchUrl": "https://gamesub.net/sekiro-shadows-die-twice/",
     "website": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/",
     "details": "Complete Persian subtitle patch for Shinobi dialogues, prosthetic descriptions, and lore scrolls.",
     "isAAA": true,
@@ -1586,7 +1611,7 @@
       {
         "type": "paid",
         "label": "💳 Download (Paid)",
-        "url": "https://gamesub.in/sekiro-shadows-die-twice/"
+        "url": "https://gamesub.net/sekiro-shadows-die-twice/"
       }
     ]
   },
@@ -1596,7 +1621,7 @@
     "year": 2019,
     "category": "Interactive Story / Sci-Fi",
     "status": "Stable",
-    "patchUrl": "https://gamesub.in/detroit-become-human/",
+    "patchUrl": "https://gamesub.net/detroit-become-human/",
     "website": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
     "details": "Persian subtitles for thousands of branching dialogue choices and narrative consequence flowcharts.",
     "isAAA": true,
@@ -1617,7 +1642,7 @@
       {
         "type": "paid",
         "label": "💳 Download (Paid)",
-        "url": "https://gamesub.in/detroit-become-human/"
+        "url": "https://gamesub.net/detroit-become-human/"
       }
     ]
   },
@@ -1653,7 +1678,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/silent-hill-2/"
+        "url": "https://gamesub.net/silent-hill-2/"
       }
     ]
   },
@@ -1663,7 +1688,7 @@
     "year": 2023,
     "category": "Sci-Fi Survival Horror",
     "status": "Stable",
-    "patchUrl": "https://gamesub.in/dead-space-remake/",
+    "patchUrl": "https://gamesub.net/dead-space-remake/",
     "website": "https://store.steampowered.com/app/1693980/Dead_Space/",
     "details": "Persian subtitle mod covering Isaac Clarke journey aboard USG Ishimura with localized RIG HUD strings.",
     "isAAA": true,
@@ -1684,7 +1709,7 @@
       {
         "type": "paid",
         "label": "💳 Download (Paid)",
-        "url": "https://gamesub.in/dead-space-remake/"
+        "url": "https://gamesub.net/dead-space-remake/"
       }
     ]
   },
@@ -1720,7 +1745,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/frostpunk/"
+        "url": "https://gamesub.net/frostpunk/"
       }
     ]
   },
@@ -1756,7 +1781,7 @@
       {
         "type": "paid",
         "label": "💳 Paid Subtitle",
-        "url": "https://gamesub.in/a-plague-tale-innocence/"
+        "url": "https://gamesub.net/a-plague-tale-innocence/"
       }
     ]
   },
@@ -2017,8 +2042,8 @@
     "title": "Resident Evil 9: Requiem",
     "year": 2026,
     "category": "Survival Horror",
-    "status": "Planned",
-    "patchUrl": "#",
+    "status": "Planned / Active",
+    "patchUrl": "https://farsisaz.com/product/resident-evil-requiem/",
     "website": "https://www.residentevil.com",
     "details": "Next mainline Capcom survival horror entry on RE Engine. Persian font and string replacement planned.",
     "isAAA": true,
@@ -2034,13 +2059,17 @@
     "installPath": "<RE9_Folder>/reframework/plugins/persian_subtitles/",
     "installGuide": "Will be installable via Fluffy Mod Manager upon release.",
     "isPaid": false,
-    "progress": 0,
+    "progress": 20,
     "links": [
       {
-        "type": "soon",
-        "label": "⏳ Soon",
-        "url": "#",
-        "disabled": true
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/resident-evil-requiem/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Download (RozeGame)",
+        "url": "https://rozegame.ir/resident-evil-requiem/"
       }
     ]
   },
@@ -2111,8 +2140,8 @@
     "title": "Silent Hill f",
     "year": 2026,
     "category": "Psychological Horror",
-    "status": "Planned / In Development",
-    "patchUrl": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D8%A8%D8%A7%D8%B2%DB%8C-silent-hill-f/",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameq.ir/35667/silent-hill-f-farsisaz/",
     "website": "https://www.konami.com/games/silenthill/",
     "details": "Psychological horror set in 1960s rural Japan. Community Persian subtitle mod registered by Poormaz.",
     "isAAA": true,
@@ -2128,12 +2157,37 @@
     "installPath": "<SilentHillF_Folder>/Content/Paks/~mods/",
     "installGuide": "Poormaz Persian subtitle installer will be released alongside the PC launch.",
     "isPaid": false,
-    "progress": 15,
+    "progress": 20,
     "links": [
       {
         "type": "free",
-        "label": "⬇️ Pre-Release Project (Poormaz)",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/35667/silent-hill-f-farsisaz/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Poormaz)",
         "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D8%A8%D8%A7%D8%B2%DB%8C-silent-hill-f/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/silent-hill-f/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/shop/%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%DB%8C%D9%84%D9%86%D8%AA-%D9%87%DB%8C%D9%84-%D8%A7%D9%81-silent-hill-f/"
+      },
+      {
+        "type": "free",
+        "label": "📦 Subtitle Mod (GameTen)",
+        "url": "https://gameten.ir/post/4057/silent-hill-f-farsisaz/"
+      },
+      {
+        "type": "free",
+        "label": "📦 Subtitle Mod (GameNub)",
+        "url": "https://gamenub.ir/farsi-saz-silent-hill-f/"
       }
     ]
   },
@@ -2896,6 +2950,454 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-halo-campaign-evolved/"
+      }
+    ]
+  },
+  {
+    "id": "stalker-2",
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "year": 2024,
+    "category": "Post-Apocalyptic FPS / Survival Horror",
+    "status": "Stable",
+    "patchUrl": "https://farsisaz.com/product/s-t-a-l-k-e-r-2-heart-of-chornobyl/",
+    "website": "https://www.stalker2.com/",
+    "details": "Extensive Persian translation for GSC Game World Chornobyl Exclusion Zone, covering PDA logs, faction radio broadcasts, and survival mechanics.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "UE5 localized string asset manifest decryption",
+      "Complex Ukrainian/Slavic dialect adaptation to Persian literary and spoken forms",
+      "RTL HUD text placement across high-res display scalers"
+    ],
+    "limitations": [
+      "PC Steam and GOG releases"
+    ],
+    "installPath": "<Game_Directory>/Stalker2/Content/Paks/~mods/",
+    "installGuide": "Extract .pak mod package into the ~mods directory.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/s-t-a-l-k-e-r-2-heart-of-chornobyl/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/stalker-2-persian-sub/"
+      }
+    ]
+  },
+  {
+    "id": "starfield",
+    "title": "Starfield",
+    "year": 2023,
+    "category": "Sci-Fi RPG / Space Exploration",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-starfield/",
+    "website": "https://bethesda.net/en/game/starfield",
+    "details": "Comprehensive Persian localization for Bethesda epic space RPG, translating 200,000+ lines of dialogue, star systems, research terminals, and mission logs.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Creation Engine 2",
+    "challenges": [
+      "Massive Creation Engine 2 .strings and .ilstrings file table translation",
+      "DirectX 12 RTL UI font glyph texture packing",
+      "Complex procedural star system naming alignment"
+    ],
+    "limitations": [
+      "PC release on Steam and Xbox App"
+    ],
+    "installPath": "<Game_Directory>/Data/Strings/",
+    "installGuide": "Run setup installer or place localized Strings archives in Data/Strings folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-starfield/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/starfield/"
+      }
+    ]
+  },
+  {
+    "id": "baldurs-gate-3",
+    "title": "Baldur's Gate 3",
+    "year": 2023,
+    "category": "CRPG / Tactical Turn-Based",
+    "status": "Stable",
+    "patchUrl": "https://farsisaz.com/product/baldurs-gate-3/",
+    "website": "https://baldursgate3.game/",
+    "details": "Immense Persian subtitle package translating all narrative story acts, D&D 5e spell descriptions, companion dialogues, and narrator lines.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Divinity 4.0 Engine",
+    "challenges": [
+      "Over 2 million words of intricate branching dialogue in Larian .loca XML format",
+      "Custom RTL HarfBuzz font shaping for cursive Arabic script",
+      "Dungeons & Dragons 5e terminology standardization"
+    ],
+    "limitations": [
+      "PC version via BG3 Mod Manager or manual override"
+    ],
+    "installPath": "<Game_Directory>/Data/Localization/",
+    "installGuide": "Place the Persian .pak package in your Mods directory and activate.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/baldurs-gate-3/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/baldurs-gate-3-persian-sub/"
+      }
+    ]
+  },
+  {
+    "id": "star-wars-jedi-survivor",
+    "title": "Star Wars Jedi: Survivor",
+    "year": 2023,
+    "category": "Action-Adventure / Sci-Fi",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-star-wars-jedi-survivor/",
+    "website": "https://www.ea.com/games/starwars/jedi/jedi-survivor",
+    "details": "Persian subtitles for Cal Kestis fight against the Galactic Empire on Koboh and Jedha, translating cutscenes, holomap database, and perks.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "UE4 .pak container extraction and string replacement",
+      "Star Wars galactic lore and alien language subtitle synchronization"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/SwGame/Content/Paks/~mods/",
+    "installGuide": "Copy mod .pak into ~mods folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-star-wars-jedi-survivor/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/star-wars-jedi-survivor/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/star-wars-jedi-survivor/"
+      }
+    ]
+  },
+  {
+    "id": "marvels-spider-man-2",
+    "title": "Marvel's Spider-Man 2",
+    "year": 2024,
+    "category": "Action-Adventure / Superhero",
+    "status": "Stable",
+    "patchUrl": "https://gamenub.ir/farsi-saz-spider-man-2/",
+    "website": "https://insomniac.games/game/marvels-spider-man-2/",
+    "details": "Persian subtitle mod for Peter Parker and Miles Morales duel against Kraven and Venom across New York City.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Insomniac Engine",
+    "challenges": [
+      "Insomniac toc/archive file string injection",
+      "Fast-paced web-slinging dialog subtitle timing and sizing"
+    ],
+    "limitations": [
+      "PC and jailbroken PS5 builds"
+    ],
+    "installPath": "<Game_Directory>/asset_archive/",
+    "installGuide": "Use the Persian mod tool installer to inject into game archives.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameNub)",
+        "url": "https://gamenub.ir/farsi-saz-spider-man-2/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-spider-man-2/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/spider-man-2/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/marvels-spider-man-2/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-mirage",
+    "title": "Assassin's Creed Mirage",
+    "year": 2023,
+    "category": "Action-Adventure / Stealth",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-assassins-creed-mirage/",
+    "website": "https://www.ubisoft.com/en-us/game/assassins-creed/mirage",
+    "details": "Complete Persian subtitles for Basim journey across 9th-century Baghdad, Alamut fortress, and Hidden Ones lore.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "AnvilNext 2.0",
+    "challenges": [
+      "Ubisoft Anvil forge packfile encryption",
+      "Historic Abbasid Persian/Arabic naming convention harmonization"
+    ],
+    "limitations": [
+      "PC release on Ubisoft Connect and Steam"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Run the Persian installer executable.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-assassins-creed-mirage/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/assassins-creed-mirage/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/assassins-creed-mirage/"
+      }
+    ]
+  },
+  {
+    "id": "the-last-of-us-part-2",
+    "title": "The Last of Us Part II Remastered",
+    "year": 2024,
+    "category": "Action-Adventure / Cinematic Survival",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-the-last-of-us-part-2-remastered/",
+    "website": "https://www.playstation.com/en-us/games/the-last-of-us-part-ii-remastered/",
+    "details": "Emotionally charged Persian localization for Ellie and Abby dual narratives across post-pandemic Seattle.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Naughty Dog Proprietary Engine",
+    "challenges": [
+      "PS4 / PS5 / PC package string replacement",
+      "Subtle emotional tone and dialogue nuance in Persian script"
+    ],
+    "limitations": [
+      "PC and jailbroken console editions"
+    ],
+    "installPath": "<Game_Directory>/build/pc/main/",
+    "installGuide": "Extract and overwrite into game build folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-the-last-of-us-part-2-remastered/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/the-last-of-us-part-2/"
+      }
+    ]
+  },
+  {
+    "id": "mafia-the-old-country",
+    "title": "Mafia: The Old Country",
+    "year": 2025,
+    "category": "Action-Adventure / Crime Drama",
+    "status": "Planned / Active",
+    "patchUrl": "https://gameten.ir/post/mafia-the-old-country-farsisaz/",
+    "website": "https://mafia.2k.com/",
+    "details": "Persian subtitles planned for Hangar 13 gritty origins of organized crime in 1900s Sicily.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "UE5 cinematic dialogue timing and subtitle track synchronization",
+      "Historical Sicilian dialect to Persian contextual translation"
+    ],
+    "limitations": [
+      "Awaiting official PC launch"
+    ],
+    "installPath": "<Game_Directory>/MafiaOldCountry/Content/Paks/~mods/",
+    "installGuide": "Pre-release tracking across GameTen, RozeGame, and GameQ.",
+    "isPaid": false,
+    "progress": 40,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (GameTen)",
+        "url": "https://gameten.ir/post/mafia-the-old-country-farsisaz/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (RozeGame)",
+        "url": "https://rozegame.ir/mafia-the-old-country/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/mafia-the-old-country/"
+      }
+    ]
+  },
+  {
+    "id": "dark-souls-remastered",
+    "title": "Dark Souls Remastered",
+    "year": 2018,
+    "category": "Action RPG / Dark Fantasy",
+    "status": "Stable",
+    "patchUrl": "https://rozegame.ir/dark-souls-remastered/",
+    "website": "https://en.bandainamcoent.eu/dark-souls/dark-souls-remastered",
+    "details": "Full Persian subtitles and menu translation for the Chosen Undead journey through Lordran.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "FromSoftware Engine",
+    "challenges": [
+      "FMG file translation and custom bitmap font atlas injection"
+    ],
+    "limitations": [
+      "PC Steam version"
+    ],
+    "installPath": "<Game_Directory>/msg/ENGLISH/",
+    "installGuide": "Place localized item and dialogue msg files in game folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (RozeGame)",
+        "url": "https://rozegame.ir/dark-souls-remastered/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Download (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-dark-souls-remastered/"
+      }
+    ]
+  },
+  {
+    "id": "little-nightmares-2",
+    "title": "Little Nightmares II",
+    "year": 2021,
+    "category": "Puzzle-Platformer / Horror",
+    "status": "Stable",
+    "patchUrl": "https://rozegame.ir/little-nightmares-2/",
+    "website": "https://en.bandainamcoent.eu/little-nightmares/little-nightmares-ii",
+    "details": "Persian UI, hints, and achievement descriptions for Mono and Six journey through Pale City.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "UE4 UI font atlas replacement"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/Helios/Content/Paks/~mods/",
+    "installGuide": "Copy mod pak into ~mods folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (RozeGame)",
+        "url": "https://rozegame.ir/little-nightmares-2/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Download (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-little-nightmares-2/"
+      }
+    ]
+  },
+  {
+    "id": "spirit-city-lofi-sessions",
+    "title": "Spirit City: Lofi Sessions",
+    "year": 2024,
+    "category": "Productivity / Cozy Simulation",
+    "status": "Stable",
+    "patchUrl": "https://ezdasub.ir/product/spirit-city-lofi-sessions/",
+    "website": "https://store.steampowered.com/app/2113850/",
+    "details": "Full Persian interface, habit tracker, journal prompts, and spirit companion descriptions created by EzdaSub.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity TextMeshPro custom Persian font injection",
+      "Cozy UI layout preservation"
+    ],
+    "limitations": [
+      "PC Steam release"
+    ],
+    "installPath": "<Game_Directory>/Spirit City Lofi Sessions_Data/",
+    "installGuide": "Extract localized assets into game data folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (EzdaSub)",
+        "url": "https://ezdasub.ir/product/spirit-city-lofi-sessions/"
+      }
+    ]
+  },
+  {
+    "id": "replaced",
+    "title": "Replaced",
+    "year": 2026,
+    "category": "Sci-Fi 2.5D Retro-Futuristic Action",
+    "status": "Planned / Active",
+    "patchUrl": "https://rozegame.ir/replaced/",
+    "website": "https://replaced.game/",
+    "details": "Anticipated 1980s alternative dystopian adventure from Sad Cat Studios. Pre-release Persian localization tracking on RozeGame.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity / Custom Shader Engine",
+    "challenges": [
+      "Pixel-art font atlas customization for Persian glyphs",
+      "Cinematic dialogue BiDi string shaping"
+    ],
+    "limitations": [
+      "Planned for upcoming launch"
+    ],
+    "installPath": "<Game_Directory>/Replaced_Data/",
+    "installGuide": "Follow setup instructions upon official release.",
+    "isPaid": false,
+    "progress": 20,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (RozeGame)",
+        "url": "https://rozegame.ir/replaced/"
       }
     ]
   }
