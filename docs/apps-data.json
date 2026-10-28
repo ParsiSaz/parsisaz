@@ -48,6 +48,18 @@
     "name": "Audacity"
   },
   {
+    "id": "bepass",
+    "name": "Bepass",
+    "title": "Bepass Anti-Censorship Client",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/bepass-org/bepass",
+    "website": "https://bepass.org/",
+    "details": "Open-source censorship circumvention client created by Iranian developers for Persian internet users with native Persian UI.",
+    "i18nFormat": "Go / JSON"
+  },
+  {
     "id": "bitwarden-desktop",
     "name": "Bitwarden",
     "title": "Bitwarden Desktop",
@@ -144,6 +156,18 @@
     "i18nFormat": "Crowdin / Fluent (.ftl)"
   },
   {
+    "id": "delta-chat",
+    "name": "Delta Chat",
+    "title": "Delta Chat Email Messenger",
+    "category": "Messaging & Communications",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/deltachat/deltachat-core-rust",
+    "website": "https://delta.chat/",
+    "details": "Decentralized messenger that uses the existing e-mail server network with full Persian Weblate support.",
+    "i18nFormat": "Weblate / JSON & Android XML"
+  },
+  {
     "id": "dolphin",
     "name": "Dolphin File Manager",
     "title": "KDE Dolphin File Manager",
@@ -238,6 +262,18 @@
     "website": "https://www.freecad.org/",
     "details": "Open-source parametric 3D CAD modeler with community Persian Crowdin localization.",
     "id": "freecad"
+  },
+  {
+    "id": "ghostwriter",
+    "name": "Ghostwriter",
+    "title": "Ghostwriter Markdown Editor",
+    "category": "Code & Text Editor",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://invent.kde.org/office/ghostwriter",
+    "website": "https://ghostwriter.kde.org/",
+    "details": "Distraction-free markdown editor for desktop featuring Persian KDE gettext translation.",
+    "i18nFormat": "KDE Localization / GNU gettext (.po)"
   },
   {
     "id": "gimp",
@@ -468,6 +504,18 @@
     "i18nFormat": "Qt Linguist (.ts)"
   },
   {
+    "id": "motrix",
+    "name": "Motrix",
+    "title": "Motrix Download Manager",
+    "category": "Network & BitTorrent Client",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/agalwood/Motrix",
+    "website": "https://motrix.app/",
+    "details": "Full-featured download manager supporting HTTP, FTP, BitTorrent, and Magnet with Persian UI translation.",
+    "i18nFormat": "Electron / JSON"
+  },
+  {
     "id": "firefox",
     "name": "Mozilla Firefox",
     "title": "Mozilla Firefox Web Browser",
@@ -636,6 +684,18 @@
     "details": "Open-source file archiver supporting over 200 archive formats with complete native Persian UI translation."
   },
   {
+    "id": "peertube",
+    "name": "PeerTube",
+    "title": "PeerTube Decentralized Video Platform",
+    "category": "Multimedia & Playback",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/Chocobozzz/PeerTube",
+    "website": "https://joinpeertube.org/",
+    "details": "Decentralized, federated video hosting network with official Persian community localization on Weblate.",
+    "i18nFormat": "Weblate / JSON"
+  },
+  {
     "name": "Poedit",
     "title": "Poedit Translation Editor",
     "category": "Localization & Translation Tool",
@@ -730,6 +790,18 @@
     "website": "https://sing-box.sagernet.org/",
     "details": "High-performance universal proxy platform with Persian localization in Android/iOS/Desktop client GUIs.",
     "i18nFormat": "Flutter / Go i18n"
+  },
+  {
+    "id": "stellarium",
+    "name": "Stellarium",
+    "title": "Stellarium Open-Source Planetarium",
+    "category": "Education & Astronomy",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/Stellarium/stellarium",
+    "website": "https://stellarium.org/",
+    "details": "Free open-source planetarium showing a realistic 3D sky with extensive Persian translations and celestial cultures.",
+    "i18nFormat": "GNU gettext (.po) / Transifex"
   },
   {
     "id": "strawberry-music-player",
@@ -864,6 +936,18 @@
     "details": "Community-driven, telemetry-free open-source distribution of Microsoft editor with community Persian language extension support."
   },
   {
+    "id": "wireguard",
+    "name": "WireGuard",
+    "title": "WireGuard Secure VPN Tunnel",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/WireGuard/wireguard-windows",
+    "website": "https://www.wireguard.com/",
+    "details": "Fast, modern, and secure VPN tunnel client with Persian community translations in Windows and mobile clients.",
+    "i18nFormat": "C / RC strings"
+  },
+  {
     "name": "Wireshark",
     "title": "Wireshark Network Analyzer",
     "category": "Network Security & Analysis",
@@ -874,6 +958,18 @@
     "website": "https://www.wireshark.org/",
     "details": "Industry-standard open-source network packet analyzer featuring community Persian Qt translation.",
     "id": "wireshark"
+  },
+  {
+    "id": "xournalpp",
+    "name": "Xournal++",
+    "title": "Xournal++ Handwriting & PDF Annotation",
+    "category": "Notes & Organization",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/xournalpp/xournalpp",
+    "website": "https://xournalpp.github.io/",
+    "details": "Handwriting notetaking software with PDF annotation and full Persian gettext translation on Crowdin.",
+    "i18nFormat": "Crowdin / GNU gettext (.po)"
   },
   {
     "id": "zotero",

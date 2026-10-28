@@ -855,6 +855,37 @@
     ]
   },
   {
+    "id": "balatro",
+    "title": "Balatro",
+    "year": 2024,
+    "category": "Roguelike Poker Deckbuilder",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/balatro/",
+    "website": "https://www.playbalatro.com",
+    "details": "Full Persian localization of all 150 Jokers, Tarot cards, Spectral cards, vouchers, and game UI.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "LÖVE 2D Engine (Lua)",
+    "challenges": [
+      "LÖVE executable resource unpacking (balatro.exe zip bundle).",
+      "RTL font rendering and text wrapping for intricate card effects."
+    ],
+    "limitations": [
+      "PC Steam v1.0+."
+    ],
+    "installPath": "<Balatro_Dir>/",
+    "installGuide": "1. Apply patch to game directory.\n2. Switch language to Persian in Settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/balatro/"
+      }
+    ]
+  },
+  {
     "id": "black-myth-wukong",
     "title": "Black Myth: Wukong",
     "year": 2024,
@@ -1162,6 +1193,37 @@
     ]
   },
   {
+    "id": "indika",
+    "title": "Indika",
+    "year": 2024,
+    "category": "Psychological Narrative Adventure",
+    "status": "Complete",
+    "patchUrl": "https://persianlingo.ir/product/indika-persian-sub/",
+    "website": "https://11bitstudios.com/games/indika/",
+    "details": "Full Persian subtitles for young nun Indika's surreal philosophical journey alongside the Devil in 19th-century Russia.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Unreal Engine 5 pak container extraction and font injection.",
+      "Theological dialogue and moral allegory translation."
+    ],
+    "limitations": [
+      "PC Steam & GOG."
+    ],
+    "installPath": "<Indika_Dir>/Indika/Content/Paks/~mods/",
+    "installGuide": "1. Place pak mod in Content/Paks/~mods/ folder.\n2. Enable subtitles in Audio/Text options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/indika-persian-sub/"
+      }
+    ]
+  },
+  {
     "id": "minetest-persian",
     "title": "Luanti / Minetest",
     "year": 2024,
@@ -1235,6 +1297,37 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/marvels-spider-man-2/"
+      }
+    ]
+  },
+  {
+    "id": "nine-sols",
+    "title": "Nine Sols",
+    "year": 2024,
+    "category": "Taopunk 2D Action Platformer / Soulslike",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/nine-sols/",
+    "website": "https://shop.redcandlegames.com/app/ninesols",
+    "details": "Full Persian subtitles for Yi's deflection-based vengeful journey through New Kunlun's ancient sci-fi ruins.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unity",
+    "challenges": [
+      "Unity TextMeshPro font atlas generation for Persian RTL glyphs.",
+      "Translating complex Taoist philosophical concepts and sci-fi lore."
+    ],
+    "limitations": [
+      "PC Steam v1.0+."
+    ],
+    "installPath": "<NineSols_Dir>/NineSols_Data/",
+    "installGuide": "1. Copy mod files into NineSols_Data directory.\n2. Enable subtitles in Options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/nine-sols/"
       }
     ]
   },
@@ -1901,6 +1994,37 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (GameSub)",
         "url": "https://gamesub.net/product/baldurs-gate-3-persian-sub/"
+      }
+    ]
+  },
+  {
+    "id": "blasphemous-2",
+    "title": "Blasphemous 2",
+    "year": 2023,
+    "category": "Gothic Metroidvania / Soulslike Action",
+    "status": "Complete",
+    "patchUrl": "https://persianlingo.ir/product/blasphemous-2-persian-sub/",
+    "website": "https://www.blasphemous2game.com",
+    "details": "Complete Persian subtitles for The Penitent One's resurrection, featuring translated item lore, prayers, and dialogue.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unity",
+    "challenges": [
+      "Unity TextMeshPro font texture atlas generation for Persian RTL.",
+      "Archaic Andalusian religious folklore terminology translation."
+    ],
+    "limitations": [
+      "PC Steam version."
+    ],
+    "installPath": "<Blasphemous2_Dir>/Blasphemous 2_Data/",
+    "installGuide": "1. Extract patch into game data directory.\n2. Choose Persian in Options menu.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/blasphemous-2-persian-sub/"
       }
     ]
   },
@@ -3746,6 +3870,37 @@
     ]
   },
   {
+    "id": "heavy-rain",
+    "title": "Heavy Rain",
+    "year": 2019,
+    "category": "Interactive Drama / Psychological Thriller",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/heavy-rain/",
+    "website": "https://www.quanticdream.com/en/heavy-rain",
+    "details": "Full Persian subtitles for the Origami Killer investigation across Ethan Mars, Scott Shelby, Norman Jayden, and Madison Paige.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Quantic Dream Engine",
+    "challenges": [
+      "Quantic Dream proprietary archive modding.",
+      "Dynamic QTE prompt text and inner monologue thoughts translation."
+    ],
+    "limitations": [
+      "PC Steam & Epic Games editions."
+    ],
+    "installPath": "<HeavyRain_Dir>/",
+    "installGuide": "1. Extract patch into game directory.\n2. Enable subtitles in Options menu.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/heavy-rain/"
+      }
+    ]
+  },
+  {
     "id": "metro-exodus",
     "title": "Metro Exodus",
     "year": 2019,
@@ -3888,6 +4043,99 @@
         "type": "paid",
         "label": "💳 Download (Paid)",
         "url": "https://gamesub.net/sekiro-shadows-die-twice/"
+      }
+    ]
+  },
+  {
+    "id": "the-walking-dead",
+    "title": "The Walking Dead: The Telltale Definitive Series",
+    "year": 2019,
+    "category": "Episodic Narrative Adventure / Post-Apocalyptic Drama",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/the-walking-dead/",
+    "website": "https://www.skybound.com/telltales-the-walking-dead-the-definitive-series",
+    "details": "Comprehensive Persian subtitles for Clementine's complete 4-season emotional journey across the zombie apocalypse.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Telltale Tool",
+    "challenges": [
+      "Telltale Tool ttarch2 archive unpacking and font texture modification.",
+      "High-pressure timed choice dialogues translation."
+    ],
+    "limitations": [
+      "Definitive Series (Seasons 1-4 + 400 Days + Michonne)."
+    ],
+    "installPath": "<TWD_Definitive_Dir>/Archives/",
+    "installGuide": "1. Extract patch into game Archives folder.\n2. Turn on subtitles in Audio Settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/the-walking-dead/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-odyssey",
+    "title": "Assassin's Creed Odyssey",
+    "year": 2018,
+    "category": "Action RPG / Historical Open-World",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/assassins-creed-odyssey/",
+    "website": "https://www.ubisoft.com/game/assassins-creed/odyssey",
+    "details": "Full Persian subtitle and menu translation for Alexios and Kassandra's Peloponnesian War epic.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Ubisoft AnvilNext 2.0",
+    "challenges": [
+      "Anvil forge archive repacking and RTL font generation.",
+      "Massive volume of branching philosophical dialogue choices."
+    ],
+    "limitations": [
+      "PC Steam and Ubisoft Connect versions."
+    ],
+    "installPath": "<ACOdyssey_Dir>/",
+    "installGuide": "1. Install via GameSub patcher into game directory.\n2. Enable subtitles in Options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/assassins-creed-odyssey/"
+      }
+    ]
+  },
+  {
+    "id": "celeste",
+    "title": "Celeste",
+    "year": 2018,
+    "category": "Precision Platformer",
+    "status": "Complete",
+    "patchUrl": "https://persianlingo.ir/product/celeste-persian-sub/",
+    "website": "https://www.celestegame.com",
+    "details": "Full Persian localization of Madeline's mountain-climbing anxiety and self-acceptance narrative journey.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Microsoft XNA / FNA",
+    "challenges": [
+      "Custom FNA engine bitmap font generator.",
+      "RTL text layout shaping for dialogue speech bubbles."
+    ],
+    "limitations": [
+      "PC Steam & itch.io editions."
+    ],
+    "installPath": "<Celeste_Dir>/Content/Dialog/",
+    "installGuide": "1. Copy localized dialog files into Content/Dialog/.\n2. Select Persian language in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/celeste-persian-sub/"
       }
     ]
   },
@@ -4089,6 +4337,37 @@
     ]
   },
   {
+    "id": "assassins-creed-origins",
+    "title": "Assassin's Creed Origins",
+    "year": 2017,
+    "category": "Action RPG / Historical Open-World",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/assassins-creed-origins/",
+    "website": "https://www.ubisoft.com/game/assassins-creed/origins",
+    "details": "Complete Persian subtitles for Bayek of Siwa's founding of the Hidden Ones in Ptolemaic Egypt.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Ubisoft AnvilNext 2.0",
+    "challenges": [
+      "Anvil engine forge archive unpacking.",
+      "Ancient Egyptian and Greek terminology translation."
+    ],
+    "limitations": [
+      "PC Gold & Standard editions."
+    ],
+    "installPath": "<ACOrigins_Dir>/",
+    "installGuide": "1. Apply patch files to root installation directory.\n2. Turn on subtitles in Audio/Language settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/assassins-creed-origins/"
+      }
+    ]
+  },
+  {
     "id": "hellblade-senuas-sacrifice",
     "title": "Hellblade: Senua's Sacrifice",
     "year": 2017,
@@ -4286,6 +4565,37 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/ghost-recon-wildlands-persian-subtitles/"
+      }
+    ]
+  },
+  {
+    "id": "dark-souls-3",
+    "title": "Dark Souls III",
+    "year": 2016,
+    "category": "Soulslike Action RPG / Dark Fantasy",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-dark-souls-3/",
+    "website": "https://en.bandainamcoent.eu/dark-souls/dark-souls-iii",
+    "details": "Complete Persian subtitles for the Ashen One's journey to return the Lords of Cinder to their thrones in Lothric.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "FromSoftware Proprietary Engine",
+    "challenges": [
+      "FromSoftware FMG message file extraction and repacking.",
+      "Deep soulslike cryptic item descriptions and poetic lore translation."
+    ],
+    "limitations": [
+      "PC Steam The Fire Fades Edition (offline recommended)."
+    ],
+    "installPath": "<DarkSoulsIII_Dir>/Game/msg/",
+    "installGuide": "1. Copy localized msg files to Game/msg/ directory via UXM or mod folder.\n2. Enable subtitles in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-dark-souls-3/"
       }
     ]
   },
@@ -4505,6 +4815,37 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/bloodborne-persian-subtitle/"
+      }
+    ]
+  },
+  {
+    "id": "fallout-4",
+    "title": "Fallout 4",
+    "year": 2015,
+    "category": "Post-Apocalyptic Action RPG",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/fallout-4/",
+    "website": "https://fallout.bethesda.net",
+    "details": "Massive Persian subtitle and Pip-Boy localization for the Sole Survivor's quest across the post-nuclear Commonwealth.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Bethesda Creation Engine",
+    "challenges": [
+      "Creation Engine BA2 archive extraction and string table injection.",
+      "Over 110,000 lines of spoken dialogue and terminal entries."
+    ],
+    "limitations": [
+      "Compatible with PC Steam Next-Gen and Classic editions."
+    ],
+    "installPath": "<Fallout4_Dir>/Data/Strings/",
+    "installGuide": "1. Copy translated strings files to Fallout 4/Data/Strings/.\n2. Ensure bInvalidateOlderFiles=1 in Fallout4Custom.ini.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/fallout-4/"
       }
     ]
   },
@@ -4772,6 +5113,37 @@
     ]
   },
   {
+    "id": "bioshock-infinite",
+    "title": "BioShock Infinite",
+    "year": 2013,
+    "category": "Narrative FPS / Steampunk Action",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/bioshock-infinite/",
+    "website": "https://2k.com/en-US/game/bioshock-infinite/",
+    "details": "Full Persian subtitles for Booker DeWitt and Elizabeth's airborne city of Columbia adventure and Burial at Sea DLCs.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Modified Unreal Engine 3",
+    "challenges": [
+      "Irrational Games UPK archive localization containers.",
+      "Complex quantum multiverse philosophical dialogue and Voxophone recordings."
+    ],
+    "limitations": [
+      "Complete Edition with all DLCs."
+    ],
+    "installPath": "<BioShockInfinite_Dir>/XGame/CookedPCConsole/",
+    "installGuide": "1. Place patch UPK files in CookedPCConsole folder.\n2. Enable subtitles in Gameplay options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/bioshock-infinite/"
+      }
+    ]
+  },
+  {
     "id": "tomb-raider-2013",
     "title": "Tomb Raider (2013 Reboot)",
     "year": 2013,
@@ -4839,6 +5211,37 @@
     ]
   },
   {
+    "id": "assassins-creed-revelations",
+    "title": "Assassin's Creed: Revelations",
+    "year": 2011,
+    "category": "Historical Action-Adventure",
+    "status": "Complete",
+    "patchUrl": "https://persianlingo.ir/product/assassins-creed-revelations-persian-sub/",
+    "website": "https://www.ubisoft.com/game/assassins-creed",
+    "details": "Comprehensive Persian subtitles for Ezio's final journey through Ottoman Constantinople uncovering Altaïr's library keys.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Ubisoft Anvil Engine",
+    "challenges": [
+      "Anvil forge extraction and localized subtitle font replacement.",
+      "Ottoman and Byzantine historical terminology."
+    ],
+    "limitations": [
+      "PC Steam & Ubisoft Connect editions."
+    ],
+    "installPath": "<ACRevelations_Dir>/",
+    "installGuide": "1. Install via patch installer into game folder.\n2. Turn on subtitles in Options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/assassins-creed-revelations-persian-sub/"
+      }
+    ]
+  },
+  {
     "id": "portal-2",
     "title": "Portal 2",
     "year": 2011,
@@ -4866,6 +5269,37 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://www.nexusmods.com/portal2/mods/7"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-2",
+    "title": "Assassin's Creed II",
+    "year": 2009,
+    "category": "Historical Action-Adventure",
+    "status": "Complete",
+    "patchUrl": "https://persianlingo.ir/product/assassins-creed-2-persian-sub/",
+    "website": "https://www.ubisoft.com/game/assassins-creed",
+    "details": "Full Persian subtitles and UI for Ezio Auditore da Firenze's legendary Renaissance revenge saga in Florence and Venice.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Ubisoft Anvil Engine",
+    "challenges": [
+      "Legacy Anvil engine forge and scimitar file modding.",
+      "Renaissance Italian terms and dialogue translation into Persian."
+    ],
+    "limitations": [
+      "PC Deluxe Edition."
+    ],
+    "installPath": "<AC2_Dir>/",
+    "installGuide": "1. Run PersianLingo patcher or copy mod files to AC2 root.\n2. Enable subtitles in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/assassins-creed-2-persian-sub/"
       }
     ]
   },
@@ -4933,6 +5367,37 @@
         "type": "free",
         "label": "⬇️ Free Mod (GTAInside)",
         "url": "https://www.gtainside.com/en/gta4/mods/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-1",
+    "title": "Assassin's Creed",
+    "year": 2007,
+    "category": "Historical Action-Adventure",
+    "status": "Complete",
+    "patchUrl": "https://persianlingo.ir/product/assassins-creed-1-persian-sub/",
+    "website": "https://www.ubisoft.com/game/assassins-creed",
+    "details": "Full Persian subtitles for Altaïr Ibn-La'Ahad's Third Crusade missions in Jerusalem, Acre, and Damascus.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Ubisoft Scimitar Engine",
+    "challenges": [
+      "Classic Scimitar engine text container unpacking.",
+      "RTL character rendering on early 2007 3D engine."
+    ],
+    "limitations": [
+      "Director's Cut PC version."
+    ],
+    "installPath": "<AC1_Dir>/",
+    "installGuide": "1. Copy patch files into Assassin's Creed root directory.\n2. Turn on subtitles in Audio menu.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (PersianLingo)",
+        "url": "https://persianlingo.ir/product/assassins-creed-1-persian-sub/"
       }
     ]
   },
