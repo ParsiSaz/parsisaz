@@ -789,11 +789,6 @@
       <div class="pagination-bar" id="appsPagination"></div>
     </div>
 
-    <!-- Famous Tools & GitHub Projects Section Grid (Summary Showcase) -->
-    <h2 class="section-title" id="featuredSectionTitle">⚙️ Featured ParsiSaz & Open Source Tools</h2>
-    <div class="grid-cards" id="appsGrid">
-      <!-- Dynamically populated -->
-    </div>
 
     <footer>
       <p>© 2026 ParsiSaz Initiative. Preserving and modernizing the Persian language in modern computing & gaming.</p>
@@ -936,7 +931,6 @@
         if (appsBadge) appsBadge.innerText = appsData.length;
 
         applyFilterAndSearch();
-        renderFeaturedAppsGrid(appsData.slice(0, 6)); // Showcase 6 top tools in cards
       } catch (err) {
         console.error('Failed to load portal data:', err);
       }
@@ -1129,25 +1123,6 @@
       renderPagination(totalItems, appsPage, pageSize, 'appsPagination', 'changeAppsPage');
     }
 
-    function renderFeaturedAppsGrid(items) {
-      const grid = document.getElementById('appsGrid');
-      grid.innerHTML = items.map(app => `
-        <div class="app-card">
-          <div>
-            <div class="app-header">
-              <span class="app-cat">${app.category}</span>
-              <h3 class="app-title">${app.title || app.name}</h3>
-              <span class="badge" style="font-size: 0.7rem; padding: 0.2rem 0.5rem; margin-bottom: 0.5rem;">Format: ${app.i18nFormat || 'PO / Custom'}</span>
-            </div>
-            <p class="app-desc">${app.details || app.description}</p>
-          </div>
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
-            <span class="status-badge ${getStatusClass(app.status)}">${app.status}</span>
-            <a href="${app.repoUrl || app.url}" target="_blank" class="action-btn">View on GitHub →</a>
-          </div>
-        </div>
-      `).join('');
-    }
 
     function openDetailModal(gameId) {
       const g = gamesData.find(item => item.id === gameId);
