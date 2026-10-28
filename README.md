@@ -36,7 +36,7 @@ To keep documentation dynamic and easy to search, all detailed guides, known eng
 
 ## 🚀 Key Portal Features
 
-- 🔍 **Interactive Game Search & Filters**: Filter across AAA titles (Civilization VI, The Witcher 3, Cyberpunk, 2026 releases) and community indie translations.
+- 🔍 **Interactive Game Search & Filters**: Filter across Official publisher releases, Open-Source engines, and Community mod translations, with automatic year sorting.
 - ⚠️ **Engine Challenges & RTL Hurdles**: Detailed breakdown of obstacles per title (such as reversed letter orders, missing font atlases, and disconnected cursive scripts).
 - 📁 **Instant Copyable Paths**: Direct file paths and step-by-step installation instructions for every supported game.
 - ⚙️ **Tool Ecosystem Directory**: Documentation for internal and open tools including `Parsik` (GUI mod manager) and `farsiSaz` (RTL font patcher).

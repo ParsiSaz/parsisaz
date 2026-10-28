@@ -215,8 +215,8 @@
     "year": 2016,
     "category": "AAA / 4X Strategy",
     "status": "In Progress",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://github.com/ParsiSaz",
+    "patchUrl": "https://gamesub.in/sid-meiers-civilization-vi/",
+    "website": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/",
     "details": "Persian civilization leader pack and UI localization patch.",
     "isAAA": true,
     "engine": "Firaxis LORE Engine",
@@ -230,7 +230,7 @@
     ],
     "installPath": "<Documents>/My Games/Sid Meier's Civilization VI/Mods/ParsiSaz_Civ6/",
     "installGuide": "1. Extract to Civilization VI Mods directory.\n2. Enable in Additional Content > Mods menu.",
-    "distributionType": "opensource"
+    "distributionType": "mod"
   },
   {
     "id": "witcher-3",
@@ -238,8 +238,8 @@
     "year": 2022,
     "category": "AAA / RPG",
     "status": "Community Catalog",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://www.cdprojektred.com",
+    "patchUrl": "https://gamesub.in/the-witcher-3-wild-hunt/",
+    "website": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/",
     "details": "Persian subtitle adaptation & dialogue lexicon documentation.",
     "isAAA": true,
     "engine": "REDengine 3 / 4",
@@ -253,7 +253,7 @@
     ],
     "installPath": "<game_directory>/mods/modPersianLanguage/",
     "installGuide": "Refer to ParsiSaz Documentation portal for setup and glossary resources.",
-    "distributionType": "opensource"
+    "distributionType": "mod"
   },
   {
     "id": "rdr2",
@@ -261,8 +261,8 @@
     "year": 2020,
     "category": "AAA / Open World",
     "status": "Community Catalog",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://www.rockstargames.com/reddeadredemption2",
+    "patchUrl": "https://gamesub.in/red-dead-redemption-2/",
+    "website": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/",
     "details": "Persian subtitles & terminology glossaries.",
     "isAAA": true,
     "engine": "RAGE (Rockstar Advanced Game Engine)",
@@ -276,7 +276,7 @@
     ],
     "installPath": "<game_directory>/lml/replace/",
     "installGuide": "Follow instructions provided in the ParsiSaz community documentation.",
-    "distributionType": "opensource"
+    "distributionType": "mod"
   },
   {
     "id": "cyberpunk-2077",
@@ -284,8 +284,8 @@
     "year": 2023,
     "category": "AAA / RPG",
     "status": "Community Catalog",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://www.cyberpunk.net",
+    "patchUrl": "https://gamesub.in/cyberpunk-2077/",
+    "website": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
     "details": "Terminology lexicon & cyber-glossary in Persian.",
     "isAAA": true,
     "engine": "REDengine 4",
@@ -299,7 +299,7 @@
     ],
     "installPath": "<game_directory>/archive/pc/mod/",
     "installGuide": "Consult the ParsiSaz web documentation for terminology dictionaries and patch status.",
-    "distributionType": "opensource"
+    "distributionType": "mod"
   },
   {
     "id": "gta-v",
@@ -307,8 +307,8 @@
     "year": 2015,
     "category": "AAA / Action",
     "status": "Community Catalog",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://www.rockstargames.com/gta-v",
+    "patchUrl": "https://gamesub.in/grand-theft-auto-v/",
+    "website": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/",
     "details": "Persian subtitles, vehicle descriptions & dialogue translation index.",
     "isAAA": true,
     "engine": "RAGE",
@@ -322,7 +322,7 @@
     ],
     "installPath": "<game_directory>/mods/update/update.rpf",
     "installGuide": "Follow the OpenIV guide documented on the ParsiSaz portal.",
-    "distributionType": "opensource"
+    "distributionType": "mod"
   },
   {
     "id": "elder-scrolls-skyrim",
@@ -330,8 +330,8 @@
     "year": 2021,
     "category": "AAA / RPG",
     "status": "Community Catalog",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://elderscrolls.bethesda.net",
+    "patchUrl": "https://gamesub.in/the-elder-scrolls-v-skyrim/",
+    "website": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/",
     "details": "Persian books, lore, and subtitle translation project catalog.",
     "isAAA": true,
     "engine": "Creation Engine",
@@ -345,7 +345,7 @@
     ],
     "installPath": "<game_directory>/Data/Interface/",
     "installGuide": "Install via Mod Organizer 2 or place in Data/Interface/.",
-    "distributionType": "opensource"
+    "distributionType": "mod"
   },
   {
     "id": "god-of-war",
@@ -353,8 +353,8 @@
     "year": 2022,
     "category": "AAA / Action-Adventure",
     "status": "Community Catalog",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://www.playstation.com/games/god-of-war/",
+    "patchUrl": "https://gamesub.in/god-of-war/",
+    "website": "https://store.steampowered.com/app/1593500/God_of_War/",
     "details": "Persian subtitles and Norse mythology glossary adaptation.",
     "isAAA": true,
     "engine": "Santa Monica Proprietary PC Engine",
@@ -368,53 +368,7 @@
     ],
     "installPath": "<game_directory>/exec/",
     "installGuide": "See ParsiSaz documentation for installation guides and font files.",
-    "distributionType": "opensource"
-  },
-  {
-    "id": "gta-vi",
-    "title": "Grand Theft Auto VI",
-    "year": 2026,
-    "category": "AAA / Action Open-World",
-    "status": "Planned 2026",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://www.rockstargames.com",
-    "details": "Anticipated 2026 AAA release: planned Persian terminology & localization hub.",
-    "isAAA": true,
-    "engine": "Next-Gen RAGE 9",
-    "challenges": [
-      "Next-generation engine architecture and security expected upon PC launch.",
-      "Massive anticipated script size."
-    ],
-    "limitations": [
-      "Pending official PC release date.",
-      "Pre-release terminology tracking only."
-    ],
-    "installPath": "TBA upon release",
-    "installGuide": "Documentation and terminology registry will be updated upon official PC launch.",
-    "distributionType": "opensource"
-  },
-  {
-    "id": "elder-scrolls-vi",
-    "title": "The Elder Scrolls VI",
-    "year": 2026,
-    "category": "AAA / RPG",
-    "status": "Planned 2026",
-    "patchUrl": "https://github.com/ParsiSaz/parsisaz",
-    "website": "https://bethesda.net",
-    "details": "Future 2026+ Persian localization tracking project.",
-    "isAAA": true,
-    "engine": "Creation Engine 2",
-    "challenges": [
-      "Deep lore, procedural dialogue, and next-generation UI pipelines.",
-      "RTL font rendering adaptation."
-    ],
-    "limitations": [
-      "In pre-production tracking phase.",
-      "Specifications will be formalized once Bethesda releases toolsets."
-    ],
-    "installPath": "TBA upon release",
-    "installGuide": "Community tracking and glossary planning available on the portal.",
-    "distributionType": "opensource"
+    "distributionType": "mod"
   },
   {
     "id": "control-resonant",
@@ -426,7 +380,7 @@
     "website": "https://poormaz.com",
     "details": "Persian subtitles and complete UI localization for Control Resonant.",
     "isAAA": true,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "Northlight Engine",
     "challenges": [
       "Proprietary Northlight packfile encryption",
@@ -448,7 +402,7 @@
     "website": "https://poormaz.com",
     "details": "Persian subtitles and translation patch for PC & PS5.",
     "isAAA": true,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "Glacier Engine",
     "challenges": [
       "Dynamic espionage subtitles timing",
@@ -470,7 +424,7 @@
     "website": "https://poormaz.com",
     "details": "Free Persian subtitle package for Silent Hill Townfall.",
     "isAAA": true,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "Unreal Engine 5",
     "challenges": [
       "UE5 audio-subtitle synchronization",
@@ -492,7 +446,7 @@
     "website": "https://poormaz.com",
     "details": "Persian subtitle translation for full open-world scoundrel campaign.",
     "isAAA": true,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "Snowdrop Engine",
     "challenges": [
       "Massive alien dialect terminology",
@@ -514,7 +468,7 @@
     "website": "https://poormaz.com",
     "details": "Complete Persian subtitles for Pandora storyline, Na vi lore, and world codex.",
     "isAAA": true,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "Snowdrop Engine",
     "challenges": [
       "Complex flora and fauna nomenclature",
@@ -536,7 +490,7 @@
     "website": "https://poormaz.com",
     "details": "Full Persian menus, mission briefings, subtitles, and all DLC packages.",
     "isAAA": true,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "AnvilNext 2.0",
     "challenges": [
       "Military radio callouts and tactical jargon",
@@ -558,7 +512,7 @@
     "website": "https://poormaz.com",
     "details": "Free Persian subtitle package with emotional narrative adaptation.",
     "isAAA": true,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "Asobo Custom Engine",
     "challenges": [
       "Historic 14th-century French medieval prose adaptation",
@@ -580,7 +534,7 @@
     "website": "https://poormaz.com",
     "details": "Persian subtitles and translation mod for End of Abyss.",
     "isAAA": false,
-    "distributionType": "external free download",
+    "distributionType": "mod",
     "engine": "Unity",
     "challenges": [
       "Unity TextMeshPro font injection"
@@ -765,5 +719,269 @@
     ],
     "installPath": "<STK_Dir>/data/po/fa.po",
     "installGuide": "Select Persian in Options > Language."
+  },
+  {
+    "id": "prince-of-persia-the-lost-crown",
+    "title": "Prince of Persia: The Lost Crown",
+    "year": 2024,
+    "category": "Action-Adventure / Metroidvania",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/2751000/Prince_of_Persia_The_Lost_Crown/",
+    "website": "https://store.steampowered.com/app/2751000/Prince_of_Persia_The_Lost_Crown/",
+    "details": "First major AAA release by Ubisoft featuring native official Persian voice acting and full interface/subtitle localization.",
+    "isAAA": true,
+    "distributionType": "official",
+    "engine": "Unity (Proprietary Ubisoft Pipeline)",
+    "challenges": [
+      "Complex RTL text shaping and typography rendering on multi-platform console/PC builds.",
+      "Persian dialogue voice acting and lip-sync calibration with cinematic sequences."
+    ],
+    "limitations": [
+      "Available directly through Ubisoft Connect and Steam releases."
+    ],
+    "installPath": "Built-in game language options",
+    "installGuide": "1. Open game options.\n2. Navigate to Audio & Language.\n3. Select Persian (فارسی) for text and spoken dialogue."
+  },
+  {
+    "id": "alone-in-the-dark-2024",
+    "title": "Alone in the Dark",
+    "year": 2024,
+    "category": "Survival Horror / Psychological",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/1310410/Alone_in_the_Dark/",
+    "website": "https://store.steampowered.com/app/1310410/Alone_in_the_Dark/",
+    "details": "THQ Nordic psychological survival horror featuring official Persian interface and subtitle localization.",
+    "isAAA": true,
+    "distributionType": "official",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Dynamic note and clue documents requiring RTL-aware font scaling in UE5.",
+      "Sub-titles synchronized across intricate detective investigation dialogues."
+    ],
+    "limitations": [
+      "Voice acting is in English; subtitles and UI are in Persian."
+    ],
+    "installPath": "In-game Settings > Language",
+    "installGuide": "1. Launch the game from Steam/GOG.\n2. In Options > Gameplay & Language, select Persian."
+  },
+  {
+    "id": "the-tale-of-bistun",
+    "title": "The Tale of Bistun",
+    "year": 2022,
+    "category": "Action-Adventure / Narrative",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/1450640/The_Tale_of_Bistun/",
+    "website": "https://store.steampowered.com/app/1450640/The_Tale_of_Bistun/",
+    "details": "Action-adventure inspired by the 12th-century romance of Khosrow and Shirin, with native Persian voiceover and full localization.",
+    "isAAA": false,
+    "distributionType": "official",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Poetic mythological narrative and archaic Persian vocabulary preservation.",
+      "Integration of Persian calligraphy into 3D environment stone inscriptions."
+    ],
+    "limitations": [
+      "Requires selecting Persian audio track in launcher/options."
+    ],
+    "installPath": "In-game Audio/Subtitles Menu",
+    "installGuide": "1. Go to Settings > Audio.\n2. Enable Persian Voiceover and Persian Subtitles."
+  },
+  {
+    "id": "children-of-morta",
+    "title": "Children of Morta",
+    "year": 2019,
+    "category": "Action RPG / Roguelite",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/330020/Children_of_Morta/",
+    "website": "https://store.steampowered.com/app/330020/Children_of_Morta/",
+    "details": "Critically acclaimed action RPG by Dead Mage and 11 bit studios, featuring official Persian text and poetic narration.",
+    "isAAA": false,
+    "distributionType": "official",
+    "engine": "Unity",
+    "challenges": [
+      "Handling Right-to-Left font atlas rendering for pixel-art typography.",
+      "Dynamic story cutscenes with extensive poetic lore text."
+    ],
+    "limitations": [
+      "Available on official PC releases."
+    ],
+    "installPath": "Options > Language > فارسی",
+    "installGuide": "1. Start Children of Morta.\n2. In Options > Language, choose فارسی."
+  },
+  {
+    "id": "this-war-of-mine",
+    "title": "This War of Mine",
+    "year": 2014,
+    "category": "Survival / Strategy",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/227300/This_War_of_Mine/",
+    "website": "https://store.steampowered.com/app/227300/This_War_of_Mine/",
+    "details": "11 bit studios survival title with official community Persian localization supported directly in the game engine.",
+    "isAAA": false,
+    "distributionType": "official",
+    "engine": "Liquid Engine (Proprietary 11 bit studios)",
+    "challenges": [
+      "Proprietary font texture sheets requiring custom Persian glyph mapping.",
+      "Emotional diary entries and moral decision prompts with RTL formatting."
+    ],
+    "limitations": [
+      "Some DLC community mods may revert to English."
+    ],
+    "installPath": "Settings > Language Selection",
+    "installGuide": "1. Open Settings menu.\n2. Select Persian from the list of official translations."
+  },
+  {
+    "id": "resident-evil-4-remake",
+    "title": "Resident Evil 4 Remake",
+    "year": 2023,
+    "category": "Survival Horror / Action",
+    "status": "Active",
+    "patchUrl": "https://gamesub.in/resident-evil-4-remake/",
+    "website": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
+    "details": "Comprehensive community Persian subtitle and interface patch developed with custom RE Engine font injection.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "RE Engine (Capcom)",
+    "challenges": [
+      "RE Engine PAK archive extraction and font table modification.",
+      "Bidi (bidirectional) text handling in weapon descriptions and inventory menus."
+    ],
+    "limitations": [
+      "Requires re-applying patch after major game version updates."
+    ],
+    "installPath": "<Resident_Evil_4_Dir>/",
+    "installGuide": "1. Download Persian localization installer from GameSub.\n2. Run installer and choose game installation root.\n3. Enable Subtitles in in-game display options."
+  },
+  {
+    "id": "disco-elysium",
+    "title": "Disco Elysium: The Final Cut",
+    "year": 2021,
+    "category": "Narrative RPG",
+    "status": "Active",
+    "patchUrl": "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/",
+    "website": "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/",
+    "details": "Community Persian subtitle translation mod covering over one million words of deep branching narrative.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Massive dialogue tree string extraction and complex thought-cabinet terminology.",
+      "Dynamic typewriter text effect compatibility with RTL character rendering."
+    ],
+    "limitations": [
+      "Best suited for PC version; requires manual file placement."
+    ],
+    "installPath": "<Disco_Elysium_Dir>/disco_Data/StreamingAssets/",
+    "installGuide": "1. Extract the localization patch into the game directory.\n2. Switch language in game settings."
+  },
+  {
+    "id": "palworld",
+    "title": "Palworld",
+    "year": 2024,
+    "category": "Survival / Crafting / Open World",
+    "status": "Active",
+    "patchUrl": "https://store.steampowered.com/app/1623730/Palworld/",
+    "website": "https://store.steampowered.com/app/1623730/Palworld/",
+    "details": "Community Persian UI and item database translation mod utilizing Unreal Engine 5 localization injection.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "Frequent early access updates altering item IDs and string mappings.",
+      "Injecting custom Persian TTF fonts into UE5 PAK files."
+    ],
+    "limitations": [
+      "Patch must be updated following major Steam updates."
+    ],
+    "installPath": "<Palworld_Dir>/Pal/Content/Paks/~mods/",
+    "installGuide": "1. Download the Persian mod pak file.\n2. Place it in Pal/Content/Paks/~mods/ folder.\n3. Launch game."
+  },
+  {
+    "id": "mount-and-blade-bannerlord",
+    "title": "Mount & Blade II: Bannerlord",
+    "year": 2020,
+    "category": "Strategy / Action RPG",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/",
+    "website": "https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/",
+    "details": "Persian community localization mod on Nexus Mods & Steam Workshop featuring full quest, troop, and dialogue translation.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "TaleWorlds Proprietary Engine",
+    "challenges": [
+      "Extensive XML string hierarchy across sandbox campaign systems.",
+      "Right-to-left character reordering in custom battlefield UI."
+    ],
+    "limitations": [
+      "Requires enabling the mod in the TaleWorlds launcher."
+    ],
+    "installPath": "<Bannerlord_Dir>/Modules/FarsiLocalization/",
+    "installGuide": "1. Extract to Modules folder or subscribe on Steam Workshop.\n2. Check the mod in launcher under Mods tab."
+  },
+  {
+    "id": "hollow-knight",
+    "title": "Hollow Knight",
+    "year": 2017,
+    "category": "Metroidvania / Action",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    "website": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    "details": "Community Persian subtitle and lore translation mod with custom bitmap font atlas.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Replacing Unity font asset bundles with custom RTL Persian glyph set.",
+      "Maintaining poetic tone in cryptic NPC dialogues."
+    ],
+    "limitations": [
+      "Works with PC Steam and GOG versions."
+    ],
+    "installPath": "<Hollow_Knight_Dir>/hollow_knight_Data/",
+    "installGuide": "1. Extract localization files into hollow_knight_Data.\n2. Launch game and select language."
+  },
+  {
+    "id": "stardew-valley",
+    "title": "Stardew Valley",
+    "year": 2016,
+    "category": "Farming Sim / RPG",
+    "status": "Stable",
+    "patchUrl": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    "website": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    "details": "Persian community localization mod compatible with SMAPI, introducing custom Persian pixel font glyphs.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "MonoGame (C#)",
+    "challenges": [
+      "Bitmap font texture generation matching 16-bit pixel aesthetic for Persian characters.",
+      "SMAPI event hooks to bypass default XNA/MonoGame Latin-only spritefont draw calls."
+    ],
+    "limitations": [
+      "Requires SMAPI (Stardew Modding API) installed."
+    ],
+    "installPath": "<StardewValley_Dir>/Mods/PersianLanguage/",
+    "installGuide": "1. Install SMAPI.\n2. Place PersianLanguage folder into Mods/ directory.\n3. Launch through StardewModdingAPI.exe."
+  },
+  {
+    "id": "mindustry",
+    "title": "Mindustry",
+    "year": 2020,
+    "category": "Factory / Tower Defense / RTS",
+    "status": "Active",
+    "patchUrl": "https://github.com/Anuken/Mindustry",
+    "website": "https://mindustrygame.github.io/",
+    "details": "Open-source sandbox factory tower-defense game with Persian translation and engine RTL shaping discussion.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "engine": "Arc / libGDX (Java)",
+    "challenges": [
+      "libGDX/Arc core text layout lacks native Right-to-Left bidirectional algorithm.",
+      "Requires external Persian shaping pre-processor before passing strings to Arc BitmapFont."
+    ],
+    "limitations": [
+      "Persian translations may require community font packs for glyph display."
+    ],
+    "installPath": "Official GitHub repository & build releases",
+    "installGuide": "1. Clone repo or download latest build from GitHub.\n2. Settings > Language > Persian."
   }
 ]

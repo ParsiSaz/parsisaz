@@ -622,7 +622,7 @@
     <!-- Main View Switcher (Games vs Apps) -->
     <div class="view-switcher">
       <button class="view-btn active" id="viewGamesBtn" onclick="switchView('games')">
-        🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">34</span>
+        🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">44</span>
       </button>
       <button class="view-btn" id="viewAppsBtn" onclick="switchView('apps')">
         📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">17</span>
@@ -640,11 +640,6 @@
         <button class="tab-btn" data-filter="official">🌿 Official</button>
         <button class="tab-btn" data-filter="opensource">🔓 Open-Source</button>
         <button class="tab-btn" data-filter="mod">🛠️ Community Mod</button>
-        <button class="tab-btn" data-filter="external-free">🎁 Free Subtitles (Poormaz)</button>
-        <button class="tab-btn" data-filter="aaa">⭐ AAA Games</button>
-        <button class="tab-btn" data-filter="2026">🚀 2026 Releases</button>
-        <button class="tab-btn" data-filter="recent">✨ 2020 - 2025</button>
-        <button class="tab-btn" data-filter="classic">📜 Classic Games</button>
       </div>
       <!-- App Filter Tabs -->
       <div class="filter-tabs" id="appFilterTabs" style="display: none;">
@@ -834,13 +829,9 @@
       if (t.includes('official')) {
         return '<span class="type-badge type-official">🌿 Official</span>';
       } else if (t.includes('opensource') || t.includes('open-source')) {
-        return '<span class="type-badge type-opensource">🔓 OpenSource</span>';
-      } else if (t.includes('mod')) {
-        return '<span class="type-badge type-mod">🛠️ Mod</span>';
-      } else if (t.includes('paid')) {
-        return '<span class="type-badge type-paid">💳 External Paid</span>';
+        return '<span class="type-badge type-opensource">🔓 Open-Source</span>';
       } else {
-        return '<span class="type-badge type-free">🎁 Free Download</span>';
+        return '<span class="type-badge type-mod">🛠️ Community Mod</span>';
       }
     }
 
@@ -854,12 +845,22 @@
         return;
       }
 
-      tbody.innerHTML = items.map((g, idx) => `
+      tbody.innerHTML = items.map((g, idx) => {
+        const dt = (g.distributionType || '').toLowerCase();
+        let actionBtnHtml = '';
+        if (dt.includes('opensource') || dt.includes('open-source')) {
+          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn" title="View Source Repository">📦 Source</a>`;
+        } else if (dt.includes('official')) {
+          actionBtnHtml = `<a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" title="Visit Official Page">🌐 Official Page</a>`;
+        } else {
+          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn" title="External Download">⬇️ External Download</a>`;
+        }
+
+        return `
         <tr>
           <td>
             <div class="game-name">
               ${g.title}
-              ${g.isAAA ? '<span class="pill pill-aaa">AAA</span>' : '<span class="pill pill-indie">Indie/Mod</span>'}
             </div>
           </td>
           <td><strong style="color: var(--text);">${g.year}</strong></td>
@@ -875,13 +876,12 @@
               <button class="action-btn btn-detail" onclick="openDetailModal('${g.id}')">
                 ⚙️ Challenges
               </button>
-              <a href="${g.patchUrl}" target="_blank" class="action-btn" title="View Source / Download">
-                ${g.distributionType && g.distributionType.includes('external') ? '⬇️ Download' : '📦 Source'}
-              </a>
+              ${actionBtnHtml}
             </div>
           </td>
         </tr>
-      `).join('');
+      `;
+      }).join('');
     }
 
     function renderAppsTable(items) {
@@ -958,7 +958,6 @@
         <span class="status-badge ${getStatusClass(g.status)}">${g.status}</span>
         <span class="badge">${g.year}</span>
         <span class="badge">${g.category}</span>
-        ${g.isAAA ? '<span class="pill pill-aaa">AAA Title</span>' : '<span class="pill pill-indie">Community Mod</span>'}
       `;
 
       // Challenges
@@ -987,10 +986,16 @@
 
       // Links
       const links = document.getElementById('modalLinks');
-      const actionText = g.distributionType && g.distributionType.includes('external') ? 'Download from Poormaz ⬇️' : 'Open Repository →';
+      const dt = (g.distributionType || '').toLowerCase();
+      let actionText = '⬇️ External Download';
+      if (dt.includes('opensource') || dt.includes('open-source')) {
+        actionText = '📦 Open Repository →';
+      } else if (dt.includes('official')) {
+        actionText = '🌐 Official Page ↗';
+      }
       links.innerHTML = `
-        <a href="${g.patchUrl}" target="_blank" class="action-btn" style="background: var(--accent); color: #000; font-weight: 700;">${actionText}</a>
-        ${g.website ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
+        <a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" style="background: var(--accent); color: #000; font-weight: 700;">${actionText}</a>
+        ${g.website && g.website !== g.patchUrl ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
       `;
 
       document.getElementById('detailModal').classList.add('open');
@@ -1018,11 +1023,6 @@
           if (currentGameFilter === 'official') matchFilter = distType.includes('official');
           else if (currentGameFilter === 'opensource') matchFilter = distType.includes('opensource') || distType.includes('open-source');
           else if (currentGameFilter === 'mod') matchFilter = distType.includes('mod');
-          else if (currentGameFilter === 'external-free') matchFilter = distType.includes('external free');
-          else if (currentGameFilter === 'aaa') matchFilter = g.isAAA;
-          else if (currentGameFilter === '2026') matchFilter = g.year >= 2026;
-          else if (currentGameFilter === 'recent') matchFilter = g.year >= 2020 && g.year <= 2025;
-          else if (currentGameFilter === 'classic') matchFilter = g.year < 2020;
 
           let matchQuery = true;
           if (q) {
@@ -1034,6 +1034,9 @@
 
           return matchFilter && matchQuery;
         });
+
+        // Automatically sort every display in descending order by year (newest first)
+        filtered.sort((a, b) => (b.year || 0) - (a.year || 0));
 
         renderGames(filtered);
       } else {
