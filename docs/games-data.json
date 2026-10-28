@@ -19,7 +19,8 @@
       "Some third-party Steam workshop mods may not include Persian translations."
     ],
     "installPath": "<RimWorld_Dir>/Mods/Core/Languages/Persian/",
-    "installGuide": "1. Download from GitHub or subscribe via Steam Workshop.\n2. Activate Persian in Options > Language."
+    "installGuide": "1. Download from GitHub or subscribe via Steam Workshop.\n2. Activate Persian in Options > Language.",
+    "isPaid": false
   },
   {
     "id": "kenshi",
@@ -43,7 +44,8 @@
     ],
     "installPath": "<game_directory>/locale/fa_IR/",
     "installGuide": "1. Download fa_IR.zip from GitHub Releases.\n2. Extract it into <Kenshi_Folder>/locale/fa_IR/.\n3. Open Kenshi launcher, navigate to Settings > Language, and choose fa_IR.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "project-zomboid",
@@ -67,7 +69,8 @@
     ],
     "installPath": "<game_directory>/media/lua/shared/Translate/FA/",
     "installGuide": "1. Clone or download the repository.\n2. Copy the contents into <ProjectZomboid>/media/lua/shared/Translate/FA/.\n3. Launch Project Zomboid and select Farsi/Persian in the Display/Language settings.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "darkest-dungeon-2",
@@ -91,7 +94,8 @@
     ],
     "installPath": "<game_directory>/Darkest Dungeon II_Data/StreamingAssets/Localization/",
     "installGuide": "1. Download the latest release from the ParsiSaz repository.\n2. Run the provided patcher or copy the localized string files to the StreamingAssets/Localization directory.\n3. Verify game file integrity if you ever wish to revert.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "software-inc",
@@ -114,7 +118,8 @@
     ],
     "installPath": "<game_directory>/Translations/Persian/",
     "installGuide": "1. Extract Persian folder into <Software_Inc_Folder>/Translations/.\n2. In Options > Localization, select 'Persian' from the dropdown list.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "oxygen-not-included",
@@ -138,7 +143,8 @@
     ],
     "installPath": "%userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian\\",
     "installGuide": "1. Download the repo ZIP from GitHub.\n2. Extract into %userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian.\n3. Start the game, open 'Mods' from the main menu, and enable 'OxygenNotIncluded_Persian'.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "stronghold-warlords",
@@ -161,7 +167,8 @@
     ],
     "installPath": "<game_directory>/assets/strings/",
     "installGuide": "1. Extract the patch into the Stronghold Warlords assets directory.\n2. Launch game and verify Persian subtitles in the audio options.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "dont-starve-together",
@@ -184,7 +191,8 @@
     ],
     "installPath": "<game_directory>/mods/dont_starve_together_persian/",
     "installGuide": "1. Place mod folder into <game_directory>/mods/.\n2. Activate the mod in the 'Mods' menu before hosting or joining a server.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "stronghold-crusader-1",
@@ -207,7 +215,8 @@
     ],
     "installPath": "<game_directory>/fx/ & <game_directory>/crusader.exe",
     "installGuide": "1. Backup your original crusader directory.\n2. Copy the graphics and audio mods over the existing installation.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": false
   },
   {
     "id": "civ-6",
@@ -230,7 +239,8 @@
     ],
     "installPath": "<Documents>/My Games/Sid Meier's Civilization VI/Mods/ParsiSaz_Civ6/",
     "installGuide": "1. Extract to Civilization VI Mods directory.\n2. Enable in Additional Content > Mods menu.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": true
   },
   {
     "id": "witcher-3",
@@ -253,7 +263,8 @@
     ],
     "installPath": "<game_directory>/mods/modPersianLanguage/",
     "installGuide": "Refer to ParsiSaz Documentation portal for setup and glossary resources.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": true
   },
   {
     "id": "rdr2",
@@ -276,7 +287,8 @@
     ],
     "installPath": "<game_directory>/lml/replace/",
     "installGuide": "Follow instructions provided in the ParsiSaz community documentation.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": true
   },
   {
     "id": "cyberpunk-2077",
@@ -299,7 +311,8 @@
     ],
     "installPath": "<game_directory>/archive/pc/mod/",
     "installGuide": "Consult the ParsiSaz web documentation for terminology dictionaries and patch status.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": true
   },
   {
     "id": "gta-v",
@@ -322,7 +335,8 @@
     ],
     "installPath": "<game_directory>/mods/update/update.rpf",
     "installGuide": "Follow the OpenIV guide documented on the ParsiSaz portal.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": true
   },
   {
     "id": "elder-scrolls-skyrim",
@@ -345,7 +359,8 @@
     ],
     "installPath": "<game_directory>/Data/Interface/",
     "installGuide": "Install via Mod Organizer 2 or place in Data/Interface/.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": true
   },
   {
     "id": "god-of-war",
@@ -368,7 +383,8 @@
     ],
     "installPath": "<game_directory>/exec/",
     "installGuide": "See ParsiSaz documentation for installation guides and font files.",
-    "distributionType": "mod"
+    "distributionType": "mod",
+    "isPaid": true
   },
   {
     "id": "control-resonant",
@@ -390,7 +406,8 @@
       "PC release patch only"
     ],
     "installPath": "<Game_Directory>/",
-    "installGuide": "Download installer from Poormaz and follow setup wizard."
+    "installGuide": "Download installer from Poormaz and follow setup wizard.",
+    "isPaid": false
   },
   {
     "id": "007-first-light",
@@ -412,7 +429,8 @@
       "PS5 requires jailbroken firmware"
     ],
     "installPath": "<Game_Directory>/",
-    "installGuide": "Refer to Poormaz installation guide."
+    "installGuide": "Refer to Poormaz installation guide.",
+    "isPaid": false
   },
   {
     "id": "silent-hill-townfall",
@@ -434,7 +452,8 @@
       "Available for PC platform"
     ],
     "installPath": "<Game_Directory>/Paks/~mods/",
-    "installGuide": "Place .pak file in ~mods directory."
+    "installGuide": "Place .pak file in ~mods directory.",
+    "isPaid": false
   },
   {
     "id": "star-wars-outlaws",
@@ -456,7 +475,8 @@
       "Single-player offline story mode recommended"
     ],
     "installPath": "<Game_Directory>/",
-    "installGuide": "Extract and run the setup patcher from Poormaz."
+    "installGuide": "Extract and run the setup patcher from Poormaz.",
+    "isPaid": false
   },
   {
     "id": "avatar-frontiers-of-pandora",
@@ -478,7 +498,8 @@
       "Requires matching game build version"
     ],
     "installPath": "<Game_Directory>/",
-    "installGuide": "Follow installer instructions provided by Poormaz."
+    "installGuide": "Follow installer instructions provided by Poormaz.",
+    "isPaid": false
   },
   {
     "id": "ghost-recon-wildlands",
@@ -500,7 +521,8 @@
       "Single-player and offline co-op"
     ],
     "installPath": "<Game_Directory>/",
-    "installGuide": "Run Poormaz installer into Ghost Recon Wildlands root folder."
+    "installGuide": "Run Poormaz installer into Ghost Recon Wildlands root folder.",
+    "isPaid": false
   },
   {
     "id": "resonance-plague-tale",
@@ -522,7 +544,8 @@
       "PC release"
     ],
     "installPath": "<Game_Directory>/",
-    "installGuide": "Copy patch files into game folder."
+    "installGuide": "Copy patch files into game folder.",
+    "isPaid": false
   },
   {
     "id": "end-of-abyss",
@@ -543,7 +566,8 @@
       "PC version"
     ],
     "installPath": "<Game_Directory>/",
-    "installGuide": "Extract into game root folder."
+    "installGuide": "Extract into game root folder.",
+    "isPaid": false
   },
   {
     "id": "endless-sky-farsi",
@@ -565,7 +589,8 @@
       "Community translation in development"
     ],
     "installPath": "<EndlessSky>/data/i18n/fa/",
-    "installGuide": "Select Persian in Preferences > Language."
+    "installGuide": "Select Persian in Preferences > Language.",
+    "isPaid": false
   },
   {
     "id": "cataclysm-dda-persian",
@@ -587,7 +612,8 @@
       "Terminal rendering requires UTF-8 BiDi supporting emulator"
     ],
     "installPath": "<CDDA_Dir>/lang/mo/fa/",
-    "installGuide": "Select Persian in Settings > Language."
+    "installGuide": "Select Persian in Settings > Language.",
+    "isPaid": false
   },
   {
     "id": "minetest-persian",
@@ -609,7 +635,8 @@
       "Some third-party mods retain English strings"
     ],
     "installPath": "<Minetest_Dir>/locale/fa/",
-    "installGuide": "Choose Persian in Settings > Language."
+    "installGuide": "Choose Persian in Settings > Language.",
+    "isPaid": false
   },
   {
     "id": "veloren-persian",
@@ -631,7 +658,8 @@
       "Continuous alpha development"
     ],
     "installPath": "<Veloren_Dir>/assets/voxygen/i18n/fa_IR/",
-    "installGuide": "Select Persian in Audio & Language options."
+    "installGuide": "Select Persian in Audio & Language options.",
+    "isPaid": false
   },
   {
     "id": "wesnoth-persian",
@@ -653,7 +681,8 @@
       "Some user-made add-on campaigns are untranslated"
     ],
     "installPath": "<Wesnoth_Dir>/translations/fa_IR/",
-    "installGuide": "Select Persian in Preferences > Language."
+    "installGuide": "Select Persian in Preferences > Language.",
+    "isPaid": false
   },
   {
     "id": "0ad-persian",
@@ -675,7 +704,8 @@
       "Requires enabling custom font in GUI options"
     ],
     "installPath": "<0ad_Dir>/binaries/data/mods/public/",
-    "installGuide": "Select Persian in Settings > Language."
+    "installGuide": "Select Persian in Settings > Language.",
+    "isPaid": false
   },
   {
     "id": "openttd-persian",
@@ -697,7 +727,8 @@
       "Must choose a TrueType font in Game Options to avoid question marks"
     ],
     "installPath": "<OpenTTD_Dir>/lang/persian.lng",
-    "installGuide": "Select Persian in Game Options > Game Language."
+    "installGuide": "Select Persian in Game Options > Game Language.",
+    "isPaid": false
   },
   {
     "id": "supertuxkart-persian",
@@ -718,7 +749,8 @@
       "Custom fonts required for optimal readability"
     ],
     "installPath": "<STK_Dir>/data/po/fa.po",
-    "installGuide": "Select Persian in Options > Language."
+    "installGuide": "Select Persian in Options > Language.",
+    "isPaid": false
   },
   {
     "id": "prince-of-persia-the-lost-crown",
@@ -740,7 +772,8 @@
       "Available directly through Ubisoft Connect and Steam releases."
     ],
     "installPath": "Built-in game language options",
-    "installGuide": "1. Open game options.\n2. Navigate to Audio & Language.\n3. Select Persian (فارسی) for text and spoken dialogue."
+    "installGuide": "1. Open game options.\n2. Navigate to Audio & Language.\n3. Select Persian (فارسی) for text and spoken dialogue.",
+    "isPaid": false
   },
   {
     "id": "alone-in-the-dark-2024",
@@ -762,7 +795,8 @@
       "Voice acting is in English; subtitles and UI are in Persian."
     ],
     "installPath": "In-game Settings > Language",
-    "installGuide": "1. Launch the game from Steam/GOG.\n2. In Options > Gameplay & Language, select Persian."
+    "installGuide": "1. Launch the game from Steam/GOG.\n2. In Options > Gameplay & Language, select Persian.",
+    "isPaid": false
   },
   {
     "id": "the-tale-of-bistun",
@@ -784,7 +818,8 @@
       "Requires selecting Persian audio track in launcher/options."
     ],
     "installPath": "In-game Audio/Subtitles Menu",
-    "installGuide": "1. Go to Settings > Audio.\n2. Enable Persian Voiceover and Persian Subtitles."
+    "installGuide": "1. Go to Settings > Audio.\n2. Enable Persian Voiceover and Persian Subtitles.",
+    "isPaid": false
   },
   {
     "id": "children-of-morta",
@@ -806,7 +841,8 @@
       "Available on official PC releases."
     ],
     "installPath": "Options > Language > فارسی",
-    "installGuide": "1. Start Children of Morta.\n2. In Options > Language, choose فارسی."
+    "installGuide": "1. Start Children of Morta.\n2. In Options > Language, choose فارسی.",
+    "isPaid": false
   },
   {
     "id": "this-war-of-mine",
@@ -828,7 +864,8 @@
       "Some DLC community mods may revert to English."
     ],
     "installPath": "Settings > Language Selection",
-    "installGuide": "1. Open Settings menu.\n2. Select Persian from the list of official translations."
+    "installGuide": "1. Open Settings menu.\n2. Select Persian from the list of official translations.",
+    "isPaid": false
   },
   {
     "id": "resident-evil-4-remake",
@@ -850,7 +887,8 @@
       "Requires re-applying patch after major game version updates."
     ],
     "installPath": "<Resident_Evil_4_Dir>/",
-    "installGuide": "1. Download Persian localization installer from GameSub.\n2. Run installer and choose game installation root.\n3. Enable Subtitles in in-game display options."
+    "installGuide": "1. Download Persian localization installer from GameSub.\n2. Run installer and choose game installation root.\n3. Enable Subtitles in in-game display options.",
+    "isPaid": true
   },
   {
     "id": "disco-elysium",
@@ -872,7 +910,8 @@
       "Best suited for PC version; requires manual file placement."
     ],
     "installPath": "<Disco_Elysium_Dir>/disco_Data/StreamingAssets/",
-    "installGuide": "1. Extract the localization patch into the game directory.\n2. Switch language in game settings."
+    "installGuide": "1. Extract the localization patch into the game directory.\n2. Switch language in game settings.",
+    "isPaid": false
   },
   {
     "id": "palworld",
@@ -894,7 +933,8 @@
       "Patch must be updated following major Steam updates."
     ],
     "installPath": "<Palworld_Dir>/Pal/Content/Paks/~mods/",
-    "installGuide": "1. Download the Persian mod pak file.\n2. Place it in Pal/Content/Paks/~mods/ folder.\n3. Launch game."
+    "installGuide": "1. Download the Persian mod pak file.\n2. Place it in Pal/Content/Paks/~mods/ folder.\n3. Launch game.",
+    "isPaid": false
   },
   {
     "id": "mount-and-blade-bannerlord",
@@ -916,7 +956,8 @@
       "Requires enabling the mod in the TaleWorlds launcher."
     ],
     "installPath": "<Bannerlord_Dir>/Modules/FarsiLocalization/",
-    "installGuide": "1. Extract to Modules folder or subscribe on Steam Workshop.\n2. Check the mod in launcher under Mods tab."
+    "installGuide": "1. Extract to Modules folder or subscribe on Steam Workshop.\n2. Check the mod in launcher under Mods tab.",
+    "isPaid": false
   },
   {
     "id": "hollow-knight",
@@ -938,7 +979,8 @@
       "Works with PC Steam and GOG versions."
     ],
     "installPath": "<Hollow_Knight_Dir>/hollow_knight_Data/",
-    "installGuide": "1. Extract localization files into hollow_knight_Data.\n2. Launch game and select language."
+    "installGuide": "1. Extract localization files into hollow_knight_Data.\n2. Launch game and select language.",
+    "isPaid": false
   },
   {
     "id": "stardew-valley",
@@ -960,7 +1002,8 @@
       "Requires SMAPI (Stardew Modding API) installed."
     ],
     "installPath": "<StardewValley_Dir>/Mods/PersianLanguage/",
-    "installGuide": "1. Install SMAPI.\n2. Place PersianLanguage folder into Mods/ directory.\n3. Launch through StardewModdingAPI.exe."
+    "installGuide": "1. Install SMAPI.\n2. Place PersianLanguage folder into Mods/ directory.\n3. Launch through StardewModdingAPI.exe.",
+    "isPaid": false
   },
   {
     "id": "mindustry",
@@ -982,6 +1025,352 @@
       "Persian translations may require community font packs for glyph display."
     ],
     "installPath": "Official GitHub repository & build releases",
-    "installGuide": "1. Clone repo or download latest build from GitHub.\n2. Settings > Language > Persian."
+    "installGuide": "1. Clone repo or download latest build from GitHub.\n2. Settings > Language > Persian.",
+    "isPaid": false
+  },
+  {
+    "id": "the-last-of-us-part-1",
+    "title": "The Last of Us Part I",
+    "year": 2023,
+    "category": "Action-Adventure / Post-Apocalyptic",
+    "status": "Active",
+    "patchUrl": "https://gamesub.in/the-last-of-us-part-i/",
+    "website": "https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/",
+    "details": "Comprehensive Persian subtitle localization patch for dialogue, collectibles, and menu interfaces.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "Naughty Dog Proprietary Engine",
+    "challenges": [
+      "Proprietary font texture sheets requiring custom Arabic/Persian Unicode glyph insertion.",
+      "Cinematic dialogue timing strings synchronized with emotional facial capture."
+    ],
+    "limitations": [
+      "Requires game version compatibility matching patch release."
+    ],
+    "installPath": "<TLOU_Part_I_Dir>/",
+    "installGuide": "1. Download the installer from GameSub.\n2. Run installer and specify game directory.\n3. Enable Subtitles in Options > Display."
+  },
+  {
+    "id": "elden-ring",
+    "title": "Elden Ring",
+    "year": 2022,
+    "category": "Action RPG / Open World",
+    "status": "Active",
+    "patchUrl": "https://gamesub.in/elden-ring/",
+    "website": "https://store.steampowered.com/app/1245620/ELDEN_RING/",
+    "details": "Full Persian subtitle and lore item description patch covering the Lands Between.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "FromSoftware Proprietary (Dantelion)",
+    "challenges": [
+      "BND4 archive unpack and repack for message string regulation.",
+      "Deep cryptic lore terminology and item description string character width limits."
+    ],
+    "limitations": [
+      "Must disable Anti-Cheat (EAC) when launching in modded offline mode."
+    ],
+    "installPath": "<Elden_Ring_Dir>/Game/modengine2/",
+    "installGuide": "1. Extract ModEngine2 and patch files.\n2. Launch via launchmod_eldenring.bat to play offline safely."
+  },
+  {
+    "id": "alan-wake-2",
+    "title": "Alan Wake 2",
+    "year": 2023,
+    "category": "Survival Horror / Psychological",
+    "status": "Active",
+    "patchUrl": "https://gamesub.in/alan-wake-2/",
+    "website": "https://www.alanwake.com/",
+    "details": "Dual-narrative Persian subtitle localization for Saga Anderson and Alan Wake investigative sequences.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "Northlight Engine (Remedy)",
+    "challenges": [
+      "Northlight proprietary RMDPACK archive manipulation.",
+      "Live-action FMV video subtitle overlay synchronization."
+    ],
+    "limitations": [
+      "Requires updating patch with future game title updates."
+    ],
+    "installPath": "<Alan_Wake_2_Dir>/",
+    "installGuide": "1. Run GameSub installer.\n2. Point to Alan Wake 2 installation root.\n3. Turn on Subtitles in audio options."
+  },
+  {
+    "id": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "year": 2024,
+    "category": "Action-Adventure / Mythological",
+    "status": "Active",
+    "patchUrl": "https://gamesub.in/god-of-war-ragnarok/",
+    "website": "https://store.steampowered.com/app/2322010/God_of_War_Ragnarok/",
+    "details": "Complete Persian subtitle patch translating the Norse saga conclusion across all realms.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "Santa Monica Studio Engine",
+    "challenges": [
+      "Handling dynamic runic font glyphs alongside Persian RTL subtitle characters.",
+      "RTL word wrap alignment on curved cinematic HUD elements."
+    ],
+    "limitations": [
+      "PC edition only."
+    ],
+    "installPath": "<God_of_War_Ragnarok_Dir>/",
+    "installGuide": "1. Install translation patch.\n2. Select Persian subtitles in Gameplay & Display settings."
+  },
+  {
+    "id": "sekiro-shadows-die-twice",
+    "title": "Sekiro: Shadows Die Twice",
+    "year": 2019,
+    "category": "Action-Adventure / Soulslike",
+    "status": "Stable",
+    "patchUrl": "https://gamesub.in/sekiro-shadows-die-twice/",
+    "website": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/",
+    "details": "Complete Persian subtitle patch for Shinobi dialogues, prosthetic descriptions, and lore scrolls.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "FromSoftware Proprietary",
+    "challenges": [
+      "Font atlas replacement with Persian Unicode range support.",
+      "Preserving Sengoku-period poetic tone in Persian prose."
+    ],
+    "limitations": [
+      "Compatible with PC version."
+    ],
+    "installPath": "<Sekiro_Dir>/mods/",
+    "installGuide": "1. Install Sekiro Mod Engine.\n2. Extract patch files into /mods/ directory."
+  },
+  {
+    "id": "detroit-become-human",
+    "title": "Detroit: Become Human",
+    "year": 2019,
+    "category": "Interactive Story / Sci-Fi",
+    "status": "Stable",
+    "patchUrl": "https://gamesub.in/detroit-become-human/",
+    "website": "https://store.steampowered.com/app/1222140/Detroit_Become_Human/",
+    "details": "Persian subtitles for thousands of branching dialogue choices and narrative consequence flowcharts.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "Quantic Dream Engine",
+    "challenges": [
+      "Timed dialogue decision wheels requiring accurate RTL character alignment.",
+      "Flowchart node text truncation prevention."
+    ],
+    "limitations": [
+      "Subtitles only; spoken dialogue in English."
+    ],
+    "installPath": "<Detroit_Become_Human_Dir>/",
+    "installGuide": "1. Run installer.\n2. Select game path.\n3. Enable Subtitles in Language Settings."
+  },
+  {
+    "id": "silent-hill-2-remake",
+    "title": "Silent Hill 2 Remake",
+    "year": 2024,
+    "category": "Survival Horror / Psychological",
+    "status": "Active",
+    "patchUrl": "https://gamesub.in/silent-hill-2/",
+    "website": "https://store.steampowered.com/app/2124490/SILENT_HILL_2/",
+    "details": "Persian subtitle mod for Bloober Team and Konami reimagined psychological horror classic.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "UE5 pak injection for localized diary notes and map markings.",
+      "Atmospheric subtitle font integration with fog filters."
+    ],
+    "limitations": [
+      "Requires recent game patch."
+    ],
+    "installPath": "<Silent_Hill_2_Dir>/SHProto/Content/Paks/~mods/",
+    "installGuide": "1. Place mod pak in ~mods folder.\n2. Enable subtitles in game options."
+  },
+  {
+    "id": "dead-space-remake",
+    "title": "Dead Space Remake",
+    "year": 2023,
+    "category": "Sci-Fi Survival Horror",
+    "status": "Stable",
+    "patchUrl": "https://gamesub.in/dead-space-remake/",
+    "website": "https://store.steampowered.com/app/1693980/Dead_Space/",
+    "details": "Persian subtitle mod covering Isaac Clarke journey aboard USG Ishimura with localized RIG HUD strings.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": true,
+    "engine": "Frostbite Engine",
+    "challenges": [
+      "Frostbite CAS/EBX asset bundle parsing and string replacement.",
+      "Diegetic in-world holographic UI text shaping."
+    ],
+    "limitations": [
+      "PC edition only."
+    ],
+    "installPath": "<Dead_Space_Dir>/",
+    "installGuide": "1. Install localization patch.\n2. Enable subtitles in game audio menu."
+  },
+  {
+    "id": "frostpunk",
+    "title": "Frostpunk",
+    "year": 2018,
+    "category": "Society Survival / City Builder",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com",
+    "website": "https://store.steampowered.com/app/323190/Frostpunk/",
+    "details": "Free Persian subtitle and interface translation mod by Poormaz for freezing city management.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "isPaid": false,
+    "engine": "Liquid Engine (11 bit studios)",
+    "challenges": [
+      "Proprietary font atlas glyph generation for harsh cold weather UI.",
+      "Moral law book and event card text formatting in RTL."
+    ],
+    "limitations": [
+      "Free download from Poormaz community."
+    ],
+    "installPath": "<Frostpunk_Dir>/",
+    "installGuide": "1. Download free patch from Poormaz.\n2. Extract to Frostpunk root directory.\n3. Run game and enjoy."
+  },
+  {
+    "id": "a-plague-tale-innocence",
+    "title": "A Plague Tale: Innocence",
+    "year": 2019,
+    "category": "Action-Adventure / Stealth",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com",
+    "website": "https://store.steampowered.com/app/752590/A_Plague_Tale_Innocence/",
+    "details": "Free Persian subtitle patch by Poormaz for Amicia and Hugo journey across medieval France.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "isPaid": false,
+    "engine": "Zouna Engine (Asobo Studio)",
+    "challenges": [
+      "Zouna engine font table injection.",
+      "Synchronized subtitles across dynamic stealth encounters."
+    ],
+    "limitations": [
+      "PC Steam/GOG compatible."
+    ],
+    "installPath": "<Plague_Tale_Innocence_Dir>/",
+    "installGuide": "1. Download free subtitle patch.\n2. Extract files into game folder.\n3. Turn on subtitles in options."
+  },
+  {
+    "id": "the-planet-crafter",
+    "title": "The Planet Crafter",
+    "year": 2024,
+    "category": "Space Survival / Terraforming",
+    "status": "Stable",
+    "patchUrl": "https://www.nexusmods.com/theplanetcrafter/mods/105",
+    "website": "https://store.steampowered.com/app/1284190/The_Planet_Crafter/",
+    "details": "Community Persian localization mod on Nexus Mods translating atmospheric terraforming machinery and crafting recipes.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "isPaid": false,
+    "engine": "Unity",
+    "challenges": [
+      "Unity UI text wrapping and RTL font injection for item databases.",
+      "Dynamic terraforming stage milestone messages."
+    ],
+    "limitations": [
+      "Install via BepInEx mod loader."
+    ],
+    "installPath": "<PlanetCrafter_Dir>/BepInEx/plugins/",
+    "installGuide": "1. Install BepInEx.\n2. Place Persian mod DLL/assets in BepInEx/plugins.\n3. Launch game."
+  },
+  {
+    "id": "portal-2",
+    "title": "Portal 2",
+    "year": 2011,
+    "category": "Puzzle / Platformer",
+    "status": "Stable",
+    "patchUrl": "https://www.nexusmods.com/portal2/mods/7",
+    "website": "https://store.steampowered.com/app/620/Portal_2/",
+    "details": "Persian community subtitle and voice translation mod on Nexus Mods for Valve puzzle masterpiece.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "isPaid": false,
+    "engine": "Source Engine (Valve)",
+    "challenges": [
+      "Source Engine closed caption timing compilation (closecaption_persian.txt).",
+      "RTL text rendering in VGUI panels."
+    ],
+    "limitations": [
+      "Enable cc_lang persian in developer console if not default."
+    ],
+    "installPath": "<Portal_2_Dir>/portal2/resource/",
+    "installGuide": "1. Extract caption files to portal2/resource/.\n2. Open console and set cc_lang persian."
+  },
+  {
+    "id": "warzone-2100",
+    "title": "Warzone 2100",
+    "year": 2024,
+    "category": "RTS / Post-Apocalyptic",
+    "status": "Active",
+    "patchUrl": "https://github.com/Warzone2100/warzone2100",
+    "website": "https://wz2100.net/",
+    "details": "Open-source 3D tactical real-time strategy game with community Persian translation on GitHub & Crowdin.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "isPaid": false,
+    "engine": "Custom C++ / OpenGL (Warzone Engine)",
+    "challenges": [
+      "Unicode string tables and FreeType font rendering for Persian glyph coverage.",
+      "RTL text reordering in tech tree research descriptions."
+    ],
+    "limitations": [
+      "Translations contributed via Crowdin."
+    ],
+    "installPath": "Built-in language selector / GitHub source",
+    "installGuide": "1. Launch Warzone 2100.\n2. Go to Options > Video/Language > Persian."
+  },
+  {
+    "id": "openra",
+    "title": "OpenRA",
+    "year": 2024,
+    "category": "RTS / Classic Engine Reimplementation",
+    "status": "Active",
+    "patchUrl": "https://github.com/OpenRA/OpenRA",
+    "website": "https://www.openra.net/",
+    "details": "Open-source RTS game engine for classic Westwood games (Red Alert, Tiberian Dawn, Dune 2000) with community Persian language localization support.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "isPaid": false,
+    "engine": "OpenRA Engine (C# / OpenGL)",
+    "challenges": [
+      "SpriteFont texture atlas generator glyph set extensions for Persian characters.",
+      "Multiplayer chat RTL reordering algorithm integration."
+    ],
+    "limitations": [
+      "Available on official builds."
+    ],
+    "installPath": "Settings > Display > Language",
+    "installGuide": "1. Launch OpenRA.\n2. Select Settings > Language > Persian."
+  },
+  {
+    "id": "unvanquished",
+    "title": "Unvanquished",
+    "year": 2024,
+    "category": "FPS / RTS / Sci-Fi",
+    "status": "Active",
+    "patchUrl": "https://github.com/Unvanquished/Unvanquished",
+    "website": "https://unvanquished.net/",
+    "details": "Fast-paced, futuristic open-source FPS/RTS game featuring aliens vs humans, with Persian translation files.",
+    "isAAA": false,
+    "distributionType": "opensource",
+    "isPaid": false,
+    "engine": "Dæmon Engine (C++ / OpenGL)",
+    "challenges": [
+      "Dæmon Engine text layout integration with HarfBuzz shaping engine for Persian ligature display.",
+      "In-game team voice ping localization."
+    ],
+    "limitations": [
+      "Select language in client config."
+    ],
+    "installPath": "Unvanquished official client",
+    "installGuide": "1. Download Unvanquished from official website or GitHub.\n2. Change language setting in game client."
   }
 ]

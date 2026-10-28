@@ -406,6 +406,83 @@
       color: var(--accent);
     }
 
+    .btn-paid {
+      background: rgba(239, 68, 68, 0.12);
+      border-color: rgba(239, 68, 68, 0.4);
+      color: #fca5a5;
+    }
+
+    .btn-paid:hover {
+      background: #ef4444;
+      color: #fff;
+      border-color: #ef4444;
+    }
+
+    .btn-free {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.4);
+      color: #6ee7b7;
+    }
+
+    .btn-free:hover {
+      background: #10b981;
+      color: #000;
+      border-color: #10b981;
+    }
+
+    /* Pagination controls */
+    .pagination-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.45rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .page-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      min-width: 36px;
+      height: 36px;
+      padding: 0 0.75rem;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .page-btn:hover:not(:disabled) {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .page-btn.active {
+      background: var(--accent-grad);
+      color: #000;
+      font-weight: 800;
+      border-color: transparent;
+      box-shadow: 0 2px 10px rgba(0, 242, 254, 0.35);
+    }
+
+    .page-btn:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+
+    .page-info {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin: 0 0.35rem;
+    }
+
     /* Modal / Drawer */
     .modal-overlay {
       position: fixed;
@@ -622,10 +699,10 @@
     <!-- Main View Switcher (Games vs Apps) -->
     <div class="view-switcher">
       <button class="view-btn active" id="viewGamesBtn" onclick="switchView('games')">
-        🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">44</span>
+        🎮 Games Catalog <span class="counter-badge" id="gamesBadgeCount">59</span>
       </button>
       <button class="view-btn" id="viewAppsBtn" onclick="switchView('apps')">
-        📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">17</span>
+        📱 Applications Catalog <span class="counter-badge" id="appsBadgeCount">27</span>
       </button>
     </div>
 
@@ -651,8 +728,18 @@
         <button class="tab-btn" data-appfilter="parsisaz">🏛️ ParsiSaz Ecosystem</button>
       </div>
       <div class="stats-summary">
-        <span id="itemCount">Showing all entries</span>
-        <span id="contextTip">Click <strong>"⚙️ Details & Challenges"</strong> on any game to view engine hurdles & install guides</span>
+        <div style="display: flex; align-items: center; gap: 0.85rem; flex-wrap: wrap;">
+          <span id="itemCount">Showing all entries</span>
+          <div style="display: flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; background: rgba(0,0,0,0.3); padding: 0.2rem 0.6rem; border-radius: 8px; border: 1px solid var(--card-border);">
+            <label for="pageSizeSelect" style="color: var(--text-muted); font-weight: 500;">Per Page:</label>
+            <select id="pageSizeSelect" onchange="changePageSize(this.value)" style="background: transparent; border: none; color: var(--accent); font-weight: 700; cursor: pointer; outline: none; font-size: 0.85rem;">
+              <option value="24" selected style="background: #111827; color: #fff;">24</option>
+              <option value="48" style="background: #111827; color: #fff;">48</option>
+              <option value="all" style="background: #111827; color: #fff;">All</option>
+            </select>
+          </div>
+        </div>
+        <span id="contextTip">Click <strong>"⚙️ Challenges"</strong> on any game to view engine hurdles & install guides</span>
       </div>
     </div>
 
@@ -676,6 +763,7 @@
           </tbody>
         </table>
       </div>
+      <div class="pagination-bar" id="gamesPagination"></div>
     </div>
 
     <!-- Apps View (Dedicated Table & Catalog) -->
@@ -698,6 +786,7 @@
           </tbody>
         </table>
       </div>
+      <div class="pagination-bar" id="appsPagination"></div>
     </div>
 
     <!-- Famous Tools & GitHub Projects Section Grid (Summary Showcase) -->
@@ -761,6 +850,76 @@
     let currentGameFilter = 'all';
     let currentAppFilter = 'all';
 
+    // Pagination state
+    let gamesPage = 1;
+    let appsPage = 1;
+    let pageSize = 24; // 24, 48, or 'all'
+
+    function changePageSize(val) {
+      pageSize = val === 'all' ? 'all' : parseInt(val, 10);
+      gamesPage = 1;
+      appsPage = 1;
+      applyFilterAndSearch();
+    }
+
+    function changeGamesPage(newPage) {
+      gamesPage = newPage;
+      applyFilterAndSearch();
+      const el = document.querySelector('.controls');
+      if (el) window.scrollTo({ top: el.offsetTop - 20, behavior: 'smooth' });
+    }
+
+    function changeAppsPage(newPage) {
+      appsPage = newPage;
+      applyFilterAndSearch();
+      const el = document.querySelector('.controls');
+      if (el) window.scrollTo({ top: el.offsetTop - 20, behavior: 'smooth' });
+    }
+
+    function renderPagination(totalItems, currentPage, pageSize, containerId, changePageFnName) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+
+      if (pageSize === 'all' || totalItems <= pageSize) {
+        container.innerHTML = '';
+        return;
+      }
+
+      const totalPages = Math.ceil(totalItems / pageSize);
+      if (totalPages <= 1) {
+        container.innerHTML = '';
+        return;
+      }
+
+      let html = '';
+
+      // Previous button
+      html += `<button class="page-btn" ${currentPage === 1 ? 'disabled' : ''} onclick="${changePageFnName}(${currentPage - 1})">« Prev</button>`;
+
+      // Page numbers (smart window)
+      let startPage = Math.max(1, currentPage - 2);
+      let endPage = Math.min(totalPages, currentPage + 2);
+
+      if (startPage > 1) {
+        html += `<button class="page-btn" onclick="${changePageFnName}(1)">1</button>`;
+        if (startPage > 2) html += `<span class="page-info">...</span>`;
+      }
+
+      for (let p = startPage; p <= endPage; p++) {
+        html += `<button class="page-btn ${p === currentPage ? 'active' : ''}" onclick="${changePageFnName}(${p})">${p}</button>`;
+      }
+
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) html += `<span class="page-info">...</span>`;
+        html += `<button class="page-btn" onclick="${changePageFnName}(${totalPages})">${totalPages}</button>`;
+      }
+
+      // Next button
+      html += `<button class="page-btn" ${currentPage === totalPages ? 'disabled' : ''} onclick="${changePageFnName}(${currentPage + 1})">Next »</button>`;
+
+      container.innerHTML = html;
+    }
+
     async function loadData() {
       try {
         const [gamesRes, appsRes] = await Promise.all([
@@ -785,6 +944,8 @@
 
     function switchView(view) {
       currentView = view;
+      gamesPage = 1;
+      appsPage = 1;
       const gamesBtn = document.getElementById('viewGamesBtn');
       const appsBtn = document.getElementById('viewAppsBtn');
       const gamesViewContainer = document.getElementById('gamesViewContainer');
@@ -838,23 +999,44 @@
     function renderGames(items) {
       const tbody = document.getElementById('gamesTableBody');
       const countEl = document.getElementById('itemCount');
-      countEl.innerText = `Showing ${items.length} titles`;
 
       if (items.length === 0) {
+        countEl.innerText = `Showing 0 titles`;
         tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 2.5rem;">No games match your search criteria.</td></tr>`;
+        renderPagination(0, gamesPage, pageSize, 'gamesPagination', 'changeGamesPage');
         return;
       }
 
-      tbody.innerHTML = items.map((g, idx) => {
+      const totalItems = items.length;
+      const totalPages = pageSize === 'all' ? 1 : Math.ceil(totalItems / pageSize);
+      if (gamesPage > totalPages) gamesPage = totalPages;
+
+      let pagedItems = items;
+      let startIdx = 0;
+      let endIdx = totalItems;
+
+      if (pageSize !== 'all') {
+        startIdx = (gamesPage - 1) * pageSize;
+        endIdx = Math.min(startIdx + pageSize, totalItems);
+        pagedItems = items.slice(startIdx, endIdx);
+        countEl.innerHTML = `Showing <strong>${startIdx + 1}–${endIdx}</strong> of <strong>${totalItems}</strong> titles (Page ${gamesPage} of ${totalPages})`;
+      } else {
+        countEl.innerHTML = `Showing all <strong>${totalItems}</strong> titles`;
+      }
+
+      tbody.innerHTML = pagedItems.map((g, idx) => {
         const dt = (g.distributionType || '').toLowerCase();
         const pUrl = (g.patchUrl || '').toLowerCase();
         let actionBtnHtml = '';
+
         if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
           actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn" title="View Source Repository">📦 Source</a>`;
         } else if (dt.includes('official')) {
           actionBtnHtml = `<a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" title="Visit Official Page">🌐 Official Page</a>`;
+        } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
+          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-paid" title="Paid Community Translation">💳 External Download (Paid)</a>`;
         } else {
-          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn" title="External Download">⬇️ External Download</a>`;
+          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-free" title="Free Community Subtitles / Patch">⬇️ External Download (Free)</a>`;
         }
 
         return `
@@ -883,19 +1065,39 @@
         </tr>
       `;
       }).join('');
+
+      renderPagination(totalItems, gamesPage, pageSize, 'gamesPagination', 'changeGamesPage');
     }
 
     function renderAppsTable(items) {
       const tbody = document.getElementById('appsTableBody');
       const countEl = document.getElementById('itemCount');
-      countEl.innerText = `Showing ${items.length} applications`;
 
       if (items.length === 0) {
+        countEl.innerText = `Showing 0 applications`;
         tbody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 2.5rem;">No applications match your search criteria.</td></tr>`;
+        renderPagination(0, appsPage, pageSize, 'appsPagination', 'changeAppsPage');
         return;
       }
 
-      tbody.innerHTML = items.map(app => `
+      const totalItems = items.length;
+      const totalPages = pageSize === 'all' ? 1 : Math.ceil(totalItems / pageSize);
+      if (appsPage > totalPages) appsPage = totalPages;
+
+      let pagedItems = items;
+      let startIdx = 0;
+      let endIdx = totalItems;
+
+      if (pageSize !== 'all') {
+        startIdx = (appsPage - 1) * pageSize;
+        endIdx = Math.min(startIdx + pageSize, totalItems);
+        pagedItems = items.slice(startIdx, endIdx);
+        countEl.innerHTML = `Showing <strong>${startIdx + 1}–${endIdx}</strong> of <strong>${totalItems}</strong> applications (Page ${appsPage} of ${totalPages})`;
+      } else {
+        countEl.innerHTML = `Showing all <strong>${totalItems}</strong> applications`;
+      }
+
+      tbody.innerHTML = pagedItems.map(app => `
         <tr>
           <td>
             <div style="font-weight: 700; color: #fff; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
@@ -923,6 +1125,8 @@
           </td>
         </tr>
       `).join('');
+
+      renderPagination(totalItems, appsPage, pageSize, 'appsPagination', 'changeAppsPage');
     }
 
     function renderFeaturedAppsGrid(items) {
@@ -989,14 +1193,22 @@
       const links = document.getElementById('modalLinks');
       const dt = (g.distributionType || '').toLowerCase();
       const pUrl = (g.patchUrl || '').toLowerCase();
-      let actionText = '⬇️ External Download';
+      let actionText = '⬇️ External Download (Free)';
+      let btnStyle = 'background: #10b981; color: #000; font-weight: 700;';
+
       if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
         actionText = '📦 Open Repository →';
+        btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
       } else if (dt.includes('official')) {
         actionText = '🌐 Official Page ↗';
+        btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
+      } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
+        actionText = '💳 External Download (Paid) ↗';
+        btnStyle = 'background: #ef4444; color: #fff; font-weight: 700;';
       }
+
       links.innerHTML = `
-        <a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" style="background: var(--accent); color: #000; font-weight: 700;">${actionText}</a>
+        <a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" style="${btnStyle}">${actionText}</a>
         ${g.website && g.website !== g.patchUrl ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
       `;
 
@@ -1068,7 +1280,11 @@
       }
     }
 
-    document.getElementById('searchInput').addEventListener('input', applyFilterAndSearch);
+    document.getElementById('searchInput').addEventListener('input', () => {
+      gamesPage = 1;
+      appsPage = 1;
+      applyFilterAndSearch();
+    });
 
     // Game Filter Click Listeners
     document.querySelectorAll('#gameFilterTabs .tab-btn').forEach(btn => {
@@ -1076,6 +1292,7 @@
         document.querySelectorAll('#gameFilterTabs .tab-btn').forEach(b => b.classList.remove('active'));
         e.target.classList.add('active');
         currentGameFilter = e.target.dataset.filter;
+        gamesPage = 1;
         applyFilterAndSearch();
       });
     });
@@ -1086,6 +1303,7 @@
         document.querySelectorAll('#appFilterTabs .tab-btn').forEach(b => b.classList.remove('active'));
         e.target.classList.add('active');
         currentAppFilter = e.target.dataset.appfilter;
+        appsPage = 1;
         applyFilterAndSearch();
       });
     });

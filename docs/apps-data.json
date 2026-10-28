@@ -185,5 +185,115 @@
     "distributionType": "opensource",
     "details": "CLI utilities for BiDi character flipping, bracket pair swapping, and font guidelines.",
     "i18nFormat": "Python CLI & Font Standards"
+  },
+  {
+    "name": "Calibre",
+    "title": "Calibre E-Book Manager",
+    "category": "E-Books & Reading",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "PO / Qt Linguist",
+    "repoUrl": "https://github.com/kovidgoyal/calibre",
+    "website": "https://calibre-ebook.com/",
+    "details": "Powerful open-source e-book manager, editor, and reader with complete Persian interface and RTL reading support."
+  },
+  {
+    "name": "qBittorrent",
+    "title": "qBittorrent",
+    "category": "Network & BitTorrent Client",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Qt TS / PO",
+    "repoUrl": "https://github.com/qbittorrent/qBittorrent",
+    "website": "https://www.qbittorrent.org/",
+    "details": "Feature-rich open-source BitTorrent client with comprehensive Persian UI translation across all preferences."
+  },
+  {
+    "name": "LibreOffice",
+    "title": "LibreOffice Suite",
+    "category": "Office & Productivity Suite",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Gettext PO",
+    "repoUrl": "https://github.com/LibreOffice/core",
+    "website": "https://www.libreoffice.org/",
+    "details": "Premier open-source office suite featuring advanced Persian text direction, shaping, and spellchecking tools."
+  },
+  {
+    "name": "Krita",
+    "title": "Krita Digital Painting",
+    "category": "Digital Art & Illustration",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "KDE PO / Gettext",
+    "repoUrl": "https://invent.kde.org/graphics/krita",
+    "website": "https://krita.org/",
+    "details": "Professional open-source digital painting application with Persian translations supported through KDE localization."
+  },
+  {
+    "name": "Shotcut",
+    "title": "Shotcut Video Editor",
+    "category": "Video Editing & Post-Production",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Qt TS",
+    "repoUrl": "https://github.com/mltframework/shotcut",
+    "website": "https://shotcut.org/",
+    "details": "Free and open-source cross-platform video editor with full Persian UI translation."
+  },
+  {
+    "name": "Nextcloud Desktop",
+    "title": "Nextcloud Desktop Client",
+    "category": "Cloud Storage & Sync",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Transifex / Qt TS",
+    "repoUrl": "https://github.com/nextcloud/desktop",
+    "website": "https://nextcloud.com/",
+    "details": "Desktop sync client for Nextcloud private cloud platform with official Persian translation."
+  },
+  {
+    "name": "Poedit",
+    "title": "Poedit Translation Editor",
+    "category": "Localization & Translation Tool",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Gettext PO",
+    "repoUrl": "https://github.com/vslavik/poedit",
+    "website": "https://poedit.net/",
+    "details": "The premier Gettext translation editor utilized by ParsiSaz contributors, featuring full Persian localization."
+  },
+  {
+    "name": "ShareX",
+    "title": "ShareX Screen Capture",
+    "category": "Screen Capture & Productivity",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "JSON / Custom XML",
+    "repoUrl": "https://github.com/ShareX/ShareX",
+    "website": "https://getsharex.com/",
+    "details": "Advanced open-source screen recording and productivity software with Persian language support."
+  },
+  {
+    "name": "FreeCAD",
+    "title": "FreeCAD 3D Modeler",
+    "category": "3D CAD & Engineering",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Crowdin / Qt TS",
+    "repoUrl": "https://github.com/FreeCAD/FreeCAD",
+    "website": "https://www.freecad.org/",
+    "details": "Open-source parametric 3D CAD modeler with community Persian Crowdin localization."
+  },
+  {
+    "name": "Wireshark",
+    "title": "Wireshark Network Analyzer",
+    "category": "Network Security & Analysis",
+    "distributionType": "opensource",
+    "status": "Stable",
+    "i18nFormat": "Qt TS",
+    "repoUrl": "https://gitlab.com/wireshark/wireshark",
+    "website": "https://www.wireshark.org/",
+    "details": "Industry-standard open-source network packet analyzer featuring community Persian Qt translation."
   }
 ]
