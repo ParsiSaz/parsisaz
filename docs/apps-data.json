@@ -132,6 +132,18 @@
     "details": "Multi-platform client-side encryption for cloud storages with comprehensive Persian UI localization."
   },
   {
+    "id": "czkawka",
+    "name": "Czkawka",
+    "title": "Czkawka Duplicate File Finder",
+    "category": "System & Disk Utilities",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/qarmin/czkawka",
+    "website": "https://qarmin.github.io/czkawka/primary/",
+    "details": "Multi-functional duplicate cleaner, broken link remover, and disk space analyzer with Persian Crowdin support.",
+    "i18nFormat": "Crowdin / Fluent (.ftl)"
+  },
+  {
     "id": "dolphin",
     "name": "Dolphin File Manager",
     "title": "KDE Dolphin File Manager",
@@ -154,6 +166,18 @@
     "repoUrl": "https://github.com/element-hq/element-desktop",
     "website": "https://element.io/",
     "details": "Decentralized, end-to-end encrypted chat client built on the Matrix protocol with community-driven Persian translation."
+  },
+  {
+    "id": "ente",
+    "name": "Ente Photos",
+    "title": "Ente End-to-End Encrypted Photos",
+    "category": "Cloud Storage & Sync",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/ente-io/ente",
+    "website": "https://ente.io/",
+    "details": "Fully open-source, end-to-end encrypted cloud storage for photos and videos with Persian localization on Crowdin.",
+    "i18nFormat": "Crowdin / Flutter i18n"
   },
   {
     "id": "farsisaz-framework",
@@ -190,6 +214,18 @@
     "website": "https://flameshot.org/",
     "details": "Feature-rich open-source screen capture and markup tool with complete Persian translation.",
     "i18nFormat": "Weblate / Qt Linguist (.ts)"
+  },
+  {
+    "id": "flclash",
+    "name": "FlClash",
+    "title": "FlClash Cross-Platform GUI",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/chen08209/FlClash",
+    "website": "https://flclash.top/",
+    "details": "Cross-platform proxy GUI client powered by Flutter and Clash core with integrated Persian language translation.",
+    "i18nFormat": "Flutter ARB / JSON"
   },
   {
     "name": "FreeCAD",
@@ -252,6 +288,18 @@
     "name": "HandBrake"
   },
   {
+    "id": "heroic-games-launcher",
+    "name": "Heroic Games Launcher",
+    "title": "Heroic GOG & Epic Games Launcher",
+    "category": "Game Engine & Dev Tools",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+    "website": "https://heroicgameslauncher.com/",
+    "details": "Native GUI launcher for Epic Games, GOG, and Amazon Prime Games on Linux, Windows, and macOS with Persian Weblate support.",
+    "i18nFormat": "Weblate / JSON"
+  },
+  {
     "id": "hiddify-app",
     "name": "Hiddify",
     "title": "Hiddify Multi-Platform Proxy Client",
@@ -274,6 +322,18 @@
     "details": "Vector design suite with Persian interface translation files on GitLab.",
     "i18nFormat": "Gettext PO",
     "name": "Inkscape"
+  },
+  {
+    "id": "jellyfin",
+    "name": "Jellyfin",
+    "title": "Jellyfin Free Software Media System",
+    "category": "Home Theater & Entertainment",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/jellyfin/jellyfin",
+    "website": "https://jellyfin.org/",
+    "details": "Volunteer-built media solution that puts you in control of your entertainment with Persian Weblate translations.",
+    "i18nFormat": "Weblate / JSON"
   },
   {
     "id": "joplin",
@@ -360,6 +420,18 @@
     "id": "libreoffice"
   },
   {
+    "id": "localsend",
+    "name": "LocalSend",
+    "title": "LocalSend AirDrop Alternative",
+    "category": "File Transfer & Networking",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/localsend/localsend",
+    "website": "https://localsend.org/",
+    "details": "Open-source cross-platform local file sharing tool that works without internet, fully localized into Persian.",
+    "i18nFormat": "Slang / JSON"
+  },
+  {
     "id": "logseq",
     "name": "Logseq",
     "title": "Logseq Privacy-First Knowledge Base",
@@ -370,6 +442,30 @@
     "website": "https://logseq.com/",
     "details": "Privacy-first, open-source platform for knowledge management and note-taking with Persian Crowdin translations.",
     "i18nFormat": "Crowdin / EDN"
+  },
+  {
+    "id": "mihomo-party",
+    "name": "Mihomo Party",
+    "title": "Mihomo Party GUI Client",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/mihomo-party-org/mihomo-party",
+    "website": "https://party.cuteleaf.org/",
+    "details": "Feature-rich, elegant desktop client for Mihomo proxy core with comprehensive Persian language support.",
+    "i18nFormat": "Vue I18n / JSON"
+  },
+  {
+    "id": "moonlight",
+    "name": "Moonlight Game Streaming",
+    "title": "Moonlight Game Stream Client",
+    "category": "Gaming & Emulation",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/moonlight-stream/moonlight-qt",
+    "website": "https://moonlight-stream.org/",
+    "details": "Open-source implementation of NVIDIA GameStream protocol allowing low-latency PC game streaming with Persian UI.",
+    "i18nFormat": "Qt Linguist (.ts)"
   },
   {
     "id": "firefox",
@@ -406,6 +502,18 @@
     "website": "https://mullvad.net/browser",
     "details": "Privacy-focused browser developed in collaboration with the Tor Project, featuring comprehensive Persian language support.",
     "i18nFormat": "Mozilla Fluent / Transifex"
+  },
+  {
+    "id": "nekobox-for-android",
+    "name": "NekoBox for Android",
+    "title": "NekoBox Android Universal Proxy",
+    "category": "Network",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
+    "website": "https://matsuridayo.github.io/",
+    "details": "Universal proxy client for Android supporting shadowsocks, v2ray, and sing-box cores with full Persian UI translation.",
+    "i18nFormat": "Android XML strings"
   },
   {
     "id": "nekoray",
@@ -466,6 +574,18 @@
     "repoUrl": "https://github.com/openwrt/luci",
     "website": "https://openwrt.org/",
     "details": "The official standard web administration interface for OpenWrt routers, providing extensive Persian language packs (luci-i18n-base-fa)."
+  },
+  {
+    "id": "organic-maps",
+    "name": "Organic Maps",
+    "title": "Organic Maps Offline Navigation",
+    "category": "Productivity & Utilities",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/organicmaps/organicmaps",
+    "website": "https://organicmaps.app/",
+    "details": "Detailed, privacy-focused offline map application powered by OpenStreetMap with complete Persian localization.",
+    "i18nFormat": "Weblate / strings"
   },
   {
     "id": "parsik",
@@ -550,6 +670,18 @@
     "website": "https://www.retroarch.com/",
     "details": "Modular multi-system frontend for emulators, game engines, and media players with Persian Crowdin support.",
     "i18nFormat": "Crowdin / Libretro msg"
+  },
+  {
+    "id": "rustdesk",
+    "name": "RustDesk",
+    "title": "RustDesk Remote Desktop",
+    "category": "System & Disk Utilities",
+    "status": "Stable",
+    "distributionType": "opensource",
+    "repoUrl": "https://github.com/rustdesk/rustdesk",
+    "website": "https://rustdesk.com/",
+    "details": "Open-source virtual and remote desktop infrastructure software with official Persian community translation.",
+    "i18nFormat": "Flutter / Flutter i18n"
   },
   {
     "name": "ShareX",

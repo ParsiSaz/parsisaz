@@ -659,6 +659,37 @@
     ]
   },
   {
+    "id": "kingdom-come-deliverance-2",
+    "title": "Kingdom Come: Deliverance II",
+    "year": 2025,
+    "category": "Historical Action RPG / Medieval Simulation",
+    "status": "In Development",
+    "patchUrl": "https://farsisaz.com/product/kingdom-come-deliverance-ii/",
+    "website": "https://www.kingdomcomerpg.com",
+    "details": "Upcoming Persian localization project for Henry of Skalitz's epic medieval Bohemia journey across Kuttenberg.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "CryEngine",
+    "challenges": [
+      "Massive medieval historical script with over 2.2 million words.",
+      "CryEngine pak extraction and specialized 15th-century terminology translation."
+    ],
+    "limitations": [
+      "Pre-registration and active translation project on FarsiSaz."
+    ],
+    "installPath": "<KCD2_Dir>/Localization/",
+    "installGuide": "1. Project currently in active translation (20% progress).\n2. Patch will install to Localization folder once complete.",
+    "isPaid": true,
+    "progress": 20,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Translation Project (FarsiSaz)",
+        "url": "https://farsisaz.com/product/kingdom-come-deliverance-ii/"
+      }
+    ]
+  },
+  {
     "id": "mafia-the-old-country",
     "title": "Mafia: The Old Country",
     "year": 2025,
@@ -1949,6 +1980,37 @@
     ]
   },
   {
+    "id": "dead-island-2",
+    "title": "Dead Island 2",
+    "year": 2023,
+    "category": "First-Person Zombie Action / Slasher",
+    "status": "Complete",
+    "patchUrl": "https://farsisaz.com/product/dead-island-2/",
+    "website": "https://deadisland.com",
+    "details": "Full Persian subtitles for Slayers battling through the zombie apocalypse across HELL-A.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine pak archive repacking with custom HUD font.",
+      "Gore-heavy combat quips and survival dialogue translation."
+    ],
+    "limitations": [
+      "PC Epic Games & Steam versions."
+    ],
+    "installPath": "<DeadIsland2_Dir>/DeadIsland/Content/Paks/~mods/",
+    "installGuide": "1. Copy pak mod file to DeadIsland/Content/Paks/~mods/.\n2. Turn on subtitles in Audio settings.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/dead-island-2/"
+      }
+    ]
+  },
+  {
     "id": "dead-space-remake",
     "title": "Dead Space Remake",
     "year": 2023,
@@ -2511,6 +2573,42 @@
     ]
   },
   {
+    "id": "sifu",
+    "title": "Sifu",
+    "year": 2022,
+    "category": "Martial Arts / Beat'em Up Action",
+    "status": "Complete",
+    "patchUrl": "https://par30games.net/145450/download-sifu-persian-subtitle/",
+    "website": "https://www.sifugame.com",
+    "details": "Complete Persian localization for dialogue, revenge detective board, and UI in contemporary China.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine pak archive font injection.",
+      "RTL string alignment for detective conspiracy board clues."
+    ],
+    "limitations": [
+      "Compatible with PC Epic & Steam versions."
+    ],
+    "installPath": "<Sifu_Dir>/Sifu/Content/Paks/~mods/",
+    "installGuide": "1. Copy pak mod file to Sifu/Content/Paks/~mods/ folder.\n2. Enable subtitles in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Par30Games)",
+        "url": "https://par30games.net/145450/download-sifu-persian-subtitle/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/sifu/"
+      }
+    ]
+  },
+  {
     "id": "stray",
     "title": "Stray",
     "year": 2022,
@@ -2692,6 +2790,42 @@
     ]
   },
   {
+    "id": "alan-wake-remastered",
+    "title": "Alan Wake Remastered",
+    "year": 2021,
+    "category": "Psychological Action Thriller",
+    "status": "Complete",
+    "patchUrl": "https://par30games.net/173426/download-alan-wake-remastered-pc-game/",
+    "website": "https://www.alanwake.com",
+    "details": "Complete Persian subtitles for Alan Wake's nightmare in Bright Falls including manuscript pages and TV episodes.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Remedy Northlight Engine",
+    "challenges": [
+      "Northlight engine rmpack localization archive injection.",
+      "Literary thriller manuscript pages translation."
+    ],
+    "limitations": [
+      "PC Epic Games edition."
+    ],
+    "installPath": "<AlanWakeRemastered_Dir>/",
+    "installGuide": "1. Extract patch archive into game root directory.\n2. Enable subtitles in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Par30Games)",
+        "url": "https://par30games.net/173426/download-alan-wake-remastered-pc-game/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-alan-wake-remastered/"
+      }
+    ]
+  },
+  {
     "id": "days-gone",
     "title": "Days Gone",
     "year": 2021,
@@ -2868,6 +3002,42 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/it-takes-two/"
+      }
+    ]
+  },
+  {
+    "id": "life-is-strange-true-colors",
+    "title": "Life is Strange: True Colors",
+    "year": 2021,
+    "category": "Narrative Adventure / Mystery Drama",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-life-is-strange-true-colors/",
+    "website": "https://lifeisstrange.square-enix-games.com",
+    "details": "Full Persian subtitles for Alex Chen's psychic empathy power mystery across Haven Springs.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 pak container extraction.",
+      "Emotional aura dialogue options translation."
+    ],
+    "limitations": [
+      "PC Steam."
+    ],
+    "installPath": "<LIS_TrueColors_Dir>/Siren/Content/Paks/~mods/",
+    "installGuide": "1. Copy pak mod file to Siren/Content/Paks/~mods/.\n2. Turn on subtitles in Audio menu.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-life-is-strange-true-colors/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/life-is-strange-true-colors/"
       }
     ]
   },
@@ -3437,6 +3607,42 @@
     ]
   },
   {
+    "id": "call-of-duty-modern-warfare-2019",
+    "title": "Call of Duty: Modern Warfare (2019)",
+    "year": 2019,
+    "category": "Military FPS / Action Campaign",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-call-of-duty-modern-warfare/",
+    "website": "https://www.callofduty.com",
+    "details": "Complete Persian subtitles for Captain Price and Farah Karim's tactical campaign across Urzikstan.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "IW 8.0 Engine",
+    "challenges": [
+      "IW 8.0 encryption and fastfile injection.",
+      "Military comms and tactical jargon localization."
+    ],
+    "limitations": [
+      "PC Battle.net single-player campaign."
+    ],
+    "installPath": "<COD_MW_Dir>/Data/",
+    "installGuide": "1. Extract patch into game Data directory.\n2. Enable subtitles in Options > Interface.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-call-of-duty-modern-warfare/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (FanSub)",
+        "url": "https://fansub.ir/product/call-of-duty-modern-warfare-persian-sub/"
+      }
+    ]
+  },
+  {
     "id": "children-of-morta",
     "title": "Children of Morta",
     "year": 2019,
@@ -3464,6 +3670,42 @@
         "type": "official",
         "label": "🌐 Official Page",
         "url": "https://store.steampowered.com/app/330020/Children_of_Morta/"
+      }
+    ]
+  },
+  {
+    "id": "control",
+    "title": "Control",
+    "year": 2019,
+    "category": "Supernatural Action-Adventure / Third-Person Shooter",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/control-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C/",
+    "website": "https://www.remedygames.com/games/control/",
+    "details": "Full Persian subtitles and documents translation for Jesse Faden's investigation of the Oldest House and the FBC.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Remedy Northlight Engine",
+    "challenges": [
+      "Northlight engine rmpack and bin archive modification.",
+      "Massive volume of redacted Federal Bureau of Control classified dossiers and lore files."
+    ],
+    "limitations": [
+      "Compatible with PC Steam, Epic, and GOG editions."
+    ],
+    "installPath": "<Control_Dir>/",
+    "installGuide": "1. Extract patch into root Control game folder.\n2. Turn on subtitles in Audio/Gameplay options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/control-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C/"
+      },
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Par30Games)",
+        "url": "https://par30games.net/135965/download-control-pc-game/"
       }
     ]
   },
@@ -3500,6 +3742,42 @@
         "type": "paid",
         "label": "💳 Paid Subtitle (FarsiSaz)",
         "url": "https://farsisaz.com/product/detroit-become-human/"
+      }
+    ]
+  },
+  {
+    "id": "metro-exodus",
+    "title": "Metro Exodus",
+    "year": 2019,
+    "category": "Post-Apocalyptic FPS / Survival Horror",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-metro-exodus/",
+    "website": "https://www.metrothegame.com",
+    "details": "Comprehensive Persian subtitles for Artyom's transcontinental voyage aboard the Aurora train across nuclear Russia.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "4A Engine",
+    "challenges": [
+      "4A Engine .vfx and .content archive unpacking.",
+      "Dynamic radio dialogue timing during open-world exploration."
+    ],
+    "limitations": [
+      "PC Standard and Enhanced Editions."
+    ],
+    "installPath": "<MetroExodus_Dir>/",
+    "installGuide": "1. Extract patch into root game directory.\n2. Enable subtitles in Audio/Game settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-metro-exodus/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/metro-exodus/"
       }
     ]
   },
@@ -3878,6 +4156,37 @@
     ]
   },
   {
+    "id": "little-nightmares",
+    "title": "Little Nightmares",
+    "year": 2017,
+    "category": "Atmospheric Horror Platformer",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-little-nightmares/",
+    "website": "https://en.bandainamcoent.eu/little-nightmares",
+    "details": "Complete Persian UI and subtitle translation for Six's harrowing escape from The Maw.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "Unreal Engine 4 font replacement.",
+      "RTL UI alignment for menus and lore hints."
+    ],
+    "limitations": [
+      "PC Steam & GOG."
+    ],
+    "installPath": "<LittleNightmares_Dir>/Atlas/Content/Paks/~mods/",
+    "installGuide": "1. Place pak file in Content/Paks/~mods/.\n2. Enable subtitles in Options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-little-nightmares/"
+      }
+    ]
+  },
+  {
     "id": "middle-earth-shadow-of-war",
     "title": "Middle-earth: Shadow of War",
     "year": 2017,
@@ -3981,6 +4290,37 @@
     ]
   },
   {
+    "id": "dishonored-2",
+    "title": "Dishonored 2",
+    "year": 2016,
+    "category": "First-Person Stealth / Immersive Sim",
+    "status": "Complete",
+    "patchUrl": "https://farsisaz.com/product/dishonored-2/",
+    "website": "https://bethesda.net/game/dishonored-2",
+    "details": "Full Persian subtitles and UI localization for Corvo Attano and Emily Kaldwin's campaign across Karnaca.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Arkane Void Engine",
+    "challenges": [
+      "Void Engine resource archive unpacking.",
+      "Complex environmental storytelling documents and audiographs translation."
+    ],
+    "limitations": [
+      "PC Steam & Game Pass."
+    ],
+    "installPath": "<Dishonored2_Dir>/base/",
+    "installGuide": "1. Install via FarsiSaz automated setup.\n2. Choose Persian in language options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/dishonored-2/"
+      }
+    ]
+  },
+  {
     "id": "dont-starve-together",
     "title": "Don't Starve Together",
     "year": 2016,
@@ -4009,6 +4349,37 @@
         "type": "source",
         "label": "📦 Source",
         "url": "https://github.com/ParsiSaz/Dont-Strave-together-Persian"
+      }
+    ]
+  },
+  {
+    "id": "inside",
+    "title": "Inside",
+    "year": 2016,
+    "category": "Atmospheric Puzzle-Platformer",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-inside/",
+    "website": "https://playdead.com/games/inside/",
+    "details": "Persian localization mod for Playdead's dystopian masterpiece, translating menus, prompts, and lore.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unity",
+    "challenges": [
+      "Unity sharedassets text and font glyph injection.",
+      "Preserving the minimalist aesthetic with elegant Persian typography."
+    ],
+    "limitations": [
+      "PC Steam."
+    ],
+    "installPath": "<Inside_Dir>/INSIDE_Data/",
+    "installGuide": "1. Replace sharedassets file in INSIDE_Data with modded file.\n2. Launch game.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-inside/"
       }
     ]
   },
@@ -4180,6 +4551,37 @@
     ]
   },
   {
+    "id": "life-is-strange",
+    "title": "Life is Strange",
+    "year": 2015,
+    "category": "Episodic Narrative Adventure",
+    "status": "Complete",
+    "patchUrl": "https://gamesub.net/product/life-is-strange/",
+    "website": "https://lifeisstrange.square-enix-games.com",
+    "details": "Complete Persian subtitles for Max Caulfield's rewind-time emotional narrative journey in Arcadia Bay across all 5 episodes.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "Unreal Engine 3",
+    "challenges": [
+      "Unreal Engine UPK localization packages.",
+      "Intimate emotional dialogue adaptation into Persian."
+    ],
+    "limitations": [
+      "Complete Season 1 (Episodes 1-5)."
+    ],
+    "installPath": "<LifeIsStrange_Dir>/LifeIsStrangeGame/CookedPC/",
+    "installGuide": "1. Copy mod UPK files to CookedPC directory.\n2. Enable subtitles in Options.",
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/life-is-strange/"
+      }
+    ]
+  },
+  {
     "id": "mad-max",
     "title": "Mad Max",
     "year": 2015,
@@ -4206,6 +4608,42 @@
         "type": "free",
         "label": "⬇️ Download (Free)",
         "url": "https://poormaz.com/mad-max-persian-subtitle/"
+      }
+    ]
+  },
+  {
+    "id": "rise-of-the-tomb-raider",
+    "title": "Rise of the Tomb Raider",
+    "year": 2015,
+    "category": "Action-Adventure / Exploration",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-rise-of-the-tomb-raider/",
+    "website": "https://tombraider.square-enix-games.com",
+    "details": "Full Persian subtitles covering Lara Croft's expedition to the lost city of Kitezh in Siberia.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Foundation Engine",
+    "challenges": [
+      "Foundation Engine tiger archive modification.",
+      "Persian font atlas generation for ancient murals and audio tapes."
+    ],
+    "limitations": [
+      "20 Year Celebration PC version."
+    ],
+    "installPath": "<ROTTR_Dir>/",
+    "installGuide": "1. Run patch installer or replace tiger archives.\n2. Enable subtitles in Gameplay options.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-rise-of-the-tomb-raider/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (FarsiSaz)",
+        "url": "https://farsisaz.com/product/rise-of-the-tomb-raider/"
       }
     ]
   },
@@ -4334,6 +4772,37 @@
     ]
   },
   {
+    "id": "tomb-raider-2013",
+    "title": "Tomb Raider (2013 Reboot)",
+    "year": 2013,
+    "category": "Action-Adventure / Cinematic Survival",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-tomb-raider/",
+    "website": "https://tombraider.square-enix-games.com",
+    "details": "Complete Persian subtitles for Lara Croft's origin survival story on the mysterious island of Yamatai.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Modified Crystal Engine",
+    "challenges": [
+      "Legacy Crystal Engine bigfile archive editing.",
+      "RTL text layout adjustments for documents and relic lore."
+    ],
+    "limitations": [
+      "PC Steam & GOG GOTY edition."
+    ],
+    "installPath": "<TombRaider_Dir>/",
+    "installGuide": "1. Copy patch files into Tomb Raider root directory.\n2. Turn on subtitles in Audio settings.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-tomb-raider/"
+      }
+    ]
+  },
+  {
     "id": "far-cry-3",
     "title": "Far Cry 3",
     "year": 2012,
@@ -4401,6 +4870,37 @@
     ]
   },
   {
+    "id": "plants-vs-zombies",
+    "title": "Plants vs. Zombies",
+    "year": 2009,
+    "category": "Tower Defense / Strategy",
+    "status": "Complete",
+    "patchUrl": "https://fansub.ir/product/plants-vs-zombies-persian-sub/",
+    "website": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies",
+    "details": "Full Persian localization of Crazy Dave's almanac, minigames, plant descriptions, and interface.",
+    "isAAA": false,
+    "distributionType": "community",
+    "engine": "PopCap Framework",
+    "challenges": [
+      "PopCap main.pak archive unpacking and font sprite rebuilding.",
+      "RTL text orientation in custom PopCap 2D engine."
+    ],
+    "limitations": [
+      "PC GOTY edition."
+    ],
+    "installPath": "<PvZ_Dir>/",
+    "installGuide": "1. Run FanSub automated installer or copy main.pak.\n2. Launch game to play in Persian.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (FanSub)",
+        "url": "https://fansub.ir/product/plants-vs-zombies-persian-sub/"
+      }
+    ]
+  },
+  {
     "id": "gta-iv",
     "title": "Grand Theft Auto IV: Complete Edition",
     "year": 2008,
@@ -4433,6 +4933,37 @@
         "type": "free",
         "label": "⬇️ Free Mod (GTAInside)",
         "url": "https://www.gtainside.com/en/gta4/mods/"
+      }
+    ]
+  },
+  {
+    "id": "call-of-duty-4-modern-warfare",
+    "title": "Call of Duty 4: Modern Warfare",
+    "year": 2007,
+    "category": "Military FPS / Action Campaign",
+    "status": "Complete",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-call-of-duty-4/",
+    "website": "https://www.callofduty.com",
+    "details": "Full Persian subtitle and briefing translation for Soap MacTavish and Captain Price's iconic campaign.",
+    "isAAA": true,
+    "distributionType": "community",
+    "engine": "Infinity Ward IW 3.0 Engine",
+    "challenges": [
+      "IW 3.0 fastfile (.ff) string unpacking and repacking.",
+      "Font texture map modification for military HUD."
+    ],
+    "limitations": [
+      "PC 1.7 retail/Steam version."
+    ],
+    "installPath": "<COD4_Dir>/main/",
+    "installGuide": "1. Copy localized .iwd or .ff files to main directory.\n2. Turn on subtitles in Audio/Video menu.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-call-of-duty-4/"
       }
     ]
   },
