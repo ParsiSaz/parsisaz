@@ -220,6 +220,21 @@
       border-color: transparent;
     }
 
+    .year-tabs {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+      margin-top: 0.4rem;
+    }
+
+    .year-btn {
+      padding: 0.32rem 0.65rem;
+      font-size: 0.8rem;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
     .stats-summary {
       display: flex;
       justify-content: space-between;
@@ -792,6 +807,19 @@
         <button class="tab-btn" data-filter="opensource">🔓 Open-Source</button>
         <button class="tab-btn" data-filter="mod">🛠️ Community Mod</button>
       </div>
+      <!-- Year Filter Tabs -->
+      <div class="filter-tabs year-tabs" id="gameYearFilterTabs">
+        <span style="font-size: 0.82rem; font-weight: 700; color: var(--text-muted); display: inline-flex; align-items: center; margin-right: 0.25rem;">📅 Year:</span>
+        <button class="tab-btn year-btn active" data-year="all">All</button>
+        <button class="tab-btn year-btn" data-year="2026">2026</button>
+        <button class="tab-btn year-btn" data-year="2025">2025</button>
+        <button class="tab-btn year-btn" data-year="2024">2024</button>
+        <button class="tab-btn year-btn" data-year="2023">2023</button>
+        <button class="tab-btn year-btn" data-year="2022">2022</button>
+        <button class="tab-btn year-btn" data-year="2021">2021</button>
+        <button class="tab-btn year-btn" data-year="2020">2020</button>
+        <button class="tab-btn year-btn" data-year="older">Older</button>
+      </div>
       <!-- App Filter Tabs -->
       <div class="filter-tabs" id="appFilterTabs" style="display: none;">
         <button class="tab-btn active" data-appfilter="all">All Apps</button>
@@ -810,6 +838,20 @@
               <option value="24" selected style="background: #111827; color: #fff;">24</option>
               <option value="48" style="background: #111827; color: #fff;">48</option>
               <option value="all" style="background: #111827; color: #fff;">All</option>
+            </select>
+          </div>
+          <div id="yearDropdownContainer" style="display: flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; background: rgba(0,0,0,0.3); padding: 0.2rem 0.6rem; border-radius: 8px; border: 1px solid var(--card-border);">
+            <label for="yearFilterSelect" style="color: var(--text-muted); font-weight: 500;">Year:</label>
+            <select id="yearFilterSelect" onchange="changeYearFilter(this.value)" style="background: transparent; border: none; color: var(--accent); font-weight: 700; cursor: pointer; outline: none; font-size: 0.85rem;">
+              <option value="all" selected style="background: #111827; color: #fff;">All Years</option>
+              <option value="2026" style="background: #111827; color: #fff;">2026</option>
+              <option value="2025" style="background: #111827; color: #fff;">2025</option>
+              <option value="2024" style="background: #111827; color: #fff;">2024</option>
+              <option value="2023" style="background: #111827; color: #fff;">2023</option>
+              <option value="2022" style="background: #111827; color: #fff;">2022</option>
+              <option value="2021" style="background: #111827; color: #fff;">2021</option>
+              <option value="2020" style="background: #111827; color: #fff;">2020</option>
+              <option value="older" style="background: #111827; color: #fff;">Older (≤ 2019)</option>
             </select>
           </div>
         </div>
@@ -928,6 +970,7 @@
     let currentView = 'games'; // 'games' or 'apps'
     let currentGameFilter = 'all';
     let currentAppFilter = 'all';
+    let currentYearFilter = 'all';
 
     // Pagination state
     let gamesPage = 1;
@@ -938,6 +981,18 @@
       pageSize = val === 'all' ? 'all' : parseInt(val, 10);
       gamesPage = 1;
       appsPage = 1;
+      applyFilterAndSearch();
+    }
+
+    function changeYearFilter(val) {
+      currentYearFilter = val;
+      const sel = document.getElementById('yearFilterSelect');
+      if (sel) sel.value = val;
+      document.querySelectorAll('#gameYearFilterTabs .year-btn').forEach(btn => {
+        if (btn.dataset.year === val) btn.classList.add('active');
+        else btn.classList.remove('active');
+      });
+      gamesPage = 1;
       applyFilterAndSearch();
     }
 
@@ -1029,6 +1084,8 @@
       const gamesViewContainer = document.getElementById('gamesViewContainer');
       const appsViewContainer = document.getElementById('appsViewContainer');
       const gameFilterTabs = document.getElementById('gameFilterTabs');
+      const gameYearFilterTabs = document.getElementById('gameYearFilterTabs');
+      const yearDropdownContainer = document.getElementById('yearDropdownContainer');
       const appFilterTabs = document.getElementById('appFilterTabs');
       const searchInput = document.getElementById('searchInput');
       const contextTip = document.getElementById('contextTip');
@@ -1039,6 +1096,8 @@
         gamesViewContainer.style.display = 'block';
         appsViewContainer.style.display = 'none';
         gameFilterTabs.style.display = 'flex';
+        if (gameYearFilterTabs) gameYearFilterTabs.style.display = 'flex';
+        if (yearDropdownContainer) yearDropdownContainer.style.display = 'flex';
         appFilterTabs.style.display = 'none';
         searchInput.placeholder = '🔍 Search game title, engine, category, challenges, or year...';
         contextTip.innerHTML = 'Click <strong>"⚙️ Challenges"</strong> on any game to view engine hurdles & install guides';
@@ -1048,6 +1107,8 @@
         gamesViewContainer.style.display = 'none';
         appsViewContainer.style.display = 'block';
         gameFilterTabs.style.display = 'none';
+        if (gameYearFilterTabs) gameYearFilterTabs.style.display = 'none';
+        if (yearDropdownContainer) yearDropdownContainer.style.display = 'none';
         appFilterTabs.style.display = 'flex';
         searchInput.placeholder = '🔍 Search application name, category, translation format, or description...';
         contextTip.innerHTML = 'Explore open-source apps with Persian UI translation repositories & Crowdin/Transifex sources';
@@ -1370,6 +1431,17 @@
           else if (currentGameFilter === 'opensource') matchFilter = distType.includes('opensource') || distType.includes('open-source');
           else if (currentGameFilter === 'mod') matchFilter = distType.includes('mod');
 
+          // Release Year Filter (2026, 2025, to 2020, then older)
+          let matchYear = true;
+          const y = parseInt(g.year, 10);
+          if (currentYearFilter !== 'all') {
+            if (currentYearFilter === 'older') {
+              matchYear = y < 2020;
+            } else {
+              matchYear = y === parseInt(currentYearFilter, 10);
+            }
+          }
+
           let matchQuery = true;
           if (q) {
             const cStr = (g.challenges || []).join(' ');
@@ -1378,7 +1450,7 @@
             matchQuery = fullText.includes(q);
           }
 
-          return matchFilter && matchQuery;
+          return matchFilter && matchYear && matchQuery;
         });
 
         // Automatically sort every display in descending order by year (newest first)
@@ -1426,6 +1498,13 @@
         currentGameFilter = e.target.dataset.filter;
         gamesPage = 1;
         applyFilterAndSearch();
+      });
+    });
+
+    // Year Filter Click Listeners
+    document.querySelectorAll('#gameYearFilterTabs .year-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        changeYearFilter(e.target.dataset.year);
       });
     });
 
