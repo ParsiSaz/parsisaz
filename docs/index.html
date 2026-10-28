@@ -430,6 +430,80 @@
       border-color: #10b981;
     }
 
+    .btn-source {
+      background: rgba(56, 189, 248, 0.12);
+      border-color: rgba(56, 189, 248, 0.4);
+      color: #38bdf8;
+    }
+
+    .btn-source:hover {
+      background: #0284c7;
+      color: #fff;
+      border-color: #0284c7;
+    }
+
+    .btn-official {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.4);
+      color: #34d399;
+    }
+
+    .btn-official:hover {
+      background: #10b981;
+      color: #000;
+      border-color: #10b981;
+    }
+
+    /* Progress bar styling */
+    .progress-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      min-width: 110px;
+    }
+
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+    }
+
+    .progress-bar-track {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 9999px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      border-radius: 9999px;
+      transition: width 0.4s ease;
+    }
+
+    .fill-100 {
+      background: linear-gradient(90deg, #10b981, #34d399);
+      box-shadow: 0 0 8px rgba(52, 211, 153, 0.35);
+    }
+
+    .fill-high {
+      background: linear-gradient(90deg, #06b6d4, #38bdf8);
+      box-shadow: 0 0 8px rgba(56, 189, 248, 0.35);
+    }
+
+    .fill-med {
+      background: linear-gradient(90deg, #f59e0b, #fbbf24);
+      box-shadow: 0 0 8px rgba(251, 191, 36, 0.35);
+    }
+
+    .fill-low {
+      background: linear-gradient(90deg, #ef4444, #f87171);
+      box-shadow: 0 0 8px rgba(248, 113, 113, 0.35);
+    }
+
     /* Pagination controls */
     .pagination-bar {
       display: flex;
@@ -753,9 +827,9 @@
               <th>Year</th>
               <th>Type</th>
               <th>Engine / Category</th>
-              <th>Status</th>
+              <th>Status / Progress</th>
               <th>Patch & Description</th>
-              <th>Actions</th>
+              <th>Actions / Downloads</th>
             </tr>
           </thead>
           <tbody id="gamesTableBody">
@@ -801,8 +875,18 @@
     <div class="modal-content">
       <button class="modal-close" onclick="closeModal()">×</button>
       <div class="modal-title" id="modalTitle">Game Title</div>
-      <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap;" id="modalBadges"></div>
+      <div style="display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap;" id="modalBadges"></div>
       
+      <div id="modalProgressSection" style="margin-bottom: 1.25rem;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 0.35rem;">
+          <span style="color: var(--text-muted); font-weight: 600;">Translation Progress:</span>
+          <span id="modalProgressText" style="font-weight: 700; color: #34d399;">100%</span>
+        </div>
+        <div class="progress-bar-track" style="height: 8px;">
+          <div id="modalProgressBar" class="progress-bar-fill fill-100" style="width: 100%;"></div>
+        </div>
+      </div>
+
       <p id="modalDesc" style="color: #cbd5e1; font-size: 0.95rem;"></p>
 
       <div class="modal-section" id="modalEngineSection">
@@ -1019,18 +1103,48 @@
       }
 
       tbody.innerHTML = pagedItems.map((g, idx) => {
-        const dt = (g.distributionType || '').toLowerCase();
-        const pUrl = (g.patchUrl || '').toLowerCase();
-        let actionBtnHtml = '';
+        const progressVal = (g.progress !== undefined && g.progress !== null) ? g.progress : 100;
+        let fillClass = 'fill-100';
+        let progressColor = '#34d399';
+        if (progressVal < 50) {
+          fillClass = 'fill-low';
+          progressColor = '#f87171';
+        } else if (progressVal < 80) {
+          fillClass = 'fill-med';
+          progressColor = '#fbbf24';
+        } else if (progressVal < 100) {
+          fillClass = 'fill-high';
+          progressColor = '#38bdf8';
+        }
 
-        if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
-          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn" title="View Source Repository">📦 Source</a>`;
-        } else if (dt.includes('official')) {
-          actionBtnHtml = `<a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" title="Visit Official Page">🌐 Official Page</a>`;
-        } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
-          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-paid" title="Paid Community Translation">💳 External Download (Paid)</a>`;
+        let actionBtnsHtml = `
+          <button class="action-btn btn-detail" onclick="openDetailModal('${g.id}')" title="Technical RTL details & guide">
+            ⚙️ Challenges
+          </button>
+        `;
+
+        if (g.links && Array.isArray(g.links) && g.links.length > 0) {
+          actionBtnsHtml += g.links.map(l => {
+            const ltype = (l.type || '').toLowerCase();
+            let btnClass = 'btn-free';
+            if (ltype === 'paid') btnClass = 'btn-paid';
+            else if (ltype === 'source') btnClass = 'btn-source';
+            else if (ltype === 'official') btnClass = 'btn-official';
+
+            return `<a href="${l.url}" target="_blank" class="action-btn ${btnClass}" title="${l.label}">${l.label}</a>`;
+          }).join('');
         } else {
-          actionBtnHtml = `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-free" title="Free Community Subtitles / Patch">⬇️ External Download (Free)</a>`;
+          const dt = (g.distributionType || '').toLowerCase();
+          const pUrl = (g.patchUrl || '').toLowerCase();
+          if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
+            actionBtnsHtml += `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-source" title="View Source Repository">📦 Source</a>`;
+          } else if (dt.includes('official')) {
+            actionBtnsHtml += `<a href="${g.patchUrl || g.website}" target="_blank" class="action-btn btn-official" title="Visit Official Page">🌐 Official Page</a>`;
+          } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
+            actionBtnsHtml += `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-paid" title="Paid Community Translation">💳 External Download (Paid)</a>`;
+          } else {
+            actionBtnsHtml += `<a href="${g.patchUrl}" target="_blank" class="action-btn btn-free" title="Free Community Subtitles / Patch">⬇️ External Download (Free)</a>`;
+          }
         }
 
         return `
@@ -1046,14 +1160,21 @@
             <div style="font-size: 0.9rem; color: #fff;">${g.engine ? g.engine.split('(')[0] : 'Custom'}</div>
             <div style="font-size: 0.8rem; color: var(--text-muted);">${g.category}</div>
           </td>
-          <td><span class="status-badge ${getStatusClass(g.status)}">${g.status}</span></td>
+          <td>
+            <div class="progress-container">
+              <div class="progress-header">
+                <span class="status-badge ${getStatusClass(g.status)}" style="padding: 0.15rem 0.5rem; font-size: 0.72rem;">${g.status}</span>
+                <span style="font-weight: 700; color: ${progressColor}; font-size: 0.78rem;">${progressVal}%</span>
+              </div>
+              <div class="progress-bar-track" title="Translation Progress: ${progressVal}%">
+                <div class="progress-bar-fill ${fillClass}" style="width: ${progressVal}%;"></div>
+              </div>
+            </div>
+          </td>
           <td style="color: #cbd5e1; font-size: 0.9rem; max-width: 320px;">${g.details}</td>
           <td>
-            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
-              <button class="action-btn btn-detail" onclick="openDetailModal('${g.id}')">
-                ⚙️ Challenges
-              </button>
-              ${actionBtnHtml}
+            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center;">
+              ${actionBtnsHtml}
             </div>
           </td>
         </tr>
@@ -1132,10 +1253,31 @@
       document.getElementById('modalDesc').innerText = g.details || '';
       document.getElementById('modalEngine').innerText = g.engine || 'Proprietary Game Engine';
 
+      const progressVal = (g.progress !== undefined && g.progress !== null) ? g.progress : 100;
+      let fillClass = 'fill-100';
+      let progressColor = '#34d399';
+      if (progressVal < 50) {
+        fillClass = 'fill-low';
+        progressColor = '#f87171';
+      } else if (progressVal < 80) {
+        fillClass = 'fill-med';
+        progressColor = '#fbbf24';
+      } else if (progressVal < 100) {
+        fillClass = 'fill-high';
+        progressColor = '#38bdf8';
+      }
+
+      document.getElementById('modalProgressText').innerText = `${progressVal}%`;
+      document.getElementById('modalProgressText').style.color = progressColor;
+      const modalBar = document.getElementById('modalProgressBar');
+      modalBar.className = `progress-bar-fill ${fillClass}`;
+      modalBar.style.width = `${progressVal}%`;
+
       const badges = document.getElementById('modalBadges');
       badges.innerHTML = `
         ${getTypeBadge(g.distributionType)}
         <span class="status-badge ${getStatusClass(g.status)}">${g.status}</span>
+        <span class="badge" style="background: rgba(0, 242, 254, 0.1); border-color: rgba(0, 242, 254, 0.3); color: var(--accent);">📊 Progress: ${progressVal}%</span>
         <span class="badge">${g.year}</span>
         <span class="badge">${g.category}</span>
       `;
@@ -1164,28 +1306,43 @@
       // Guide
       document.getElementById('modalGuide').innerText = g.installGuide || 'Refer to repository README for specific instructions.';
 
-      // Links
+      // Links (Support multi-links)
       const links = document.getElementById('modalLinks');
-      const dt = (g.distributionType || '').toLowerCase();
-      const pUrl = (g.patchUrl || '').toLowerCase();
-      let actionText = '⬇️ External Download (Free)';
-      let btnStyle = 'background: #10b981; color: #000; font-weight: 700;';
+      if (g.links && Array.isArray(g.links) && g.links.length > 0) {
+        links.innerHTML = g.links.map(l => {
+          const ltype = (l.type || '').toLowerCase();
+          let btnStyle = 'background: #10b981; color: #000; font-weight: 700;';
+          if (ltype === 'paid') {
+            btnStyle = 'background: #ef4444; color: #fff; font-weight: 700;';
+          } else if (ltype === 'source') {
+            btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
+          } else if (ltype === 'official') {
+            btnStyle = 'background: #34d399; color: #000; font-weight: 700;';
+          }
+          return `<a href="${l.url}" target="_blank" class="action-btn" style="${btnStyle}">${l.label} ↗</a>`;
+        }).join('') + (g.website && !g.links.some(l => l.url === g.website) ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : '');
+      } else {
+        const dt = (g.distributionType || '').toLowerCase();
+        const pUrl = (g.patchUrl || '').toLowerCase();
+        let actionText = '⬇️ External Download (Free)';
+        let btnStyle = 'background: #10b981; color: #000; font-weight: 700;';
 
-      if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
-        actionText = '📦 Open Repository →';
-        btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
-      } else if (dt.includes('official')) {
-        actionText = '🌐 Official Page ↗';
-        btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
-      } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
-        actionText = '💳 External Download (Paid) ↗';
-        btnStyle = 'background: #ef4444; color: #fff; font-weight: 700;';
+        if (pUrl.includes('github.com') || pUrl.includes('gitlab.com')) {
+          actionText = '📦 Open Repository →';
+          btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
+        } else if (dt.includes('official')) {
+          actionText = '🌐 Official Page ↗';
+          btnStyle = 'background: var(--accent); color: #000; font-weight: 700;';
+        } else if (g.isPaid === true || pUrl.includes('gamesub.in') || pUrl.includes('gamesub.net')) {
+          actionText = '💳 External Download (Paid) ↗';
+          btnStyle = 'background: #ef4444; color: #fff; font-weight: 700;';
+        }
+
+        links.innerHTML = `
+          <a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" style="${btnStyle}">${actionText}</a>
+          ${g.website && g.website !== g.patchUrl ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
+        `;
       }
-
-      links.innerHTML = `
-        <a href="${g.patchUrl || g.website}" target="_blank" class="action-btn" style="${btnStyle}">${actionText}</a>
-        ${g.website && g.website !== g.patchUrl ? `<a href="${g.website}" target="_blank" class="action-btn">Official Site</a>` : ''}
-      `;
 
       document.getElementById('detailModal').classList.add('open');
     }

@@ -20,7 +20,15 @@
     ],
     "installPath": "<RimWorld_Dir>/Mods/Core/Languages/Persian/",
     "installGuide": "1. Download from GitHub or subscribe via Steam Workshop.\n2. Activate Persian in Options > Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/Ludeon/RimWorld-Farsi"
+      }
+    ]
   },
   {
     "id": "kenshi",
@@ -45,7 +53,15 @@
     "installPath": "<game_directory>/locale/fa_IR/",
     "installGuide": "1. Download fa_IR.zip from GitHub Releases.\n2. Extract it into <Kenshi_Folder>/locale/fa_IR/.\n3. Open Kenshi launcher, navigate to Settings > Language, and choose fa_IR.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/Kenshi-farsi"
+      }
+    ]
   },
   {
     "id": "project-zomboid",
@@ -70,7 +86,15 @@
     "installPath": "<game_directory>/media/lua/shared/Translate/FA/",
     "installGuide": "1. Clone or download the repository.\n2. Copy the contents into <ProjectZomboid>/media/lua/shared/Translate/FA/.\n3. Launch Project Zomboid and select Farsi/Persian in the Display/Language settings.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 92,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/Project-Zomboid-Game--Persian"
+      }
+    ]
   },
   {
     "id": "darkest-dungeon-2",
@@ -95,7 +119,15 @@
     "installPath": "<game_directory>/Darkest Dungeon II_Data/StreamingAssets/Localization/",
     "installGuide": "1. Download the latest release from the ParsiSaz repository.\n2. Run the provided patcher or copy the localized string files to the StreamingAssets/Localization directory.\n3. Verify game file integrity if you ever wish to revert.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/DarkestDungeon-2---Persian"
+      }
+    ]
   },
   {
     "id": "software-inc",
@@ -119,7 +151,15 @@
     "installPath": "<game_directory>/Translations/Persian/",
     "installGuide": "1. Extract Persian folder into <Software_Inc_Folder>/Translations/.\n2. In Options > Localization, select 'Persian' from the dropdown list.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/Software-Inc-Game---Persian"
+      }
+    ]
   },
   {
     "id": "oxygen-not-included",
@@ -144,7 +184,15 @@
     "installPath": "%userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian\\",
     "installGuide": "1. Download the repo ZIP from GitHub.\n2. Extract into %userprofile%\\Documents\\Klei\\OxygenNotIncluded\\mods\\Local\\OxygenNotIncluded_Persian.\n3. Start the game, open 'Mods' from the main menu, and enable 'OxygenNotIncluded_Persian'.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 88,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/Oxygen-not-included-Persian"
+      }
+    ]
   },
   {
     "id": "stronghold-warlords",
@@ -168,7 +216,15 @@
     "installPath": "<game_directory>/assets/strings/",
     "installGuide": "1. Extract the patch into the Stronghold Warlords assets directory.\n2. Launch game and verify Persian subtitles in the audio options.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/Stronghold-Warlords---Persian"
+      }
+    ]
   },
   {
     "id": "dont-starve-together",
@@ -192,7 +248,15 @@
     "installPath": "<game_directory>/mods/dont_starve_together_persian/",
     "installGuide": "1. Place mod folder into <game_directory>/mods/.\n2. Activate the mod in the 'Mods' menu before hosting or joining a server.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 90,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/Dont-Strave-together-Persian"
+      }
+    ]
   },
   {
     "id": "stronghold-crusader-1",
@@ -216,7 +280,15 @@
     "installPath": "<game_directory>/fx/ & <game_directory>/crusader.exe",
     "installGuide": "1. Backup your original crusader directory.\n2. Copy the graphics and audio mods over the existing installation.",
     "distributionType": "mod",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/ParsiSaz/stronghold-crusader1-mods"
+      }
+    ]
   },
   {
     "id": "civ-6",
@@ -240,7 +312,15 @@
     "installPath": "<Documents>/My Games/Sid Meier's Civilization VI/Mods/ParsiSaz_Civ6/",
     "installGuide": "1. Extract to Civilization VI Mods directory.\n2. Enable in Additional Content > Mods menu.",
     "distributionType": "mod",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 90,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 External Download (Paid)",
+        "url": "https://gamesub.in/sid-meiers-civilization-vi/"
+      }
+    ]
   },
   {
     "id": "witcher-3",
@@ -264,7 +344,20 @@
     "installPath": "<game_directory>/mods/modPersianLanguage/",
     "installGuide": "Refer to ParsiSaz Documentation portal for setup and glossary resources.",
     "distributionType": "mod",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/the-witcher-3-wild-hunt/"
+      }
+    ]
   },
   {
     "id": "rdr2",
@@ -288,7 +381,20 @@
     "installPath": "<game_directory>/lml/replace/",
     "installGuide": "Follow instructions provided in the ParsiSaz community documentation.",
     "distributionType": "mod",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/red-dead-redemption-2/"
+      }
+    ]
   },
   {
     "id": "cyberpunk-2077",
@@ -312,7 +418,20 @@
     "installPath": "<game_directory>/archive/pc/mod/",
     "installGuide": "Consult the ParsiSaz web documentation for terminology dictionaries and patch status.",
     "distributionType": "mod",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/cyberpunk-2077/"
+      }
+    ]
   },
   {
     "id": "gta-v",
@@ -336,7 +455,20 @@
     "installPath": "<game_directory>/mods/update/update.rpf",
     "installGuide": "Follow the OpenIV guide documented on the ParsiSaz portal.",
     "distributionType": "mod",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/grand-theft-auto-v/"
+      }
+    ]
   },
   {
     "id": "elder-scrolls-skyrim",
@@ -360,7 +492,20 @@
     "installPath": "<game_directory>/Data/Interface/",
     "installGuide": "Install via Mod Organizer 2 or place in Data/Interface/.",
     "distributionType": "mod",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/the-elder-scrolls-v-skyrim/"
+      }
+    ]
   },
   {
     "id": "god-of-war",
@@ -384,7 +529,20 @@
     "installPath": "<game_directory>/exec/",
     "installGuide": "See ParsiSaz documentation for installation guides and font files.",
     "distributionType": "mod",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/god-of-war/"
+      }
+    ]
   },
   {
     "id": "control-resonant",
@@ -407,7 +565,20 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Download installer from Poormaz and follow setup wizard.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com/control-resonant-persian-subtitles/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/control/"
+      }
+    ]
   },
   {
     "id": "007-first-light",
@@ -430,7 +601,15 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Refer to Poormaz installation guide.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://poormaz.com/007-first-light-persian-subtitles/"
+      }
+    ]
   },
   {
     "id": "silent-hill-townfall",
@@ -453,7 +632,15 @@
     ],
     "installPath": "<Game_Directory>/Paks/~mods/",
     "installGuide": "Place .pak file in ~mods directory.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 85,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://poormaz.com/silent-hill-townfall-persian-subtitles/"
+      }
+    ]
   },
   {
     "id": "star-wars-outlaws",
@@ -476,7 +663,15 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Extract and run the setup patcher from Poormaz.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://poormaz.com/star-wars-outlaws-persian-subtitle/"
+      }
+    ]
   },
   {
     "id": "avatar-frontiers-of-pandora",
@@ -499,7 +694,15 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Follow installer instructions provided by Poormaz.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://poormaz.com/avatar-frontiers-of-pandora-persian-subtitles/"
+      }
+    ]
   },
   {
     "id": "ghost-recon-wildlands",
@@ -522,7 +725,15 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Run Poormaz installer into Ghost Recon Wildlands root folder.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://poormaz.com/ghost-recon-wildlands-persian-subtitles/"
+      }
+    ]
   },
   {
     "id": "resonance-plague-tale",
@@ -545,7 +756,20 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Copy patch files into game folder.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com/resonance-a-plague-tale-legacy-persian-subtitles/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/a-plague-tale-requiem/"
+      }
+    ]
   },
   {
     "id": "end-of-abyss",
@@ -567,7 +791,15 @@
     ],
     "installPath": "<Game_Directory>/",
     "installGuide": "Extract into game root folder.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://poormaz.com/end-of-abyss-subtitles/"
+      }
+    ]
   },
   {
     "id": "endless-sky-farsi",
@@ -590,7 +822,15 @@
     ],
     "installPath": "<EndlessSky>/data/i18n/fa/",
     "installGuide": "Select Persian in Preferences > Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/endless-sky/endless-sky"
+      }
+    ]
   },
   {
     "id": "cataclysm-dda-persian",
@@ -613,7 +853,15 @@
     ],
     "installPath": "<CDDA_Dir>/lang/mo/fa/",
     "installGuide": "Select Persian in Settings > Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 85,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/CleverRaven/Cataclysm-DDA"
+      }
+    ]
   },
   {
     "id": "minetest-persian",
@@ -636,7 +884,15 @@
     ],
     "installPath": "<Minetest_Dir>/locale/fa/",
     "installGuide": "Choose Persian in Settings > Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/minetest/minetest"
+      }
+    ]
   },
   {
     "id": "veloren-persian",
@@ -659,7 +915,15 @@
     ],
     "installPath": "<Veloren_Dir>/assets/voxygen/i18n/fa_IR/",
     "installGuide": "Select Persian in Audio & Language options.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 85,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://gitlab.com/veloren/veloren"
+      }
+    ]
   },
   {
     "id": "wesnoth-persian",
@@ -682,7 +946,15 @@
     ],
     "installPath": "<Wesnoth_Dir>/translations/fa_IR/",
     "installGuide": "Select Persian in Preferences > Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/wesnoth/wesnoth"
+      }
+    ]
   },
   {
     "id": "0ad-persian",
@@ -705,7 +977,15 @@
     ],
     "installPath": "<0ad_Dir>/binaries/data/mods/public/",
     "installGuide": "Select Persian in Settings > Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 85,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/0ad/0ad"
+      }
+    ]
   },
   {
     "id": "openttd-persian",
@@ -728,7 +1008,15 @@
     ],
     "installPath": "<OpenTTD_Dir>/lang/persian.lng",
     "installGuide": "Select Persian in Game Options > Game Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/OpenTTD/OpenTTD"
+      }
+    ]
   },
   {
     "id": "supertuxkart-persian",
@@ -750,7 +1038,15 @@
     ],
     "installPath": "<STK_Dir>/data/po/fa.po",
     "installGuide": "Select Persian in Options > Language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/supertuxkart/stk-code"
+      }
+    ]
   },
   {
     "id": "prince-of-persia-the-lost-crown",
@@ -773,7 +1069,15 @@
     ],
     "installPath": "Built-in game language options",
     "installGuide": "1. Open game options.\n2. Navigate to Audio & Language.\n3. Select Persian (فارسی) for text and spoken dialogue.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "official",
+        "label": "🌐 Official Page",
+        "url": "https://store.steampowered.com/app/2751000/Prince_of_Persia_The_Lost_Crown/"
+      }
+    ]
   },
   {
     "id": "alone-in-the-dark-2024",
@@ -796,7 +1100,15 @@
     ],
     "installPath": "In-game Settings > Language",
     "installGuide": "1. Launch the game from Steam/GOG.\n2. In Options > Gameplay & Language, select Persian.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "official",
+        "label": "🌐 Official Page",
+        "url": "https://store.steampowered.com/app/1310410/Alone_in_the_Dark/"
+      }
+    ]
   },
   {
     "id": "the-tale-of-bistun",
@@ -819,7 +1131,15 @@
     ],
     "installPath": "In-game Audio/Subtitles Menu",
     "installGuide": "1. Go to Settings > Audio.\n2. Enable Persian Voiceover and Persian Subtitles.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "official",
+        "label": "🌐 Official Page",
+        "url": "https://store.steampowered.com/app/1450640/The_Tale_of_Bistun/"
+      }
+    ]
   },
   {
     "id": "children-of-morta",
@@ -842,7 +1162,15 @@
     ],
     "installPath": "Options > Language > فارسی",
     "installGuide": "1. Start Children of Morta.\n2. In Options > Language, choose فارسی.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "official",
+        "label": "🌐 Official Page",
+        "url": "https://store.steampowered.com/app/330020/Children_of_Morta/"
+      }
+    ]
   },
   {
     "id": "this-war-of-mine",
@@ -865,7 +1193,15 @@
     ],
     "installPath": "Settings > Language Selection",
     "installGuide": "1. Open Settings menu.\n2. Select Persian from the list of official translations.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "official",
+        "label": "🌐 Official Page",
+        "url": "https://store.steampowered.com/app/227300/This_War_of_Mine/"
+      }
+    ]
   },
   {
     "id": "resident-evil-4-remake",
@@ -888,7 +1224,20 @@
     ],
     "installPath": "<Resident_Evil_4_Dir>/",
     "installGuide": "1. Download Persian localization installer from GameSub.\n2. Run installer and choose game installation root.\n3. Enable Subtitles in in-game display options.",
-    "isPaid": true
+    "isPaid": true,
+    "progress": 85,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/resident-evil-4-remake/"
+      }
+    ]
   },
   {
     "id": "disco-elysium",
@@ -911,7 +1260,15 @@
     ],
     "installPath": "<Disco_Elysium_Dir>/disco_Data/StreamingAssets/",
     "installGuide": "1. Extract the localization patch into the game directory.\n2. Switch language in game settings.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 85,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/"
+      }
+    ]
   },
   {
     "id": "palworld",
@@ -934,7 +1291,15 @@
     ],
     "installPath": "<Palworld_Dir>/Pal/Content/Paks/~mods/",
     "installGuide": "1. Download the Persian mod pak file.\n2. Place it in Pal/Content/Paks/~mods/ folder.\n3. Launch game.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 85,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://store.steampowered.com/app/1623730/Palworld/"
+      }
+    ]
   },
   {
     "id": "mount-and-blade-bannerlord",
@@ -957,7 +1322,15 @@
     ],
     "installPath": "<Bannerlord_Dir>/Modules/FarsiLocalization/",
     "installGuide": "1. Extract to Modules folder or subscribe on Steam Workshop.\n2. Check the mod in launcher under Mods tab.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/"
+      }
+    ]
   },
   {
     "id": "hollow-knight",
@@ -980,7 +1353,15 @@
     ],
     "installPath": "<Hollow_Knight_Dir>/hollow_knight_Data/",
     "installGuide": "1. Extract localization files into hollow_knight_Data.\n2. Launch game and select language.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://store.steampowered.com/app/367520/Hollow_Knight/"
+      }
+    ]
   },
   {
     "id": "stardew-valley",
@@ -1003,7 +1384,15 @@
     ],
     "installPath": "<StardewValley_Dir>/Mods/PersianLanguage/",
     "installGuide": "1. Install SMAPI.\n2. Place PersianLanguage folder into Mods/ directory.\n3. Launch through StardewModdingAPI.exe.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://store.steampowered.com/app/413150/Stardew_Valley/"
+      }
+    ]
   },
   {
     "id": "mindustry",
@@ -1026,7 +1415,15 @@
     ],
     "installPath": "Official GitHub repository & build releases",
     "installGuide": "1. Clone repo or download latest build from GitHub.\n2. Settings > Language > Persian.",
-    "isPaid": false
+    "isPaid": false,
+    "progress": 80,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/Anuken/Mindustry"
+      }
+    ]
   },
   {
     "id": "the-last-of-us-part-1",
@@ -1049,7 +1446,20 @@
       "Requires game version compatibility matching patch release."
     ],
     "installPath": "<TLOU_Part_I_Dir>/",
-    "installGuide": "1. Download the installer from GameSub.\n2. Run installer and specify game directory.\n3. Enable Subtitles in Options > Display."
+    "installGuide": "1. Download the installer from GameSub.\n2. Run installer and specify game directory.\n3. Enable Subtitles in Options > Display.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/the-last-of-us-part-i/"
+      }
+    ]
   },
   {
     "id": "elden-ring",
@@ -1072,7 +1482,20 @@
       "Must disable Anti-Cheat (EAC) when launching in modded offline mode."
     ],
     "installPath": "<Elden_Ring_Dir>/Game/modengine2/",
-    "installGuide": "1. Extract ModEngine2 and patch files.\n2. Launch via launchmod_eldenring.bat to play offline safely."
+    "installGuide": "1. Extract ModEngine2 and patch files.\n2. Launch via launchmod_eldenring.bat to play offline safely.",
+    "progress": 85,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/elden-ring/"
+      }
+    ]
   },
   {
     "id": "alan-wake-2",
@@ -1095,7 +1518,15 @@
       "Requires updating patch with future game title updates."
     ],
     "installPath": "<Alan_Wake_2_Dir>/",
-    "installGuide": "1. Run GameSub installer.\n2. Point to Alan Wake 2 installation root.\n3. Turn on Subtitles in audio options."
+    "installGuide": "1. Run GameSub installer.\n2. Point to Alan Wake 2 installation root.\n3. Turn on Subtitles in audio options.",
+    "progress": 95,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 External Download (Paid)",
+        "url": "https://gamesub.in/alan-wake-2/"
+      }
+    ]
   },
   {
     "id": "god-of-war-ragnarok",
@@ -1118,7 +1549,15 @@
       "PC edition only."
     ],
     "installPath": "<God_of_War_Ragnarok_Dir>/",
-    "installGuide": "1. Install translation patch.\n2. Select Persian subtitles in Gameplay & Display settings."
+    "installGuide": "1. Install translation patch.\n2. Select Persian subtitles in Gameplay & Display settings.",
+    "progress": 95,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 External Download (Paid)",
+        "url": "https://gamesub.in/god-of-war-ragnarok/"
+      }
+    ]
   },
   {
     "id": "sekiro-shadows-die-twice",
@@ -1141,7 +1580,15 @@
       "Compatible with PC version."
     ],
     "installPath": "<Sekiro_Dir>/mods/",
-    "installGuide": "1. Install Sekiro Mod Engine.\n2. Extract patch files into /mods/ directory."
+    "installGuide": "1. Install Sekiro Mod Engine.\n2. Extract patch files into /mods/ directory.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 External Download (Paid)",
+        "url": "https://gamesub.in/sekiro-shadows-die-twice/"
+      }
+    ]
   },
   {
     "id": "detroit-become-human",
@@ -1164,7 +1611,15 @@
       "Subtitles only; spoken dialogue in English."
     ],
     "installPath": "<Detroit_Become_Human_Dir>/",
-    "installGuide": "1. Run installer.\n2. Select game path.\n3. Enable Subtitles in Language Settings."
+    "installGuide": "1. Run installer.\n2. Select game path.\n3. Enable Subtitles in Language Settings.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 External Download (Paid)",
+        "url": "https://gamesub.in/detroit-become-human/"
+      }
+    ]
   },
   {
     "id": "silent-hill-2-remake",
@@ -1187,7 +1642,20 @@
       "Requires recent game patch."
     ],
     "installPath": "<Silent_Hill_2_Dir>/SHProto/Content/Paks/~mods/",
-    "installGuide": "1. Place mod pak in ~mods folder.\n2. Enable subtitles in game options."
+    "installGuide": "1. Place mod pak in ~mods folder.\n2. Enable subtitles in game options.",
+    "progress": 95,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/silent-hill-2/"
+      }
+    ]
   },
   {
     "id": "dead-space-remake",
@@ -1210,7 +1678,15 @@
       "PC edition only."
     ],
     "installPath": "<Dead_Space_Dir>/",
-    "installGuide": "1. Install localization patch.\n2. Enable subtitles in game audio menu."
+    "installGuide": "1. Install localization patch.\n2. Enable subtitles in game audio menu.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "paid",
+        "label": "💳 External Download (Paid)",
+        "url": "https://gamesub.in/dead-space-remake/"
+      }
+    ]
   },
   {
     "id": "frostpunk",
@@ -1233,7 +1709,20 @@
       "Free download from Poormaz community."
     ],
     "installPath": "<Frostpunk_Dir>/",
-    "installGuide": "1. Download free patch from Poormaz.\n2. Extract to Frostpunk root directory.\n3. Run game and enjoy."
+    "installGuide": "1. Download free patch from Poormaz.\n2. Extract to Frostpunk root directory.\n3. Run game and enjoy.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/frostpunk/"
+      }
+    ]
   },
   {
     "id": "a-plague-tale-innocence",
@@ -1256,7 +1745,20 @@
       "PC Steam/GOG compatible."
     ],
     "installPath": "<Plague_Tale_Innocence_Dir>/",
-    "installGuide": "1. Download free subtitle patch.\n2. Extract files into game folder.\n3. Turn on subtitles in options."
+    "installGuide": "1. Download free subtitle patch.\n2. Extract files into game folder.\n3. Turn on subtitles in options.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle",
+        "url": "https://poormaz.com"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle",
+        "url": "https://gamesub.in/a-plague-tale-innocence/"
+      }
+    ]
   },
   {
     "id": "the-planet-crafter",
@@ -1279,7 +1781,15 @@
       "Install via BepInEx mod loader."
     ],
     "installPath": "<PlanetCrafter_Dir>/BepInEx/plugins/",
-    "installGuide": "1. Install BepInEx.\n2. Place Persian mod DLL/assets in BepInEx/plugins.\n3. Launch game."
+    "installGuide": "1. Install BepInEx.\n2. Place Persian mod DLL/assets in BepInEx/plugins.\n3. Launch game.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://www.nexusmods.com/theplanetcrafter/mods/105"
+      }
+    ]
   },
   {
     "id": "portal-2",
@@ -1302,7 +1812,15 @@
       "Enable cc_lang persian in developer console if not default."
     ],
     "installPath": "<Portal_2_Dir>/portal2/resource/",
-    "installGuide": "1. Extract caption files to portal2/resource/.\n2. Open console and set cc_lang persian."
+    "installGuide": "1. Extract caption files to portal2/resource/.\n2. Open console and set cc_lang persian.",
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ External Download (Free)",
+        "url": "https://www.nexusmods.com/portal2/mods/7"
+      }
+    ]
   },
   {
     "id": "warzone-2100",
@@ -1325,7 +1843,15 @@
       "Translations contributed via Crowdin."
     ],
     "installPath": "Built-in language selector / GitHub source",
-    "installGuide": "1. Launch Warzone 2100.\n2. Go to Options > Video/Language > Persian."
+    "installGuide": "1. Launch Warzone 2100.\n2. Go to Options > Video/Language > Persian.",
+    "progress": 85,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/Warzone2100/warzone2100"
+      }
+    ]
   },
   {
     "id": "openra",
@@ -1348,7 +1874,15 @@
       "Available on official builds."
     ],
     "installPath": "Settings > Display > Language",
-    "installGuide": "1. Launch OpenRA.\n2. Select Settings > Language > Persian."
+    "installGuide": "1. Launch OpenRA.\n2. Select Settings > Language > Persian.",
+    "progress": 80,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/OpenRA/OpenRA"
+      }
+    ]
   },
   {
     "id": "unvanquished",
@@ -1371,6 +1905,14 @@
       "Select language in client config."
     ],
     "installPath": "Unvanquished official client",
-    "installGuide": "1. Download Unvanquished from official website or GitHub.\n2. Change language setting in game client."
+    "installGuide": "1. Download Unvanquished from official website or GitHub.\n2. Change language setting in game client.",
+    "progress": 75,
+    "links": [
+      {
+        "type": "source",
+        "label": "📦 Source",
+        "url": "https://github.com/Unvanquished/Unvanquished"
+      }
+    ]
   }
 ]
