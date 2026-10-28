@@ -2049,8 +2049,8 @@
     "title": "Marvel's Wolverine",
     "year": 2026,
     "category": "Action / Superhero",
-    "status": "Planned",
-    "patchUrl": "#",
+    "status": "Planned / In Development",
+    "patchUrl": "https://poormaz.com/marvels-wolverine-persian-subtitle/",
     "website": "https://insomniac.games/game/marvels-wolverine/",
     "details": "Mature action-adventure centering on Logan. Community Persian subtitles planned.",
     "isAAA": true,
@@ -2066,13 +2066,12 @@
     "installPath": "<Wolverine_Folder>/workspace/mods/fa_IR/",
     "installGuide": "Installation instructions will accompany PC release.",
     "isPaid": false,
-    "progress": 0,
+    "progress": 15,
     "links": [
       {
-        "type": "soon",
-        "label": "⏳ Soon",
-        "url": "#",
-        "disabled": true
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (Poormaz)",
+        "url": "https://poormaz.com/marvels-wolverine-persian-subtitle/"
       }
     ]
   },
@@ -2081,8 +2080,8 @@
     "title": "Gears of War: E-Day",
     "year": 2026,
     "category": "Action / Third-Person Shooter",
-    "status": "Planned",
-    "patchUrl": "#",
+    "status": "Planned / In Development",
+    "patchUrl": "https://poormaz.com/gears-of-war-e-day-persian-subtitles/",
     "website": "https://www.gearsofwar.com",
     "details": "Origin story set during Emergence Day on Sera. Persian localization mod in planning phase.",
     "isAAA": true,
@@ -2098,13 +2097,12 @@
     "installPath": "<GearsEDay_Folder>/GearsGame/Content/Paks/",
     "installGuide": "Patch will be available via standard pak placement.",
     "isPaid": false,
-    "progress": 0,
+    "progress": 15,
     "links": [
       {
-        "type": "soon",
-        "label": "⏳ Soon",
-        "url": "#",
-        "disabled": true
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (Poormaz)",
+        "url": "https://poormaz.com/gears-of-war-e-day-persian-subtitles/"
       }
     ]
   },
@@ -2113,8 +2111,8 @@
     "title": "Silent Hill f",
     "year": 2026,
     "category": "Psychological Horror",
-    "status": "Planned",
-    "patchUrl": "#",
+    "status": "Planned / In Development",
+    "patchUrl": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D8%A8%D8%A7%D8%B2%DB%8C-silent-hill-f/",
     "website": "https://www.konami.com/games/silenthill/",
     "details": "Psychological horror set in 1960s rural Japan. Community Persian subtitle mod registered by Poormaz.",
     "isAAA": true,
@@ -2130,13 +2128,12 @@
     "installPath": "<SilentHillF_Folder>/Content/Paks/~mods/",
     "installGuide": "Poormaz Persian subtitle installer will be released alongside the PC launch.",
     "isPaid": false,
-    "progress": 0,
+    "progress": 15,
     "links": [
       {
-        "type": "soon",
-        "label": "⏳ Soon",
-        "url": "#",
-        "disabled": true
+        "type": "free",
+        "label": "⬇️ Pre-Release Project (Poormaz)",
+        "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D8%A8%D8%A7%D8%B2%DB%8C-silent-hill-f/"
       }
     ]
   },
@@ -2361,6 +2358,544 @@
         "label": "⏳ Soon",
         "url": "#",
         "disabled": true
+      }
+    ]
+  },
+  {
+    "id": "ghost-of-tsushima",
+    "title": "Ghost of Tsushima",
+    "year": 2024,
+    "category": "Action-Adventure / Samurai Open-World",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-ghost-of-tsushima/",
+    "website": "https://www.playstation.com/en-us/games/ghost-of-tsushima/",
+    "details": "Full Persian subtitles and UI localization for Jin Sakai defence of Tsushima on PC.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Sucker Punch Proprietary Engine",
+    "challenges": [
+      "Proprietary Decima/Sucker Punch text table decompilation",
+      "RTL cinematic dialogue positioning and font scaling"
+    ],
+    "limitations": [
+      "Available for PC version"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Run the Persian installer and select your game directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-ghost-of-tsushima/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/ghost-of-tsushima-persian-sub/"
+      }
+    ]
+  },
+  {
+    "id": "black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "year": 2024,
+    "category": "Action RPG / Mythological",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-black-myth-wukong/",
+    "website": "https://www.heishenhua.com/",
+    "details": "Persian subtitles translating classical Chinese Buddhist verse, mythological dialogues, and journal entries.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "UE5 pak encryption and UTF-8 BiDi font injection",
+      "Complex poetic verse and mythical terminology shaping"
+    ],
+    "limitations": [
+      "PC release patch only"
+    ],
+    "installPath": "<Game_Directory>/b1/Content/Paks/~mods/",
+    "installGuide": "Extract the .pak file into the ~mods folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-black-myth-wukong/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/black-myth-wukong/"
+      }
+    ]
+  },
+  {
+    "id": "the-callisto-protocol",
+    "title": "The Callisto Protocol",
+    "year": 2022,
+    "category": "Survival Horror / Sci-Fi",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-the-callisto-protocol/",
+    "website": "https://callisto.sds.com/",
+    "details": "Persian subtitles for Striking Distance Studios maximum security lunar prison horror.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "UE4 .pak container font injection",
+      "Subtitles timing alignment in real-time cutscenes"
+    ],
+    "limitations": [
+      "PC release patch"
+    ],
+    "installPath": "<Game_Directory>/TheCallistoProtocol/Content/Paks/~mods/",
+    "installGuide": "Copy .pak mod file into the ~mods folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-the-callisto-protocol/"
+      },
+      {
+        "type": "paid",
+        "label": "💳 Paid Subtitle (GameSub)",
+        "url": "https://gamesub.net/product/callisto-protocol/"
+      }
+    ]
+  },
+  {
+    "id": "evil-west",
+    "title": "Evil West",
+    "year": 2022,
+    "category": "Action-Adventure / Dark Fantasy Western",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-evil-west/",
+    "website": "https://flyingwildhog.com/games/evil-west/",
+    "details": "Complete Persian subtitles for Jesse Rentier vampire hunting campaign in the American frontier.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 4",
+    "challenges": [
+      "UE4 UI text reshaper injection"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/HighMoon/Content/Paks/~mods/",
+    "installGuide": "Drop the mod .pak into ~mods directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (GameQ)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-evil-west/"
+      }
+    ]
+  },
+  {
+    "id": "subnautica",
+    "title": "Subnautica",
+    "year": 2018,
+    "category": "Underwater Survival Adventure",
+    "status": "Stable",
+    "patchUrl": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-subnautica/",
+    "website": "https://unknownworlds.com/subnautica/",
+    "details": "Complete Persian PDA logs, crafting recipes, and audio subtitles for Subnautica on Planet 4546B.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity TextMeshPro font atlas injection",
+      "Extensive PDA database Persian reshaped text"
+    ],
+    "limitations": [
+      "PC release on Steam / Epic Games"
+    ],
+    "installPath": "<Game_Directory>/Subnautica_Data/",
+    "installGuide": "Install using QMods / BepInEx mod loader.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://gameq.ir/%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-subnautica/"
+      }
+    ]
+  },
+  {
+    "id": "assassins-creed-iv-black-flag",
+    "title": "Assassin's Creed IV: Black Flag",
+    "year": 2013,
+    "category": "Action-Adventure / Stealth",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/assassins-creed-iv-black-flag-persian-subtitles/",
+    "website": "https://www.ubisoft.com/en-us/game/assassins-creed/black-flag",
+    "details": "Complete Persian subtitles and interface translation for Edward Kenway pirate adventure across the Caribbean.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "AnvilNext",
+    "challenges": [
+      "Ubisoft Anvil forge archive string injection",
+      "Custom RTL glyph replacement"
+    ],
+    "limitations": [
+      "PC platform"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Copy localized forge files to game folder.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://poormaz.com/assassins-creed-iv-black-flag-persian-subtitles/"
+      }
+    ]
+  },
+  {
+    "id": "bloodborne",
+    "title": "Bloodborne",
+    "year": 2015,
+    "category": "Action RPG / Souls-like",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/bloodborne-persian-subtitle/",
+    "website": "https://www.playstation.com/en-us/games/bloodborne/",
+    "details": "Persian subtitles for Bloodborne on PS4 and ShadPS4 emulator, translating lore, dialogue, and item descriptions.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "FromSoftware Engine (PS4 / ShadPS4)",
+    "challenges": [
+      "FromSoftware FMG message file translation",
+      "ShadPS4 emulator custom font loading"
+    ],
+    "limitations": [
+      "Jailbroken PS4 or ShadPS4 PC emulator"
+    ],
+    "installPath": "<Game_Directory>/dvdroot_ps4/msg/persian/",
+    "installGuide": "Place mod folder in ShadPS4 /mods directory.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://poormaz.com/bloodborne-persian-subtitle/"
+      }
+    ]
+  },
+  {
+    "id": "dragons-dogma-2",
+    "title": "Dragon's Dogma 2",
+    "year": 2024,
+    "category": "Action RPG / Fantasy",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/dragons-dogma-ii-persian-subtitles/",
+    "website": "https://www.dragonsdogma.com/2/",
+    "details": "Persian subtitle package for Capcom fantasy RPG, covering main questlines, pawn dialogues, and system menus.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "RE Engine",
+    "challenges": [
+      "RE Engine .msg archive decoding",
+      "Dynamic font glyph generation"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/natives/STM/",
+    "installGuide": "Use Fluffy Mod Manager to activate.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://poormaz.com/dragons-dogma-ii-persian-subtitles/"
+      }
+    ]
+  },
+  {
+    "id": "mad-max",
+    "title": "Mad Max",
+    "year": 2015,
+    "category": "Action-Adventure / Vehicular Combat",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/mad-max-persian-subtitle/",
+    "website": "https://www.warnerbros.com/games-and-apps/mad-max",
+    "details": "Complete Persian subtitles for Avalanche Studios post-apocalyptic open-world wasteland adventure.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Apex Engine (Avalanche)",
+    "challenges": [
+      "Apex tab file text extraction"
+    ],
+    "limitations": [
+      "PC release"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Extract and overwrite game archive.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://poormaz.com/mad-max-persian-subtitle/"
+      }
+    ]
+  },
+  {
+    "id": "middle-earth-shadow-of-mordor",
+    "title": "Middle-earth: Shadow of Mordor",
+    "year": 2014,
+    "category": "Action RPG / Open-World",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-shadow-of-mordor/",
+    "website": "https://store.steampowered.com/app/241930/",
+    "details": "Complete Persian subtitles and interface localization for Monolith Tolkien Nemesis System action title.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "LithTech Jupiter EX",
+    "challenges": [
+      "Monolith arch00 archive string replacement",
+      "Custom font rendering"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/game/",
+    "installGuide": "Run the Persian installer patch.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-shadow-of-mordor/"
+      }
+    ]
+  },
+  {
+    "id": "middle-earth-shadow-of-war",
+    "title": "Middle-earth: Shadow of War",
+    "year": 2017,
+    "category": "Action RPG / Open-World",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-shadow-of-war/",
+    "website": "https://store.steampowered.com/app/356190/",
+    "details": "Persian subtitles translating cinematic dialogue, army management menus, and Nemesis fortress conquests.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Firebird Engine",
+    "challenges": [
+      "Firebird engine text packing",
+      "Multi-tier dialogue system translation"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/x64/",
+    "installGuide": "Run setup executable and select install path.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-shadow-of-war/"
+      }
+    ]
+  },
+  {
+    "id": "hollow-knight-silksong",
+    "title": "Hollow Knight: Silksong",
+    "year": 2025,
+    "category": "Metroidvania / Action",
+    "status": "Planned / Active",
+    "patchUrl": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-hollow-knight-silksong/",
+    "website": "https://www.hollowknightsilksong.com/",
+    "details": "Persian subtitle and dialogue translation project for Team Cherry highly anticipated Metroidvania sequel.",
+    "isAAA": false,
+    "distributionType": "mod",
+    "engine": "Unity",
+    "challenges": [
+      "Unity TextMeshPro font injection",
+      "Lore and poetry translation"
+    ],
+    "limitations": [
+      "Awaiting official game release"
+    ],
+    "installPath": "<Game_Directory>/Silksong_Data/",
+    "installGuide": "Pre-release project page on Poormaz.",
+    "isPaid": false,
+    "progress": 75,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Poormaz)",
+        "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-hollow-knight-silksong/"
+      }
+    ]
+  },
+  {
+    "id": "gothic-1-remake",
+    "title": "Gothic 1 Remake",
+    "year": 2025,
+    "category": "Action RPG",
+    "status": "Planned / Active",
+    "patchUrl": "https://poormaz.com/gothic-1-remake-persian-subtitle-farsi-localization/",
+    "website": "https://gothic-game.com/",
+    "details": "Persian localization project for THQ Nordic Gothic 1 Remake in Unreal Engine 5.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "UE5 audio-subtitle sync",
+      "Old camp dialogue tree localization"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/Content/Paks/~mods/",
+    "installGuide": "Project details available on Poormaz.",
+    "isPaid": false,
+    "progress": 60,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Poormaz)",
+        "url": "https://poormaz.com/gothic-1-remake-persian-subtitle-farsi-localization/"
+      }
+    ]
+  },
+  {
+    "id": "the-sinking-city-2",
+    "title": "The Sinking City 2",
+    "year": 2025,
+    "category": "Survival Horror / Lovecraftian Detective",
+    "status": "Planned / Active",
+    "patchUrl": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%88-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-the-sinking-city-2/",
+    "website": "https://thesinkingcity2.com/",
+    "details": "Persian subtitles and translation mod for Frogwares 1920s decaying Arkham horror title.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Unreal Engine 5",
+    "challenges": [
+      "UE5 font atlas integration",
+      "Lovecraftian horror vocabulary translation"
+    ],
+    "limitations": [
+      "PC release"
+    ],
+    "installPath": "<Game_Directory>/Paks/~mods/",
+    "installGuide": "Follow instructions on Poormaz release post.",
+    "isPaid": false,
+    "progress": 60,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Poormaz)",
+        "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%88-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%B2-the-sinking-city-2/"
+      }
+    ]
+  },
+  {
+    "id": "crimson-desert",
+    "title": "Crimson Desert",
+    "year": 2025,
+    "category": "Action-Adventure / Open-World Fantasy",
+    "status": "Planned / Active",
+    "patchUrl": "https://poormaz.com/crimson-desert-persian-subtitles/",
+    "website": "https://crimsondesert.pearlabyss.com/",
+    "details": "Persian subtitle translation planned for Pearl Abyss open-world mercenary epic on the continent of Pywel.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "BlackSpace Engine",
+    "challenges": [
+      "BlackSpace engine string tables decoding",
+      "Custom Arabic-Persian font renderer"
+    ],
+    "limitations": [
+      "PC release window"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Pre-release tracking on Poormaz.",
+    "isPaid": false,
+    "progress": 50,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Poormaz)",
+        "url": "https://poormaz.com/crimson-desert-persian-subtitles/"
+      }
+    ]
+  },
+  {
+    "id": "atomfall",
+    "title": "Atomfall",
+    "year": 2025,
+    "category": "Post-Apocalyptic Survival Action",
+    "status": "Planned / Active",
+    "patchUrl": "https://poormaz.com/atomfall-persian-subtitle/",
+    "website": "https://rebellion.com/games/atomfall/",
+    "details": "Persian subtitles for Rebellion 1957 British quarantine zone mystery.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Asura Engine",
+    "challenges": [
+      "Asura engine text archives extraction"
+    ],
+    "limitations": [
+      "PC release"
+    ],
+    "installPath": "<Game_Directory>/",
+    "installGuide": "Poormaz pre-release project.",
+    "isPaid": false,
+    "progress": 50,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Free Subtitle (Poormaz)",
+        "url": "https://poormaz.com/atomfall-persian-subtitle/"
+      }
+    ]
+  },
+  {
+    "id": "halo-campaign-evolved",
+    "title": "Halo: Campaign Evolved",
+    "year": 2024,
+    "category": "Sci-Fi FPS",
+    "status": "Stable",
+    "patchUrl": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-halo-campaign-evolved/",
+    "website": "https://www.halowaypoint.com/",
+    "details": "Persian dialogue subtitles and HUD localization for Halo Campaign Evolved.",
+    "isAAA": true,
+    "distributionType": "mod",
+    "engine": "Blam Engine / UE",
+    "challenges": [
+      "Halo map tag subtitle injection"
+    ],
+    "limitations": [
+      "PC version"
+    ],
+    "installPath": "<Game_Directory>/maps/",
+    "installGuide": "Extract and replace localized map tags.",
+    "isPaid": false,
+    "progress": 100,
+    "links": [
+      {
+        "type": "free",
+        "label": "⬇️ Download (Free)",
+        "url": "https://poormaz.com/%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86-%D8%B2%DB%8C%D8%B1%D9%86%D9%88%DB%8C%D8%B3-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-halo-campaign-evolved/"
       }
     ]
   }
